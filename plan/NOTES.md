@@ -69,3 +69,9 @@
 - P-11 tuntas (task 23): Dealls punya tanggal posting sah `publishedAt` (listing + detail API); `lastActivelyHiringAt` = label "Rekruter aktif N j lalu", DILARANG dipakai sebagai `posted_at` (beda 4 hari pada sampel).
 - Dealls: browser headless ditantang Cloudflare (403); HTTP polos 200 — scraper harus HTTP-first tanpa browser (D-015).
 - Dealls: URL detail wajib memuat sufiks `~<company-slug>`; tanpa itu → 302 ke `sh.dealls.com` → 403.
+
+## P-21 — KitaLulus (task 25)
+- Pagination client-side: tombol "Lebih Banyak", +30 item/klik; `?page=N` DIABAIKAN server. Playwright hanya untuk klik, ekstraksi dari SSR HTML (`vacancyList.list`).
+- Tanggal posting hanya ada di detail JSON-LD `datePosted`; listing hanya `updatedAtStr` ("Terakhir diperbarui") — jangan dipakai sebagai `posted_at` final.
+- GraphQL `gql.kitalulus.com/graphql` memakai persisted query hash yang bisa berubah; bukan jalur utama.
+- `salaryLowerBound/UpperBound = 0/0` berarti negosiasi, bukan gaji 0.
