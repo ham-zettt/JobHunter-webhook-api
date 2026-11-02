@@ -2,7 +2,7 @@
 
 ## Status
 
-Fase aktif: F3 · Task terakhir selesai: 21 · Berikutnya: 22
+Fase aktif: F3 · Task terakhir selesai: 21 · Berikutnya: 22 (tinggal smoke live)
 Commit terakhir: 6f3d7a4
 
 ## Daftar task
@@ -28,7 +28,7 @@ Commit terakhir: 6f3d7a4
 - [x] 19 Discovery Glints — bukti: `docs/platform_notes/glints.md`
 - [x] 20 Scraper Glints + fixture/test — bukti: `app/scrapers/platforms/glints.py`, `tests/scrapers/test_glints.py`
 - [x] 21 Discovery Kalibrr — bukti: `docs/platform_notes/kalibrr.md`, `tests/fixtures/kalibrr/` (3 daftar + 5 detail)
-- [ ] 22 Scraper Kalibrr + fixture/test
+- [~] 22 Scraper Kalibrr + fixture/test — bukti: `app/scrapers/platforms/kalibrr.py`, `tests/scrapers/test_kalibrr.py` (16 test); kurang: smoke `live` belum dijalankan (dilarang pada sesi ini)
 - [ ] 23 Discovery Dealls
 - [ ] 24 Scraper Dealls + fixture/test
 - [ ] 25 Discovery KitaLulus
@@ -46,7 +46,7 @@ Commit terakhir: 6f3d7a4
 
 ## Catatan penting (hanya yang tidak terlihat dari kode)
 
-- 109 test offline hijau (`uv run pytest -q`), `ruff` bersih. Test `live` dikecualikan default.
+- 125 test offline hijau (`uv run pytest -q`), `ruff` bersih. Test `live` dikecualikan default.
 - JobStreet memakai embedded `SEEK_REDUX_DATA` untuk detail; endpoint JSON detail resmi 404.
 - Glints hanya halaman SSR pertama per term (30); paginasi butuh JS/Turnstile. Cakupan lewat banyak term.
 - Kalibrr: daftar lewat `/kjs/job_board/search` (offset); detail `__NEXT_DATA__`. `sort=Freshness` hanya SSR halaman 1; offset > `count` jatuh ke feed umum.

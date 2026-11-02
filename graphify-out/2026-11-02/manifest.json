@@ -210,10 +210,10 @@
     "semantic_hash": "b6bf555dda8a23f641c7510c0910175f"
   },
   "app/pipeline/deduper.py": {
-    "mtime": 1793554553.513384,
-    "seen": 1793556998.2740746,
-    "ast_hash": "1a883298a508c3cc07e1cfe0ed77b304",
-    "semantic_hash": "1a883298a508c3cc07e1cfe0ed77b304"
+    "mtime": 1793597983.1344593,
+    "seen": 1793598003.465353,
+    "ast_hash": "384afcf287d71c35b12dae3cded30879",
+    "semantic_hash": ""
   },
   "app/pipeline/location.py": {
     "mtime": 1793554553.513384,
@@ -510,10 +510,10 @@
     "semantic_hash": "f4494e481a9eea64a95f649916d85655"
   },
   "tests/unit/test_deduper.py": {
-    "mtime": 1793554779.5017998,
-    "seen": 1793556998.277073,
-    "ast_hash": "61f372363d816a51f73c680b532d2b8b",
-    "semantic_hash": "61f372363d816a51f73c680b532d2b8b"
+    "mtime": 1793597972.8081415,
+    "seen": 1793598003.4655437,
+    "ast_hash": "e652016a23b7e03f8777d213f20c11df",
+    "semantic_hash": ""
   },
   "tests/unit/test_location.py": {
     "mtime": 1793554779.5038,
@@ -749,12 +749,6 @@
     "ast_hash": "e44e05dc8513e3e0e7feb2dba9437568",
     "semantic_hash": ""
   },
-  "plan/HANDOFF.md": {
-    "mtime": 1793587259.0199912,
-    "seen": 1793587281.9989054,
-    "ast_hash": "41ac8aa64851b601a7c75285c2592ea1",
-    "semantic_hash": ""
-  },
   "scripts/codemap.py": {
     "mtime": 1793586947.4291859,
     "seen": 1793587281.998775,
@@ -762,15 +756,15 @@
     "semantic_hash": ""
   },
   "docs/CODEMAP.md": {
-    "mtime": 1793587173.410321,
-    "seen": 1793587281.998859,
+    "mtime": 1793597999.9161932,
+    "seen": 1793598003.4655795,
     "ast_hash": "7d45d2bcddfe0be735f20ad45a491d2b",
     "semantic_hash": ""
   },
   "plan/04-docker.md": {
-    "mtime": 1793587027.5033562,
-    "seen": 1793587281.9988687,
-    "ast_hash": "e2aa0553675cc4d4e8668f4401ceac88",
+    "mtime": 1793597659.1907291,
+    "seen": 1793598003.465593,
+    "ast_hash": "f34880817a7af41a5b301700de3ff138",
     "semantic_hash": ""
   },
   "plan/08-deduper-matrix.md": {
@@ -888,15 +882,15 @@
     "semantic_hash": ""
   },
   "plan/PROGRESS.md": {
-    "mtime": 1793586982.3451815,
-    "seen": 1793587281.9989092,
-    "ast_hash": "5d7b1294b2329ce1af753277a0fdab1f",
+    "mtime": 1793597588.6860414,
+    "seen": 1793598003.4656456,
+    "ast_hash": "03377efdcbc816b74d06e97cbe84ba7d",
     "semantic_hash": ""
   },
   "plan/README.md": {
-    "mtime": 1793586968.1072264,
-    "seen": 1793587281.998911,
-    "ast_hash": "66e5fd869c3e44c7a66966aec52d035f",
+    "mtime": 1793597623.0175283,
+    "seen": 1793598003.4656477,
+    "ast_hash": "c49ac4e28f41322872ef5055b63ab177",
     "semantic_hash": ""
   },
   ".opencode/package-lock.json": {

@@ -410,7 +410,11 @@ Hanya simbol publik; lihat file sumber untuk detail.
 ## `app/scrapers/platforms/kalibrr.py`
 (no docstring) kalibrr.py
 
-- `class KalibrrScraper` (DiscoveryPendingScraper)
+- `def parse_listing_payload(payload: dict[str, Any], *, page: int=1, platform: str='kalibrr') -> list[RawListing]`
+- `def parse_detail_payload(payload: str | dict[str, Any], listing: RawListing, *, platform: str='kalibrr') -> RawJob`
+- `class KalibrrScraper` (BaseScraper)
+  - `async def iter_listings(self, search_term: str) -> AsyncIterator[RawListing]`
+  - `async def fetch_detail(self, listing: RawListing) -> RawJob`
 
 ## `app/scrapers/platforms/kitalulus.py`
 (no docstring) kitalulus.py

@@ -72,3 +72,10 @@ situs tidak memakai locale. `sort=Freshness` hanya berlaku di SSR halaman pertam
 endpoint XHR mengabaikan sort, dan tidak ada filter tanggal. Paginasi wajib dibatasi
 `count` karena offset berlebih mengembalikan feed umum. Detail:
 `docs/platform_notes/kalibrr.md`.
+
+## D-014 — Kalibrr tanpa henti-dini usia
+Karena endpoint daftar Kalibrr tidak menjamin urutan terbaru, penghentian dini
+berdasarkan usia (FR-06) tidak diterapkan di scraper maupun orchestrator untuk
+platform ini. Usia tetap menjadi pre-filter lokal dari `posted_raw`; cakupan
+dibatasi `max_pages_per_term` dan guard `offset < count`. Detail diambil via HTTP
+(httpx), bukan browser, karena `__NEXT_DATA__` sudah memuat seluruh deskripsi.

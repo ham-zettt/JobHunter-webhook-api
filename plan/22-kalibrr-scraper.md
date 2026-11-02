@@ -2,7 +2,7 @@
 
 - **Fase:** F3 **Prasyarat:** 21 **Estimasi:** L
 - **Referensi:** SCRAPER_SPEC §2, §4, §5, §6, §7.4, §8; ARCHITECTURE §4.1
-- **Status:** `[ ]`
+- **Status:** `[~]`
 
 ## Tujuan
 Mengimplementasikan `KalibrrScraper` berdasarkan hasil discovery task 21,
@@ -61,11 +61,11 @@ dengan parser murni yang diuji fixture.
 - `test_fixtures_are_not_challenge_pages`.
 
 ## Kriteria selesai (checklist)
-- [ ] SCRAPER_SPEC §8.3 terpenuhi.
-- [ ] `pytest tests/scrapers/test_kalibrr.py` hijau tanpa jaringan.
-- [ ] Tidak ada selector/endpoint tanpa bukti discovery.
-- [ ] `external_id` & URL kanonik sesuai §5.7.
-- [ ] Kegagalan menghasilkan status `blocked`/`degraded`/`failed`, bukan crash run.
+- [~] SCRAPER_SPEC §8.3 terpenuhi — smoke `live` belum dijalankan.
+- [x] `pytest tests/scrapers/test_kalibrr.py` hijau tanpa jaringan.
+- [x] Tidak ada selector/endpoint tanpa bukti discovery.
+- [x] `external_id` & URL kanonik sesuai §5.7.
+- [x] Kegagalan menghasilkan status `blocked`/`degraded`/`failed`, bukan crash run.
 
 ## Cara verifikasi
 ```bash

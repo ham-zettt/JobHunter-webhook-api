@@ -55,6 +55,7 @@
 | P-16 | FR-11: `SCHEDULE_CRON` | Config ada, tidak dijalankan | OPSIONAL; tunda, n8n penjadwal (D-010) |
 | P-17 | NFR-03: snapshot debug saat parse gagal | `save_debug_snapshot` dipakai JobStreet; Glints belum | Ikuti dokumen pada task 31 |
 | P-18 | SCRAPER_SPEC §7.4: urut terbaru & filter tanggal Kalibrr | API XHR mengabaikan `sort`; `sort=Freshness` hanya SSR halaman 1; tidak ada filter tanggal | Terapkan usia lokal; jangan kirim sort ke API (D-013) |
+| P-19 | FR-06: henti-dini berdasarkan usia | Kalibrr XHR tidak menjamin urutan terbaru; usia hanya pre-filter | Jangan ubah orchestrator; batasi halaman + guard `count` (D-014) |
 
 ## Jebakan yang sudah terbukti
 - `BrowserPool` memakai `channel="chromium"`; image wajib memuat Chromium penuh (D-011).
