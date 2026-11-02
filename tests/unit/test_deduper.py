@@ -4,6 +4,7 @@ from types import SimpleNamespace
 
 from app.pipeline.deduper import Deduper, compute_fingerprint
 from app.pipeline.normalizer import NormalizedJob
+from app.scrapers.common.text import normalize_company
 
 
 def job(**overrides) -> NormalizedJob:
@@ -46,6 +47,7 @@ def candidate(**overrides) -> SimpleNamespace:
         description_text="Bangun API Python dan review kode. " * 5,
         description_hash="hash-a",
         posted_at="2026-10-30",
+        duplicate_of_id=None,
     )
     base.update(overrides)
     return SimpleNamespace(**base)
@@ -146,3 +148,67 @@ def test_cross_platform_old_posting_new():
         [candidate()],
     )
     assert decision.action == "new"
+
+
+def test_case_09_fulltime_vs_internship_is_new():
+    decision = Deduper().decide(
+        job(
+            external_id="2",
+            url_canonical="https://example.com/2",
+            employment_type="internship",
+        ),
+        [candidate(employment_type="fulltime")],
+    )
+    assert decision.action == "new"
+
+
+def test_case_10_hidden_company_strict_mode_duplicate():
+    decision = Deduper().decide(
+        job(platform="glints", company_normalized=None),
+        [candidate()],
+    )
+    assert decision.action == "duplicate"
+    assert decision.reason == "cross_platform"
+
+
+def test_case_11_hidden_company_low_description_is_new():
+    decision = Deduper().decide(
+        job(
+            platform="glints",
+            company_normalized=None,
+            description_text="Bangun API Python dan review kode. " * 4
+            + "Tulis test otomatis untuk endpoint.",
+        ),
+        [candidate()],
+    )
+    assert decision.action == "new"
+
+
+def test_case_12_company_legal_suffix_ignored():
+    a = job(
+        platform="glints",
+        company_name="PT Maju Jaya Tbk",
+        company_normalized=normalize_company("PT Maju Jaya Tbk"),
+    )
+    b = candidate(company_normalized=normalize_company("Maju Jaya"))
+    assert a.company_normalized == b.company_normalized == "maju jaya"
+    decision = Deduper().decide(a, [b])
+    assert decision.action == "duplicate"
+    assert decision.reason == "cross_platform"
+
+
+def test_case_13_remote_vs_onsite_is_new():
+    decision = Deduper().decide(
+        job(platform="glints", work_mode="remote", city=None, province=None),
+        [candidate(work_mode="onsite")],
+    )
+    assert decision.action == "new"
+
+
+def test_case_14_duplicate_chain_resolves_to_root():
+    decision = Deduper().decide(
+        job(platform="glints", external_id="c", url_canonical="https://example.com/c"),
+        [candidate(id=2, duplicate_of_id=1)],
+    )
+    assert decision.action == "duplicate"
+    assert decision.of_id == 1

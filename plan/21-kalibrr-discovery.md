@@ -2,7 +2,7 @@
 
 - **Fase:** F3 **Prasyarat:** 05–09 **Estimasi:** M
 - **Referensi:** SCRAPER_SPEC §3, §5.0, §5.7, §7.4, §8.1; PRD §0.5
-- **Status:** `[ ]`
+- **Status:** `[x]`
 
 ## Tujuan
 Membuktikan struktur nyata Kalibrr sebelum menulis scraper: URL pencarian,
@@ -40,12 +40,12 @@ yang tersedia.
 Belum ada test parser; parser dibuat pada task 22.
 
 ## Kriteria selesai (checklist)
-- [ ] `docs/platform_notes/kalibrr.md` lengkap sesuai templat §3.
-- [ ] Metode terpilih (JSON-LD/XHR/API/DOM) dibuktikan, bukan diasumsikan.
-- [ ] Paginasi & batas hasil per kueri terdokumentasi.
-- [ ] Sumber tanggal posting + format terdokumentasi.
-- [ ] ≥3 fixture daftar, ≥5 fixture detail tersimpan.
-- [ ] Semua selector/endpoint `[verifikasi]` yang terbukti dicatat final.
+- [x] `docs/platform_notes/kalibrr.md` lengkap sesuai templat §3.
+- [x] Metode terpilih (XHR untuk daftar, `__NEXT_DATA__` untuk detail) dibuktikan, bukan diasumsikan.
+- [x] Paginasi offset & batas `count` per kueri terdokumentasi.
+- [x] Sumber tanggal posting (`activation_date`/`activationDate`) + format ISO UTC terdokumentasi.
+- [x] ≥3 fixture daftar (3 JSON + 1 HTML), ≥5 fixture detail tersimpan.
+- [x] Semua selector/endpoint `[verifikasi]` yang terbukti dicatat final.
 
 ## Cara verifikasi
 ```bash

@@ -226,7 +226,20 @@ class Deduper:
             return (c.posted_at or "9999-12-31", prio)
 
         items = list(candidates)
-        return min(items, key=key).id if items else None
+        if not items:
+            return None
+        by_id = {c.id: c for c in items}
+        root = min(items, key=key)
+        seen: set[int] = set()
+        while getattr(root, "duplicate_of_id", None):
+            if root.id in seen:
+                break
+            seen.add(root.id)
+            duplicate_of = root.duplicate_of_id
+            root = by_id.get(duplicate_of)
+            if root is None:
+                return duplicate_of
+        return root.id
 
     def decide(self, job: NormalizedJob, candidates: Iterable[Any]) -> DedupDecision:
         same_platform = []

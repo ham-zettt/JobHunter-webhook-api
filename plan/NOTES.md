@@ -54,6 +54,7 @@
 | P-15 | ARCH §9.1: versi image = paket Playwright | Image `v1.64.1`, `uv.lock` 1.64.1 | Sesuai; verifikasi build pada task 04 |
 | P-16 | FR-11: `SCHEDULE_CRON` | Config ada, tidak dijalankan | OPSIONAL; tunda, n8n penjadwal (D-010) |
 | P-17 | NFR-03: snapshot debug saat parse gagal | `save_debug_snapshot` dipakai JobStreet; Glints belum | Ikuti dokumen pada task 31 |
+| P-18 | SCRAPER_SPEC §7.4: urut terbaru & filter tanggal Kalibrr | API XHR mengabaikan `sort`; `sort=Freshness` hanya SSR halaman 1; tidak ada filter tanggal | Terapkan usia lokal; jangan kirim sort ke API (D-013) |
 
 ## Jebakan yang sudah terbukti
 - `BrowserPool` memakai `channel="chromium"`; image wajib memuat Chromium penuh (D-011).
@@ -61,3 +62,5 @@
 - Glints: lokasi sering hanya distrik + provinsi; `kota` boleh NULL meski provinsi valid.
 - `expires_at` Glints dari `expiryDate/endDate`; JobStreet dari `job.expiresAt`.
 - Jangan menganggap teks "Rekruter aktif N hari lalu" sebagai tanggal posting.
+- Kalibrr: `offset` melewati `count` mengabaikan `text` dan mengembalikan feed umum; batasi loop dengan `count` halaman pertama.
+- Kalibrr: deskripsi detail = `description` + `qualifications`; keduanya wajib digabung.

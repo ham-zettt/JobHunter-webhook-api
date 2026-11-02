@@ -63,3 +63,12 @@ Cloudflare Turnstile, dan GraphQL `searchJobsV3` tanpa sesi mengabaikan `SearchT
 Scraper Glints karena itu mengambil 30 lowongan pertama per search term dan menambah
 cakupan lewat banyak term (mitigasi yang memang disebut SCRAPER_SPEC §1). Tidak ada
 upaya menembus tantangan. Detail: `docs/platform_notes/glints.md`.
+
+## D-013 — Discovery Kalibrr: XHR untuk daftar, `__NEXT_DATA__` untuk detail
+Daftar memakai `GET https://www.kalibrr.com/kjs/job_board/search` (offset-based,
+tanpa token); detail memakai HTML `/id-ID/c/<company>/jobs/<id>/<slug>` dan
+`props.pageProps.job` dari `__NEXT_DATA__` (JSON-LD hanya `WebSite`). URL kanonik
+situs tidak memakai locale. `sort=Freshness` hanya berlaku di SSR halaman pertama;
+endpoint XHR mengabaikan sort, dan tidak ada filter tanggal. Paginasi wajib dibatasi
+`count` karena offset berlebih mengembalikan feed umum. Detail:
+`docs/platform_notes/kalibrr.md`.

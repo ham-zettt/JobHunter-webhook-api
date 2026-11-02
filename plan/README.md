@@ -15,7 +15,7 @@ Handoff historis: `plan/HANDOFF.md` (jangan dianggap status terkini).
 | 01 | Fondasi proyek & konfigurasi | F0 | [x] |
 | 02 | Skema SQLite, PRAGMA, FTS5, Alembic | F0 | [x] |
 | 03 | Auth API key, format error, `/health` | F0 | [x] |
-| 04 | Docker, entrypoint, verifikasi `docker compose up` | F0 | [~] |
+| 04 | Docker, entrypoint, verifikasi `docker compose up` | F0 | [x] |
 | 05 | Normalizer teks + parser tanggal/gaji + deteksi sistem/tipe kerja | F1 | [x] |
 | 06 | Normalisasi lokasi + BR-02/BR-03 | F1 | [x] |
 | 07 | Classifier kata kunci + skor + role category | F1 | [x] |

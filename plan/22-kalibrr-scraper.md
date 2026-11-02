@@ -8,6 +8,18 @@
 Mengimplementasikan `KalibrrScraper` berdasarkan hasil discovery task 21,
 dengan parser murni yang diuji fixture.
 
+## Koreksi berdasarkan discovery (mengalahkan langkah di bawah bila bertentangan)
+- Daftar: XHR /kjs/job_board/search (limit/offset/text). XHR TIDAK mengurutkan terbaru
+  dan tidak punya filter tanggal. Jangan mengklaim urutan terbaru; paginasi dibatasi
+  `max_pages_per_term` dan wajib guard `offset < count`.
+- Detail: HTML + __NEXT_DATA__ → props.pageProps.job. Deskripsi = description + qualifications.
+  Tidak ada tombol perluasan/terpotong; langkah klik "selengkapnya" TIDAK berlaku.
+  Detail boleh diambil lewat HTTP (context.request), tanpa membuka halaman di browser.
+- Penghentian dini berdasarkan usia (FR-06) tidak valid untuk Kalibrr karena urutan tidak
+  terjamin. Jangan ubah orchestrator. Catat di plan/NOTES.md sebagai penyimpangan.
+- Nilai param, nama field, dan contoh payload: baca bagian terkait di
+  docs/platform_notes/kalibrr.md saja.
+
 ## File yang perlu dibaca
 - `docs/platform_notes/kalibrr.md`
 - `app/scrapers/base.py`, `app/scrapers/browser.py`, `app/scrapers/exceptions.py`
