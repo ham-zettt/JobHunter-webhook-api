@@ -30,7 +30,7 @@ Commit terakhir: 6f3d7a4
 - [x] 21 Discovery Kalibrr — bukti: `docs/platform_notes/kalibrr.md`, `tests/fixtures/kalibrr/` (3 daftar + 5 detail)
 - [~] 22 Scraper Kalibrr + fixture/test — bukti: `app/scrapers/platforms/kalibrr.py`, `tests/scrapers/test_kalibrr.py` (20 test; guard `offset < count`, deteksi tantangan daftar, snapshot parse); kurang: smoke `live` belum dijalankan (dilarang pada sesi ini)
 - [x] 23 Discovery Dealls — bukti: `docs/platform_notes/dealls.md`, `tests/fixtures/dealls/` (4 daftar + 6 detail API + 1 SSR); tanggal posting = `publishedAt`, label "Rekruter aktif" (`lastActivelyHiringAt`) tidak dipakai (D-015); headless ditantang Cloudflare, HTTP-first terbukti; pytest hijau + ruff bersih
-- [ ] 24 Scraper Dealls + fixture/test
+- [x] 24 Scraper Dealls + fixture/test — bukti: `app/scrapers/platforms/dealls.py`, `tests/scrapers/test_dealls.py` (20 test; API JSON + SSR fallback, `publishedAt` saja, URL kanonik tanpa `/en`/query); kurang: smoke `live` belum dijalankan (dilarang pada sesi ini)
 - [ ] 25 Discovery KitaLulus
 - [ ] 26 Scraper KitaLulus + fixture/test
 - [~] 27 Discovery LinkedIn + login/sesi — kurang: catatan discovery, eksekusi `scripts/linkedin_login.py`, verifikasi state

@@ -300,10 +300,10 @@
     "semantic_hash": "7335c5da0bc80c54bc4cf40bc8148401"
   },
   "app/scrapers/platforms/dealls.py": {
-    "mtime": 1793554441.1509073,
-    "seen": 1793556998.2749622,
-    "ast_hash": "3662699a47e24dbeb3476ea0af7b466a",
-    "semantic_hash": "3662699a47e24dbeb3476ea0af7b466a"
+    "mtime": 1793621650.4544935,
+    "seen": 1793621670.3187864,
+    "ast_hash": "bad7951a99dda0eb2c847e83f64748cc",
+    "semantic_hash": ""
   },
   "app/scrapers/platforms/glints.py": {
     "mtime": 1793559519.9544673,
@@ -552,9 +552,9 @@
     "semantic_hash": "e48d5c0fc813387dc52f92ed43bf37fb"
   },
   "AGENTS.md": {
-    "mtime": 1793605585.9609454,
-    "seen": 1793606192.479071,
-    "ast_hash": "64e379f0fd098cf91f2898ba7f7d79f9",
+    "mtime": 1793621388.6121314,
+    "seen": 1793621670.3189447,
+    "ast_hash": "9d7e797e8b8c07c8b0e34ddc49dd6d09",
     "semantic_hash": ""
   },
   "ARCHITECTURE.md": {
@@ -588,9 +588,9 @@
     "semantic_hash": "356f02eb6ddeebd4851aa08e73e8de1b"
   },
   "docs/DECISIONS.md": {
-    "mtime": 1793606183.5930989,
-    "seen": 1793606192.4790914,
-    "ast_hash": "ebe29f526fa269e54a6336d337a830ae",
+    "mtime": 1793619699.2264137,
+    "seen": 1793621670.3189607,
+    "ast_hash": "c9607d24bfc6bf459d2e361ec5bec76e",
     "semantic_hash": ""
   },
   "app/scrapers/browser.py": {
@@ -756,9 +756,9 @@
     "semantic_hash": ""
   },
   "docs/CODEMAP.md": {
-    "mtime": 1793608098.2808397,
-    "seen": 1793608101.9865909,
-    "ast_hash": "eb4812207e0b9c72dba1550cd32dc9d1",
+    "mtime": 1793621666.1997995,
+    "seen": 1793621670.3189585,
+    "ast_hash": "ee33b726a007a3f34f121d652fc7e4b4",
     "semantic_hash": ""
   },
   "plan/04-docker.md": {
@@ -792,9 +792,9 @@
     "semantic_hash": ""
   },
   "plan/23-dealls-discovery.md": {
-    "mtime": 1793587060.8814366,
-    "seen": 1793587281.9988792,
-    "ast_hash": "c7dd702b704d31986aaa7d201a137c76",
+    "mtime": 1793619719.4881601,
+    "seen": 1793621670.318992,
+    "ast_hash": "3eb0132f47cdb77774e6f719b16348b4",
     "semantic_hash": ""
   },
   "plan/24-dealls-scraper.md": {
@@ -876,15 +876,15 @@
     "semantic_hash": ""
   },
   "plan/NOTES.md": {
-    "mtime": 1793606178.2579973,
-    "seen": 1793606192.4791467,
-    "ast_hash": "b6533c142cf51c39722305b1f2db9e7a",
+    "mtime": 1793619699.2244139,
+    "seen": 1793621670.319022,
+    "ast_hash": "cff5ae62645436ebd6d4e1e72ac93eec",
     "semantic_hash": ""
   },
   "plan/PROGRESS.md": {
-    "mtime": 1793606175.2029388,
-    "seen": 1793606192.4791489,
-    "ast_hash": "5d1c7ccf233cf076c6abb975836a9357",
+    "mtime": 1793619714.4704854,
+    "seen": 1793621670.3190236,
+    "ast_hash": "1d405dc6793ddd9bf1783caf7cd70f71",
     "semantic_hash": ""
   },
   "plan/README.md": {
@@ -963,6 +963,84 @@
     "mtime": 1793606285.544947,
     "seen": 1793608101.986654,
     "ast_hash": "e383cc58a761eec641a1fc99305a3e01",
+    "semantic_hash": ""
+  },
+  "tests/fixtures/dealls/detail_part-time-pengajar-coding-kota.json": {
+    "mtime": 1793619606.7423697,
+    "seen": 1793621670.3188639,
+    "ast_hash": "771ffe35ec48abfcef93369dc01ca486",
+    "semantic_hash": ""
+  },
+  "tests/fixtures/dealls/detail_software-development-engineer-in-test-10.json": {
+    "mtime": 1793619578.516124,
+    "seen": 1793621670.3188667,
+    "ast_hash": "1840b89abecc0a3f3e60fb1759e00ae0",
+    "semantic_hash": ""
+  },
+  "tests/fixtures/dealls/detail_software-engineer-fullstack-order-management.json": {
+    "mtime": 1793619580.966609,
+    "seen": 1793621670.3188696,
+    "ast_hash": "744fa0c363fd100943200b1135b7c714",
+    "semantic_hash": ""
+  },
+  "tests/fixtures/dealls/detail_software-engineer-golang-1.json": {
+    "mtime": 1793619583.5113442,
+    "seen": 1793621670.3188715,
+    "ast_hash": "615bc5a2a1bc9f0b5a553bf97b13888e",
+    "semantic_hash": ""
+  },
+  "tests/fixtures/dealls/detail_software-engineer-java-t24.json": {
+    "mtime": 1793619574.6373203,
+    "seen": 1793621670.3188734,
+    "ast_hash": "24751832b2e1d27876a788b38f02a26c",
+    "semantic_hash": ""
+  },
+  "tests/fixtures/dealls/detail_software-engineer-juniormiddle.json": {
+    "mtime": 1793619570.5092993,
+    "seen": 1793621670.3188753,
+    "ast_hash": "71e9f51d0b698631e4e80f543f9a985c",
+    "semantic_hash": ""
+  },
+  "tests/fixtures/dealls/search_remote_p1.json": {
+    "mtime": 1793619641.4112053,
+    "seen": 1793621670.3188775,
+    "ast_hash": "90546eed775ce7ac8f0ab73f15a7f74e",
+    "semantic_hash": ""
+  },
+  "tests/fixtures/dealls/search_software_engineer_p1.json": {
+    "mtime": 1793619641.4125118,
+    "seen": 1793621670.3188791,
+    "ast_hash": "4cfc32b07fc5417bb3f7bc48bf50c434",
+    "semantic_hash": ""
+  },
+  "tests/fixtures/dealls/search_software_engineer_p2.json": {
+    "mtime": 1793619641.4095473,
+    "seen": 1793621670.3188813,
+    "ast_hash": "2f383cf106e33509e0994ba9853504ed",
+    "semantic_hash": ""
+  },
+  "tests/fixtures/dealls/search_staff_p1.json": {
+    "mtime": 1793619641.4092484,
+    "seen": 1793621670.3188832,
+    "ast_hash": "879006306393a4c0659981e21464f6cd",
+    "semantic_hash": ""
+  },
+  "tests/scrapers/test_dealls.py": {
+    "mtime": 1793621642.2093337,
+    "seen": 1793621670.3189151,
+    "ast_hash": "efd4164d2d7b918f1d8bbe2cf8ade928",
+    "semantic_hash": ""
+  },
+  "docs/platform_notes/dealls.md": {
+    "mtime": 1793619679.255761,
+    "seen": 1793621670.3189623,
+    "ast_hash": "759dd65332f9dc8ac3d68f22f35d7648",
+    "semantic_hash": ""
+  },
+  "tests/fixtures/dealls/detail_ssr_dexa_group.html": {
+    "mtime": 1793619609.1015112,
+    "seen": 1793621670.3190305,
+    "ast_hash": "2e30dd4e5730b210d2f6f2d57cb2b753",
     "semantic_hash": ""
   },
   ".opencode/package-lock.json": {

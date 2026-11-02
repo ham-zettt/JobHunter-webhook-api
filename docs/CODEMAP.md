@@ -381,7 +381,13 @@ Hanya simbol publik; lihat file sumber untuk detail.
 ## `app/scrapers/platforms/dealls.py`
 (no docstring) dealls.py
 
-- `class DeallsScraper` (DiscoveryPendingScraper)
+- `def salary_text(salary_type: str | None, salary_range: Any) -> str | None`
+- `def canonical_url(slug: str | None, company_slug: str | None=None) -> str`
+- `def parse_listing_payload(payload: dict[str, Any] | str, *, page: int=1, platform: str='dealls') -> list[RawListing]`
+- `def parse_detail_payload(payload: dict[str, Any] | str, listing: RawListing | None=None, *, platform: str='dealls') -> RawJob`
+- `class DeallsScraper` (BaseScraper)
+  - `async def iter_listings(self, search_term: str) -> AsyncIterator[RawListing]`
+  - `async def fetch_detail(self, listing: RawListing) -> RawJob`
 
 ## `app/scrapers/platforms/glints.py`
 (no docstring) glints.py

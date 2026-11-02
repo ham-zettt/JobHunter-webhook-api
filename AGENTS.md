@@ -86,8 +86,7 @@ uv run python scripts/codemap.py # regenerasi docs/CODEMAP.md
 
 ## Hemat token (WAJIB)
 
-- Setiap giliran mengirim ulang seluruh konteks: kurangi JUMLAH giliran, bukan hanya ukuran.
-- Task implementasi: maksimal 25 giliran. Jika lewat, berhenti dan tulis kendala di PROGRESS.md.
+- Setiap giliran mengirim ulang seluruh konteks: kurangi JUMLAH turn (giliran), bukan hanya ukuran.
 - Gabungkan perintah independen dalam satu bash call atau tool call paralel.
 - Navigasi kode: graphify query → grep -n → wc -l → baca max 70 baris (offset/limit).
   File ≤100 baris boleh dibaca utuh. Jangan baca ulang file yang tidak berubah.

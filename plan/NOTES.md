@@ -47,7 +47,7 @@
 | P-08 | DATABASE §3.3: update selalu sentuh `last_seen_at`, `last_run_id`, `missed_runs` | Sesuai; `updated` hanya saat detail diambil ulang | Pertahankan (D-004), dokumentasikan di kontrak |
 | P-09 | DATABASE §8.4: 14 kasus uji wajib | 10 test; kasus #9–#14 belum ada | Ikuti dokumen; tambah test |
 | P-10 | ARCH §5.3 canary butuh baseline historis | Baseline belum disimpan; 0 hasil selalu `degraded` | Ikuti dokumen (lihat K-03) |
-| P-11 | SCRAPER_SPEC §7.5 Dealls: tanggal aktivitas ≠ tanggal posting | Belum diimplementasikan | Wajib saat discovery Dealls |
+| P-11 | SCRAPER_SPEC §7.5 Dealls: tanggal aktivitas ≠ tanggal posting | Tuntas (task 24): `posted_raw` hanya `publishedAt`; `lastActivelyHiringAt` diabaikan | Pertahankan |
 | P-12 | SCRAPER_SPEC §7.3 Glints: paginasi penuh | Hanya halaman SSR pertama per term | Pertahankan + catat (D-012); jangan menembus Turnstile |
 | P-13 | NFR-01/SCRAPER_SPEC §4.2: retry tenacity | `tenacity` terpasang; retry scraper belum terpusat | Ikuti dokumen pada task 31 |
 | P-14 | DATABASE §10.2: `scripts/prune.py` | Belum ada | Ikuti dokumen pada task 33 |
@@ -56,6 +56,7 @@
 | P-17 | NFR-03: snapshot debug saat parse gagal | `save_debug_snapshot` dipakai JobStreet; Glints belum | Ikuti dokumen pada task 31 |
 | P-18 | SCRAPER_SPEC §7.4: urut terbaru & filter tanggal Kalibrr | API XHR mengabaikan `sort`; `sort=Freshness` hanya SSR halaman 1; tidak ada filter tanggal | Terapkan usia lokal; jangan kirim sort ke API (D-013) |
 | P-19 | FR-06: henti-dini berdasarkan usia | Kalibrr XHR tidak menjamin urutan terbaru; usia hanya pre-filter | Jangan ubah orchestrator; batasi halaman + guard `count` (D-014) |
+| P-20 | Task 24 langkah 4: fallback Playwright untuk detail Dealls | Fallback memakai SSR HTTP (`httpx`) + `__NEXT_DATA__`/JSON-LD, tanpa browser (headless ditantang Cloudflare, D-015) | Pertahankan; jangan pakai browser |
 
 ## Jebakan yang sudah terbukti
 - `BrowserPool` memakai `channel="chromium"`; image wajib memuat Chromium penuh (D-011).
