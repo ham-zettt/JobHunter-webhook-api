@@ -75,3 +75,19 @@
 - Tanggal posting hanya ada di detail JSON-LD `datePosted`; listing hanya `updatedAtStr` ("Terakhir diperbarui") — jangan dipakai sebagai `posted_at` final.
 - GraphQL `gql.kitalulus.com/graphql` memakai persisted query hash yang bisa berubah; bukan jalur utama.
 - `salaryLowerBound/UpperBound = 0/0` berarti negosiasi, bukan gaji 0.
+
+## P-26 — Scraper KitaLulus (task 26)
+
+- Parsing daftar memakai DOM (`a[href^="/lowongan/detail/"]`, `h3`, `p[title]`)
+  sebagai jalur utama, bukan flight `vacancyList`: setelah "Lebih Banyak" DOM
+  berisi 40 item unik sedangkan flight tetap 30 (stale). Flight hanya fallback.
+- Dedupe per `slug` di dalam parser; fixture `search_developer_page2.html`
+  (42 kartu) menghasilkan 40 `RawListing`.
+- `posted_raw` daftar sengaja `None`; `updatedAtStr` hanya perkiraan aktivitas
+  dan disimpan di `extra.updated_at_str`. Tanggal posting final dari JSON-LD
+  `datePosted` di detail (presisi `exact`).
+- Detail menggabungkan JSON-LD `JobPosting` (deskripsi/tanggal/gaji) dengan
+  objek flight `vacancy` (`skillTags`, `benefits`, `locationSiteStr`, `typeStr`,
+  `jobRole`). `typeStr` diprioritaskan untuk tipe kerja agar "Freelance" tidak
+  menjadi "contract" dari `employmentType=CONTRACTOR`.
+- Pendidikan/benefit/skill/pengalaman masuk `extra`; gaji 0/0 → `None`.

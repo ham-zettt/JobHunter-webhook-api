@@ -324,10 +324,10 @@
     "semantic_hash": ""
   },
   "app/scrapers/platforms/kitalulus.py": {
-    "mtime": 1793554441.1531272,
-    "seen": 1793556998.2752094,
-    "ast_hash": "7dc6e33188398f93a67d1547662f090b",
-    "semantic_hash": "7dc6e33188398f93a67d1547662f090b"
+    "mtime": 1793632506.1383166,
+    "seen": 1793632603.4874253,
+    "ast_hash": "9a313747bb030ef37737cd7496415821",
+    "semantic_hash": ""
   },
   "app/scrapers/platforms/linkedin.py": {
     "mtime": 1793554441.1533716,
@@ -552,9 +552,9 @@
     "semantic_hash": "e48d5c0fc813387dc52f92ed43bf37fb"
   },
   "AGENTS.md": {
-    "mtime": 1793621388.6121314,
-    "seen": 1793621670.3189447,
-    "ast_hash": "9d7e797e8b8c07c8b0e34ddc49dd6d09",
+    "mtime": 1793630878.992573,
+    "seen": 1793632603.4875796,
+    "ast_hash": "06bb031bdc2c5623eee8438fca7682b5",
     "semantic_hash": ""
   },
   "ARCHITECTURE.md": {
@@ -570,8 +570,8 @@
     "semantic_hash": "1ab4950b4d35d2b0952572d8218753bc"
   },
   "PRD.md": {
-    "mtime": 1793526040.0,
-    "seen": 1793556998.2777393,
+    "mtime": 1793631393.1933308,
+    "seen": 1793632603.4875867,
     "ast_hash": "ae3317b583cca947e6c1e33dfc87183d",
     "semantic_hash": "ae3317b583cca947e6c1e33dfc87183d"
   },
@@ -756,9 +756,9 @@
     "semantic_hash": ""
   },
   "docs/CODEMAP.md": {
-    "mtime": 1793621666.1997995,
-    "seen": 1793621670.3189585,
-    "ast_hash": "ee33b726a007a3f34f121d652fc7e4b4",
+    "mtime": 1793632599.3004477,
+    "seen": 1793632603.4875937,
+    "ast_hash": "e3d3cebe733e9f5cf5b462841a2f811d",
     "semantic_hash": ""
   },
   "plan/04-docker.md": {
@@ -876,15 +876,15 @@
     "semantic_hash": ""
   },
   "plan/NOTES.md": {
-    "mtime": 1793619699.2244139,
-    "seen": 1793621670.319022,
-    "ast_hash": "cff5ae62645436ebd6d4e1e72ac93eec",
+    "mtime": 1793631355.9898725,
+    "seen": 1793632603.487652,
+    "ast_hash": "3374be40b8f14d26527d5192669c3822",
     "semantic_hash": ""
   },
   "plan/PROGRESS.md": {
-    "mtime": 1793619714.4704854,
-    "seen": 1793621670.3190236,
-    "ast_hash": "1d405dc6793ddd9bf1783caf7cd70f71",
+    "mtime": 1793631354.856874,
+    "seen": 1793632603.4876544,
+    "ast_hash": "71797709baa90b9f1549fd8006047449",
     "semantic_hash": ""
   },
   "plan/README.md": {
@@ -1041,6 +1041,90 @@
     "mtime": 1793619609.1015112,
     "seen": 1793621670.3190305,
     "ast_hash": "2e30dd4e5730b210d2f6f2d57cb2b753",
+    "semantic_hash": ""
+  },
+  "tests/scrapers/test_kitalulus.py": {
+    "mtime": 1793632538.4942727,
+    "seen": 1793632603.4875543,
+    "ast_hash": "cbae9530ae40096e46cee6aecd5665cd",
+    "semantic_hash": ""
+  },
+  "docs/platform_notes/kitalulus.md": {
+    "mtime": 1793631338.8848956,
+    "seen": 1793632603.4876075,
+    "ast_hash": "84ba2a91370005ca3b7b1ee0e2914d2d",
+    "semantic_hash": ""
+  },
+  "tests/fixtures/kitalulus/detail_admin-lsin.html": {
+    "mtime": 1793631260.9390013,
+    "seen": 1793632603.4877105,
+    "ast_hash": "5962f741c6efeac054b2fbc7939c8817",
+    "semantic_hash": ""
+  },
+  "tests/fixtures/kitalulus/detail_backend-developer-dpfd.html": {
+    "mtime": 1793631260.1207376,
+    "seen": 1793632603.4877126,
+    "ast_hash": "90ab2ab73665cc93c4814c0eaea5f646",
+    "semantic_hash": ""
+  },
+  "tests/fixtures/kitalulus/detail_frontend-developer-r5fl.html": {
+    "mtime": 1793631260.5300019,
+    "seen": 1793632603.4877145,
+    "ast_hash": "104fa677e5d30f37090160bb4e6cba7d",
+    "semantic_hash": ""
+  },
+  "tests/fixtures/kitalulus/detail_fullstack-developer-angular-java-spring-bootout-gdvm.html": {
+    "mtime": 1793631260.3271635,
+    "seen": 1793632603.4877164,
+    "ast_hash": "f320cd037034b3654b80030e541c884f",
+    "semantic_hash": ""
+  },
+  "tests/fixtures/kitalulus/detail_misi-seru-remote-hadiah-puluhan-ribu-freelance-dar-xxja.html": {
+    "mtime": 1793631261.3490007,
+    "seen": 1793632603.4877183,
+    "ast_hash": "e1b229814a9fb7ec406effc6b93e739a",
+    "semantic_hash": ""
+  },
+  "tests/fixtures/kitalulus/detail_mobile-developer-intern-vqgu.html": {
+    "mtime": 1793631260.7350016,
+    "seen": 1793632603.4877205,
+    "ast_hash": "4af89b7152b0fa6b3c5140a7f649944d",
+    "semantic_hash": ""
+  },
+  "tests/fixtures/kitalulus/detail_quality-assurance-qa-muvz.html": {
+    "mtime": 1793631261.145696,
+    "seen": 1793632603.487722,
+    "ast_hash": "92f4e0254af2e3eee152895d5b7d788f",
+    "semantic_hash": ""
+  },
+  "tests/fixtures/kitalulus/search_admin.html": {
+    "mtime": 1793631259.527003,
+    "seen": 1793632603.4877238,
+    "ast_hash": "ae4fc7fadd4331ff7bfadbb87135aa9b",
+    "semantic_hash": ""
+  },
+  "tests/fixtures/kitalulus/search_developer.html": {
+    "mtime": 1793631259.3070035,
+    "seen": 1793632603.4877255,
+    "ast_hash": "1e2a8bdebb5f9aef98cf7bda80c9cd40",
+    "semantic_hash": ""
+  },
+  "tests/fixtures/kitalulus/search_developer_jakarta.html": {
+    "mtime": 1793631259.9190025,
+    "seen": 1793632603.4877274,
+    "ast_hash": "8cd68870ef493df256dcee16558c59a1",
+    "semantic_hash": ""
+  },
+  "tests/fixtures/kitalulus/search_developer_page2.html": {
+    "mtime": 1793631274.0429835,
+    "seen": 1793632603.4877288,
+    "ast_hash": "e040e52ca0039ccd0e1bd82e1c83b8f6",
+    "semantic_hash": ""
+  },
+  "tests/fixtures/kitalulus/search_software_engineer.html": {
+    "mtime": 1793631259.7133446,
+    "seen": 1793632603.487731,
+    "ast_hash": "52360a4fba92bf501509ac3ccb1e53da",
     "semantic_hash": ""
   },
   ".opencode/package-lock.json": {

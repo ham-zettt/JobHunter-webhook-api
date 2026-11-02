@@ -425,7 +425,11 @@ Hanya simbol publik; lihat file sumber untuk detail.
 ## `app/scrapers/platforms/kitalulus.py`
 (no docstring) kitalulus.py
 
-- `class KitaLulusScraper` (DiscoveryPendingScraper)
+- `def parse_listing_payload(html: str, *, platform: str='kitalulus') -> list[RawListing]`
+- `def parse_detail_payload(html: str, *, platform: str='kitalulus') -> RawJob`
+- `class KitaLulusScraper` (BaseScraper)
+  - `async def iter_listings(self, search_term: str) -> AsyncIterator[RawListing]`
+  - `async def fetch_detail(self, listing: RawListing) -> RawJob`
 
 ## `app/scrapers/platforms/linkedin.py`
 (no docstring) linkedin.py

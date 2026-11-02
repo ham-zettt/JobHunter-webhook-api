@@ -91,3 +91,11 @@ memakai `GET /v1/job-portal/job/slug/<slug>` (`data.result`), fallback SSR
 Cloudflare sedangkan HTTP polos tidak → scraper Dealls HTTP-first (httpx), tanpa
 browser. Kanonik: locale `idn`, URL tanpa `/en`, wajib sufiks `~<company>`.
 Detail: `docs/platform_notes/dealls.md`.
+
+## P-26 — Tanggal daftar KitaLulus
+
+`updatedAtStr` pada daftar adalah "Terakhir diperbarui", bukan tanggal posting.
+`RawListing.posted_raw` diisi `None` dan nilai asli disimpan di
+`extra.updated_at_str`; tanggal posting hanya diambil dari JSON-LD `datePosted`
+pada detail (`exact`). Ini mencegah pipeline memakai tanggal aktivitas sebagai
+`posted_at`.
