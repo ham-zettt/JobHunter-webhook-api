@@ -147,6 +147,20 @@ async def cancel_run(session: AsyncSession, run: ScrapeRun) -> None:
     await session.commit()
 
 
+async def details_fetched_since(
+    session: AsyncSession, platform: str, since_iso: str
+) -> int:
+    from sqlalchemy import func
+
+    total = await session.scalar(
+        select(func.coalesce(func.sum(ScrapeRunSource.detail_fetched), 0)).where(
+            ScrapeRunSource.platform == platform,
+            ScrapeRunSource.started_at >= since_iso,
+        )
+    )
+    return int(total or 0)
+
+
 async def last_source_by_platform(session: AsyncSession) -> dict[str, ScrapeRunSource]:
     rows = list(
         (

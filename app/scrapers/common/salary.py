@@ -10,7 +10,7 @@ _CONFIDENTIAL_RE = re.compile(
 )
 _AMT_RE = re.compile(
     r"(?<![\d.,])(\d{1,3}(?:[.,]\d{3})+|\d+(?:[.,]\d+)?)\s*"
-    r"(ribu|rb|k|juta|jt|mn|miliar|b)?(?![\w])",
+    r"(ribu|rb|k|juta|jt|million|mn|m|miliar|billion|b)?(?![\w])",
     re.I,
 )
 _MULT = {
@@ -19,8 +19,11 @@ _MULT = {
     "ribu": 1_000,
     "juta": 1_000_000,
     "jt": 1_000_000,
+    "million": 1_000_000,
     "mn": 1_000_000,
+    "m": 1_000_000,
     "miliar": 1_000_000_000,
+    "billion": 1_000_000_000,
     "b": 1_000_000_000,
 }
 _PERIODS = [

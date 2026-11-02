@@ -33,10 +33,10 @@ Commit terakhir: 6f3d7a4
 - [x] 24 Scraper Dealls + fixture/test — bukti: `app/scrapers/platforms/dealls.py`, `tests/scrapers/test_dealls.py` (20 test; API JSON + SSR fallback, `publishedAt` saja, URL kanonik tanpa `/en`/query); kurang: smoke `live` belum dijalankan (dilarang pada sesi ini)
 - [x] 25 Discovery KitaLulus — bukti: `docs/platform_notes/kitalulus.md`, `tests/fixtures/kitalulus/` (5 daftar + 7 detail, kontak diredaksi); `?page=` diabaikan, "Lebih Banyak" +30; `datePosted` hanya di JSON-LD detail; pytest 149 hijau + ruff bersih
 - [x] 26 Scraper KitaLulus + fixture/test — bukti: `app/scrapers/platforms/kitalulus.py`, `tests/scrapers/test_kitalulus.py` (17 test; 5 fixture daftar + 7 detail, parser DOM + flight fallback, dedupe setelah "Lebih Banyak"); `posted_raw` daftar = `None` (`updatedAtStr` ke `extra`), detail = JSON-LD `datePosted`; pytest 166 hijau + ruff bersih; kurang: smoke `live` belum dijalankan (dilarang pada sesi ini)
-- [~] 27 Discovery LinkedIn + login/sesi — kurang: catatan discovery, eksekusi `scripts/linkedin_login.py`, verifikasi state
-- [ ] 28 Scraper LinkedIn + fixture/test
-- [ ] 29 Discovery Pintarnya
-- [ ] 30 Scraper/stub Pintarnya + test
+- [x] 27 Discovery LinkedIn + login/sesi — `docs/platform_notes/linkedin.md`, `tests/fixtures/linkedin/` (3 daftar + 5 detail, bersih), `scripts/linkedin_login.py` + `scripts/discover_platform.py` (`--storage-state`/`--interactive`); state `600`, `auth_state=valid`; suite 187 passed
+- [x] 28 Scraper LinkedIn + fixture/test — bukti: `app/scrapers/platforms/linkedin.py`, `tests/scrapers/test_linkedin.py` (15 test; 3 daftar + 5 detail, parser DOM `componentkey`/`data-testid`, `check_session` + tantangan, cap run/hari); registry menaruh LinkedIn terakhir; suite 202 passed + ruff bersih; kurang: smoke `live` belum dijalankan (dilarang)
+- [x] 29 Discovery Pintarnya — bukti: `docs/platform_notes/pintarnya.md`, `tests/fixtures/pintarnya/` (3 daftar + 5 detail); keputusan publik → implementasi normal (bukan stub `skipped`), kategori IT 117 lowongan; pytest 166 hijau + ruff bersih
+- [x] 30 Scraper/stub Pintarnya + test — bukti: `app/scrapers/platforms/pintarnya.py`, `tests/scrapers/test_pintarnya.py` (21 test, 3 fixture daftar + 5 detail); parser JSON-LD/API, dedupe slug, fallback SSR 410, deteksi tantangan tanpa false-positive `recaptcha`; live smoke belum dijalankan (dilarang)
 - [~] 31 Hardening retry/canary/snapshot/blokir — kurang: retry tenacity, baseline canary historis, test deteksi blokir
 - [~] 32 Webhook callback end-to-end — kurang: uji kirim nyata + retry/`callback_status`, hanya validasi URL yang diuji
 - [~] 33 Backup, retensi, prune — kurang: `scripts/backup_db.sh` belum dieksekusi, `scripts/prune.py` belum ada

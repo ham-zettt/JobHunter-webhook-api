@@ -1,0 +1,1392 @@
+{
+ "page": 1,
+ "pagination": {
+  "page": 1,
+  "page_size": 10,
+  "total_page": 3,
+  "total_data": 23
+ },
+ "list": [
+  {
+   "sublist": [
+    {
+     "id": 1160847,
+     "job_category_id": 17,
+     "title": "IT Support",
+     "type_of_employments": [
+      {
+       "id": 1,
+       "name": "Full-Time"
+      }
+     ],
+     "type_of_shift": {
+      "id": 1,
+      "name": "Day"
+     },
+     "type_of_work": {
+      "id": 0,
+      "name": "Hybrid"
+     },
+     "type_of_source": {
+      "id": 1,
+      "name": "Direct"
+     },
+     "min_salary": 4100000,
+     "max_salary": 4250000,
+     "min_education_level": {
+      "id": 3,
+      "name": "SMA/SMK"
+     },
+     "status": 2,
+     "gender": {
+      "id": 0,
+      "name": "Pria/Wanita"
+     },
+     "min_age": 17,
+     "max_age": 60,
+     "years_of_experience": 0,
+     "is_verified": true,
+     "total_vacancies": 5,
+     "created_at": "2026-11-02T14:03:50.93Z",
+     "updated_at": "2026-11-02T14:05:19.316Z",
+     "published_at": "2026-11-02T14:05:19.316Z",
+     "expired_at": "2026-12-01T17:00:00Z",
+     "job_application_status": 0,
+     "employer": {
+      "id": 3951,
+      "name": "PT Kobus Smart Service",
+      "is_bigbrand": false,
+      "about": "PT Kobus Smart Service (KSS) didirikan pada bulan September 2019. KSS didirikan untuk menciptakan ruang kerja bagi masyarakat dan memberikan layanan sumber daya manusia yang berkualitas kepada mitra usaha. KSS bergerak di bidang jasa outsourcing yaitu penyerahan sebagian pelaksanaan pekerjaan kepada perusahaan lain dan dibidang Business Process Outsourcing (BPO) yaitu penyerahan seluruh pelaksanaan pekerjaan, saat ini memiliki karyawan yang tersebar di berbagai kota di Indonesia. Untuk mendukung kualitas tenaga kerja, kami memberikan training berkala serta program pengembangan potensi karyawan.",
+      "logo_url": "https://cdn.pintarnya.com/images/employer/whatsapp_image_2026_08_14_at_15_1786697386.46",
+      "contact": null,
+      "slug": ""
+     },
+     "province": {
+      "id": 11,
+      "name": "DKI Jakarta"
+     },
+     "city": {
+      "id": 153,
+      "name": "Kota Adm. Jakarta Utara"
+     },
+     "skills": null,
+     "documents": null,
+     "application": {
+      "status": 0,
+      "status_updated_at": "0001-01-01T00:00:00Z"
+     },
+     "is_urgently_needed": false,
+     "slug": "it-support-1160847",
+     "is_highlighted": false,
+     "is_bigbrand_highlighted": false,
+     "is_promoted": false,
+     "interview_type": "SCHEDULED_INTERVIEW",
+     "apply_quota": 0,
+     "is_requirement_match": false
+    }
+   ],
+   "pagination": {
+    "page": 0,
+    "page_size": 0,
+    "total_page": 0,
+    "total_data": 0
+   }
+  },
+  {
+   "sublist": [
+    {
+     "id": 1142481,
+     "job_category_id": 17,
+     "title": "IT Support",
+     "type_of_employments": [
+      {
+       "id": 1,
+       "name": "Full-Time"
+      }
+     ],
+     "type_of_shift": {
+      "id": 1,
+      "name": "Day"
+     },
+     "type_of_work": {
+      "id": 1,
+      "name": "Onsite"
+     },
+     "type_of_source": {
+      "id": 1,
+      "name": "Direct"
+     },
+     "min_salary": 2400000,
+     "max_salary": 3000000,
+     "min_education_level": {
+      "id": 4,
+      "name": "Diploma"
+     },
+     "status": 2,
+     "gender": {
+      "id": 1,
+      "name": "Pria"
+     },
+     "min_age": 24,
+     "max_age": 35,
+     "years_of_experience": 1,
+     "is_verified": true,
+     "total_vacancies": 3,
+     "created_at": "2026-10-12T09:13:42.803Z",
+     "updated_at": "2026-11-02T03:34:47.95Z",
+     "published_at": "2026-11-02T03:34:47.95Z",
+     "expired_at": "2026-11-13T17:00:00Z",
+     "job_application_status": 0,
+     "employer": {
+      "id": 8785,
+      "name": "CV. GAJAH MADA",
+      "is_bigbrand": false,
+      "about": "RITAIL BAHAN BANGUNAN DAN SANITARY",
+      "logo_url": "https://cdn.pintarnya.com/images/employer/CV._GAJAH_MADA.jpg",
+      "contact": null,
+      "slug": ""
+     },
+     "province": {
+      "id": 14,
+      "name": "Daerah Istimewa Yogyakarta"
+     },
+     "city": {
+      "id": 222,
+      "name": "Kota Yogyakarta"
+     },
+     "skills": null,
+     "documents": null,
+     "application": {
+      "status": 0,
+      "status_updated_at": "0001-01-01T00:00:00Z"
+     },
+     "is_urgently_needed": false,
+     "slug": "it-support-1142481",
+     "is_highlighted": false,
+     "is_bigbrand_highlighted": false,
+     "is_promoted": false,
+     "interview_type": "SCHEDULED_INTERVIEW",
+     "apply_quota": 0,
+     "is_requirement_match": false
+    }
+   ],
+   "pagination": {
+    "page": 0,
+    "page_size": 0,
+    "total_page": 0,
+    "total_data": 0
+   }
+  },
+  {
+   "sublist": [
+    {
+     "id": 1134387,
+     "job_category_id": 17,
+     "title": "IT Support (Bandung)",
+     "type_of_employments": [
+      {
+       "id": 3,
+       "name": "Contract"
+      }
+     ],
+     "type_of_shift": {
+      "id": 1,
+      "name": "Day"
+     },
+     "type_of_work": {
+      "id": 1,
+      "name": "Onsite"
+     },
+     "type_of_source": {
+      "id": 1,
+      "name": "Direct"
+     },
+     "min_salary": 3500000,
+     "max_salary": 4000000,
+     "min_education_level": {
+      "id": 3,
+      "name": "SMA/SMK"
+     },
+     "status": 2,
+     "gender": {
+      "id": 1,
+      "name": "Pria"
+     },
+     "min_age": 17,
+     "max_age": 35,
+     "years_of_experience": 1,
+     "is_verified": true,
+     "total_vacancies": 1,
+     "created_at": "2026-10-05T02:51:26.228Z",
+     "updated_at": "2026-10-30T06:17:52.581Z",
+     "published_at": "2026-10-30T06:17:52.581Z",
+     "expired_at": "2026-11-26T17:00:00Z",
+     "job_application_status": 0,
+     "employer": {
+      "id": 3034,
+      "name": "Pandai Gadai",
+      "is_bigbrand": false,
+      "about": "Pandai Gadai merupakan penyedia jasa gadai terpercaya yang menerima gadai elektronik laptop, handphone, emas, dan BPKB.",
+      "logo_url": "https://cdn.pintarnya.com/images/employer/441510471_1024010005981508_5336310771952494217_n_1736492655.jpg",
+      "contact": null,
+      "slug": ""
+     },
+     "province": {
+      "id": 12,
+      "name": "Jawa Barat"
+     },
+     "city": {
+      "id": 176,
+      "name": "Kota Bandung"
+     },
+     "skills": [
+      {
+       "id": 1,
+       "name": "Kerjasama Tim"
+      },
+      {
+       "id": 1,
+       "name": "Detail dalam Bekerja"
+      },
+      {
+       "id": 1,
+       "name": "Target Oriented"
+      },
+      {
+       "id": 1,
+       "name": "Siap Kerja Weekend"
+      },
+      {
+       "id": 1,
+       "name": "Komunikasi Interpersonal"
+      }
+     ],
+     "documents": [
+      {
+       "id": 24,
+       "name": "Ijazah/Sertifikat Profesi"
+      },
+      {
+       "id": 12,
+       "name": "KTP"
+      },
+      {
+       "id": 16,
+       "name": "SIM A"
+      },
+      {
+       "id": 18,
+       "name": "SIM C"
+      },
+      {
+       "id": 20,
+       "name": "CV"
+      }
+     ],
+     "application": {
+      "status": 0,
+      "status_updated_at": "0001-01-01T00:00:00Z"
+     },
+     "is_urgently_needed": false,
+     "slug": "it-support-1134387",
+     "is_highlighted": false,
+     "is_bigbrand_highlighted": false,
+     "is_promoted": false,
+     "interview_type": "SCHEDULED_INTERVIEW",
+     "apply_quota": 0,
+     "is_requirement_match": false
+    }
+   ],
+   "pagination": {
+    "page": 0,
+    "page_size": 0,
+    "total_page": 0,
+    "total_data": 0
+   }
+  },
+  {
+   "sublist": [
+    {
+     "id": 1126465,
+     "job_category_id": 17,
+     "title": "IT Support",
+     "type_of_employments": [
+      {
+       "id": 1,
+       "name": "Full-Time"
+      }
+     ],
+     "type_of_shift": {
+      "id": 1,
+      "name": "Day"
+     },
+     "type_of_work": {
+      "id": 1,
+      "name": "Onsite"
+     },
+     "type_of_source": {
+      "id": 1,
+      "name": "Direct"
+     },
+     "min_salary": 1300000,
+     "max_salary": 3000000,
+     "min_education_level": {
+      "id": 3,
+      "name": "SMA/SMK"
+     },
+     "status": 2,
+     "gender": {
+      "id": 1,
+      "name": "Pria"
+     },
+     "min_age": 18,
+     "max_age": 60,
+     "years_of_experience": 1,
+     "is_verified": true,
+     "total_vacancies": 10,
+     "created_at": "2026-09-25T06:39:23.287Z",
+     "updated_at": "2026-10-28T06:28:49.77Z",
+     "published_at": "2026-10-28T06:28:49.77Z",
+     "expired_at": "2026-11-27T17:00:00Z",
+     "job_application_status": 0,
+     "employer": {
+      "id": 59593,
+      "name": "PT RAJALU",
+      "is_bigbrand": false,
+      "about": "PT Rajalu merupakan sebuah perusahaan yang bergerak di bidang daur ulang logam dengan jenis perusahaan (multinasional) yang berlokasi di Jl. Raya Mojotengah No. KM 2, Karanganyar, Mojotengah, Kec Menganti, Kabupaten Gresik, Jawa Timur",
+      "logo_url": "https://cdn.pintarnya.com/images/employer/whatsapp_image_2024_07_06_at_13_1720247909.34",
+      "contact": null,
+      "slug": ""
+     },
+     "province": {
+      "id": 15,
+      "name": "Jawa Timur"
+     },
+     "city": {
+      "id": 247,
+      "name": "Kab. Gresik"
+     },
+     "skills": [
+      {
+       "id": 1,
+       "name": "Kerjasama Tim"
+      },
+      {
+       "id": 1,
+       "name": "Detail dalam Bekerja"
+      },
+      {
+       "id": 1,
+       "name": "Individual"
+      },
+      {
+       "id": 1,
+       "name": "Target Oriented"
+      },
+      {
+       "id": 1,
+       "name": "Komunikatif"
+      },
+      {
+       "id": 1,
+       "name": "Komunikasi Interpersonal"
+      }
+     ],
+     "documents": [
+      {
+       "id": 24,
+       "name": "Ijazah/Sertifikat Profesi"
+      },
+      {
+       "id": 20,
+       "name": "CV"
+      },
+      {
+       "id": 30,
+       "name": "Surat Referensi Kerja"
+      },
+      {
+       "id": 31,
+       "name": "Sertifikat Vaksin Covid-19"
+      },
+      {
+       "id": 35,
+       "name": "Fotocopy KTP"
+      },
+      {
+       "id": 25,
+       "name": "Surat Lamaran Kerja"
+      }
+     ],
+     "application": {
+      "status": 0,
+      "status_updated_at": "0001-01-01T00:00:00Z"
+     },
+     "is_urgently_needed": true,
+     "slug": "it-support-1126465",
+     "is_highlighted": false,
+     "is_bigbrand_highlighted": false,
+     "is_promoted": false,
+     "interview_type": "SCHEDULED_INTERVIEW",
+     "apply_quota": 0,
+     "is_requirement_match": false
+    }
+   ],
+   "pagination": {
+    "page": 0,
+    "page_size": 0,
+    "total_page": 0,
+    "total_data": 0
+   }
+  },
+  {
+   "sublist": [
+    {
+     "id": 1155618,
+     "job_category_id": 17,
+     "title": "IT Support",
+     "type_of_employments": [
+      {
+       "id": 1,
+       "name": "Full-Time"
+      }
+     ],
+     "type_of_shift": {
+      "id": 1,
+      "name": "Day"
+     },
+     "type_of_work": {
+      "id": 1,
+      "name": "Onsite"
+     },
+     "type_of_source": {
+      "id": 1,
+      "name": "Direct"
+     },
+     "min_salary": 2000000,
+     "max_salary": 3000000,
+     "min_education_level": {
+      "id": 4,
+      "name": "Diploma"
+     },
+     "status": 2,
+     "gender": {
+      "id": 1,
+      "name": "Pria"
+     },
+     "min_age": 23,
+     "max_age": 30,
+     "years_of_experience": 1,
+     "is_verified": true,
+     "total_vacancies": 5,
+     "created_at": "2026-10-27T09:03:05.828Z",
+     "updated_at": "2026-10-27T09:39:47.994Z",
+     "published_at": "2026-10-27T09:04:34.966Z",
+     "expired_at": "2026-11-07T17:00:00Z",
+     "job_application_status": 0,
+     "employer": {
+      "id": 24927,
+      "name": "PT BUMI CIPTA KREATIF",
+      "is_bigbrand": false,
+      "about": "Perusahaan swasta yang bergerak dibidang dan daerah yang sudah beroperasi dan membutuhkan sdm berkualitas",
+      "logo_url": "https://cdn.pintarnya.com/images/employer/whatsapp_image_2026_06_17_at_13_1781677999.23",
+      "contact": null,
+      "slug": ""
+     },
+     "province": {
+      "id": 15,
+      "name": "Jawa Timur"
+     },
+     "city": {
+      "id": 237,
+      "name": "Kab. Sidoarjo"
+     },
+     "skills": [
+      {
+       "id": 1,
+       "name": "Kerjasama Tim"
+      },
+      {
+       "id": 1,
+       "name": "Detail dalam Bekerja"
+      },
+      {
+       "id": 1,
+       "name": "Target Oriented"
+      },
+      {
+       "id": 1,
+       "name": "Komunikatif"
+      }
+     ],
+     "documents": [
+      {
+       "id": 24,
+       "name": "Ijazah/Sertifikat Profesi"
+      },
+      {
+       "id": 12,
+       "name": "KTP"
+      },
+      {
+       "id": 20,
+       "name": "CV"
+      },
+      {
+       "id": 30,
+       "name": "Surat Referensi Kerja"
+      }
+     ],
+     "application": {
+      "status": 0,
+      "status_updated_at": "0001-01-01T00:00:00Z"
+     },
+     "is_urgently_needed": true,
+     "slug": "it-support-1155618",
+     "is_highlighted": false,
+     "is_bigbrand_highlighted": false,
+     "is_promoted": false,
+     "interview_type": "SCHEDULED_INTERVIEW",
+     "apply_quota": 0,
+     "is_requirement_match": false
+    }
+   ],
+   "pagination": {
+    "page": 0,
+    "page_size": 0,
+    "total_page": 0,
+    "total_data": 0
+   }
+  },
+  {
+   "sublist": [
+    {
+     "id": 1065359,
+     "job_category_id": 17,
+     "title": "IT Support",
+     "type_of_employments": [
+      {
+       "id": 3,
+       "name": "Contract"
+      }
+     ],
+     "type_of_shift": {
+      "id": 1,
+      "name": "Day"
+     },
+     "type_of_work": {
+      "id": 1,
+      "name": "Onsite"
+     },
+     "type_of_source": {
+      "id": 1,
+      "name": "Direct"
+     },
+     "min_salary": 2300000,
+     "max_salary": 2500000,
+     "min_education_level": {
+      "id": 3,
+      "name": "SMA/SMK"
+     },
+     "status": 2,
+     "gender": {
+      "id": 0,
+      "name": "Pria/Wanita"
+     },
+     "min_age": 18,
+     "max_age": 60,
+     "years_of_experience": 0,
+     "is_verified": true,
+     "total_vacancies": 2,
+     "created_at": "2026-07-21T04:12:56.027Z",
+     "updated_at": "2026-10-26T04:45:05.068Z",
+     "published_at": "2026-10-26T03:36:40.912Z",
+     "expired_at": "2026-11-25T17:00:00Z",
+     "job_application_status": 0,
+     "employer": {
+      "id": 61682,
+      "name": "WIJAYA PLYWOODS INDONESIA",
+      "is_bigbrand": false,
+      "about": "Wijaya Plywood Indonesia merupakan perusahaan manufaktur yang bergerak pada bidang pembuatan kayu lapis, memiliki visi Berkontribusi bagi pelanggan, karyawan, dan masyarakadat dan misi menjadi perusahaan yang profesional dibidangnya ",
+      "logo_url": "https://cdn.pintarnya.com/images/employer/whatsapp_image_2025_02_21_at_02_1740119235.22",
+      "contact": null,
+      "slug": ""
+     },
+     "province": {
+      "id": 15,
+      "name": "Jawa Timur"
+     },
+     "city": {
+      "id": 229,
+      "name": "Kab. Malang"
+     },
+     "skills": [
+      {
+       "id": 1,
+       "name": "Kerjasama Tim"
+      },
+      {
+       "id": 1,
+       "name": "Detail dalam Bekerja"
+      },
+      {
+       "id": 1,
+       "name": "Komunikatif"
+      }
+     ],
+     "documents": [
+      {
+       "id": 12,
+       "name": "KTP"
+      },
+      {
+       "id": 13,
+       "name": "KK"
+      },
+      {
+       "id": 18,
+       "name": "SIM C"
+      },
+      {
+       "id": 20,
+       "name": "CV"
+      }
+     ],
+     "application": {
+      "status": 0,
+      "status_updated_at": "0001-01-01T00:00:00Z"
+     },
+     "is_urgently_needed": true,
+     "slug": "it-support-1065359",
+     "is_highlighted": false,
+     "is_bigbrand_highlighted": false,
+     "is_promoted": false,
+     "interview_type": "SCHEDULED_INTERVIEW",
+     "apply_quota": 0,
+     "is_requirement_match": false
+    }
+   ],
+   "pagination": {
+    "page": 0,
+    "page_size": 0,
+    "total_page": 0,
+    "total_data": 0
+   }
+  },
+  {
+   "sublist": [
+    {
+     "id": 1153876,
+     "job_category_id": 17,
+     "title": "IT Support Staff",
+     "type_of_employments": [
+      {
+       "id": 1,
+       "name": "Full-Time"
+      }
+     ],
+     "type_of_shift": {
+      "id": 1,
+      "name": "Day"
+     },
+     "type_of_work": {
+      "id": 1,
+      "name": "Onsite"
+     },
+     "type_of_source": {
+      "id": 1,
+      "name": "Direct"
+     },
+     "min_salary": 5700000,
+     "max_salary": 6000000,
+     "min_education_level": {
+      "id": 4,
+      "name": "Diploma"
+     },
+     "status": 2,
+     "gender": {
+      "id": 0,
+      "name": "Pria/Wanita"
+     },
+     "min_age": 17,
+     "max_age": 60,
+     "years_of_experience": 1,
+     "is_verified": true,
+     "total_vacancies": 1,
+     "created_at": "2026-10-26T02:18:45.851Z",
+     "updated_at": "2026-10-26T04:45:09.358Z",
+     "published_at": "2026-10-26T02:19:24.903Z",
+     "expired_at": "2026-11-25T17:00:00Z",
+     "job_application_status": 0,
+     "employer": {
+      "id": 51786,
+      "name": "PT. Kurhanz Trans",
+      "is_bigbrand": false,
+      "about": "Established in year 2000, PT. Kurhanz Trans Focusing on General Freight Forwarding Service, Project Forwarding, and Contract Logistics, PT. Kurhanz Trans has been developed to become one of the strongest Logistic Service Provider in Indonesia. We have a very good profile in handling cross border formalities.",
+      "logo_url": "https://cdn.pintarnya.com/images/employer/logo_pt_1707723038._KURHANZ_TRANS",
+      "contact": null,
+      "slug": ""
+     },
+     "province": {
+      "id": 11,
+      "name": "DKI Jakarta"
+     },
+     "city": {
+      "id": 154,
+      "name": "Kota Adm. Jakarta Barat"
+     },
+     "skills": [
+      {
+       "id": 2,
+       "name": "Server"
+      },
+      {
+       "id": 2,
+       "name": "LAN/WAN"
+      },
+      {
+       "id": 2,
+       "name": "WIFI"
+      },
+      {
+       "id": 1,
+       "name": "Komunikatif"
+      },
+      {
+       "id": 2,
+       "name": "OS Windows"
+      },
+      {
+       "id": 2,
+       "name": "Troubleshooting Hardware"
+      }
+     ],
+     "documents": null,
+     "application": {
+      "status": 0,
+      "status_updated_at": "0001-01-01T00:00:00Z"
+     },
+     "is_urgently_needed": true,
+     "slug": "it-support-1153876",
+     "is_highlighted": false,
+     "is_bigbrand_highlighted": false,
+     "is_promoted": false,
+     "interview_type": "SCHEDULED_INTERVIEW",
+     "apply_quota": 0,
+     "is_requirement_match": false
+    }
+   ],
+   "pagination": {
+    "page": 0,
+    "page_size": 0,
+    "total_page": 0,
+    "total_data": 0
+   }
+  },
+  {
+   "sublist": [
+    {
+     "id": 1150429,
+     "job_category_id": 17,
+     "title": "IT Support & Network",
+     "type_of_employments": [
+      {
+       "id": 3,
+       "name": "Contract"
+      }
+     ],
+     "type_of_shift": {
+      "id": 1,
+      "name": "Day"
+     },
+     "type_of_work": {
+      "id": 1,
+      "name": "Onsite"
+     },
+     "type_of_source": {
+      "id": 1,
+      "name": "Direct"
+     },
+     "min_salary": 3000000,
+     "max_salary": 4500000,
+     "min_education_level": {
+      "id": 4,
+      "name": "Diploma"
+     },
+     "status": 2,
+     "gender": {
+      "id": 0,
+      "name": "Pria/Wanita"
+     },
+     "min_age": 20,
+     "max_age": 30,
+     "years_of_experience": 1,
+     "is_verified": true,
+     "total_vacancies": 5,
+     "created_at": "2026-10-21T05:39:19.721Z",
+     "updated_at": "2026-10-21T10:06:20.262Z",
+     "published_at": "2026-10-21T05:41:00.243Z",
+     "expired_at": "2026-11-20T17:00:00Z",
+     "job_application_status": 0,
+     "employer": {
+      "id": 96416,
+      "name": "PT. Wahana Lestari Makmur Perkasa",
+      "is_bigbrand": false,
+      "about": "PT Wahana Lestari Makmur Perkasa bergerak di bidang sektor RITEL dan Distribusi. Perusahaan ini berkaitan erat dengan Toko Makmur, yang berfokus pada penjualan produk kebutuhan sehari-hari. FMCG (Fast Moving Consumer Goods). dan Perusahaan FMCG lokal yang dikenal luas dengan strategi harga terjangkau namun kompetitif, melayani berbagai KEBUTUHAN IBU & ANAK (Perlengkapan Bayi dan Anak-Anak) maupun Dewasa yang lengkap serta mendistribusikan berbagai produk kebutuhan rumah tangga, perawatan diri, perawatan kain, makanan, dan minuman.",
+      "logo_url": "https://cdn.pintarnya.com/images/employer/whatsapp_image_makmur_logo_hrd_2026_01_15_at_08_1780902359.48",
+      "contact": null,
+      "slug": ""
+     },
+     "province": {
+      "id": 15,
+      "name": "Jawa Timur"
+     },
+     "city": {
+      "id": 259,
+      "name": "Kota Surabaya"
+     },
+     "skills": [
+      {
+       "id": 1,
+       "name": "Kerjasama Tim"
+      },
+      {
+       "id": 1,
+       "name": "Detail dalam Bekerja"
+      },
+      {
+       "id": 2,
+       "name": "LAN/WAN"
+      },
+      {
+       "id": 1,
+       "name": "Penyelesaian Masalah"
+      },
+      {
+       "id": 1,
+       "name": "Komunikatif"
+      },
+      {
+       "id": 1,
+       "name": "Bekerja Dibawah Tekanan"
+      }
+     ],
+     "documents": [
+      {
+       "id": 24,
+       "name": "Ijazah/Sertifikat Profesi"
+      },
+      {
+       "id": 12,
+       "name": "KTP"
+      },
+      {
+       "id": 13,
+       "name": "KK"
+      },
+      {
+       "id": 20,
+       "name": "CV"
+      },
+      {
+       "id": 30,
+       "name": "Surat Referensi Kerja"
+      },
+      {
+       "id": 26,
+       "name": "Surat Keterangan Sehat"
+      }
+     ],
+     "application": {
+      "status": 0,
+      "status_updated_at": "0001-01-01T00:00:00Z"
+     },
+     "is_urgently_needed": true,
+     "slug": "it-support-1150429",
+     "is_highlighted": false,
+     "is_bigbrand_highlighted": false,
+     "is_promoted": false,
+     "interview_type": "SCHEDULED_INTERVIEW",
+     "apply_quota": 0,
+     "is_requirement_match": false
+    }
+   ],
+   "pagination": {
+    "page": 0,
+    "page_size": 0,
+    "total_page": 0,
+    "total_data": 0
+   }
+  },
+  {
+   "sublist": [
+    {
+     "id": 948970,
+     "job_category_id": 17,
+     "title": "IT Support",
+     "type_of_employments": [
+      {
+       "id": 3,
+       "name": "Contract"
+      }
+     ],
+     "type_of_shift": {
+      "id": 1,
+      "name": "Day"
+     },
+     "type_of_work": {
+      "id": 1,
+      "name": "Onsite"
+     },
+     "type_of_source": {
+      "id": 1,
+      "name": "Direct"
+     },
+     "min_salary": 4000000,
+     "max_salary": 6000000,
+     "min_education_level": {
+      "id": 4,
+      "name": "Diploma"
+     },
+     "status": 2,
+     "gender": {
+      "id": 1,
+      "name": "Pria"
+     },
+     "min_age": 22,
+     "max_age": 35,
+     "years_of_experience": 1,
+     "is_verified": true,
+     "total_vacancies": 2,
+     "created_at": "2026-03-25T16:12:05.738Z",
+     "updated_at": "2026-10-19T09:48:20.763Z",
+     "published_at": "2026-10-19T09:48:20.763Z",
+     "expired_at": "2026-11-18T17:00:00Z",
+     "job_application_status": 0,
+     "employer": {
+      "id": 22488,
+      "name": "OTOBOT INDONESIA",
+      "is_bigbrand": false,
+      "about": "Otobot Indonesia adalah perusahaan yang bergerak di bidang pendistribusian dan retail sepeda motor listrik\n",
+      "logo_url": "https://cdn.pintarnya.com/images/employer/OTOBOT_INDONESIA_1677125213.jpeg",
+      "contact": null,
+      "slug": ""
+     },
+     "province": {
+      "id": 16,
+      "name": "Banten"
+     },
+     "city": {
+      "id": 268,
+      "name": "Kota Tangerang Selatan"
+     },
+     "skills": [
+      {
+       "id": 1,
+       "name": "Kerjasama Tim"
+      },
+      {
+       "id": 1,
+       "name": "Detail dalam Bekerja"
+      },
+      {
+       "id": 1,
+       "name": "Target Oriented"
+      },
+      {
+       "id": 1,
+       "name": "Komunikatif"
+      },
+      {
+       "id": 1,
+       "name": "Bekerja Dibawah Tekanan"
+      },
+      {
+       "id": 1,
+       "name": "Komunikasi Interpersonal"
+      }
+     ],
+     "documents": [
+      {
+       "id": 24,
+       "name": "Ijazah/Sertifikat Profesi"
+      },
+      {
+       "id": 16,
+       "name": "SIM A"
+      },
+      {
+       "id": 18,
+       "name": "SIM C"
+      },
+      {
+       "id": 19,
+       "name": "NPWP"
+      },
+      {
+       "id": 20,
+       "name": "CV"
+      },
+      {
+       "id": 30,
+       "name": "Surat Referensi Kerja"
+      }
+     ],
+     "application": {
+      "status": 0,
+      "status_updated_at": "0001-01-01T00:00:00Z"
+     },
+     "is_urgently_needed": true,
+     "slug": "it-support-948970",
+     "is_highlighted": false,
+     "is_bigbrand_highlighted": false,
+     "is_promoted": false,
+     "interview_type": "SCHEDULED_INTERVIEW",
+     "apply_quota": 0,
+     "is_requirement_match": false
+    }
+   ],
+   "pagination": {
+    "page": 0,
+    "page_size": 0,
+    "total_page": 0,
+    "total_data": 0
+   }
+  },
+  {
+   "sublist": [
+    {
+     "id": 906138,
+     "job_category_id": 17,
+     "title": "IT Support",
+     "type_of_employments": [
+      {
+       "id": 3,
+       "name": "Contract"
+      }
+     ],
+     "type_of_shift": {
+      "id": 1,
+      "name": "Day"
+     },
+     "type_of_work": {
+      "id": 1,
+      "name": "Onsite"
+     },
+     "type_of_source": {
+      "id": 1,
+      "name": "Direct"
+     },
+     "min_salary": 3000000,
+     "max_salary": 6000000,
+     "min_education_level": {
+      "id": 3,
+      "name": "SMA/SMK"
+     },
+     "status": 2,
+     "gender": {
+      "id": 0,
+      "name": "Pria/Wanita"
+     },
+     "min_age": 17,
+     "max_age": 40,
+     "years_of_experience": 1,
+     "is_verified": true,
+     "total_vacancies": 50,
+     "created_at": "2026-02-13T01:49:26.686Z",
+     "updated_at": "2026-10-19T09:08:13.594Z",
+     "published_at": "2026-10-19T09:08:13.594Z",
+     "expired_at": "2026-11-18T17:00:00Z",
+     "job_application_status": 0,
+     "employer": {
+      "id": 44208,
+      "name": "Otobot Indonesia",
+      "is_bigbrand": false,
+      "about": "Otobot Indonesia adalah perusahaan yang bergerak di bidang pendistribusian dan retail sepeda motor listrik\n",
+      "logo_url": "https://cdn.pintarnya.com/images/employer/logo_otobot_1750871956.jpeg",
+      "contact": null,
+      "slug": ""
+     },
+     "province": {
+      "id": 16,
+      "name": "Banten"
+     },
+     "city": {
+      "id": 268,
+      "name": "Kota Tangerang Selatan"
+     },
+     "skills": [
+      {
+       "id": 1,
+       "name": "Kerjasama Tim"
+      },
+      {
+       "id": 1,
+       "name": "Detail dalam Bekerja"
+      },
+      {
+       "id": 1,
+       "name": "Target Oriented"
+      },
+      {
+       "id": 1,
+       "name": "Komunikatif"
+      },
+      {
+       "id": 1,
+       "name": "Bekerja Dibawah Tekanan"
+      },
+      {
+       "id": 1,
+       "name": "Komunikasi Interpersonal"
+      }
+     ],
+     "documents": [
+      {
+       "id": 24,
+       "name": "Ijazah/Sertifikat Profesi"
+      },
+      {
+       "id": 12,
+       "name": "KTP"
+      },
+      {
+       "id": 13,
+       "name": "KK"
+      },
+      {
+       "id": 19,
+       "name": "NPWP"
+      },
+      {
+       "id": 20,
+       "name": "CV"
+      },
+      {
+       "id": 30,
+       "name": "Surat Referensi Kerja"
+      }
+     ],
+     "application": {
+      "status": 0,
+      "status_updated_at": "0001-01-01T00:00:00Z"
+     },
+     "is_urgently_needed": true,
+     "slug": "it-support-906138",
+     "is_highlighted": false,
+     "is_bigbrand_highlighted": false,
+     "is_promoted": false,
+     "interview_type": "SCHEDULED_INTERVIEW",
+     "apply_quota": 0,
+     "is_requirement_match": false
+    }
+   ],
+   "pagination": {
+    "page": 0,
+    "page_size": 0,
+    "total_page": 0,
+    "total_data": 0
+   }
+  },
+  {
+   "sublist": [
+    {
+     "id": 130265,
+     "job_category_id": 17,
+     "title": "Junior IT support",
+     "type_of_employments": [
+      {
+       "id": 1,
+       "name": "Full-Time"
+      }
+     ],
+     "type_of_shift": {
+      "id": 1,
+      "name": "Day"
+     },
+     "type_of_work": {
+      "id": 1,
+      "name": "Onsite"
+     },
+     "type_of_source": {
+      "id": 1,
+      "name": "Direct"
+     },
+     "min_salary": 1500000,
+     "max_salary": 1800000,
+     "min_education_level": {
+      "id": 0,
+      "name": "Tidak ada minimal pendidikan"
+     },
+     "status": 2,
+     "gender": {
+      "id": 1,
+      "name": "Pria"
+     },
+     "min_age": 17,
+     "max_age": 28,
+     "years_of_experience": 0,
+     "is_verified": true,
+     "total_vacancies": 5,
+     "created_at": "2023-09-11T03:20:09.492Z",
+     "updated_at": "2026-10-19T02:52:47.089Z",
+     "published_at": "2026-10-19T02:52:47.089Z",
+     "expired_at": "2026-11-18T17:00:00Z",
+     "job_application_status": 0,
+     "employer": {
+      "id": 24996,
+      "name": "eBelanja",
+      "is_bigbrand": false,
+      "about": "PT Belanja Pasti Indonesia merupakan perusahaan berfokus dibidang Teknologi Informasi dan Komunikasi serta perdagangan Produk Digital. didirikan sejak tahun 2019 dengan aplikasi yang bernama ebelanja.id dengan legalitas PT Belanja Pasti Indonesia.\n\nVISI\n\n- Menjadi sebuah perusahaan teknologi informasi dan komunikasi yang mampu bersaing dalam dunia global saat ini.\n\n- Menjadi sebuah perusahaan yang mampu memberikan kontribusi baik pengabdian kepada masyarakat\n\nMISI\n\n- Mengedepankan sikap profesionalisme, kemampuan skill individual, dan tim dalam menghasilkan karya produk-produk unggulan.\n\n- Memberikan pelayanan yang optimal kepada mitra kerja dalam mengatasi berbagai permasalahan di dunia teknologi informasi.",
+      "logo_url": "https://cdn.pintarnya.com/images/employer/azaw_1678950791.png",
+      "contact": null,
+      "slug": ""
+     },
+     "province": {
+      "id": 14,
+      "name": "Daerah Istimewa Yogyakarta"
+     },
+     "city": {
+      "id": 218,
+      "name": "Kab. Kulon Progo"
+     },
+     "skills": null,
+     "documents": null,
+     "application": {
+      "status": 0,
+      "status_updated_at": "0001-01-01T00:00:00Z"
+     },
+     "is_urgently_needed": true,
+     "slug": "junior-it-130265",
+     "is_highlighted": false,
+     "is_bigbrand_highlighted": false,
+     "is_promoted": false,
+     "interview_type": "SCHEDULED_INTERVIEW",
+     "apply_quota": 0,
+     "is_requirement_match": false
+    }
+   ],
+   "pagination": {
+    "page": 0,
+    "page_size": 0,
+    "total_page": 0,
+    "total_data": 0
+   }
+  },
+  {
+   "sublist": [
+    {
+     "id": 1145513,
+     "job_category_id": 17,
+     "title": "IT Support",
+     "type_of_employments": [
+      {
+       "id": 1,
+       "name": "Full-Time"
+      }
+     ],
+     "type_of_shift": {
+      "id": 1,
+      "name": "Day"
+     },
+     "type_of_work": {
+      "id": 1,
+      "name": "Onsite"
+     },
+     "type_of_source": {
+      "id": 1,
+      "name": "Direct"
+     },
+     "min_salary": 4000000,
+     "max_salary": 5000000,
+     "min_education_level": {
+      "id": 4,
+      "name": "Diploma"
+     },
+     "status": 2,
+     "gender": {
+      "id": 1,
+      "name": "Pria"
+     },
+     "min_age": 23,
+     "max_age": 35,
+     "years_of_experience": 1,
+     "is_verified": true,
+     "total_vacancies": 1,
+     "created_at": "2026-10-15T08:12:32.662Z",
+     "updated_at": "2026-10-15T09:37:42.115Z",
+     "published_at": "2026-10-15T08:12:41.733Z",
+     "expired_at": "2026-11-14T17:00:00Z",
+     "job_application_status": 0,
+     "employer": {
+      "id": 24817,
+      "name": "PT Guccitex ",
+      "is_bigbrand": false,
+      "about": "We are a textile manufacturing company that provides knitting, dyeing, finishing, and printing process on a wide range of fabrics. Our company is located in Bandung, Indonesia, and have over 30 years of experience serving customers, both local and international. We sell our high-quality products to various brands coming from America, Europe, Japan, and South Korea.",
+      "logo_url": "https://cdn.pintarnya.com/images/employer/logo_gucci_gold_1678844356.png",
+      "contact": null,
+      "slug": ""
+     },
+     "province": {
+      "id": 12,
+      "name": "Jawa Barat"
+     },
+     "city": {
+      "id": 180,
+      "name": "Kota Cimahi"
+     },
+     "skills": [
+      {
+       "id": 1,
+       "name": "Kerjasama Tim"
+      },
+      {
+       "id": 1,
+       "name": "Detail dalam Bekerja"
+      },
+      {
+       "id": 1,
+       "name": "Komunikatif"
+      },
+      {
+       "id": 1,
+       "name": "Bekerja Dibawah Tekanan"
+      },
+      {
+       "id": 1,
+       "name": "Komunikasi Interpersonal"
+      }
+     ],
+     "documents": [
+      {
+       "id": 24,
+       "name": "Ijazah/Sertifikat Profesi"
+      },
+      {
+       "id": 12,
+       "name": "KTP"
+      }
+     ],
+     "application": {
+      "status": 0,
+      "status_updated_at": "0001-01-01T00:00:00Z"
+     },
+     "is_urgently_needed": true,
+     "slug": "it-support-1145513",
+     "is_highlighted": false,
+     "is_bigbrand_highlighted": false,
+     "is_promoted": false,
+     "interview_type": "SCHEDULED_INTERVIEW",
+     "apply_quota": 0,
+     "is_requirement_match": false
+    }
+   ],
+   "pagination": {
+    "page": 0,
+    "page_size": 0,
+    "total_page": 0,
+    "total_data": 0
+   }
+  }
+ ]
+}

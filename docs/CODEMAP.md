@@ -205,6 +205,7 @@ Hanya simbol publik; lihat file sumber untuk detail.
 - `def add_error(source: ScrapeRunSource, code: str, message: str, url: str | None=None) -> None`
 - `async def recover(session: AsyncSession) -> list[str]`
 - `async def cancel_run(session: AsyncSession, run: ScrapeRun) -> None`
+- `async def details_fetched_since(session: AsyncSession, platform: str, since_iso: str) -> int`
 - `async def last_source_by_platform(session: AsyncSession) -> dict[str, ScrapeRunSource]`
 - `def source_dict(source: ScrapeRunSource) -> dict[str, Any]`
 - `def run_dict(run: ScrapeRun, sources: list[ScrapeRunSource]) -> dict[str, Any]`
@@ -434,12 +435,26 @@ Hanya simbol publik; lihat file sumber untuk detail.
 ## `app/scrapers/platforms/linkedin.py`
 (no docstring) linkedin.py
 
-- `class LinkedInScraper` (DiscoveryPendingScraper)
+- `def search_url(term: str, max_age_days: int, *, start: int=0, remote: bool=False) -> str`
+- `def parse_listing_payload(html: str, *, page: int=1, platform: str='linkedin') -> list[RawListing]`
+- `def parse_detail_payload(html: str, listing: RawListing, platform: str='linkedin') -> RawJob`
+- `class LinkedInScraper` (BaseScraper)
+  - `async def check_session(self) -> None`
+  - `async def iter_listings(self, search_term: str) -> AsyncIterator[RawListing]`
+  - `async def fetch_detail(self, listing: RawListing) -> RawJob`
 
 ## `app/scrapers/platforms/pintarnya.py`
 (no docstring) pintarnya.py
 
-- `class PintarnyaScraper` (DiscoveryPendingScraper)
+- `def search_slug(term: str) -> str`
+- `def canonical_url(slug: str | None) -> str`
+- `def salary_text(low: Any, high: Any, *, currency: str='IDR', unit: str='MONTH') -> str | None`
+- `def parse_list_payload(payload: Any, *, page: int=1, platform: str='pintarnya') -> list[RawListing]`
+- `def total_pages(payload: Any) -> int`
+- `def parse_detail_payload(payload: dict[str, Any] | str, listing: RawListing | None=None, *, platform: str='pintarnya') -> RawJob`
+- `class PintarnyaScraper` (BaseScraper)
+  - `async def iter_listings(self, search_term: str) -> AsyncIterator[RawListing]`
+  - `async def fetch_detail(self, listing: RawListing) -> RawJob`
 
 ## `app/scrapers/registry.py`
 (no docstring) registry.py
@@ -504,7 +519,7 @@ Generate docs/CODEMAP.md from app/ and scripts/ with the stdlib ast module.
 ## `scripts/discover_platform.py`
 Alat bantu discovery SCRAPER_SPEC §3.
 
-- `async def discover(platform: str, url: str, headed: bool, wait_ms: int) -> None`
+- `async def discover(platform: str, url: str, headed: bool, wait_ms: int, storage_state: str | None, interactive: bool) -> None`
 - `def main() -> None`
 
 ## `scripts/linkedin_login.py`

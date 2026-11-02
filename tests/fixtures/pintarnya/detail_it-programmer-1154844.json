@@ -1,0 +1,80 @@
+{
+ "url": "https://pintarnya.com/lowongan/it-programmer-1154844",
+ "status": 200,
+ "json_ld": {
+  "@context": "https://schema.org",
+  "@type": "JobPosting",
+  "title": "IT Programmer",
+  "description": "- Merancang struktur dari program/aplikasi dengan bantuan tools seperti Trello dan Jira\n- Mendesain program dengan bantuan tools seperti Figma dan Adobexd\n- Mengembangkan program yang sudah didesain dengan pilihan bahasa pemrograman, semisal Python, SQL, dan Javascript\n- Menguji (testing) fitur-fitur dalam program\n- Melakukan deploy atau mengimplementasikan program komputer ke semua target perangkat mulai dari mobile sampai desktop.\n- Merawat atau maintaining setelah versi akhir dirilis ke user",
+  "datePosted": "2026-10-27",
+  "validThrough": "2026-11-09T17:00:00.000Z",
+  "employmentType": [
+   "FULL_TIME"
+  ],
+  "hiringOrganization": {
+   "@type": "Organization",
+   "name": "Duta Mode",
+   "sameAs": "",
+   "logo": "https://cdn.pintarnya.com/images/employer/logo_baru_1793008019.jpg"
+  },
+  "jobLocation": {
+   "@type": "Place",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Jl. Salam Raya n0 27 samping Masjid Al Madinah",
+    "addressLocality": "Kota Adm. Jakarta Barat",
+    "addressRegion": "Kebon Jeruk",
+    "postalCode": "11540",
+    "addressCountry": "Indonesia"
+   }
+  },
+  "baseSalary": {
+   "@type": "MonetaryAmount",
+   "currency": "IDR",
+   "value": {
+    "@type": "QuantitativeValue",
+    "minValue": 4000000,
+    "maxValue": 7000000,
+    "unitText": "MONTH"
+   }
+  }
+ },
+ "page_header": {
+  "title": "IT Programmer",
+  "is_verified": true,
+  "subdistrict": "Sukabumi Utara",
+  "district": "Kebon Jeruk",
+  "city": "Kota Adm. Jakarta Barat",
+  "type_of_work": "Onsite",
+  "type_of_employments": [
+   "Full-Time"
+  ],
+  "salary": {
+   "min_salary": 4000000,
+   "max_salary": 7000000
+  },
+  "is_urgently_needed": true,
+  "total_vacancies": 2,
+  "type_of_source": "Direct",
+  "job_category": "IT dan Teknisi",
+  "ids": {
+   "job_id": 1154844,
+   "subdistrict": 24085,
+   "district": 1726,
+   "city": 154,
+   "type_of_work": 1,
+   "type_of_employments": [
+    1
+   ],
+   "type_of_source": 1,
+   "job_category": 17
+  },
+  "is_highlighted": false,
+  "is_bigbrand_highlighted": false,
+  "interview_type": "SCHEDULED_INTERVIEW",
+  "apply_quota": 0,
+  "external_link": "",
+  "address": "Jl. Salam Raya n0 27 samping Masjid Al Madinah",
+  "postal_code": "11540"
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "url": "https://pintarnya.com/lowongan/it-support-1160847",
+ "status": 200,
+ "json_ld": {
+  "@context": "https://schema.org",
+  "@type": "JobPosting",
+  "title": "IT Support",
+  "description": "- Melakukan instalasi, konfigurasi, dan troubleshooting software, driver, serta operating system.\n- Melakukan diagnosa hardware, bongkar pasang perangkat, dan replacement part.- \n- Melakukan troubleshooting jaringan dasar (IP Address, DNS, Proxy, dan Firewall).\n- Instalasi driver printer dan konfigurasi printer jaringan.\n- Memberikan remote support kepada user/client.\n- Melakukan instalasi ulang perangkat dan proses imaging menggunakan Acronis atau Macrium.\n- Memberikan dukungan Microsoft Office dan Outlook (email).\n- Melakukan backup dan migrasi data perangkat user/client.",
+  "datePosted": "2026-11-02",
+  "validThrough": "2026-12-01T17:00:00.000Z",
+  "employmentType": [
+   "FULL_TIME"
+  ],
+  "hiringOrganization": {
+   "@type": "Organization",
+   "name": "PT Kobus Smart Service",
+   "sameAs": "https://kobus.id/",
+   "logo": "https://cdn.pintarnya.com/images/employer/whatsapp_image_2026_08_14_at_15_1786697386.46"
+  },
+  "jobLocation": {
+   "@type": "Place",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Astra Honda - Sunter",
+    "addressLocality": "Kota Adm. Jakarta Utara",
+    "addressRegion": "Tanjung Priok",
+    "postalCode": "",
+    "addressCountry": "Indonesia"
+   }
+  },
+  "baseSalary": {
+   "@type": "MonetaryAmount",
+   "currency": "IDR",
+   "value": {
+    "@type": "QuantitativeValue",
+    "minValue": 4100000,
+    "maxValue": 4250000,
+    "unitText": "MONTH"
+   }
+  }
+ },
+ "page_header": {
+  "title": "IT Support",
+  "is_verified": true,
+  "subdistrict": "Sunter Jaya",
+  "district": "Tanjung Priok",
+  "city": "Kota Adm. Jakarta Utara",
+  "type_of_work": "Hybrid",
+  "type_of_employments": [
+   "Full-Time"
+  ],
+  "salary": {
+   "min_salary": 4100000,
+   "max_salary": 4250000
+  },
+  "is_urgently_needed": false,
+  "total_vacancies": 5,
+  "type_of_source": "Direct",
+  "job_category": "IT dan Teknisi",
+  "ids": {
+   "job_id": 1160847,
+   "subdistrict": 24026,
+   "district": 1717,
+   "city": 153,
+   "type_of_work": 0,
+   "type_of_employments": [
+    1
+   ],
+   "type_of_source": 1,
+   "job_category": 17
+  },
+  "is_highlighted": false,
+  "is_bigbrand_highlighted": false,
+  "interview_type": "SCHEDULED_INTERVIEW",
+  "apply_quota": 0,
+  "external_link": "",
+  "address": "Astra Honda - Sunter",
+  "postal_code": ""
+ }
+}

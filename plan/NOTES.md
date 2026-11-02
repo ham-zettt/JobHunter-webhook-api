@@ -91,3 +91,62 @@
   `jobRole`). `typeStr` diprioritaskan untuk tipe kerja agar "Freelance" tidak
   menjadi "contract" dari `employmentType=CONTRACTOR`.
 - Pendidikan/benefit/skill/pengalaman masuk `extra`; gaji 0/0 → `None`.
+
+## P-27 — Discovery LinkedIn belum dieksekusi
+
+`scripts/linkedin_login.py` kini membuka `/jobs/` setelah login manual dan menolak
+menyimpan state bila URL akhir masih `/login`, `/checkpoint`, `/authwall`, `/uas/`,
+atau `/signup`; state ditulis atomik (`tmp` → `0600` → `replace`).
+`docs/platform_notes/linkedin.md` dibuat, tetapi seluruh selector/parameter tetap
+`[verifikasi]` dan `tests/fixtures/linkedin/` kosong: eksekusi login headed + akun
+khusus harus dilakukan pemilik di mesin lokal. Task 27 tetap `[~]` sampai itu selesai.
+
+## P-28 — Discovery Pintarnya
+
+Pintarnya publik tanpa login: daftar lewat XHR `api.pintarnya.com/api/v2/pk/job`
+dan detail lewat JSON-LD `JobPosting` di `/lowongan/<slug>`. API menolak HTTP polos
+(403 Cloudflare) tetapi berhasil di konteks browser; tanpa stealth/CAPTCHA.
+Paginasi = infinite scroll container internal; `page`/`p` di URL diabaikan.
+`published_at` daftar dan `datePosted` detail presisi exact. Kategori IT
+(`job_category=17`) = 117 lowongan; keyword pendek seperti `it` terlalu longgar.
+Fixture: 3 daftar + 5 detail di `tests/fixtures/pintarnya/`.
+
+## Task 30 — Pintarnya (2026-11-02)
+
+- Discovery menyatakan lowongan publik → scraper normal, bukan stub `skipped`.
+- `app/scrapers/platforms/pintarnya.py`: daftar via `api.pintarnya.com/api/v2/pk/job`
+  memakai `BrowserContext.request` (cookies sesi; HTTP polos 403), fallback SSR
+  `initialJobList` saat API 410, dedupe slug, detail dari JSON-LD `JobPosting`
+  + `__NEXT_DATA__.jobData.page_header`.
+- Tantangan: `detect_challenge` dijalankan pada HTML tanpa `<script>`/`<style>`
+  agar string `recaptcha` di CSP/script tidak salah dianggap challenge.
+- Test: `tests/scrapers/test_pintarnya.py` (21 test, fixture 3 daftar + 5 detail).
+- Catatan: retry 429/5xx hanya menghasilkan `TransientNetworkError` (orchestrator
+  menandai degraded); belum ada retry tenacity.
+
+## P-27 (lanjutan) — Discovery LinkedIn selesai
+
+Sesi login headed berhasil; state `600`, `auth_state=valid`. Discovery membuktikan:
+UI baru SDUI dua panel, kelas CSS acak, selector stabil hanya
+`componentkey^="job-card-component-ref-"`, `data-testid="expandable-text-box"`/
+`expandable-text-button`, href, dan teks. Path `/jobs/search/` mengabaikan
+`location=Indonesia` (jatuh ke lokasi profil); `/jobs/search-results/` menghormatinya.
+`f_TPR=r604800` (chip `1 minggu terakhir`) dan `f_WT=2` (chip `Jarak jauh`) terbukti.
+`sortBy` dan `start` belum terbukti. Fixture (`3 daftar + 5 detail`) dibersihkan dari
+script, token, nama akun, kartu orang/rekruter, email, dan telepon.
+
+## P-28 — Scraper LinkedIn (2026-11-03)
+
+- `check_session()` menolak state hilang/redirect login/checkpoint via `AuthRequiredError`;
+  CAPTCHA/999/429 → `BlockedError` tanpa retry. Detail memakai `/jobs/view/<id>/`.
+- Deskripsi diambil dari section heading `Tentang pekerjaan ini`/`About the job`
+  (bukan seluruh `expandable-text-box`, karena sebagian kotak milik "Tentang perusahaan"
+  dan carousel feed). §5.6 diterapkan lewat klik `expandable-text-button` + tunggu stabil.
+- Batas: `max_jobs=min(ctx.max_jobs, LINKEDIN_MAX_JOBS_PER_RUN)`, paginasi `start` kelipatan 25,
+  `f_WT=2` hanya untuk 3 term pertama. Cap harian dihitung di orchestrator dari
+  `scrape_run_sources.detail_fetched` hari WIB (scraper tidak menyentuh DB); cap habis → `skipped`.
+- Registry mengubah `PLATFORM_ORDER`: LinkedIn paling akhir.
+- Perbaikan lintas modul: `detect_challenge` memakai word boundary agar teks
+  "Pekerjaan terverifikasi" tidak dianggap tantangan; `parse_salary` mendukung `Rp6M/month`.
+- Kurang: smoke `live` (dilarang pada sesi ini); parameter `sortBy`/`start` tetap
+  belum diverifikasi discovery, hanya diuji lewat unit test URL.

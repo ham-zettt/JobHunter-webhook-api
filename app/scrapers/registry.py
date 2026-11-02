@@ -22,8 +22,8 @@ SCRAPERS: dict[str, type[BaseScraper]] = {
     "kalibrr": KalibrrScraper,
     "dealls": DeallsScraper,
     "kitalulus": KitaLulusScraper,
-    "linkedin": LinkedInScraper,
     "pintarnya": PintarnyaScraper,
+    "linkedin": LinkedInScraper,
 }
 
 PLATFORM_ORDER = list(SCRAPERS)

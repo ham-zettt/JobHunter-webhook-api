@@ -1,0 +1,80 @@
+{
+ "url": "https://pintarnya.com/lowongan/it-programmer-762180",
+ "status": 200,
+ "json_ld": {
+  "@context": "https://schema.org",
+  "@type": "JobPosting",
+  "title": "IT Programmer (Software Engineer)",
+  "description": "Posisi: IT Programmer (Full Stack) – Mobile Developer Flutter\n\nDeskripsi Pekerjaan:\nKami mencari IT Programmer (Full Stack) yang memiliki kemampuan dalam mengembangkan aplikasi mobile berbasis Flutter, baik pada sisi frontend maupun backend. Kandidat yang memahami arsitektur aplikasi modern dan memiliki perhatian tinggi terhadap kualitas kode akan sangat dihargai.\nPosisi ini diutamakan untuk Full Stack Developer, namun terbuka juga bagi kandidat yang memiliki keahlian kuat hanya di salah satu bidang (frontend atau backend).\n\nTanggung Jawab:\n- Mengembangkan dan memelihara aplikasi mobile berbasis Flutter dengan performa tinggi dan antarmuka pengguna yang menarik.\n- Mendesain dan mengimplementasikan backend API / server-side logic menggunakan bahasa pemrograman dan framework yang relevan.\n- Menerapkan prinsip Clean Architecture dan BLoC Pattern dalam pengembangan kode.\n- Mengintegrasikan berbagai plugin dan layanan pihak ketiga untuk memperluas fungsionalitas aplikasi.\n- Melakukan debugging, testing, dan optimasi performa aplikasi.\n- Bekerja sama dengan tim UI/UX, QA, dan stakeholder lain untuk memastikan hasil akhir sesuai kebutuhan.\n- Melakukan dokumentasi teknis dan menjaga konsistensi kode.\n\nKualifikasi:\n- Pria/Wanita, tanpa batasan usia.\n- Pendidikan minimal S1 Teknik Informatika, Sistem Informasi, atau jurusan terkait.\n(Atau memiliki sertifikasi profesional yang setara di bidang pemrograman atau pengembangan aplikasi mobile.)\n- Menguasai Flutter, Dart, dan familiar dengan konsep Clean Architecture serta BLoC (Business Logic Component).\n- Mampu menggunakan dan mengintegrasikan plugin Flutter dengan baik.\n- Memahami konsep REST API, database (SQL/NoSQL), dan version control (Git).\n- Diutamakan memiliki pengalaman kerja di bidang pengembangan aplikasi mobile atau full stack development.\n- Teliti, komunikatif, dan mampu bekerja secara kolaboratif dalam tim.\n- Siap bekerja secara WFO/Onsite.",
+  "datePosted": "2026-11-02",
+  "validThrough": "2026-11-29T17:00:00.000Z",
+  "employmentType": [
+   "FULL_TIME"
+  ],
+  "hiringOrganization": {
+   "@type": "Organization",
+   "name": "Life Tech",
+   "sameAs": "http://www.instagram.com/lifetech_shop/",
+   "logo": "https://cdn.pintarnya.com/images/employer/logo_1706518671.png"
+  },
+  "jobLocation": {
+   "@type": "Place",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Jalan Pajagalan No. 15",
+    "addressLocality": "Kota Bandung",
+    "addressRegion": "Astana Anyar",
+    "postalCode": "40241",
+    "addressCountry": "Indonesia"
+   }
+  },
+  "baseSalary": {
+   "@type": "MonetaryAmount",
+   "currency": "IDR",
+   "value": {
+    "@type": "QuantitativeValue",
+    "minValue": 3500000,
+    "maxValue": 6000000,
+    "unitText": "MONTH"
+   }
+  }
+ },
+ "page_header": {
+  "title": "IT Programmer (Software Engineer)",
+  "is_verified": true,
+  "subdistrict": "Karanganyar",
+  "district": "Astana Anyar",
+  "city": "Kota Bandung",
+  "type_of_work": "Onsite",
+  "type_of_employments": [
+   "Full-Time"
+  ],
+  "salary": {
+   "min_salary": 3500000,
+   "max_salary": 6000000
+  },
+  "is_urgently_needed": false,
+  "total_vacancies": 2,
+  "type_of_source": "Direct",
+  "job_category": "IT dan Teknisi",
+  "ids": {
+   "job_id": 762180,
+   "subdistrict": 29738,
+   "district": 2308,
+   "city": 176,
+   "type_of_work": 1,
+   "type_of_employments": [
+    1
+   ],
+   "type_of_source": 1,
+   "job_category": 17
+  },
+  "is_highlighted": false,
+  "is_bigbrand_highlighted": false,
+  "interview_type": "SCHEDULED_INTERVIEW",
+  "apply_quota": 0,
+  "external_link": "",
+  "address": "Jalan Pajagalan No. 15",
+  "postal_code": "40241"
+ }
+}

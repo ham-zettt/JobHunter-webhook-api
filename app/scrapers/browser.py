@@ -41,7 +41,7 @@ def detect_challenge(html: str, url: str) -> bool:
     if any(marker in lowered_url for marker in CHALLENGE_URL_MARKERS):
         return True
     head = (html or "")[:60_000].lower()
-    return any(marker in head for marker in CHALLENGE_TEXT_MARKERS)
+    return any(re.search(rf"\b{re.escape(marker)}\b", head) for marker in CHALLENGE_TEXT_MARKERS)
 
 
 class BrowserPool:

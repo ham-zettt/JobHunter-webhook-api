@@ -1,0 +1,338 @@
+{
+ "page": 3,
+ "pagination": {
+  "page": 3,
+  "page_size": 10,
+  "total_page": 3,
+  "total_data": 23
+ },
+ "list": [
+  {
+   "sublist": [
+    {
+     "id": 1136464,
+     "job_category_id": 17,
+     "title": "IT Support",
+     "type_of_employments": [
+      {
+       "id": 1,
+       "name": "Full-Time"
+      }
+     ],
+     "type_of_shift": {
+      "id": 1,
+      "name": "Day"
+     },
+     "type_of_work": {
+      "id": 1,
+      "name": "Onsite"
+     },
+     "type_of_source": {
+      "id": 1,
+      "name": "Direct"
+     },
+     "min_salary": 4000000,
+     "max_salary": 4100000,
+     "min_education_level": {
+      "id": 5,
+      "name": "S1"
+     },
+     "status": 2,
+     "gender": {
+      "id": 0,
+      "name": "Pria/Wanita"
+     },
+     "min_age": 25,
+     "max_age": 35,
+     "years_of_experience": 1,
+     "is_verified": true,
+     "total_vacancies": 2,
+     "created_at": "2026-10-06T07:55:31.26Z",
+     "updated_at": "2026-10-06T09:47:17.714Z",
+     "published_at": "2026-10-06T07:55:52.928Z",
+     "expired_at": "2026-11-05T16:00:00Z",
+     "job_application_status": 0,
+     "employer": {
+      "id": 92931,
+      "name": "PT PERMATA INDO SEJAHTERA",
+      "is_bigbrand": false,
+      "about": "PT PERMATA INDO SEJAHTERA merupakan perusahaan yang bergerak dalam bidang outsourcing",
+      "logo_url": "https://cdn.pintarnya.com/images/employer/pt_permata_indonesia_logo_1773292443.jfif",
+      "contact": null,
+      "slug": ""
+     },
+     "province": {
+      "id": 26,
+      "name": "Sulawesi Selatan"
+     },
+     "city": {
+      "id": 410,
+      "name": "Kota Makassar"
+     },
+     "skills": [
+      {
+       "id": 1,
+       "name": "Kerjasama Tim"
+      },
+      {
+       "id": 1,
+       "name": "Detail dalam Bekerja"
+      },
+      {
+       "id": 1,
+       "name": "Individual"
+      },
+      {
+       "id": 1,
+       "name": "Komunikatif"
+      },
+      {
+       "id": 1,
+       "name": "Bekerja Dibawah Tekanan"
+      },
+      {
+       "id": 1,
+       "name": "Siap Kerja Weekend"
+      }
+     ],
+     "documents": [
+      {
+       "id": 24,
+       "name": "Ijazah/Sertifikat Profesi"
+      },
+      {
+       "id": 12,
+       "name": "KTP"
+      },
+      {
+       "id": 13,
+       "name": "KK"
+      },
+      {
+       "id": 18,
+       "name": "SIM C"
+      },
+      {
+       "id": 19,
+       "name": "NPWP"
+      },
+      {
+       "id": 20,
+       "name": "CV"
+      }
+     ],
+     "application": {
+      "status": 0,
+      "status_updated_at": "0001-01-01T00:00:00Z"
+     },
+     "is_urgently_needed": true,
+     "slug": "it-support-1136464",
+     "is_highlighted": false,
+     "is_bigbrand_highlighted": false,
+     "is_promoted": false,
+     "interview_type": "SCHEDULED_INTERVIEW",
+     "apply_quota": 0,
+     "is_requirement_match": false
+    }
+   ],
+   "pagination": {
+    "page": 0,
+    "page_size": 0,
+    "total_page": 0,
+    "total_data": 0
+   }
+  },
+  {
+   "sublist": [
+    {
+     "id": 1046482,
+     "job_category_id": 17,
+     "title": "IT Support",
+     "type_of_employments": [
+      {
+       "id": 3,
+       "name": "Contract"
+      }
+     ],
+     "type_of_shift": {
+      "id": 1,
+      "name": "Day"
+     },
+     "type_of_work": {
+      "id": 1,
+      "name": "Onsite"
+     },
+     "type_of_source": {
+      "id": 1,
+      "name": "Direct"
+     },
+     "min_salary": 5000000,
+     "max_salary": 6000000,
+     "min_education_level": {
+      "id": 4,
+      "name": "Diploma"
+     },
+     "status": 2,
+     "gender": {
+      "id": 0,
+      "name": "Pria/Wanita"
+     },
+     "min_age": 17,
+     "max_age": 60,
+     "years_of_experience": 1,
+     "is_verified": true,
+     "total_vacancies": 1,
+     "created_at": "2026-06-29T05:05:49.947Z",
+     "updated_at": "2026-10-06T06:51:06.921Z",
+     "published_at": "2026-10-06T06:51:06.921Z",
+     "expired_at": "2026-11-05T17:00:00Z",
+     "job_application_status": 0,
+     "employer": {
+      "id": 23969,
+      "name": "Prima Fajar Cahaya Surya",
+      "is_bigbrand": false,
+      "about": "Didirikan pada tahun 2001, kami merupakan perusahaan penyedia layanan tenaga kerja yang berfokus pada pengelolaan fungsi operasional dan administratif. Didukung pengalaman dan tim profesional, kami menghadirkan solusi manajemen sumber daya manusia yang efektif, terpercaya, dan berorientasi pada kemitraan jangka panjang.",
+      "logo_url": "https://cdn.pintarnya.com/images/employer/logo_lengkap_pfcs_1689911792.png",
+      "contact": null,
+      "slug": ""
+     },
+     "province": {
+      "id": 11,
+      "name": "DKI Jakarta"
+     },
+     "city": {
+      "id": 155,
+      "name": "Kota Adm. Jakarta Selatan"
+     },
+     "skills": [
+      {
+       "id": 1,
+       "name": "Kerjasama Tim"
+      },
+      {
+       "id": 1,
+       "name": "Bekerja Dibawah Tekanan"
+      },
+      {
+       "id": 1,
+       "name": "Komunikasi Interpersonal"
+      }
+     ],
+     "documents": [
+      {
+       "id": 24,
+       "name": "Ijazah/Sertifikat Profesi"
+      },
+      {
+       "id": 12,
+       "name": "KTP"
+      }
+     ],
+     "application": {
+      "status": 0,
+      "status_updated_at": "0001-01-01T00:00:00Z"
+     },
+     "is_urgently_needed": true,
+     "slug": "it-support-1046482",
+     "is_highlighted": false,
+     "is_bigbrand_highlighted": false,
+     "is_promoted": false,
+     "interview_type": "SCHEDULED_INTERVIEW",
+     "apply_quota": 0,
+     "is_requirement_match": false
+    }
+   ],
+   "pagination": {
+    "page": 0,
+    "page_size": 0,
+    "total_page": 0,
+    "total_data": 0
+   }
+  },
+  {
+   "sublist": [
+    {
+     "id": 1133693,
+     "job_category_id": 17,
+     "title": "IT SUPPORT ( ENGLISH SPEAKER )",
+     "type_of_employments": [
+      {
+       "id": 1,
+       "name": "Full-Time"
+      }
+     ],
+     "type_of_shift": {
+      "id": 1,
+      "name": "Day"
+     },
+     "type_of_work": {
+      "id": 1,
+      "name": "Onsite"
+     },
+     "type_of_source": {
+      "id": 1,
+      "name": "Direct"
+     },
+     "min_salary": 8000000,
+     "max_salary": 10000000,
+     "min_education_level": {
+      "id": 4,
+      "name": "Diploma"
+     },
+     "status": 2,
+     "gender": {
+      "id": 0,
+      "name": "Pria/Wanita"
+     },
+     "min_age": 17,
+     "max_age": 35,
+     "years_of_experience": 1,
+     "is_verified": true,
+     "total_vacancies": 5,
+     "created_at": "2026-10-03T07:38:02.728Z",
+     "updated_at": "2026-10-05T03:36:13.593Z",
+     "published_at": "2026-10-03T07:38:14.735Z",
+     "expired_at": "2026-11-02T17:00:00Z",
+     "job_application_status": 0,
+     "employer": {
+      "id": 4542,
+      "name": "PT Imecon Teknindo",
+      "is_bigbrand": false,
+      "about": "PT Imecon Teknindo adalah perusahaan Indonesia yang bergerak di bidang jasa Sumber Daya Manusia. Berdiri sejak tahun 1999 yang didirikan oleh para praktisi dan profesional di bidangnya memiliki pelayanan yang mencakup Jasa Perekrutan tenaga kerja, Jasa Pengelolaan Tenaga kerja Kontrak (Outsourcing), Jasa Psikotes & Assesmen dan Jasa penghitungan upah & Pajak dan Kontrak. Pengalaman selama lebih dari 2 dekade dalam persaingan yang bertambah ketat membuat kami terus berbenah sehinggga bisa bertahan dan bahkan bertumbuh, dan pengalaman ini membuat kami semakin memahami arti daripada pentingnya sebuah pelayanan.",
+      "logo_url": "https://cdn.pintarnya.com/images/employer/PT_Imecon_Teknindo_1666262607.png",
+      "contact": null,
+      "slug": ""
+     },
+     "province": {
+      "id": 11,
+      "name": "DKI Jakarta"
+     },
+     "city": {
+      "id": 155,
+      "name": "Kota Adm. Jakarta Selatan"
+     },
+     "skills": null,
+     "documents": null,
+     "application": {
+      "status": 0,
+      "status_updated_at": "0001-01-01T00:00:00Z"
+     },
+     "is_urgently_needed": false,
+     "slug": "it-support-1133693",
+     "is_highlighted": false,
+     "is_bigbrand_highlighted": false,
+     "is_promoted": false,
+     "interview_type": "SCHEDULED_INTERVIEW",
+     "apply_quota": 0,
+     "is_requirement_match": false
+    }
+   ],
+   "pagination": {
+    "page": 0,
+    "page_size": 0,
+    "total_page": 0,
+    "total_data": 0
+   }
+  }
+ ]
+}

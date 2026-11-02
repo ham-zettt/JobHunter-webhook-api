@@ -1,0 +1,80 @@
+{
+ "url": "https://pintarnya.com/lowongan/it-support-1133693",
+ "status": 200,
+ "json_ld": {
+  "@context": "https://schema.org",
+  "@type": "JobPosting",
+  "title": "IT SUPPORT ( ENGLISH SPEAKER )",
+  "description": "- Memeriksa dan memastikan semua komputer yang dipakai user dapat digunakan\n- Memeriksa dan memastikan semua komputer terhubung ke jaringan\n- Memeriksa dan memastikan bahwa aplikasi yang digunakan user dapat berjalan sebagaimana mestinya\n- Memastikan data user di komputer tidak bisa dibaca atau diambil oleh orang tanpa izin\n- Memperbaiki komputer user yang rusak\n- Melakukan update sistem operasi atau aplikasi secara berkala\n- Melakukan backup data\n- Memastikan sistem pendukung seperti printer dan scanner dapat beroperasi\n- Membuat atau merangkai jaringan dan kabel data\n- Menginstal dan konfigurasi antivirus demi keamanan komputer ",
+  "datePosted": "2026-10-03",
+  "validThrough": "2026-11-02T17:00:00.000Z",
+  "employmentType": [
+   "FULL_TIME"
+  ],
+  "hiringOrganization": {
+   "@type": "Organization",
+   "name": "PT Imecon Teknindo",
+   "sameAs": "https://imeconteknindo.com/",
+   "logo": "https://cdn.pintarnya.com/images/employer/PT_Imecon_Teknindo_1666262607.png"
+  },
+  "jobLocation": {
+   "@type": "Place",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Kota Adm. Jakarta Selatan",
+    "addressLocality": "Kota Adm. Jakarta Selatan",
+    "addressRegion": "Kebayoran Lama",
+    "postalCode": "12240",
+    "addressCountry": "Indonesia"
+   }
+  },
+  "baseSalary": {
+   "@type": "MonetaryAmount",
+   "currency": "IDR",
+   "value": {
+    "@type": "QuantitativeValue",
+    "minValue": 8000000,
+    "maxValue": 10000000,
+    "unitText": "MONTH"
+   }
+  }
+ },
+ "page_header": {
+  "title": "IT SUPPORT ( ENGLISH SPEAKER )",
+  "is_verified": true,
+  "subdistrict": "Kebayoran Lama Selatan",
+  "district": "Kebayoran Lama",
+  "city": "Kota Adm. Jakarta Selatan",
+  "type_of_work": "Onsite",
+  "type_of_employments": [
+   "Full-Time"
+  ],
+  "salary": {
+   "min_salary": 8000000,
+   "max_salary": 10000000
+  },
+  "is_urgently_needed": false,
+  "total_vacancies": 5,
+  "type_of_source": "Direct",
+  "job_category": "IT dan Teknisi",
+  "ids": {
+   "job_id": 1133693,
+   "subdistrict": 24140,
+   "district": 1734,
+   "city": 155,
+   "type_of_work": 1,
+   "type_of_employments": [
+    1
+   ],
+   "type_of_source": 1,
+   "job_category": 17
+  },
+  "is_highlighted": false,
+  "is_bigbrand_highlighted": false,
+  "interview_type": "SCHEDULED_INTERVIEW",
+  "apply_quota": 0,
+  "external_link": "",
+  "address": "Kota Adm. Jakarta Selatan",
+  "postal_code": "12240"
+ }
+}

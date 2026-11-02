@@ -1,0 +1,80 @@
+{
+ "url": "https://pintarnya.com/lowongan/it-support-1046482",
+ "status": 200,
+ "json_ld": {
+  "@context": "https://schema.org",
+  "@type": "JobPosting",
+  "title": "IT Support",
+  "description": "📊 Administrasi\n✔ Kelola data karyawan di sistem STBR & HRIS (Talenta)\n✔ Urus salescode, laporan bulanan, rekap komisi outsource\n✔ Monitoring kontrak PKWT & koordinasi dengan HR Recruitment & Legal\n✔ Input absensi, new join, resign, perpanjangan kontrak\n\n🖥️ IT \n✔ Troubleshoot hardware, software & jaringan\n✔ Manage perpanjangan internet, hosting & domain\n✔ Backup data & instalasi perangkat\n✔ Support aplikasi pajak untuk user ",
+  "datePosted": "2026-10-06",
+  "validThrough": "2026-11-05T17:00:00.000Z",
+  "employmentType": [
+   "CONTRACT"
+  ],
+  "hiringOrganization": {
+   "@type": "Organization",
+   "name": "Prima Fajar Cahaya Surya",
+   "sameAs": "http://www.pfcs.co.id",
+   "logo": "https://cdn.pintarnya.com/images/employer/logo_lengkap_pfcs_1689911792.png"
+  },
+  "jobLocation": {
+   "@type": "Place",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Jl. Soka Lestari II Blok J No.1 (Perum. Lebak Lestari)",
+    "addressLocality": "Kota Adm. Jakarta Selatan",
+    "addressRegion": "Cilandak",
+    "postalCode": "12440",
+    "addressCountry": "Indonesia"
+   }
+  },
+  "baseSalary": {
+   "@type": "MonetaryAmount",
+   "currency": "IDR",
+   "value": {
+    "@type": "QuantitativeValue",
+    "minValue": 5000000,
+    "maxValue": 6000000,
+    "unitText": "MONTH"
+   }
+  }
+ },
+ "page_header": {
+  "title": "IT Support",
+  "is_verified": true,
+  "subdistrict": "Lebak Bulus",
+  "district": "Cilandak",
+  "city": "Kota Adm. Jakarta Selatan",
+  "type_of_work": "Onsite",
+  "type_of_employments": [
+   "Contract"
+  ],
+  "salary": {
+   "min_salary": 5000000,
+   "max_salary": 6000000
+  },
+  "is_urgently_needed": true,
+  "total_vacancies": 1,
+  "type_of_source": "Direct",
+  "job_category": "IT dan Teknisi",
+  "ids": {
+   "job_id": 1046482,
+   "subdistrict": 24142,
+   "district": 1735,
+   "city": 155,
+   "type_of_work": 1,
+   "type_of_employments": [
+    3
+   ],
+   "type_of_source": 1,
+   "job_category": 17
+  },
+  "is_highlighted": false,
+  "is_bigbrand_highlighted": false,
+  "interview_type": "SCHEDULED_INTERVIEW",
+  "apply_quota": 0,
+  "external_link": "",
+  "address": "Jl. Soka Lestari II Blok J No.1 (Perum. Lebak Lestari)",
+  "postal_code": "12440"
+ }
+}

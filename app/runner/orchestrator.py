@@ -5,13 +5,14 @@ import json
 import statistics
 import time
 from datetime import UTC, datetime, timedelta
+from datetime import time as day_time
 from typing import Any
 
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.core.config import get_settings
 from app.core.logging import get_logger
-from app.core.timeutil import parse_posted
+from app.core.timeutil import WIB, parse_posted, utc_iso, wib_today
 from app.db.repositories import job_repo, keyword_repo, run_repo
 from app.db.session import SessionLocal
 from app.pipeline.age_filter import is_too_old
@@ -95,6 +96,17 @@ class Orchestrator:
             params.get("max_jobs_per_platform")
             or cfg.get("max_details_per_run", settings.max_jobs_per_platform)
         )
+        if platform == "linkedin":
+            day_start = datetime.combine(wib_today(), day_time.min, tzinfo=WIB)
+            used = await run_repo.details_fetched_since(
+                session, platform, utc_iso(day_start)
+            )
+            remaining = settings.linkedin_max_jobs_per_day - used
+            if remaining <= 0:
+                run_repo.add_error(source, "DAILY_CAP", "Batas harian LinkedIn tercapai")
+                await run_repo.finish_source(session, source, "skipped")
+                return
+            max_jobs = min(max_jobs, settings.linkedin_max_jobs_per_run, remaining)
         terms = params.get("keywords") or await keyword_repo.search_terms(
             session, int(cfg.get("search_terms_limit", 10))
         )

@@ -99,3 +99,23 @@ Detail: `docs/platform_notes/dealls.md`.
 `extra.updated_at_str`; tanggal posting hanya diambil dari JSON-LD `datePosted`
 pada detail (`exact`). Ini mencegah pipeline memakai tanggal aktivitas sebagai
 `posted_at`.
+
+## D-016 — Pintarnya dapat diakses publik; implementasi normal
+Discovery 2026-11-02 menemukan daftar lowongan publik tanpa login di
+`https://pintarnya.com/q-<kata>-lowongan`, dengan API daftar
+`https://api.pintarnya.com/api/v2/pk/job` dan detail `/lowongan/<slug>` berisi
+JSON-LD `JobPosting`. Karena itu §7.7 memilih implementasi normal, **bukan** stub
+`skipped`/`NOT_PUBLICLY_ACCESSIBLE`. API butuh konteks browser (HTTP polos 403
+Cloudflare), paginasi berupa infinite scroll (`page`/`p` URL diabaikan), dan
+kategori IT (`job_category=17`) berisi 117 lowongan. Detail:
+`docs/platform_notes/pintarnya.md`.
+
+## D-016 — LinkedIn: path `search-results` + selector berbasis `componentkey`
+
+Discovery 2026-11-03: UI baru LinkedIn (SDUI) memakai kelas CSS acak dan dua panel.
+Scraper memakai `/jobs/search-results/` (bukan `/jobs/search/` yang membuang
+`location=Indonesia`), `location=Indonesia`/`geoId=102478259`, `f_TPR`, `f_WT`.
+Kartu dikenali lewat `componentkey^="job-card-component-ref-"` (ID = sufiks) dan
+dedupe ID; detail lewat `data-testid="expandable-text-box"`/`expandable-text-button`.
+Tidak ada `<time>`/`datetime`: tanggal hanya relatif. `sortBy`/`start` belum terbukti
+dan harus diverifikasi di task 28.

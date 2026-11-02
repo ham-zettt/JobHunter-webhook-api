@@ -1,0 +1,1195 @@
+{
+ "page": 2,
+ "pagination": {
+  "page": 2,
+  "page_size": 10,
+  "total_page": 3,
+  "total_data": 23
+ },
+ "list": [
+  {
+   "sublist": [
+    {
+     "id": 130265,
+     "job_category_id": 17,
+     "title": "Junior IT support",
+     "type_of_employments": [
+      {
+       "id": 1,
+       "name": "Full-Time"
+      }
+     ],
+     "type_of_shift": {
+      "id": 1,
+      "name": "Day"
+     },
+     "type_of_work": {
+      "id": 1,
+      "name": "Onsite"
+     },
+     "type_of_source": {
+      "id": 1,
+      "name": "Direct"
+     },
+     "min_salary": 1500000,
+     "max_salary": 1800000,
+     "min_education_level": {
+      "id": 0,
+      "name": "Tidak ada minimal pendidikan"
+     },
+     "status": 2,
+     "gender": {
+      "id": 1,
+      "name": "Pria"
+     },
+     "min_age": 17,
+     "max_age": 28,
+     "years_of_experience": 0,
+     "is_verified": true,
+     "total_vacancies": 5,
+     "created_at": "2023-09-11T03:20:09.492Z",
+     "updated_at": "2026-10-19T02:52:47.089Z",
+     "published_at": "2026-10-19T02:52:47.089Z",
+     "expired_at": "2026-11-18T17:00:00Z",
+     "job_application_status": 0,
+     "employer": {
+      "id": 24996,
+      "name": "eBelanja",
+      "is_bigbrand": false,
+      "about": "PT Belanja Pasti Indonesia merupakan perusahaan berfokus dibidang Teknologi Informasi dan Komunikasi serta perdagangan Produk Digital. didirikan sejak tahun 2019 dengan aplikasi yang bernama ebelanja.id dengan legalitas PT Belanja Pasti Indonesia.\n\nVISI\n\n- Menjadi sebuah perusahaan teknologi informasi dan komunikasi yang mampu bersaing dalam dunia global saat ini.\n\n- Menjadi sebuah perusahaan yang mampu memberikan kontribusi baik pengabdian kepada masyarakat\n\nMISI\n\n- Mengedepankan sikap profesionalisme, kemampuan skill individual, dan tim dalam menghasilkan karya produk-produk unggulan.\n\n- Memberikan pelayanan yang optimal kepada mitra kerja dalam mengatasi berbagai permasalahan di dunia teknologi informasi.",
+      "logo_url": "https://cdn.pintarnya.com/images/employer/azaw_1678950791.png",
+      "contact": null,
+      "slug": ""
+     },
+     "province": {
+      "id": 14,
+      "name": "Daerah Istimewa Yogyakarta"
+     },
+     "city": {
+      "id": 218,
+      "name": "Kab. Kulon Progo"
+     },
+     "skills": null,
+     "documents": null,
+     "application": {
+      "status": 0,
+      "status_updated_at": "0001-01-01T00:00:00Z"
+     },
+     "is_urgently_needed": true,
+     "slug": "junior-it-130265",
+     "is_highlighted": false,
+     "is_bigbrand_highlighted": false,
+     "is_promoted": false,
+     "interview_type": "SCHEDULED_INTERVIEW",
+     "apply_quota": 0,
+     "is_requirement_match": false
+    }
+   ],
+   "pagination": {
+    "page": 0,
+    "page_size": 0,
+    "total_page": 0,
+    "total_data": 0
+   }
+  },
+  {
+   "sublist": [
+    {
+     "id": 1145513,
+     "job_category_id": 17,
+     "title": "IT Support",
+     "type_of_employments": [
+      {
+       "id": 1,
+       "name": "Full-Time"
+      }
+     ],
+     "type_of_shift": {
+      "id": 1,
+      "name": "Day"
+     },
+     "type_of_work": {
+      "id": 1,
+      "name": "Onsite"
+     },
+     "type_of_source": {
+      "id": 1,
+      "name": "Direct"
+     },
+     "min_salary": 4000000,
+     "max_salary": 5000000,
+     "min_education_level": {
+      "id": 4,
+      "name": "Diploma"
+     },
+     "status": 2,
+     "gender": {
+      "id": 1,
+      "name": "Pria"
+     },
+     "min_age": 23,
+     "max_age": 35,
+     "years_of_experience": 1,
+     "is_verified": true,
+     "total_vacancies": 1,
+     "created_at": "2026-10-15T08:12:32.662Z",
+     "updated_at": "2026-10-15T09:37:42.115Z",
+     "published_at": "2026-10-15T08:12:41.733Z",
+     "expired_at": "2026-11-14T17:00:00Z",
+     "job_application_status": 0,
+     "employer": {
+      "id": 24817,
+      "name": "PT Guccitex ",
+      "is_bigbrand": false,
+      "about": "We are a textile manufacturing company that provides knitting, dyeing, finishing, and printing process on a wide range of fabrics. Our company is located in Bandung, Indonesia, and have over 30 years of experience serving customers, both local and international. We sell our high-quality products to various brands coming from America, Europe, Japan, and South Korea.",
+      "logo_url": "https://cdn.pintarnya.com/images/employer/logo_gucci_gold_1678844356.png",
+      "contact": null,
+      "slug": ""
+     },
+     "province": {
+      "id": 12,
+      "name": "Jawa Barat"
+     },
+     "city": {
+      "id": 180,
+      "name": "Kota Cimahi"
+     },
+     "skills": [
+      {
+       "id": 1,
+       "name": "Kerjasama Tim"
+      },
+      {
+       "id": 1,
+       "name": "Detail dalam Bekerja"
+      },
+      {
+       "id": 1,
+       "name": "Komunikatif"
+      },
+      {
+       "id": 1,
+       "name": "Bekerja Dibawah Tekanan"
+      },
+      {
+       "id": 1,
+       "name": "Komunikasi Interpersonal"
+      }
+     ],
+     "documents": [
+      {
+       "id": 24,
+       "name": "Ijazah/Sertifikat Profesi"
+      },
+      {
+       "id": 12,
+       "name": "KTP"
+      }
+     ],
+     "application": {
+      "status": 0,
+      "status_updated_at": "0001-01-01T00:00:00Z"
+     },
+     "is_urgently_needed": true,
+     "slug": "it-support-1145513",
+     "is_highlighted": false,
+     "is_bigbrand_highlighted": false,
+     "is_promoted": false,
+     "interview_type": "SCHEDULED_INTERVIEW",
+     "apply_quota": 0,
+     "is_requirement_match": false
+    }
+   ],
+   "pagination": {
+    "page": 0,
+    "page_size": 0,
+    "total_page": 0,
+    "total_data": 0
+   }
+  },
+  {
+   "sublist": [
+    {
+     "id": 1008375,
+     "job_category_id": 17,
+     "title": "Teknisi Jaringan WIFI (IT Support Network) - Kota Medan",
+     "type_of_employments": [
+      {
+       "id": 1,
+       "name": "Full-Time"
+      }
+     ],
+     "type_of_shift": {
+      "id": 2,
+      "name": "Night"
+     },
+     "type_of_work": {
+      "id": 1,
+      "name": "Onsite"
+     },
+     "type_of_source": {
+      "id": 1,
+      "name": "Direct"
+     },
+     "min_salary": 4300000,
+     "max_salary": 4600000,
+     "min_education_level": {
+      "id": 3,
+      "name": "SMA/SMK"
+     },
+     "status": 2,
+     "gender": {
+      "id": 1,
+      "name": "Pria"
+     },
+     "min_age": 19,
+     "max_age": 31,
+     "years_of_experience": 1,
+     "is_verified": true,
+     "total_vacancies": 10,
+     "created_at": "2026-05-19T04:21:10.212Z",
+     "updated_at": "2026-10-15T05:46:49.898Z",
+     "published_at": "2026-10-15T05:46:49.898Z",
+     "expired_at": "2026-11-14T17:00:00Z",
+     "job_application_status": 0,
+     "employer": {
+      "id": 91049,
+      "name": "PT Duta Generasi Mandiri",
+      "is_bigbrand": false,
+      "about": "PT. Duta Generasi Mandiri atau DutaGM adalah perusahaan yang bergerak di bidang alih daya atau lebih dikenal dengan outsourcing, penyedia tenaga kerja dan promotion service. DutaGM didirikan tahun 2014 awal dan dikelola secara profesional oleh para pengurus yang berpengalaman di bidangnya.",
+      "logo_url": "https://cdn.pintarnya.com/images/employer/dgm_1770179874.jpg",
+      "contact": null,
+      "slug": ""
+     },
+     "province": {
+      "id": 2,
+      "name": "Sumatera Utara"
+     },
+     "city": {
+      "id": 45,
+      "name": "Kota Medan"
+     },
+     "skills": [
+      {
+       "id": 1,
+       "name": "Kerjasama Tim"
+      },
+      {
+       "id": 1,
+       "name": "Detail dalam Bekerja"
+      },
+      {
+       "id": 1,
+       "name": "Target Oriented"
+      },
+      {
+       "id": 1,
+       "name": "Komunikatif"
+      },
+      {
+       "id": 1,
+       "name": "Melayani Pelanggan"
+      },
+      {
+       "id": 1,
+       "name": "Komunikasi Interpersonal"
+      }
+     ],
+     "documents": [
+      {
+       "id": 24,
+       "name": "Ijazah/Sertifikat Profesi"
+      },
+      {
+       "id": 20,
+       "name": "CV"
+      },
+      {
+       "id": 27,
+       "name": "Transkrip Nilai"
+      }
+     ],
+     "application": {
+      "status": 0,
+      "status_updated_at": "0001-01-01T00:00:00Z"
+     },
+     "is_urgently_needed": true,
+     "slug": "teknisi-jaringan-1008375",
+     "is_highlighted": false,
+     "is_bigbrand_highlighted": false,
+     "is_promoted": false,
+     "interview_type": "SCHEDULED_INTERVIEW",
+     "apply_quota": 0,
+     "is_requirement_match": false
+    }
+   ],
+   "pagination": {
+    "page": 0,
+    "page_size": 0,
+    "total_page": 0,
+    "total_data": 0
+   }
+  },
+  {
+   "sublist": [
+    {
+     "id": 1029357,
+     "job_category_id": 17,
+     "title": "Teknisi Jaringan WIFI (IT Support Network) - Area Tebing Tinggi Sumatera Utara",
+     "type_of_employments": [
+      {
+       "id": 1,
+       "name": "Full-Time"
+      }
+     ],
+     "type_of_shift": {
+      "id": 2,
+      "name": "Night"
+     },
+     "type_of_work": {
+      "id": 1,
+      "name": "Onsite"
+     },
+     "type_of_source": {
+      "id": 1,
+      "name": "Direct"
+     },
+     "min_salary": 3700000,
+     "max_salary": 4000000,
+     "min_education_level": {
+      "id": 3,
+      "name": "SMA/SMK"
+     },
+     "status": 2,
+     "gender": {
+      "id": 1,
+      "name": "Pria"
+     },
+     "min_age": 19,
+     "max_age": 31,
+     "years_of_experience": 1,
+     "is_verified": true,
+     "total_vacancies": 10,
+     "created_at": "2026-06-10T09:10:23.11Z",
+     "updated_at": "2026-10-15T05:43:29.658Z",
+     "published_at": "2026-10-15T05:43:29.658Z",
+     "expired_at": "2026-11-14T17:00:00Z",
+     "job_application_status": 0,
+     "employer": {
+      "id": 91049,
+      "name": "PT Duta Generasi Mandiri",
+      "is_bigbrand": false,
+      "about": "PT. Duta Generasi Mandiri atau DutaGM adalah perusahaan yang bergerak di bidang alih daya atau lebih dikenal dengan outsourcing, penyedia tenaga kerja dan promotion service. DutaGM didirikan tahun 2014 awal dan dikelola secara profesional oleh para pengurus yang berpengalaman di bidangnya.",
+      "logo_url": "https://cdn.pintarnya.com/images/employer/dgm_1770179874.jpg",
+      "contact": null,
+      "slug": ""
+     },
+     "province": {
+      "id": 2,
+      "name": "Sumatera Utara"
+     },
+     "city": {
+      "id": 50,
+      "name": "Kota Tebing Tinggi"
+     },
+     "skills": [
+      {
+       "id": 1,
+       "name": "Kerjasama Tim"
+      },
+      {
+       "id": 1,
+       "name": "Detail dalam Bekerja"
+      },
+      {
+       "id": 1,
+       "name": "Target Oriented"
+      },
+      {
+       "id": 1,
+       "name": "Komunikatif"
+      },
+      {
+       "id": 1,
+       "name": "Melayani Pelanggan"
+      },
+      {
+       "id": 1,
+       "name": "Komunikasi Interpersonal"
+      }
+     ],
+     "documents": [
+      {
+       "id": 24,
+       "name": "Ijazah/Sertifikat Profesi"
+      },
+      {
+       "id": 20,
+       "name": "CV"
+      },
+      {
+       "id": 27,
+       "name": "Transkrip Nilai"
+      }
+     ],
+     "application": {
+      "status": 0,
+      "status_updated_at": "0001-01-01T00:00:00Z"
+     },
+     "is_urgently_needed": true,
+     "slug": "teknisi-jaringan-1029357",
+     "is_highlighted": false,
+     "is_bigbrand_highlighted": false,
+     "is_promoted": false,
+     "interview_type": "SCHEDULED_INTERVIEW",
+     "apply_quota": 0,
+     "is_requirement_match": false
+    }
+   ],
+   "pagination": {
+    "page": 0,
+    "page_size": 0,
+    "total_page": 0,
+    "total_data": 0
+   }
+  },
+  {
+   "sublist": [
+    {
+     "id": 1029410,
+     "job_category_id": 17,
+     "title": "Teknisi Jaringan WIFI (IT Support Network) - Serdang Bedagai Sumatera Utara",
+     "type_of_employments": [
+      {
+       "id": 1,
+       "name": "Full-Time"
+      }
+     ],
+     "type_of_shift": {
+      "id": 2,
+      "name": "Night"
+     },
+     "type_of_work": {
+      "id": 1,
+      "name": "Onsite"
+     },
+     "type_of_source": {
+      "id": 1,
+      "name": "Direct"
+     },
+     "min_salary": 3600000,
+     "max_salary": 3800000,
+     "min_education_level": {
+      "id": 3,
+      "name": "SMA/SMK"
+     },
+     "status": 2,
+     "gender": {
+      "id": 1,
+      "name": "Pria"
+     },
+     "min_age": 19,
+     "max_age": 31,
+     "years_of_experience": 1,
+     "is_verified": true,
+     "total_vacancies": 10,
+     "created_at": "2026-06-10T09:31:35.123Z",
+     "updated_at": "2026-10-15T05:43:00.517Z",
+     "published_at": "2026-10-15T05:43:00.517Z",
+     "expired_at": "2026-11-14T17:00:00Z",
+     "job_application_status": 0,
+     "employer": {
+      "id": 91049,
+      "name": "PT Duta Generasi Mandiri",
+      "is_bigbrand": false,
+      "about": "PT. Duta Generasi Mandiri atau DutaGM adalah perusahaan yang bergerak di bidang alih daya atau lebih dikenal dengan outsourcing, penyedia tenaga kerja dan promotion service. DutaGM didirikan tahun 2014 awal dan dikelola secara profesional oleh para pengurus yang berpengalaman di bidangnya.",
+      "logo_url": "https://cdn.pintarnya.com/images/employer/dgm_1770179874.jpg",
+      "contact": null,
+      "slug": ""
+     },
+     "province": {
+      "id": 2,
+      "name": "Sumatera Utara"
+     },
+     "city": {
+      "id": 41,
+      "name": "Kab. Serdang Bedagai"
+     },
+     "skills": [
+      {
+       "id": 1,
+       "name": "Kerjasama Tim"
+      },
+      {
+       "id": 1,
+       "name": "Detail dalam Bekerja"
+      },
+      {
+       "id": 1,
+       "name": "Target Oriented"
+      },
+      {
+       "id": 1,
+       "name": "Komunikatif"
+      },
+      {
+       "id": 1,
+       "name": "Melayani Pelanggan"
+      },
+      {
+       "id": 1,
+       "name": "Komunikasi Interpersonal"
+      }
+     ],
+     "documents": [
+      {
+       "id": 24,
+       "name": "Ijazah/Sertifikat Profesi"
+      },
+      {
+       "id": 20,
+       "name": "CV"
+      },
+      {
+       "id": 27,
+       "name": "Transkrip Nilai"
+      }
+     ],
+     "application": {
+      "status": 0,
+      "status_updated_at": "0001-01-01T00:00:00Z"
+     },
+     "is_urgently_needed": true,
+     "slug": "teknisi-jaringan-1029410",
+     "is_highlighted": false,
+     "is_bigbrand_highlighted": false,
+     "is_promoted": false,
+     "interview_type": "SCHEDULED_INTERVIEW",
+     "apply_quota": 0,
+     "is_requirement_match": false
+    }
+   ],
+   "pagination": {
+    "page": 0,
+    "page_size": 0,
+    "total_page": 0,
+    "total_data": 0
+   }
+  },
+  {
+   "sublist": [
+    {
+     "id": 1033800,
+     "job_category_id": 17,
+     "title": "Teknisi Jaringan WIFI (IT Support Network) - Kota Bitung Sulawesi Utara",
+     "type_of_employments": [
+      {
+       "id": 1,
+       "name": "Full-Time"
+      }
+     ],
+     "type_of_shift": {
+      "id": 2,
+      "name": "Night"
+     },
+     "type_of_work": {
+      "id": 1,
+      "name": "Onsite"
+     },
+     "type_of_source": {
+      "id": 1,
+      "name": "Direct"
+     },
+     "min_salary": 4000000,
+     "max_salary": 4300000,
+     "min_education_level": {
+      "id": 3,
+      "name": "SMA/SMK"
+     },
+     "status": 2,
+     "gender": {
+      "id": 1,
+      "name": "Pria"
+     },
+     "min_age": 19,
+     "max_age": 31,
+     "years_of_experience": 1,
+     "is_verified": true,
+     "total_vacancies": 10,
+     "created_at": "2026-06-15T07:09:56.379Z",
+     "updated_at": "2026-10-15T05:42:44.832Z",
+     "published_at": "2026-10-15T05:42:44.832Z",
+     "expired_at": "2026-11-14T17:00:00Z",
+     "job_application_status": 0,
+     "employer": {
+      "id": 91049,
+      "name": "PT Duta Generasi Mandiri",
+      "is_bigbrand": false,
+      "about": "PT. Duta Generasi Mandiri atau DutaGM adalah perusahaan yang bergerak di bidang alih daya atau lebih dikenal dengan outsourcing, penyedia tenaga kerja dan promotion service. DutaGM didirikan tahun 2014 awal dan dikelola secara profesional oleh para pengurus yang berpengalaman di bidangnya.",
+      "logo_url": "https://cdn.pintarnya.com/images/employer/dgm_1770179874.jpg",
+      "contact": null,
+      "slug": ""
+     },
+     "province": {
+      "id": 24,
+      "name": "Sulawesi Utara"
+     },
+     "city": {
+      "id": 374,
+      "name": "Kota Bitung"
+     },
+     "skills": [
+      {
+       "id": 1,
+       "name": "Kerjasama Tim"
+      },
+      {
+       "id": 1,
+       "name": "Detail dalam Bekerja"
+      },
+      {
+       "id": 1,
+       "name": "Target Oriented"
+      },
+      {
+       "id": 1,
+       "name": "Komunikatif"
+      },
+      {
+       "id": 1,
+       "name": "Melayani Pelanggan"
+      },
+      {
+       "id": 1,
+       "name": "Komunikasi Interpersonal"
+      }
+     ],
+     "documents": [
+      {
+       "id": 24,
+       "name": "Ijazah/Sertifikat Profesi"
+      },
+      {
+       "id": 20,
+       "name": "CV"
+      },
+      {
+       "id": 27,
+       "name": "Transkrip Nilai"
+      }
+     ],
+     "application": {
+      "status": 0,
+      "status_updated_at": "0001-01-01T00:00:00Z"
+     },
+     "is_urgently_needed": true,
+     "slug": "teknisi-jaringan-1033800",
+     "is_highlighted": false,
+     "is_bigbrand_highlighted": false,
+     "is_promoted": false,
+     "interview_type": "SCHEDULED_INTERVIEW",
+     "apply_quota": 0,
+     "is_requirement_match": false
+    }
+   ],
+   "pagination": {
+    "page": 0,
+    "page_size": 0,
+    "total_page": 0,
+    "total_data": 0
+   }
+  },
+  {
+   "sublist": [
+    {
+     "id": 1037521,
+     "job_category_id": 17,
+     "title": "Teknisi Jaringan WIFI (IT Support Network) - Area Kubu Raya",
+     "type_of_employments": [
+      {
+       "id": 1,
+       "name": "Full-Time"
+      }
+     ],
+     "type_of_shift": {
+      "id": 2,
+      "name": "Night"
+     },
+     "type_of_work": {
+      "id": 1,
+      "name": "Onsite"
+     },
+     "type_of_source": {
+      "id": 1,
+      "name": "Direct"
+     },
+     "min_salary": 3100000,
+     "max_salary": 3500000,
+     "min_education_level": {
+      "id": 3,
+      "name": "SMA/SMK"
+     },
+     "status": 2,
+     "gender": {
+      "id": 1,
+      "name": "Pria"
+     },
+     "min_age": 19,
+     "max_age": 31,
+     "years_of_experience": 1,
+     "is_verified": true,
+     "total_vacancies": 10,
+     "created_at": "2026-06-19T03:23:34.784Z",
+     "updated_at": "2026-10-13T03:44:10.712Z",
+     "published_at": "2026-10-13T03:44:10.712Z",
+     "expired_at": "2026-11-12T17:00:00Z",
+     "job_application_status": 0,
+     "employer": {
+      "id": 91049,
+      "name": "PT Duta Generasi Mandiri",
+      "is_bigbrand": false,
+      "about": "PT. Duta Generasi Mandiri atau DutaGM adalah perusahaan yang bergerak di bidang alih daya atau lebih dikenal dengan outsourcing, penyedia tenaga kerja dan promotion service. DutaGM didirikan tahun 2014 awal dan dikelola secara profesional oleh para pengurus yang berpengalaman di bidangnya.",
+      "logo_url": "https://cdn.pintarnya.com/images/employer/dgm_1770179874.jpg",
+      "contact": null,
+      "slug": ""
+     },
+     "province": {
+      "id": 20,
+      "name": "Kalimantan Barat"
+     },
+     "city": {
+      "id": 319,
+      "name": "Kab. Kubu Raya"
+     },
+     "skills": [
+      {
+       "id": 1,
+       "name": "Kerjasama Tim"
+      },
+      {
+       "id": 1,
+       "name": "Detail dalam Bekerja"
+      },
+      {
+       "id": 1,
+       "name": "Target Oriented"
+      },
+      {
+       "id": 1,
+       "name": "Komunikatif"
+      },
+      {
+       "id": 1,
+       "name": "Melayani Pelanggan"
+      },
+      {
+       "id": 1,
+       "name": "Komunikasi Interpersonal"
+      }
+     ],
+     "documents": [
+      {
+       "id": 24,
+       "name": "Ijazah/Sertifikat Profesi"
+      },
+      {
+       "id": 20,
+       "name": "CV"
+      },
+      {
+       "id": 27,
+       "name": "Transkrip Nilai"
+      }
+     ],
+     "application": {
+      "status": 0,
+      "status_updated_at": "0001-01-01T00:00:00Z"
+     },
+     "is_urgently_needed": true,
+     "slug": "teknisi-jaringan-1037521",
+     "is_highlighted": false,
+     "is_bigbrand_highlighted": false,
+     "is_promoted": false,
+     "interview_type": "SCHEDULED_INTERVIEW",
+     "apply_quota": 0,
+     "is_requirement_match": false
+    }
+   ],
+   "pagination": {
+    "page": 0,
+    "page_size": 0,
+    "total_page": 0,
+    "total_data": 0
+   }
+  },
+  {
+   "sublist": [
+    {
+     "id": 1037524,
+     "job_category_id": 17,
+     "title": "Teknisi Jaringan WIFI (IT Support Network) - Area Singkawang",
+     "type_of_employments": [
+      {
+       "id": 1,
+       "name": "Full-Time"
+      }
+     ],
+     "type_of_shift": {
+      "id": 2,
+      "name": "Night"
+     },
+     "type_of_work": {
+      "id": 1,
+      "name": "Onsite"
+     },
+     "type_of_source": {
+      "id": 1,
+      "name": "Direct"
+     },
+     "min_salary": 3300000,
+     "max_salary": 3600000,
+     "min_education_level": {
+      "id": 3,
+      "name": "SMA/SMK"
+     },
+     "status": 2,
+     "gender": {
+      "id": 1,
+      "name": "Pria"
+     },
+     "min_age": 19,
+     "max_age": 31,
+     "years_of_experience": 1,
+     "is_verified": true,
+     "total_vacancies": 10,
+     "created_at": "2026-06-19T03:23:45.529Z",
+     "updated_at": "2026-10-13T03:43:37.196Z",
+     "published_at": "2026-10-13T03:43:37.196Z",
+     "expired_at": "2026-11-12T17:00:00Z",
+     "job_application_status": 0,
+     "employer": {
+      "id": 91049,
+      "name": "PT Duta Generasi Mandiri",
+      "is_bigbrand": false,
+      "about": "PT. Duta Generasi Mandiri atau DutaGM adalah perusahaan yang bergerak di bidang alih daya atau lebih dikenal dengan outsourcing, penyedia tenaga kerja dan promotion service. DutaGM didirikan tahun 2014 awal dan dikelola secara profesional oleh para pengurus yang berpengalaman di bidangnya.",
+      "logo_url": "https://cdn.pintarnya.com/images/employer/dgm_1770179874.jpg",
+      "contact": null,
+      "slug": ""
+     },
+     "province": {
+      "id": 20,
+      "name": "Kalimantan Barat"
+     },
+     "city": {
+      "id": 321,
+      "name": "Kota Singkawang"
+     },
+     "skills": [
+      {
+       "id": 1,
+       "name": "Kerjasama Tim"
+      },
+      {
+       "id": 1,
+       "name": "Detail dalam Bekerja"
+      },
+      {
+       "id": 1,
+       "name": "Target Oriented"
+      },
+      {
+       "id": 1,
+       "name": "Komunikatif"
+      },
+      {
+       "id": 1,
+       "name": "Melayani Pelanggan"
+      },
+      {
+       "id": 1,
+       "name": "Komunikasi Interpersonal"
+      }
+     ],
+     "documents": [
+      {
+       "id": 24,
+       "name": "Ijazah/Sertifikat Profesi"
+      },
+      {
+       "id": 20,
+       "name": "CV"
+      },
+      {
+       "id": 27,
+       "name": "Transkrip Nilai"
+      }
+     ],
+     "application": {
+      "status": 0,
+      "status_updated_at": "0001-01-01T00:00:00Z"
+     },
+     "is_urgently_needed": true,
+     "slug": "teknisi-jaringan-1037524",
+     "is_highlighted": false,
+     "is_bigbrand_highlighted": false,
+     "is_promoted": false,
+     "interview_type": "SCHEDULED_INTERVIEW",
+     "apply_quota": 0,
+     "is_requirement_match": false
+    }
+   ],
+   "pagination": {
+    "page": 0,
+    "page_size": 0,
+    "total_page": 0,
+    "total_data": 0
+   }
+  },
+  {
+   "sublist": [
+    {
+     "id": 1037564,
+     "job_category_id": 17,
+     "title": "Teknisi Jaringan WIFI (IT Support Network) - Area Pontianak Kalimantan Barat",
+     "type_of_employments": [
+      {
+       "id": 1,
+       "name": "Full-Time"
+      }
+     ],
+     "type_of_shift": {
+      "id": 2,
+      "name": "Night"
+     },
+     "type_of_work": {
+      "id": 1,
+      "name": "Onsite"
+     },
+     "type_of_source": {
+      "id": 1,
+      "name": "Direct"
+     },
+     "min_salary": 3200000,
+     "max_salary": 3600000,
+     "min_education_level": {
+      "id": 3,
+      "name": "SMA/SMK"
+     },
+     "status": 2,
+     "gender": {
+      "id": 1,
+      "name": "Pria"
+     },
+     "min_age": 19,
+     "max_age": 31,
+     "years_of_experience": 1,
+     "is_verified": true,
+     "total_vacancies": 10,
+     "created_at": "2026-06-19T03:32:25.028Z",
+     "updated_at": "2026-10-13T03:43:17.114Z",
+     "published_at": "2026-10-13T03:43:17.114Z",
+     "expired_at": "2026-11-12T17:00:00Z",
+     "job_application_status": 0,
+     "employer": {
+      "id": 91049,
+      "name": "PT Duta Generasi Mandiri",
+      "is_bigbrand": false,
+      "about": "PT. Duta Generasi Mandiri atau DutaGM adalah perusahaan yang bergerak di bidang alih daya atau lebih dikenal dengan outsourcing, penyedia tenaga kerja dan promotion service. DutaGM didirikan tahun 2014 awal dan dikelola secara profesional oleh para pengurus yang berpengalaman di bidangnya.",
+      "logo_url": "https://cdn.pintarnya.com/images/employer/dgm_1770179874.jpg",
+      "contact": null,
+      "slug": ""
+     },
+     "province": {
+      "id": 20,
+      "name": "Kalimantan Barat"
+     },
+     "city": {
+      "id": 320,
+      "name": "Kota Pontianak"
+     },
+     "skills": [
+      {
+       "id": 1,
+       "name": "Kerjasama Tim"
+      },
+      {
+       "id": 1,
+       "name": "Detail dalam Bekerja"
+      },
+      {
+       "id": 1,
+       "name": "Target Oriented"
+      },
+      {
+       "id": 1,
+       "name": "Komunikatif"
+      },
+      {
+       "id": 1,
+       "name": "Melayani Pelanggan"
+      },
+      {
+       "id": 1,
+       "name": "Komunikasi Interpersonal"
+      }
+     ],
+     "documents": [
+      {
+       "id": 24,
+       "name": "Ijazah/Sertifikat Profesi"
+      },
+      {
+       "id": 20,
+       "name": "CV"
+      },
+      {
+       "id": 27,
+       "name": "Transkrip Nilai"
+      }
+     ],
+     "application": {
+      "status": 0,
+      "status_updated_at": "0001-01-01T00:00:00Z"
+     },
+     "is_urgently_needed": true,
+     "slug": "teknisi-jaringan-1037564",
+     "is_highlighted": false,
+     "is_bigbrand_highlighted": false,
+     "is_promoted": false,
+     "interview_type": "SCHEDULED_INTERVIEW",
+     "apply_quota": 0,
+     "is_requirement_match": false
+    }
+   ],
+   "pagination": {
+    "page": 0,
+    "page_size": 0,
+    "total_page": 0,
+    "total_data": 0
+   }
+  },
+  {
+   "sublist": [
+    {
+     "id": 1036558,
+     "job_category_id": 17,
+     "title": "Teknisi Jaringan WIFI (IT Support Network) - Kota Balikpapan",
+     "type_of_employments": [
+      {
+       "id": 1,
+       "name": "Full-Time"
+      }
+     ],
+     "type_of_shift": {
+      "id": 2,
+      "name": "Night"
+     },
+     "type_of_work": {
+      "id": 1,
+      "name": "Onsite"
+     },
+     "type_of_source": {
+      "id": 1,
+      "name": "Direct"
+     },
+     "min_salary": 3700000,
+     "max_salary": 4300000,
+     "min_education_level": {
+      "id": 3,
+      "name": "SMA/SMK"
+     },
+     "status": 2,
+     "gender": {
+      "id": 1,
+      "name": "Pria"
+     },
+     "min_age": 18,
+     "max_age": 31,
+     "years_of_experience": 1,
+     "is_verified": true,
+     "total_vacancies": 10,
+     "created_at": "2026-06-18T06:48:02.924Z",
+     "updated_at": "2026-10-08T03:05:19.759Z",
+     "published_at": "2026-10-08T03:05:19.759Z",
+     "expired_at": "2026-11-06T17:00:00Z",
+     "job_application_status": 0,
+     "employer": {
+      "id": 91049,
+      "name": "PT Duta Generasi Mandiri",
+      "is_bigbrand": false,
+      "about": "PT. Duta Generasi Mandiri atau DutaGM adalah perusahaan yang bergerak di bidang alih daya atau lebih dikenal dengan outsourcing, penyedia tenaga kerja dan promotion service. DutaGM didirikan tahun 2014 awal dan dikelola secara profesional oleh para pengurus yang berpengalaman di bidangnya.",
+      "logo_url": "https://cdn.pintarnya.com/images/employer/dgm_1770179874.jpg",
+      "contact": null,
+      "slug": ""
+     },
+     "province": {
+      "id": 23,
+      "name": "Kalimantan Timur"
+     },
+     "city": {
+      "id": 359,
+      "name": "Kota Balikpapan"
+     },
+     "skills": [
+      {
+       "id": 1,
+       "name": "Kerjasama Tim"
+      },
+      {
+       "id": 1,
+       "name": "Detail dalam Bekerja"
+      },
+      {
+       "id": 1,
+       "name": "Target Oriented"
+      },
+      {
+       "id": 1,
+       "name": "Komunikatif"
+      },
+      {
+       "id": 1,
+       "name": "Melayani Pelanggan"
+      },
+      {
+       "id": 1,
+       "name": "Komunikasi Interpersonal"
+      }
+     ],
+     "documents": [
+      {
+       "id": 24,
+       "name": "Ijazah/Sertifikat Profesi"
+      },
+      {
+       "id": 20,
+       "name": "CV"
+      },
+      {
+       "id": 27,
+       "name": "Transkrip Nilai"
+      }
+     ],
+     "application": {
+      "status": 0,
+      "status_updated_at": "0001-01-01T00:00:00Z"
+     },
+     "is_urgently_needed": true,
+     "slug": "teknisi-jaringan-1036558",
+     "is_highlighted": false,
+     "is_bigbrand_highlighted": false,
+     "is_promoted": false,
+     "interview_type": "SCHEDULED_INTERVIEW",
+     "apply_quota": 0,
+     "is_requirement_match": false
+    }
+   ],
+   "pagination": {
+    "page": 0,
+    "page_size": 0,
+    "total_page": 0,
+    "total_data": 0
+   }
+  }
+ ]
+}

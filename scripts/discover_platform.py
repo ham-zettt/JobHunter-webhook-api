@@ -6,6 +6,12 @@ Jalankan headed bila memungkinkan agar halaman tampil seperti pengguna biasa.
 
     uv run python scripts/discover_platform.py jobstreet \
         --url "https://id.jobstreet.com/id/software-engineer-jobs" --headed
+
+Platform berlogin (LinkedIn): tambahkan `--storage-state` dan `--interactive`
+(tekan Enter setelah halaman siap/panel diperluas).
+
+    uv run python scripts/discover_platform.py linkedin --headed --interactive \
+        --storage-state data/secrets/linkedin_state.json --url "<url>"
 """
 
 from __future__ import annotations
@@ -59,7 +65,14 @@ async def _capture(response: Response, outdir: Path, saved: list[str]) -> None:
     print(f"  JSON {response.status} {url} -> {name}")
 
 
-async def discover(platform: str, url: str, headed: bool, wait_ms: int) -> None:
+async def discover(
+    platform: str,
+    url: str,
+    headed: bool,
+    wait_ms: int,
+    storage_state: str | None,
+    interactive: bool,
+) -> None:
     outdir = Path("data/discovery") / platform
     outdir.mkdir(parents=True, exist_ok=True)
     stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -71,11 +84,14 @@ async def discover(platform: str, url: str, headed: bool, wait_ms: int) -> None:
             viewport={"width": 1366, "height": 768},
             locale="id-ID",
             timezone_id="Asia/Jakarta",
+            storage_state=storage_state,
         )
         page = await context.new_page()
         page.on("response", lambda r: asyncio.create_task(_capture(r, outdir, saved)))
         response = await page.goto(url, wait_until="domcontentloaded", timeout=45_000)
         await page.wait_for_timeout(wait_ms)
+        if interactive:
+            await asyncio.to_thread(input, "Klik kartu/perluasan bila perlu, lalu tekan Enter... ")
 
         html_path = outdir / f"html_{stamp}.html"
         html_path.write_text(await page.content(), encoding="utf-8")
@@ -119,8 +135,19 @@ def main() -> None:
     parser.add_argument("--url", required=True)
     parser.add_argument("--headed", action="store_true")
     parser.add_argument("--wait-ms", type=int, default=6000)
+    parser.add_argument("--storage-state", default=None)
+    parser.add_argument("--interactive", action="store_true")
     args = parser.parse_args()
-    asyncio.run(discover(args.platform, args.url, args.headed, args.wait_ms))
+    asyncio.run(
+        discover(
+            args.platform,
+            args.url,
+            args.headed,
+            args.wait_ms,
+            args.storage_state,
+            args.interactive,
+        )
+    )
 
 
 if __name__ == "__main__":

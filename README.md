@@ -97,9 +97,10 @@ uv run python scripts/linkedin_login.py
 # state tersimpan di data/secrets/linkedin_state.json (permission 600)
 ```
 
-Gunakan akun khusus/cadangan, bukan akun utama. Jangan commit file state. Jika sesi
-kedaluwarsa, `GET /api/v1/platforms` menampilkan `auth_state` `missing`/`expired` dan
-sub-run LinkedIn berstatus `auth_required`.
+Gunakan akun khusus/cadangan, bukan akun utama. Jangan commit file state, dan jangan
+menjalankan banyak instance bersamaan. Skrip memverifikasi sesi mencapai `/jobs/`
+sebelum menimpa state lama. Jika sesi kedaluwarsa, `GET /api/v1/platforms` menampilkan
+`auth_state` `missing`/`expired` dan sub-run LinkedIn berstatus `auth_required`.
 
 ## Konfigurasi
 
