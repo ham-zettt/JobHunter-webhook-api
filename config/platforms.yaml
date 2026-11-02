@@ -1,0 +1,58 @@
+platforms:
+  jobstreet:
+    enabled: true
+    concurrency: 2
+    delay_ms: [1500, 4000]
+    max_pages_per_term: 8
+    max_details_per_run: 300
+    max_duration_sec: 1500
+    search_terms_limit: 10
+  glints:
+    enabled: true
+    concurrency: 2
+    delay_ms: [1500, 4000]
+    max_pages_per_term: 6
+    max_details_per_run: 300
+    max_duration_sec: 1500
+    search_terms_limit: 10
+  kalibrr:
+    enabled: true
+    concurrency: 2
+    delay_ms: [1500, 4000]
+    max_pages_per_term: 6
+    max_details_per_run: 300
+    max_duration_sec: 1500
+    search_terms_limit: 10
+  dealls:
+    enabled: true
+    concurrency: 2
+    delay_ms: [1500, 4000]
+    max_pages_per_term: 6
+    max_details_per_run: 300
+    max_duration_sec: 1500
+    search_terms_limit: 10
+  kitalulus:
+    enabled: true
+    concurrency: 1
+    delay_ms: [2000, 5000]
+    max_pages_per_term: 6
+    max_details_per_run: 200
+    max_duration_sec: 1500
+    search_terms_limit: 10
+  linkedin:
+    enabled: true
+    concurrency: 1
+    delay_ms: [4000, 9000]
+    max_pages_per_term: 4
+    max_details_per_run: 60
+    max_duration_sec: 1500
+    search_terms_limit: 6
+    requires_auth: true
+  pintarnya:
+    enabled: true
+    concurrency: 1
+    delay_ms: [2000, 5000]
+    max_pages_per_term: 5
+    max_details_per_run: 150
+    max_duration_sec: 1200
+    search_terms_limit: 10

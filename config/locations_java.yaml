@@ -1,0 +1,159 @@
+provinces:
+  - name: DKI Jakarta
+    is_java: 1
+    aliases: [dki jakarta, jakarta]
+    regions: [jabodetabek]
+    cities:
+      - {name: Jakarta Pusat, aliases: [central jakarta]}
+      - {name: Jakarta Utara, aliases: [north jakarta]}
+      - {name: Jakarta Barat, aliases: [west jakarta]}
+      - {name: Jakarta Selatan, aliases: [south jakarta, jakarta raya, greater jakarta]}
+      - {name: Jakarta Timur, aliases: [east jakarta]}
+      - {name: Kepulauan Seribu, aliases: [seribu islands]}
+
+  - name: Banten
+    is_java: 1
+    aliases: [banten]
+    cities:
+      - {name: Tangerang, aliases: [bsd, serpong, alam sutera, gading serpong]}
+      - {name: Tangerang Selatan, aliases: [tangsel, south tangerang]}
+      - {name: Serang, aliases: []}
+      - {name: Cilegon, aliases: []}
+      - {name: Lebak, aliases: [rangkasbitung]}
+      - {name: Pandeglang, aliases: []}
+
+  - name: Jawa Barat
+    is_java: 1
+    aliases: [jawa barat, jabar, west java]
+    cities:
+      - {name: Bandung, aliases: []}
+      - {name: Bandung Barat, aliases: [padalarang]}
+      - {name: Cimahi, aliases: []}
+      - {name: Bekasi, aliases: [cikarang]}
+      - {name: Depok, aliases: []}
+      - {name: Bogor, aliases: [cibubur]}
+      - {name: Sukabumi, aliases: []}
+      - {name: Cirebon, aliases: []}
+      - {name: Karawang, aliases: []}
+      - {name: Purwakarta, aliases: []}
+      - {name: Subang, aliases: []}
+      - {name: Garut, aliases: []}
+      - {name: Tasikmalaya, aliases: []}
+      - {name: Cianjur, aliases: []}
+      - {name: Sumedang, aliases: []}
+      - {name: Indramayu, aliases: []}
+      - {name: Kuningan, aliases: []}
+      - {name: Majalengka, aliases: []}
+      - {name: Banjar, aliases: []}
+      - {name: Pangandaran, aliases: []}
+
+  - name: Jawa Tengah
+    is_java: 1
+    aliases: [jawa tengah, jateng, central java]
+    cities:
+      - {name: Semarang, aliases: []}
+      - {name: Surakarta, aliases: [solo]}
+      - {name: Salatiga, aliases: []}
+      - {name: Magelang, aliases: []}
+      - {name: Pekalongan, aliases: []}
+      - {name: Tegal, aliases: []}
+      - {name: Kudus, aliases: []}
+      - {name: Jepara, aliases: []}
+      - {name: Demak, aliases: []}
+      - {name: Klaten, aliases: []}
+      - {name: Boyolali, aliases: []}
+      - {name: Sukoharjo, aliases: []}
+      - {name: Karanganyar, aliases: []}
+      - {name: Banyumas, aliases: [purwokerto]}
+      - {name: Cilacap, aliases: []}
+      - {name: Kendal, aliases: []}
+      - {name: Batang, aliases: []}
+      - {name: Pati, aliases: []}
+
+  - name: DI Yogyakarta
+    is_java: 1
+    aliases: [di yogyakarta, diy, daerah istimewa yogyakarta, special region of yogyakarta, yogyakarta]
+    cities:
+      - {name: Yogyakarta, aliases: [jogja, yogya]}
+      - {name: Sleman, aliases: []}
+      - {name: Bantul, aliases: []}
+      - {name: Kulon Progo, aliases: []}
+      - {name: Gunungkidul, aliases: []}
+
+  - name: Jawa Timur
+    is_java: 1
+    aliases: [jawa timur, jatim, east java]
+    cities:
+      - {name: Surabaya, aliases: []}
+      - {name: Sidoarjo, aliases: []}
+      - {name: Gresik, aliases: []}
+      - {name: Malang, aliases: []}
+      - {name: Batu, aliases: []}
+      - {name: Kediri, aliases: []}
+      - {name: Mojokerto, aliases: []}
+      - {name: Pasuruan, aliases: []}
+      - {name: Probolinggo, aliases: []}
+      - {name: Jember, aliases: []}
+      - {name: Banyuwangi, aliases: []}
+      - {name: Madiun, aliases: []}
+      - {name: Blitar, aliases: []}
+      - {name: Lamongan, aliases: []}
+      - {name: Jombang, aliases: []}
+      - {name: Tuban, aliases: []}
+
+outside_java_provinces:
+  - Aceh
+  - Sumatera Utara
+  - Sumatera Barat
+  - Riau
+  - Kepulauan Riau
+  - Jambi
+  - Bengkulu
+  - Sumatera Selatan
+  - Kepulauan Bangka Belitung
+  - Lampung
+  - Bali
+  - Nusa Tenggara Barat
+  - Nusa Tenggara Timur
+  - Kalimantan Barat
+  - Kalimantan Tengah
+  - Kalimantan Selatan
+  - Kalimantan Timur
+  - Kalimantan Utara
+  - Sulawesi Utara
+  - Gorontalo
+  - Sulawesi Tengah
+  - Sulawesi Barat
+  - Sulawesi Selatan
+  - Sulawesi Tenggara
+  - Maluku
+  - Maluku Utara
+  - Papua
+  - Papua Barat
+  - Papua Barat Daya
+  - Papua Tengah
+  - Papua Pegunungan
+  - Papua Selatan
+
+outside_java_cities:
+  - {name: Medan, province: Sumatera Utara}
+  - {name: Padang, province: Sumatera Barat}
+  - {name: Pekanbaru, province: Riau}
+  - {name: Batam, province: Kepulauan Riau}
+  - {name: Palembang, province: Sumatera Selatan}
+  - {name: Bandar Lampung, province: Lampung}
+  - {name: Denpasar, province: Bali}
+  - {name: Mataram, province: Nusa Tenggara Barat}
+  - {name: Kupang, province: Nusa Tenggara Timur}
+  - {name: Pontianak, province: Kalimantan Barat}
+  - {name: Banjarmasin, province: Kalimantan Selatan}
+  - {name: Balikpapan, province: Kalimantan Timur}
+  - {name: Samarinda, province: Kalimantan Timur}
+  - {name: Makassar, province: Sulawesi Selatan}
+  - {name: Manado, province: Sulawesi Utara}
+  - {name: Ambon, province: Maluku}
+  - {name: Jayapura, province: Papua}
+
+country_id: [indonesia, id, republik indonesia]
+country_foreign: [singapore, malaysia, thailand, vietnam, philippines, india, japan, korea, china, australia, united states, usa, uk, worldwide, anywhere]
+remote_words: [remote, work from home, wfh, anywhere in indonesia, seluruh indonesia]
