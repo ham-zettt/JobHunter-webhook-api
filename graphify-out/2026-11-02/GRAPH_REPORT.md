@@ -1,27 +1,27 @@
 # Graph Report - job-hunt  (2026-11-02)
 
 ## Corpus Check
-- 111 files · ~356,905 words
+- 112 files · ~357,213 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 6 file(s) not represented in the graph (top: (none) 2, .example 1, .ini 1)
 
 ## Summary
-- 932 nodes · 2330 edges · 70 communities (42 shown, 28 thin omitted)
-- Extraction: 94% EXTRACTED · 6% INFERRED · 0% AMBIGUOUS · INFERRED: 141 edges (avg confidence: 0.89)
+- 938 nodes · 2338 edges · 80 communities (50 shown, 30 thin omitted)
+- Extraction: 94% EXTRACTED · 6% INFERRED · 0% AMBIGUOUS · INFERRED: 144 edges (avg confidence: 0.89)
 - Token cost: 0 input · 0 output
 
 ## Community Hubs (Navigation)
 - normalizer.py
 - ._run_platform
 - job_repo.py
-- get_settings
+- keyword_repo.py
 - SCRAPER_SPEC — Mekanisme Scraping per Platform
-- config.py
+- env.py
 - main.py
 - deduper.py
 - scrape_service.py
 - errors.py
-- pipeline.py
+- orchestrator.py
 - keywords.py
 - test_scrape_jobs.py
 - Glints — catatan discovery & implementasi
@@ -30,6 +30,7 @@
 - health.py
 - locations_java.yaml
 - PRD — Job Scraper API
+- GlintsScraper
 - Orchestrator (single-run execution loop)
 - BaseScraper (abstract scraper contract)
 - keywords.yaml
@@ -46,6 +47,7 @@
 - Glosarium (PRD §15)
 - linkedin_login.py
 - Kontrak Output Data Lowongan
+- jobstreet.py
 - platforms
 - include
 - Penyaringan Lowongan (rule-based)
@@ -57,9 +59,17 @@
 - BR-02 (aturan lokasi onsite)
 - job-scraper
 - glints.py
+- Base
+- RawJob
 - BrowserPool
-- orchestrator.py
+- loader.py
+- platform_config
+- routers/scrape.py
 - opencode.json
+- registry.py
+- get_run
+- logging.py
+- Settings
 
 ## God Nodes (most connected - your core abstractions)
 1. `get_settings()` - 39 edges
@@ -67,7 +77,7 @@
 3. `utc_iso()` - 28 edges
 4. `RawJob` - 28 edges
 5. `RawListing` - 27 edges
-6. `SiteChangedError` - 26 edges
+6. `SiteChangedError` - 27 edges
 7. `parse_salary()` - 24 edges
 8. `Orchestrator` - 23 edges
 9. `Deduper` - 19 edges
@@ -78,12 +88,12 @@
   docs/platform_notes/glints.md → app/scrapers/exceptions.py
 - `Batas kesopanan yang dipakai` --references--> `BlockedError`  [INFERRED]
   docs/platform_notes/jobstreet.md → app/scrapers/exceptions.py
+- `4. Setengah jalan` --references--> `DiscoveryPendingScraper`  [INFERRED]
+  plan/HANDOFF.md → app/scrapers/platforms/_placeholder.py
 - `Anti-bot / akses` --references--> `BlockedError`  [INFERRED]
   docs/platform_notes/jobstreet.md → app/scrapers/exceptions.py
 - `Risiko` --references--> `SiteChangedError`  [INFERRED]
   docs/platform_notes/glints.md → app/scrapers/exceptions.py
-- `Risiko` --references--> `location()`  [INFERRED]
-  docs/platform_notes/glints.md → tests/unit/test_pipeline.py
 
 ## Import Cycles
 - None detected.
@@ -103,58 +113,58 @@
 - **Platform scrapers implementing BaseScraper** — architecture_basescraper, architecture_jobstreet, architecture_glints, architecture_kalibrr, architecture_dealls, architecture_kitalulus, architecture_linkedin, architecture_pintarnya [EXTRACTED 1.00]
 - **Kontrak Data Mentah dan Normalisasi** — scraper_spec_rawlisting, scraper_spec_rawjob, scraper_spec_salaryinfo, scraper_spec_parse_listing_payload, scraper_spec_parse_detail_payload, app_pipeline_normalizer [INFERRED 0.75]
 
-## Communities (70 total, 28 thin omitted)
+## Communities (80 total, 30 thin omitted)
 
 ### Community 0 - "normalizer.py"
-Cohesion: 0.06
-Nodes (59): Classification, Classifier, KeywordSpec, _pattern(), canonical_url(), detect_employment_type(), detect_work_mode(), Normalizer (+51 more)
+Cohesion: 0.07
+Nodes (51): age_days(), now_utc(), parse_posted(), ParsedDate, to_wib(), wib_date(), wib_today(), canonical_url() (+43 more)
 
 ### Community 1 - "._run_platform"
 Cohesion: 0.14
-Nodes (23): utc_iso(), ScrapeRun, ScrapeRunSource, add_error(), cancel_run(), create_run(), _duration(), finish_run() (+15 more)
+Nodes (22): utc_iso(), ScrapeRun, ScrapeRunSource, add_error(), cancel_run(), create_run(), _duration(), finish_run() (+14 more)
 
 ### Community 2 - "job_repo.py"
-Cohesion: 0.10
+Cohesion: 0.09
 Nodes (43): export_jobs(), _filters(), get_job(), list_jobs(), patch_job(), NotFoundError, ValidationAppError, Job (+35 more)
 
-### Community 3 - "get_settings"
-Cohesion: 0.08
-Nodes (31): ConflictError, Base, KeywordRule, LocationAlias, JobRunLink, active_rules(), create_rule(), delete_rule() (+23 more)
+### Community 3 - "keyword_repo.py"
+Cohesion: 0.18
+Nodes (17): KeywordRule, active_rules(), create_rule(), delete_rule(), list_rules(), reseed(), rule_dict(), search_terms() (+9 more)
 
 ### Community 4 - "SCRAPER_SPEC — Mekanisme Scraping per Platform"
-Cohesion: 0.05
-Nodes (54): ARCHITECTURE — Job Scraper API, PRD.md, SCRAPER_SPEC.md, parse_posted(raw, now), DATABASE — Job Scraper API, ARCHITECTURE document, DiscoveryPendingScraper, SiteChangedError (+46 more)
+Cohesion: 0.06
+Nodes (52): ARCHITECTURE — Job Scraper API, PRD.md, SCRAPER_SPEC.md, DATABASE — Job Scraper API, ARCHITECTURE document, DiscoveryPendingScraper, SiteChangedError, PRD.md (+44 more)
 
-### Community 5 - "config.py"
-Cohesion: 0.18
-Nodes (4): Settings, run_migrations_offline(), run_migrations_online(), _sync_url()
+### Community 5 - "env.py"
+Cohesion: 0.24
+Nodes (6): ensure_schema_sync(), run_migrations_offline(), run_migrations_online(), _sync_url(), downgrade(), upgrade()
 
 ### Community 6 - "main.py"
-Cohesion: 0.33
-Nodes (5): UnauthorizedError, require_api_key(), ensure_schema(), create_app(), lifespan()
+Cohesion: 0.42
+Nodes (4): UnauthorizedError, require_api_key(), create_app(), lifespan()
 
 ### Community 7 - "deduper.py"
 Cohesion: 0.16
 Nodes (26): _company_match(), compute_fingerprint(), _date(), Deduper, description_similarity(), _is_cross_platform(), _is_repost(), location_compatible() (+18 more)
 
 ### Community 8 - "scrape_service.py"
-Cohesion: 0.22
-Nodes (12): PlatformDisabledError, PlatformNotFoundError, RunNotCancellableError, RunNotFoundError, CallbackRejectedError, validate_callback_url(), enabled_platforms(), cancel_run() (+4 more)
+Cohesion: 0.16
+Nodes (11): get_settings(), PlatformDisabledError, PlatformNotFoundError, configure(), get_session(), CallbackRejectedError, validate_callback_url(), enabled_platforms() (+3 more)
 
 ### Community 9 - "errors.py"
-Cohesion: 0.17
-Nodes (8): AppError, install_handlers(), _app_error(), _http(), _unhandled(), _validation(), _payload(), ServiceUnavailableError
+Cohesion: 0.16
+Nodes (10): AppError, ConflictError, install_handlers(), _app_error(), _http(), _unhandled(), _validation(), _payload() (+2 more)
 
-### Community 10 - "pipeline.py"
-Cohesion: 0.09
-Nodes (31): age_days(), now_utc(), parse_posted(), ParsedDate, to_wib(), wib_date(), wib_today(), is_too_old() (+23 more)
+### Community 10 - "orchestrator.py"
+Cohesion: 0.06
+Nodes (41): is_too_old(), Classification, Classifier, KeywordSpec, _pattern(), accept_location(), LocationNormalizer, LocationResult (+33 more)
 
 ### Community 11 - "keywords.py"
-Cohesion: 0.06
-Nodes (19): create_keyword(), delete_keyword(), list_keywords(), patch_keyword(), reseed(), list_platforms(), cancel_run(), get_run() (+11 more)
+Cohesion: 0.15
+Nodes (7): create_keyword(), delete_keyword(), list_keywords(), patch_keyword(), reseed(), KeywordCreate, KeywordUpdate
 
 ### Community 12 - "test_scrape_jobs.py"
-Cohesion: 0.13
+Cohesion: 0.12
 Nodes (17): _capture(), discover(), _is_json(), main(), _slug(), fake_registry(), scrape(), seed_keywords() (+9 more)
 
 ### Community 13 - "Glints — catatan discovery & implementasi"
@@ -162,12 +172,16 @@ Cohesion: 0.20
 Nodes (9): blocked(), Anti-bot, Batas kesopanan, Fixture, Glints — catatan discovery & implementasi, Keterbatasan paginasi (penting), Pemetaan field, Ringkasan metode (+1 more)
 
 ### Community 14 - "browser.py"
-Cohesion: 0.24
-Nodes (4): get_logger(), setup_logging(), _prune_debug_files(), save_debug_snapshot()
+Cohesion: 0.29
+Nodes (5): detect_challenge(), jitter(), _prune_debug_files(), save_debug_snapshot(), test_challenge_detection()
 
 ### Community 15 - "job-scraper"
 Cohesion: 0.13
 Nodes (14): interval, retries, test, timeout, build, env_file, healthcheck, init (+6 more)
+
+### Community 16 - "health.py"
+Cohesion: 0.21
+Nodes (5): health(), check_browser(), test_health_browser_failure_returns_503(), test_health_ok(), fake()
 
 ### Community 17 - "locations_java.yaml"
 Cohesion: 0.20
@@ -176,6 +190,10 @@ Nodes (9): location (normalization + is_in_java + remote Indonesia), country_for
 ### Community 18 - "PRD — Job Scraper API"
 Cohesion: 0.18
 Nodes (10): docs/DECISIONS.md, ARCHITECTURE.md, SCRAPER_SPEC.md, Deployment Docker (satu container, satu worker uvicorn), FastAPI, PRD — Job Scraper API, Playwright, SQLite (WAL mode) (+2 more)
+
+### Community 19 - "GlintsScraper"
+Cohesion: 0.16
+Nodes (11): ScrapeContext, AuthRequiredError, BlockedError, ParseError, ScraperError, TransientNetworkError, GlintsScraper, JobStreetScraper (+3 more)
 
 ### Community 20 - "Orchestrator (single-run execution loop)"
 Cohesion: 0.22
@@ -237,6 +255,10 @@ Nodes (8): Canary check, Keputusan D2 (pemilik menerima risiko ToS), Glosarium (
 Cohesion: 0.33
 Nodes (7): DATABASE.md, Autentikasi API Key (X-API-Key), Kontrak Output Data Lowongan, BR-07 Siklus Hidup Lowongan, REST API /api/v1, Webhook callback_url (ringkasan run), n8n (workflow konsumen API)
 
+### Community 37 - "jobstreet.py"
+Cohesion: 0.20
+Nodes (19): SiteChangedError, _dom_text(), _employment_type(), _extract_assignment(), extract_redux_state(), parse_detail_html(), parse_search_payload(), _work_mode() (+11 more)
+
 ### Community 38 - "platforms"
 Cohesion: 0.50
 Nodes (3): Scraper registry (platform → scraper class), platforms, Kesopanan, Laju, dan Penanganan Blokir (§4)
@@ -262,16 +284,36 @@ Cohesion: 0.67
 Nodes (3): Deduplikasi Lowongan, BR-05 Aturan Duplikat, BR-06 Aturan Pembeda Duplikat vs Lowongan Serupa Berbeda
 
 ### Community 67 - "glints.py"
-Cohesion: 0.05
-Nodes (66): BaseScraper, RawJob, RawListing, ScrapeContext, detect_challenge(), jitter(), AuthRequiredError, BlockedError (+58 more)
+Cohesion: 0.20
+Nodes (22): draft_to_parts(), job_url(), location_label(), _next_data(), parse_detail_html(), parse_search_html(), salary_text(), slugify() (+14 more)
+
+### Community 68 - "Base"
+Cohesion: 0.23
+Nodes (6): Base, LocationAlias, JobRunLink, ensure_schema(), auth_headers(), clean_db()
+
+### Community 69 - "RawJob"
+Cohesion: 0.24
+Nodes (5): BaseScraper, RawJob, RawListing, FakeGlintsScraper, FakeJobstreetScraper
 
 ### Community 70 - "BrowserPool"
-Cohesion: 0.10
-Nodes (9): BrowserPool, Anti-bot / akses, Batas kesopanan yang dipakai, Fixture, JobStreet — catatan discovery & implementasi, Parameter pencarian yang dipakai, Pemetaan field, Ringkasan metode (+1 more)
+Cohesion: 0.08
+Nodes (14): BrowserPool, Anti-bot / akses, Batas kesopanan yang dipakai, Fixture, JobStreet — catatan discovery & implementasi, Parameter pencarian yang dipakai, Pemetaan field, Ringkasan metode (+6 more)
 
-### Community 72 - "orchestrator.py"
-Cohesion: 0.19
-Nodes (6): get_settings(), configure(), get_session(), platform_config(), _auth_state(), list_platforms()
+### Community 71 - "loader.py"
+Cohesion: 0.25
+Nodes (9): _keyword_rows(), _load(), _location_rows(), seed_all(), seed_keywords(), seed_locations(), test_seed_contains_strong_weak_and_exclude(), test_seed_is_idempotent() (+1 more)
+
+### Community 73 - "routers/scrape.py"
+Cohesion: 0.22
+Nodes (5): list_platforms(), cancel_run(), scrape_all(), scrape_platform(), ScrapeRequest
+
+### Community 76 - "registry.py"
+Cohesion: 0.31
+Nodes (6): DeallsScraper, KalibrrScraper, KitaLulusScraper, LinkedInScraper, PintarnyaScraper, DiscoveryPendingScraper
+
+### Community 77 - "get_run"
+Cohesion: 0.32
+Nodes (6): get_run(), list_runs(), RunNotFoundError, cancel_run(), get_run(), list_runs()
 
 ## Ambiguous Edges - Review These
 - `DATABASE.md` → `BR-01 Aturan Kata Kunci`  [AMBIGUOUS]
@@ -281,22 +323,22 @@ Nodes (6): get_settings(), configure(), get_session(), platform_config(), _auth_
 
 ## Knowledge Gaps
 - **62 isolated node(s):** `job-scraper`, `Deployment Docker (satu container, satu worker uvicorn)`, `FastAPI`, `Playwright`, `SQLite (WAL mode)` (+57 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 264 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **28 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 267 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **30 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `SCRAPER_SPEC — Mekanisme Scraping per Platform` connect `SCRAPER_SPEC — Mekanisme Scraping per Platform` to `normalizer.py`, `pipeline.py`, `test_scrape_jobs.py`, `platforms`?**
-  _High betweenness centrality (0.244) - this node is a cross-community bridge._
+- **Why does `SCRAPER_SPEC — Mekanisme Scraping per Platform` connect `SCRAPER_SPEC — Mekanisme Scraping per Platform` to `normalizer.py`, `test_scrape_jobs.py`, `platforms`?**
+  _High betweenness centrality (0.243) - this node is a cross-community bridge._
 - **Are the 7 inferred relationships involving `RawJob` (e.g. with `Normalizer` and `Pipeline`) actually correct?**
   _`RawJob` has 7 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `job-scraper`, `Deployment Docker (satu container, satu worker uvicorn)`, `FastAPI` to the rest of the system?**
   _62 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `normalizer.py` be split into smaller, more focused modules?**
-  _Cohesion score 0.05700852189244784 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.07111501316944688 - nodes in this community are weakly interconnected._
 - **Why does `platforms` connect `platforms` to `pintarnya`, `linkedin`, `dealls`, `glints`, `jobstreet`, `kalibrr`, `kitalulus`?**
-  _High betweenness centrality (0.112) - this node is a cross-community bridge._
+  _High betweenness centrality (0.111) - this node is a cross-community bridge._
 
 ### Low-confidence Hints
 _AMBIGUOUS edges — the extractor was unsure. Verify before acting on these._

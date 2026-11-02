@@ -749,6 +749,12 @@
     "ast_hash": "e44e05dc8513e3e0e7feb2dba9437568",
     "semantic_hash": ""
   },
+  "plan/HANDOFF.md": {
+    "mtime": 1793586474.92775,
+    "seen": 1793586488.81942,
+    "ast_hash": "f29464b03bf43a108b496e2a70b528a7",
+    "semantic_hash": ""
+  },
   ".opencode/package-lock.json": {
     "mtime": 1793557062.1441724,
     "seen": 1793558456.6591005,
