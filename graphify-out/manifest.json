@@ -318,9 +318,9 @@
     "semantic_hash": ""
   },
   "app/scrapers/platforms/kalibrr.py": {
-    "mtime": 1793606085.2391393,
-    "seen": 1793606192.4789205,
-    "ast_hash": "837254290ecd262af0179b1a05c6d656",
+    "mtime": 1793608063.8641753,
+    "seen": 1793608101.9864507,
+    "ast_hash": "2ba658273922611c1eca357466ec273b",
     "semantic_hash": ""
   },
   "app/scrapers/platforms/kitalulus.py": {
@@ -756,8 +756,8 @@
     "semantic_hash": ""
   },
   "docs/CODEMAP.md": {
-    "mtime": 1793606188.5953207,
-    "seen": 1793606192.4790888,
+    "mtime": 1793608098.2808397,
+    "seen": 1793608101.9865909,
     "ast_hash": "eb4812207e0b9c72dba1550cd32dc9d1",
     "semantic_hash": ""
   },
@@ -786,8 +786,8 @@
     "semantic_hash": ""
   },
   "plan/22-kalibrr-scraper.md": {
-    "mtime": 1793606176.926972,
-    "seen": 1793606192.4791114,
+    "mtime": 1793607643.1790848,
+    "seen": 1793608101.9866128,
     "ast_hash": "8abba6fcad863b0fcaeb4322421b5ec4",
     "semantic_hash": ""
   },
@@ -912,9 +912,9 @@
     "semantic_hash": ""
   },
   "tests/scrapers/test_kalibrr.py": {
-    "mtime": 1793606120.9158723,
-    "seen": 1793606192.4790285,
-    "ast_hash": "86d78b32f5cc9c62b8eb9d2f62068eb3",
+    "mtime": 1793608078.1021597,
+    "seen": 1793608101.9865522,
+    "ast_hash": "a960f816444fa533619773035cd79b49",
     "semantic_hash": ""
   },
   "docs/platform_notes/kalibrr.md": {
@@ -957,6 +957,12 @@
     "mtime": 1793603986.7673252,
     "seen": 1793606192.4791956,
     "ast_hash": "77d6ae182f6539058e56ba2b66ca4ed3",
+    "semantic_hash": ""
+  },
+  "session-ses_e64c.md": {
+    "mtime": 1793606285.544947,
+    "seen": 1793608101.986654,
+    "ast_hash": "e383cc58a761eec641a1fc99305a3e01",
     "semantic_hash": ""
   },
   ".opencode/package-lock.json": {

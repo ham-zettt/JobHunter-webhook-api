@@ -1,0 +1,2292 @@
+{
+  "data": {
+    "docs": [
+      {
+        "id": "6ae310041e86df0013df4a9c",
+        "slug": "part-time-pengajar-coding-kota",
+        "role": "[Part time] Pengajar Coding - Kota Batam",
+        "authorId": "6ac35b79ddb6640013970b20",
+        "stats": {
+          "viewCount": 268,
+          "nonCuratedCount": 7,
+          "applicantCount": 9
+        },
+        "employmentTypes": [
+          "partTime"
+        ],
+        "workplaceType": "remote",
+        "publishedAt": "2026-10-29T09:21:08.392Z",
+        "status": "active",
+        "salaryType": "paid",
+        "salaryRange": null,
+        "candidatePreference": {
+          "minimumGpa": null,
+          "major": null,
+          "gender": "No Preference",
+          "skillIds": [
+            "62b02d12677fed001255a2e9",
+            "6acf3b65c5811c001235eb71",
+            "62c562b9e8f1ff0012999d79",
+            "6ae30eee1cc5a00011b054db",
+            "628db5b3a39fae001238723c"
+          ],
+          "university": null,
+          "lastEducations": [
+            3,
+            4,
+            0,
+            5,
+            6,
+            7,
+            1,
+            2
+          ],
+          "age": {
+            "min": null,
+            "max": null,
+            "restriction": false
+          }
+        },
+        "country": null,
+        "city": null,
+        "companyId": "62f0e90434f5f10012213683",
+        "categoryId": null,
+        "categorySlug": null,
+        "jobRoleCategorySlug": "business-operations",
+        "jobRoleId": "6ab4d7c5c35bdebf03d676b1",
+        "jobRoleCategoryId": "6ab4d7a2c35bdebf03d65a97",
+        "jobRoleSubCategoryId": "6ab4d7c5c35bdebf03d6768c",
+        "company": {
+          "insight": {
+            "benefits": [
+              "competitiveSalary",
+              "professionalDevelopment",
+              "casualDressCode",
+              "dentalInsurance",
+              "medicalLeave",
+              "employeeDiscounts"
+            ],
+            "workingPolicies": [
+              "workFromAnywhere",
+              "onSite"
+            ],
+            "fundingStage": "seriesC",
+            "fundingAmount": 55000000
+          },
+          "name": "Ruangguru",
+          "rank": "A",
+          "trialStartedAt": "2024-05-15T17:00:00.000Z",
+          "id": "62f0e90434f5f10012213683",
+          "sector": "Technology Education",
+          "logoUrl": "https://cdn.sejutacita.id/62f0e62e4a4d4c0014b98743/Others/6f60533a-e9f3-4b81-9ad0-7f0995a3c09a.png",
+          "slug": "ruangguru",
+          "verified": true
+        },
+        "skills": [
+          {
+            "createdAt": "2022-05-25T04:50:59.758Z",
+            "__v": 0,
+            "addedByUser": true,
+            "name": "Teaching",
+            "count": 1665,
+            "_id": "628db5b3a39fae001238723c",
+            "updatedAt": "2026-10-30T03:21:15.924Z",
+            "status": "notProcessed"
+          },
+          {
+            "createdAt": "2022-06-20T08:17:22.959Z",
+            "__v": 0,
+            "addedByUser": true,
+            "name": "Coding Skill",
+            "count": 85,
+            "_id": "62b02d12677fed001255a2e9",
+            "updatedAt": "2026-10-26T06:23:08.472Z",
+            "status": "notProcessed"
+          },
+          {
+            "createdAt": "2022-07-06T10:23:53.135Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "name": "Programming",
+            "count": 2042,
+            "_id": "62c562b9e8f1ff0012999d79",
+            "status": "notProcessed",
+            "updatedAt": "2026-10-29T03:02:47.859Z"
+          },
+          {
+            "createdAt": "2026-10-14T08:20:53.606Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "count": 0,
+            "name": "Scartch",
+            "_id": "6acf3b65c5811c001235eb71",
+            "status": "notProcessed",
+            "updatedAt": "2026-10-14T08:20:53.606Z"
+          },
+          {
+            "createdAt": "2026-10-29T09:16:30.006Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "count": 0,
+            "name": "MIT APP Inventory",
+            "_id": "6ae30eee1cc5a00011b054db",
+            "status": "notProcessed",
+            "updatedAt": "2026-10-29T09:16:30.006Z"
+          }
+        ],
+        "deletedAt": null,
+        "author": null,
+        "qCompanyRank": null,
+        "createdAt": "2026-10-29T09:21:08.427Z",
+        "updatedAt": "2026-11-02T10:46:58.133Z",
+        "updatedAtByEmployer": "2026-10-29T09:21:08.381Z",
+        "latestUpdatedAt": "2026-10-29T09:21:08.412Z",
+        "urgentlyNeeded": false,
+        "externalPlatformApplyUrl": null,
+        "boosted": false,
+        "_score": 0,
+        "saved": false,
+        "applied": false,
+        "waitListed": false,
+        "applicantPrioritySlots": 8,
+        "higherSalary": null,
+        "eligibleToApply": true,
+        "thereAreStillFewApplicants": false,
+        "lastActivelyHiringAt": "2026-11-02T11:01:57.392Z"
+      },
+      {
+        "id": "6ae2bf8bab885800122fe3d2",
+        "slug": "part-time-pengajar-biologi-online-1",
+        "role": "[Part-time] - Pengajar Biologi - Online",
+        "authorId": "6ac35b79ddb6640013970b20",
+        "stats": {
+          "viewCount": 534,
+          "nonCuratedCount": 18,
+          "applicantCount": 20
+        },
+        "employmentTypes": [
+          "partTime"
+        ],
+        "workplaceType": "remote",
+        "publishedAt": "2026-10-29T03:37:47.867Z",
+        "status": "active",
+        "salaryType": "paid",
+        "salaryRange": null,
+        "candidatePreference": {
+          "minimumGpa": null,
+          "major": null,
+          "gender": "No Preference",
+          "skillIds": [
+            "6ac6ce21f37c2f00126c310d",
+            "6320030585194a001266493e"
+          ],
+          "university": null,
+          "lastEducations": [
+            3,
+            4,
+            6,
+            5,
+            0,
+            7
+          ],
+          "age": {
+            "min": null,
+            "max": null,
+            "restriction": false
+          }
+        },
+        "country": null,
+        "city": null,
+        "companyId": "62f0e90434f5f10012213683",
+        "categoryId": null,
+        "categorySlug": null,
+        "jobRoleCategorySlug": "education-and-training",
+        "jobRoleId": "69393fecffb8a421e1efbc9e",
+        "jobRoleCategoryId": "6934fecd2622eadf60779993",
+        "jobRoleSubCategoryId": "69393febffb8a421e1efbc9a",
+        "company": {
+          "insight": {
+            "benefits": [
+              "competitiveSalary",
+              "professionalDevelopment",
+              "casualDressCode",
+              "dentalInsurance",
+              "medicalLeave",
+              "employeeDiscounts"
+            ],
+            "workingPolicies": [
+              "workFromAnywhere",
+              "onSite"
+            ],
+            "fundingStage": "seriesC",
+            "fundingAmount": 55000000
+          },
+          "name": "Ruangguru",
+          "rank": "A",
+          "trialStartedAt": "2024-05-15T17:00:00.000Z",
+          "id": "62f0e90434f5f10012213683",
+          "sector": "Technology Education",
+          "logoUrl": "https://cdn.sejutacita.id/62f0e62e4a4d4c0014b98743/Others/6f60533a-e9f3-4b81-9ad0-7f0995a3c09a.png",
+          "slug": "ruangguru",
+          "verified": true
+        },
+        "skills": [
+          {
+            "createdAt": "2022-09-13T04:11:49.815Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "name": "Lesson Planning",
+            "count": 98,
+            "_id": "6320030585194a001266493e",
+            "status": "notProcessed",
+            "updatedAt": "2026-10-28T10:39:01.976Z"
+          },
+          {
+            "createdAt": "2026-10-07T22:56:33.115Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "count": 0,
+            "name": "Mengajar Online",
+            "_id": "6ac6ce21f37c2f00126c310d",
+            "status": "notProcessed",
+            "updatedAt": "2026-10-07T22:56:33.115Z"
+          }
+        ],
+        "deletedAt": null,
+        "author": null,
+        "qCompanyRank": null,
+        "createdAt": "2026-10-29T03:37:47.881Z",
+        "updatedAt": "2026-11-02T10:51:09.897Z",
+        "updatedAtByEmployer": "2026-10-29T03:37:47.854Z",
+        "latestUpdatedAt": "2026-10-29T03:37:47.874Z",
+        "urgentlyNeeded": false,
+        "externalPlatformApplyUrl": null,
+        "boosted": false,
+        "_score": 0,
+        "saved": false,
+        "applied": false,
+        "waitListed": false,
+        "applicantPrioritySlots": 8,
+        "higherSalary": null,
+        "eligibleToApply": true,
+        "thereAreStillFewApplicants": false,
+        "lastActivelyHiringAt": "2026-11-02T11:01:57.392Z"
+      },
+      {
+        "id": "6ae2be99caa63100123142ed",
+        "slug": "part-time-pengajar-kimia-online",
+        "role": "[Part-time] - Pengajar Kimia - Online",
+        "authorId": "6ac35b79ddb6640013970b20",
+        "stats": {
+          "viewCount": 553,
+          "nonCuratedCount": 9,
+          "applicantCount": 11
+        },
+        "employmentTypes": [
+          "partTime"
+        ],
+        "workplaceType": "remote",
+        "publishedAt": "2026-10-29T03:33:45.502Z",
+        "status": "active",
+        "salaryType": "paid",
+        "salaryRange": null,
+        "candidatePreference": {
+          "minimumGpa": null,
+          "major": null,
+          "gender": "No Preference",
+          "skillIds": [
+            "6ac6ce21f37c2f00126c310d",
+            "6320030585194a001266493e"
+          ],
+          "university": null,
+          "lastEducations": [
+            3,
+            4,
+            0,
+            5,
+            6,
+            7
+          ],
+          "age": {
+            "min": null,
+            "max": null,
+            "restriction": false
+          }
+        },
+        "country": null,
+        "city": null,
+        "companyId": "62f0e90434f5f10012213683",
+        "categoryId": null,
+        "categorySlug": null,
+        "jobRoleCategorySlug": "education-and-training",
+        "jobRoleId": "69393fecffb8a421e1efbc9e",
+        "jobRoleCategoryId": "6934fecd2622eadf60779993",
+        "jobRoleSubCategoryId": "69393febffb8a421e1efbc9a",
+        "company": {
+          "insight": {
+            "benefits": [
+              "competitiveSalary",
+              "professionalDevelopment",
+              "casualDressCode",
+              "dentalInsurance",
+              "medicalLeave",
+              "employeeDiscounts"
+            ],
+            "workingPolicies": [
+              "workFromAnywhere",
+              "onSite"
+            ],
+            "fundingStage": "seriesC",
+            "fundingAmount": 55000000
+          },
+          "name": "Ruangguru",
+          "rank": "A",
+          "trialStartedAt": "2024-05-15T17:00:00.000Z",
+          "id": "62f0e90434f5f10012213683",
+          "sector": "Technology Education",
+          "logoUrl": "https://cdn.sejutacita.id/62f0e62e4a4d4c0014b98743/Others/6f60533a-e9f3-4b81-9ad0-7f0995a3c09a.png",
+          "slug": "ruangguru",
+          "verified": true
+        },
+        "skills": [
+          {
+            "createdAt": "2022-09-13T04:11:49.815Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "name": "Lesson Planning",
+            "count": 98,
+            "_id": "6320030585194a001266493e",
+            "status": "notProcessed",
+            "updatedAt": "2026-10-28T10:39:01.976Z"
+          },
+          {
+            "createdAt": "2026-10-07T22:56:33.115Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "count": 0,
+            "name": "Mengajar Online",
+            "_id": "6ac6ce21f37c2f00126c310d",
+            "status": "notProcessed",
+            "updatedAt": "2026-10-07T22:56:33.115Z"
+          }
+        ],
+        "deletedAt": null,
+        "author": null,
+        "qCompanyRank": null,
+        "createdAt": "2026-10-29T03:33:45.510Z",
+        "updatedAt": "2026-11-02T10:51:09.900Z",
+        "updatedAtByEmployer": "2026-10-29T03:33:45.498Z",
+        "latestUpdatedAt": "2026-10-29T03:33:45.506Z",
+        "urgentlyNeeded": false,
+        "externalPlatformApplyUrl": null,
+        "boosted": false,
+        "_score": 0,
+        "saved": false,
+        "applied": false,
+        "waitListed": false,
+        "applicantPrioritySlots": 8,
+        "higherSalary": null,
+        "eligibleToApply": true,
+        "thereAreStillFewApplicants": false,
+        "lastActivelyHiringAt": "2026-11-02T11:01:57.392Z"
+      },
+      {
+        "id": "6ae2be10d5379a00123ec794",
+        "slug": "part-time-pengajar-fisika-online",
+        "role": "[Part-time] - Pengajar Fisika - Online",
+        "authorId": "6ac35b79ddb6640013970b20",
+        "stats": {
+          "viewCount": 548,
+          "nonCuratedCount": 12,
+          "applicantCount": 14
+        },
+        "employmentTypes": [
+          "partTime"
+        ],
+        "workplaceType": "remote",
+        "publishedAt": "2026-10-29T03:31:28.835Z",
+        "status": "active",
+        "salaryType": "paid",
+        "salaryRange": null,
+        "candidatePreference": {
+          "minimumGpa": null,
+          "major": null,
+          "gender": "No Preference",
+          "skillIds": [
+            "6ac6ce21f37c2f00126c310d",
+            "6320030585194a001266493e"
+          ],
+          "university": null,
+          "lastEducations": [
+            3,
+            4,
+            0,
+            5,
+            6,
+            7
+          ],
+          "age": {
+            "min": null,
+            "max": null,
+            "restriction": false
+          }
+        },
+        "country": null,
+        "city": null,
+        "companyId": "62f0e90434f5f10012213683",
+        "categoryId": null,
+        "categorySlug": null,
+        "jobRoleCategorySlug": "education-and-training",
+        "jobRoleId": "69393fecffb8a421e1efbc9e",
+        "jobRoleCategoryId": "6934fecd2622eadf60779993",
+        "jobRoleSubCategoryId": "69393febffb8a421e1efbc9a",
+        "company": {
+          "insight": {
+            "benefits": [
+              "competitiveSalary",
+              "professionalDevelopment",
+              "casualDressCode",
+              "dentalInsurance",
+              "medicalLeave",
+              "employeeDiscounts"
+            ],
+            "workingPolicies": [
+              "workFromAnywhere",
+              "onSite"
+            ],
+            "fundingStage": "seriesC",
+            "fundingAmount": 55000000
+          },
+          "name": "Ruangguru",
+          "rank": "A",
+          "trialStartedAt": "2024-05-15T17:00:00.000Z",
+          "id": "62f0e90434f5f10012213683",
+          "sector": "Technology Education",
+          "logoUrl": "https://cdn.sejutacita.id/62f0e62e4a4d4c0014b98743/Others/6f60533a-e9f3-4b81-9ad0-7f0995a3c09a.png",
+          "slug": "ruangguru",
+          "verified": true
+        },
+        "skills": [
+          {
+            "createdAt": "2022-09-13T04:11:49.815Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "name": "Lesson Planning",
+            "count": 98,
+            "_id": "6320030585194a001266493e",
+            "status": "notProcessed",
+            "updatedAt": "2026-10-28T10:39:01.976Z"
+          },
+          {
+            "createdAt": "2026-10-07T22:56:33.115Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "count": 0,
+            "name": "Mengajar Online",
+            "_id": "6ac6ce21f37c2f00126c310d",
+            "status": "notProcessed",
+            "updatedAt": "2026-10-07T22:56:33.115Z"
+          }
+        ],
+        "deletedAt": null,
+        "author": null,
+        "qCompanyRank": null,
+        "createdAt": "2026-10-29T03:31:28.859Z",
+        "updatedAt": "2026-11-02T10:51:09.799Z",
+        "updatedAtByEmployer": "2026-10-29T03:31:28.830Z",
+        "latestUpdatedAt": "2026-10-29T03:31:28.845Z",
+        "urgentlyNeeded": false,
+        "externalPlatformApplyUrl": null,
+        "boosted": false,
+        "_score": 0,
+        "saved": false,
+        "applied": false,
+        "waitListed": false,
+        "applicantPrioritySlots": 8,
+        "higherSalary": null,
+        "eligibleToApply": true,
+        "thereAreStillFewApplicants": false,
+        "lastActivelyHiringAt": "2026-11-02T11:01:57.392Z"
+      },
+      {
+        "id": "6ae2bd7cd5379a00123eaa9d",
+        "slug": "part-time-pengajar-matematika-online",
+        "role": "[Part-time] - Pengajar Matematika - Online",
+        "authorId": "6ac35b79ddb6640013970b20",
+        "stats": {
+          "viewCount": 530,
+          "nonCuratedCount": 41,
+          "applicantCount": 43
+        },
+        "employmentTypes": [
+          "partTime"
+        ],
+        "workplaceType": "remote",
+        "publishedAt": "2026-10-29T03:29:00.850Z",
+        "status": "active",
+        "salaryType": "paid",
+        "salaryRange": null,
+        "candidatePreference": {
+          "minimumGpa": null,
+          "major": null,
+          "gender": "No Preference",
+          "skillIds": [
+            "6ac6ce21f37c2f00126c310d",
+            "6320030585194a001266493e"
+          ],
+          "university": null,
+          "lastEducations": [
+            3,
+            4,
+            0,
+            5,
+            6,
+            7
+          ],
+          "age": {
+            "min": null,
+            "max": null,
+            "restriction": false
+          }
+        },
+        "country": null,
+        "city": null,
+        "companyId": "62f0e90434f5f10012213683",
+        "categoryId": null,
+        "categorySlug": null,
+        "jobRoleCategorySlug": "education-and-training",
+        "jobRoleId": "69393fecffb8a421e1efbc9e",
+        "jobRoleCategoryId": "6934fecd2622eadf60779993",
+        "jobRoleSubCategoryId": "69393febffb8a421e1efbc9a",
+        "company": {
+          "insight": {
+            "benefits": [
+              "competitiveSalary",
+              "professionalDevelopment",
+              "casualDressCode",
+              "dentalInsurance",
+              "medicalLeave",
+              "employeeDiscounts"
+            ],
+            "workingPolicies": [
+              "workFromAnywhere",
+              "onSite"
+            ],
+            "fundingStage": "seriesC",
+            "fundingAmount": 55000000
+          },
+          "name": "Ruangguru",
+          "rank": "A",
+          "trialStartedAt": "2024-05-15T17:00:00.000Z",
+          "id": "62f0e90434f5f10012213683",
+          "sector": "Technology Education",
+          "logoUrl": "https://cdn.sejutacita.id/62f0e62e4a4d4c0014b98743/Others/6f60533a-e9f3-4b81-9ad0-7f0995a3c09a.png",
+          "slug": "ruangguru",
+          "verified": true
+        },
+        "skills": [
+          {
+            "createdAt": "2022-09-13T04:11:49.815Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "name": "Lesson Planning",
+            "count": 98,
+            "_id": "6320030585194a001266493e",
+            "status": "notProcessed",
+            "updatedAt": "2026-10-28T10:39:01.976Z"
+          },
+          {
+            "createdAt": "2026-10-07T22:56:33.115Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "count": 0,
+            "name": "Mengajar Online",
+            "_id": "6ac6ce21f37c2f00126c310d",
+            "status": "notProcessed",
+            "updatedAt": "2026-10-07T22:56:33.115Z"
+          }
+        ],
+        "deletedAt": null,
+        "author": null,
+        "qCompanyRank": null,
+        "createdAt": "2026-10-29T03:29:00.869Z",
+        "updatedAt": "2026-11-02T10:40:57.815Z",
+        "updatedAtByEmployer": "2026-10-29T03:29:00.767Z",
+        "latestUpdatedAt": "2026-10-29T03:29:00.861Z",
+        "urgentlyNeeded": false,
+        "externalPlatformApplyUrl": null,
+        "boosted": false,
+        "_score": 0,
+        "saved": false,
+        "applied": false,
+        "waitListed": false,
+        "applicantPrioritySlots": 8,
+        "higherSalary": null,
+        "eligibleToApply": true,
+        "thereAreStillFewApplicants": false,
+        "lastActivelyHiringAt": "2026-11-02T11:01:57.392Z"
+      },
+      {
+        "id": "6acf83fefc1ebb0011a60282",
+        "slug": "freelance-social-media-content-creator",
+        "role": "Freelance Social Media Content Creator",
+        "authorId": "65718a67d4f8f00012e94957",
+        "stats": {
+          "viewCount": 2437,
+          "nonCuratedCount": 1586,
+          "applicantCount": 1642
+        },
+        "employmentTypes": [
+          "freelance"
+        ],
+        "workplaceType": "remote",
+        "publishedAt": "2026-10-14T13:30:38.686Z",
+        "status": "active",
+        "salaryType": "paid",
+        "salaryRange": {
+          "start": 6000000,
+          "end": 10000000
+        },
+        "candidatePreference": {
+          "lastEducations": [
+            6
+          ],
+          "major": null,
+          "university": null,
+          "minimumGpa": null,
+          "skillIds": [
+            "6226f6692d9a642279775a83",
+            "6226f6692d9a642279775a84",
+            "6359e74e0d75bf00124cc115"
+          ],
+          "gender": "No Preference",
+          "age": {
+            "restriction": false,
+            "min": null,
+            "max": null
+          }
+        },
+        "country": null,
+        "city": null,
+        "companyId": "65718c29a101660012e1ae7a",
+        "categoryId": null,
+        "categorySlug": null,
+        "jobRoleCategorySlug": "art-media-and-communications",
+        "jobRoleId": "699589fd6013040012ba9b02",
+        "jobRoleCategoryId": "6934f8f22622eadf60779981",
+        "jobRoleSubCategoryId": "69393f99ffb8a421e1efbb57",
+        "company": {
+          "insight": {
+            "fundingStage": "bootstrap",
+            "fundingAmount": null,
+            "benefits": [
+              "competitiveSalary",
+              "bonusSystem",
+              "Flexibility"
+            ],
+            "workingPolicies": [
+              "workFromAnywhere",
+              "flexible"
+            ]
+          },
+          "logoUrl": "https://cdn.sejutacita.id/65718a67d4f8f00012e94957/JobPortalCompanyLogo/1cc34465-2092-4fe7-a0c2-d240e410d1cd.png",
+          "rank": "C",
+          "name": "Ayola",
+          "sector": "Ecommerce, SaaS, Service Industry",
+          "slug": "ayola",
+          "id": "65718c29a101660012e1ae7a",
+          "trialStartedAt": "2023-12-07T09:11:19.390Z",
+          "verified": true
+        },
+        "skills": [
+          {
+            "createdAt": "2022-03-07T17:00:00.000Z",
+            "name": "Content Marketing",
+            "addedByUser": false,
+            "count": 2380,
+            "_id": "6226f6692d9a642279775a83",
+            "status": "notProcessed",
+            "updatedAt": "2026-10-29T07:38:14.202Z"
+          },
+          {
+            "createdAt": "2022-03-07T17:00:00.000Z",
+            "name": "Content Strategy",
+            "addedByUser": false,
+            "count": 2180,
+            "_id": "6226f6692d9a642279775a84",
+            "status": "notProcessed",
+            "updatedAt": "2026-11-01T17:02:26.427Z"
+          },
+          {
+            "createdAt": "2022-10-27T02:05:02.562Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "count": 6,
+            "name": "Content Operation",
+            "_id": "6359e74e0d75bf00124cc115",
+            "status": "notProcessed",
+            "updatedAt": "2026-07-07T07:50:06.948Z"
+          }
+        ],
+        "deletedAt": null,
+        "author": null,
+        "qCompanyRank": null,
+        "createdAt": "2026-10-14T13:30:38.714Z",
+        "updatedAt": "2026-11-02T10:58:58.955Z",
+        "updatedAtByEmployer": "2026-10-14T13:30:38.686Z",
+        "latestUpdatedAt": "2026-10-14T13:30:38.701Z",
+        "urgentlyNeeded": false,
+        "externalPlatformApplyUrl": null,
+        "boosted": false,
+        "_score": 0,
+        "saved": false,
+        "applied": false,
+        "waitListed": false,
+        "applicantPrioritySlots": 1,
+        "higherSalary": null,
+        "eligibleToApply": true,
+        "thereAreStillFewApplicants": false,
+        "lastActivelyHiringAt": "2026-10-23T07:27:49.486Z"
+      },
+      {
+        "id": "6ac88a404595b300125e42b5",
+        "slug": "sales-trainee-academy-brain-academy-95",
+        "role": "Sales Trainee Academy - Brain Academy Blitar (Bung Karno)",
+        "authorId": "6abf5b144ddb6e00132c49bf",
+        "stats": {
+          "viewCount": 4626,
+          "nonCuratedCount": 139,
+          "applicantCount": 143
+        },
+        "employmentTypes": [
+          "fullTime"
+        ],
+        "workplaceType": "remote",
+        "publishedAt": "2026-10-09T06:31:28.413Z",
+        "status": "active",
+        "salaryType": "paid",
+        "salaryRange": null,
+        "candidatePreference": {
+          "minimumGpa": null,
+          "major": null,
+          "gender": "No Preference",
+          "skillIds": [
+            "630f299b9c338f001284d8ed"
+          ],
+          "university": null,
+          "lastEducations": [
+            0
+          ],
+          "age": {
+            "min": 20,
+            "max": 30,
+            "restriction": true
+          }
+        },
+        "country": null,
+        "city": null,
+        "companyId": "62f0e90434f5f10012213683",
+        "categoryId": null,
+        "categorySlug": null,
+        "jobRoleCategorySlug": "business-sales-and-commercial",
+        "jobRoleId": "69b2888020b3180011d6f91e",
+        "jobRoleCategoryId": "6934fd0b2622eadf60779984",
+        "jobRoleSubCategoryId": "69393fb1ffb8a421e1efbbb2",
+        "company": {
+          "insight": {
+            "benefits": [
+              "competitiveSalary",
+              "professionalDevelopment",
+              "casualDressCode",
+              "dentalInsurance",
+              "medicalLeave",
+              "employeeDiscounts"
+            ],
+            "workingPolicies": [
+              "workFromAnywhere",
+              "onSite"
+            ],
+            "fundingStage": "seriesC",
+            "fundingAmount": 55000000
+          },
+          "name": "Ruangguru",
+          "rank": "A",
+          "trialStartedAt": "2024-05-15T17:00:00.000Z",
+          "id": "62f0e90434f5f10012213683",
+          "sector": "Technology Education",
+          "logoUrl": "https://cdn.sejutacita.id/62f0e62e4a4d4c0014b98743/Others/6f60533a-e9f3-4b81-9ad0-7f0995a3c09a.png",
+          "slug": "ruangguru",
+          "verified": true
+        },
+        "skills": [
+          {
+            "createdAt": "2022-08-31T09:27:55.418Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "name": "Sales",
+            "count": 1248,
+            "_id": "630f299b9c338f001284d8ed",
+            "status": "notProcessed",
+            "updatedAt": "2026-11-02T08:44:08.687Z"
+          }
+        ],
+        "deletedAt": null,
+        "author": null,
+        "qCompanyRank": null,
+        "createdAt": "2026-10-09T06:31:28.427Z",
+        "updatedAt": "2026-11-02T10:59:11.234Z",
+        "updatedAtByEmployer": "2026-10-15T14:17:29.485Z",
+        "latestUpdatedAt": "2026-10-09T06:31:28.421Z",
+        "urgentlyNeeded": false,
+        "externalPlatformApplyUrl": null,
+        "boosted": false,
+        "_score": 0,
+        "saved": false,
+        "applied": false,
+        "waitListed": false,
+        "applicantPrioritySlots": 8,
+        "higherSalary": null,
+        "eligibleToApply": true,
+        "thereAreStillFewApplicants": false,
+        "lastActivelyHiringAt": "2026-11-02T11:01:57.392Z"
+      },
+      {
+        "id": "6ac7391ceffe320012ec7276",
+        "slug": "jr-qa-engineer",
+        "role": "Jr. QA Engineer",
+        "authorId": "665fc94407cff6001352d412",
+        "stats": {
+          "viewCount": 2700,
+          "nonCuratedCount": 890,
+          "applicantCount": 1050
+        },
+        "employmentTypes": [
+          "fullTime"
+        ],
+        "workplaceType": "remote",
+        "publishedAt": "2026-10-08T06:33:00.648Z",
+        "status": "active",
+        "salaryType": "paid",
+        "salaryRange": null,
+        "candidatePreference": {
+          "lastEducations": [
+            5
+          ],
+          "major": null,
+          "university": null,
+          "minimumGpa": null,
+          "skillIds": [
+            "63bbb8466e22b10013c6c01e",
+            "6354be9b2a72af0014e30c69",
+            "68022c366493974fe1f71c77"
+          ],
+          "gender": "No Preference",
+          "age": {
+            "restriction": false,
+            "min": null,
+            "max": null
+          }
+        },
+        "country": null,
+        "city": null,
+        "companyId": "66273a39bc94ec0012442a7f",
+        "categoryId": null,
+        "categorySlug": null,
+        "jobRoleCategorySlug": "it-and-software-engineering",
+        "jobRoleId": "6a3e5b89634c57001289cc30",
+        "jobRoleCategoryId": "693466050fafa100127216a7",
+        "jobRoleSubCategoryId": "6936842a4f8fcd5d0df6eabd",
+        "company": {
+          "insight": {
+            "fundingStage": null,
+            "fundingAmount": null,
+            "benefits": [
+              "competitiveSalary",
+              "medicalLeave",
+              "dentalInsurance",
+              "periodLeave",
+              "internationalExposure",
+              "vacationTime"
+            ],
+            "workingPolicies": [
+              "workFromAnywhere"
+            ]
+          },
+          "logoUrl": "https://cdn.sejutacita.id/66273944de1786001472a972/JobPortalCompanyLogo/fca03178-dbf0-4eb5-a8d3-05346e0c4a3e.png",
+          "rank": "C",
+          "name": "Worlder TEAM",
+          "sector": "IT Service",
+          "slug": "worlder-team",
+          "id": "66273a39bc94ec0012442a7f",
+          "trialStartedAt": "2024-04-23T04:34:15.367Z",
+          "verified": true
+        },
+        "skills": [
+          {
+            "createdAt": "2022-10-23T04:10:03.795Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "count": 189,
+            "name": "QA Tester",
+            "_id": "6354be9b2a72af0014e30c69",
+            "status": "notProcessed",
+            "updatedAt": "2026-10-29T08:16:37.794Z"
+          },
+          {
+            "createdAt": "2023-01-09T06:46:30.518Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "count": 90,
+            "name": "QA Automation",
+            "_id": "63bbb8466e22b10013c6c01e",
+            "status": "notProcessed",
+            "updatedAt": "2026-11-02T10:16:50.753Z"
+          },
+          {
+            "createdAt": "2025-04-18T10:40:54.225Z",
+            "editedBy": null,
+            "name": "Testing & QA",
+            "addedByUser": true,
+            "count": 147,
+            "_id": "68022c366493974fe1f71c77",
+            "status": "notProcessed",
+            "updatedAt": "2026-11-01T11:15:35.121Z"
+          }
+        ],
+        "deletedAt": null,
+        "author": null,
+        "qCompanyRank": null,
+        "createdAt": "2026-10-08T06:33:00.658Z",
+        "updatedAt": "2026-11-02T10:56:39.095Z",
+        "updatedAtByEmployer": "2026-10-22T09:09:50.281Z",
+        "latestUpdatedAt": "2026-10-08T06:33:00.652Z",
+        "urgentlyNeeded": false,
+        "externalPlatformApplyUrl": null,
+        "boosted": false,
+        "_score": 0,
+        "saved": false,
+        "applied": false,
+        "waitListed": false,
+        "applicantPrioritySlots": 1,
+        "higherSalary": null,
+        "eligibleToApply": true,
+        "thereAreStillFewApplicants": false,
+        "lastActivelyHiringAt": "2026-10-30T04:41:14.718Z"
+      },
+      {
+        "id": "6ac4aaf70fc93c001215edc1",
+        "slug": "social-media-design-graphic-and",
+        "role": "Creative & Social Media Intern (On-Camera Talent)",
+        "authorId": "6a279235bcb35c00135b5845",
+        "stats": {
+          "viewCount": 4313,
+          "nonCuratedCount": 168,
+          "applicantCount": 234
+        },
+        "employmentTypes": [
+          "internship"
+        ],
+        "workplaceType": "remote",
+        "publishedAt": "2026-10-06T08:01:59.107Z",
+        "status": "active",
+        "salaryType": "paid",
+        "salaryRange": null,
+        "candidatePreference": {
+          "lastEducations": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "major": null,
+          "university": null,
+          "minimumGpa": null,
+          "skillIds": [
+            "6874c0245412cd592bfaa8f1",
+            "62832d213495fb0012192930",
+            "681c0524fb95b8ee7c5e5d84"
+          ],
+          "gender": "No Preference",
+          "age": {
+            "restriction": false,
+            "min": null,
+            "max": null
+          }
+        },
+        "country": null,
+        "city": null,
+        "companyId": "67861d731e2a4300124f6ee8",
+        "categoryId": null,
+        "categorySlug": null,
+        "jobRoleCategorySlug": "social-media",
+        "jobRoleId": "645600f359820f0011ea61d4",
+        "jobRoleCategoryId": "6934fc862622eadf60779982",
+        "jobRoleSubCategoryId": "69393f9fffb8a421e1efbb6a",
+        "company": {
+          "insight": {
+            "fundingStage": null,
+            "fundingAmount": null,
+            "benefits": [
+              "vacationTime",
+              "internationalExposure",
+              "teamBuilding",
+              "casualDressCode",
+              "paidSickDays",
+              "Flexible Benefit Program"
+            ],
+            "workingPolicies": [
+              "flexible"
+            ]
+          },
+          "logoUrl": "https://cdn.sejutacita.id/67861cb0d39d4900139ac02f/JobPortalCompanyLogo/ac22d9db-0c5f-401a-a107-ddbc83b646b2.jpg",
+          "rank": "B",
+          "name": "Y Ventures Group Ltd.",
+          "sector": "Ecommerce, SaaS, Service Industry",
+          "slug": "y-ventures-group-ltd",
+          "id": "67861d731e2a4300124f6ee8",
+          "trialStartedAt": "2025-01-20T17:00:00.000Z",
+          "verified": true
+        },
+        "skills": [
+          {
+            "_id": "62832d213495fb0012192930",
+            "addedByUser": true,
+            "name": "Content Creation",
+            "createdAt": "2022-05-17T05:05:38.027Z",
+            "updatedAt": "2026-10-31T19:31:00.319Z",
+            "__v": 0,
+            "status": "notProcessed",
+            "count": 4777
+          },
+          {
+            "_id": "681c0524fb95b8ee7c5e5d84",
+            "name": "Content Creation (Canva, CapCut)",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 169,
+            "updatedAt": "2026-10-29T07:09:15.264Z",
+            "createdAt": "2025-05-08T01:13:08.776Z"
+          },
+          {
+            "_id": "6874c0245412cd592bfaa8f1",
+            "name": "Content & Social Media",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 514,
+            "updatedAt": "2026-11-02T05:24:13.787Z",
+            "createdAt": "2025-07-14T08:30:28.427Z"
+          }
+        ],
+        "deletedAt": null,
+        "author": null,
+        "qCompanyRank": null,
+        "createdAt": "2026-10-06T08:01:59.173Z",
+        "updatedAt": "2026-11-02T10:49:42.262Z",
+        "updatedAtByEmployer": "2026-10-30T04:07:12.338Z",
+        "latestUpdatedAt": "2026-10-06T08:01:59.136Z",
+        "urgentlyNeeded": false,
+        "externalPlatformApplyUrl": null,
+        "boosted": false,
+        "_score": 0,
+        "saved": false,
+        "applied": false,
+        "waitListed": false,
+        "applicantPrioritySlots": 8,
+        "higherSalary": null,
+        "eligibleToApply": true,
+        "thereAreStillFewApplicants": false,
+        "lastActivelyHiringAt": "2026-11-02T09:06:13.215Z"
+      },
+      {
+        "id": "6ac4574a0fc93c00120a22a0",
+        "slug": "it-business-analyst-27",
+        "role": "IT Business Analyst",
+        "authorId": "6ac37703ddb6640013975534",
+        "stats": {
+          "viewCount": 1671,
+          "nonCuratedCount": 1013,
+          "applicantCount": 1079
+        },
+        "employmentTypes": [
+          "contract"
+        ],
+        "workplaceType": "remote",
+        "publishedAt": "2026-10-06T02:04:58.760Z",
+        "status": "active",
+        "salaryType": "paid",
+        "salaryRange": null,
+        "candidatePreference": {
+          "lastEducations": [
+            0,
+            5
+          ],
+          "major": null,
+          "university": null,
+          "minimumGpa": null,
+          "skillIds": [
+            "6331c84ddcb6240012d94742",
+            "645b5391b264a500123e62b7",
+            "62c6447e38af2c0014ae33d0"
+          ],
+          "gender": "No Preference",
+          "age": {
+            "restriction": false,
+            "min": null,
+            "max": null
+          }
+        },
+        "country": null,
+        "city": null,
+        "companyId": "658135736d1e840013402238",
+        "categoryId": null,
+        "categorySlug": null,
+        "jobRoleCategorySlug": "product-software",
+        "jobRoleId": "69fae0f7b9fdf20011cb4f11",
+        "jobRoleCategoryId": "6934f8a22622eadf60779980",
+        "jobRoleSubCategoryId": "6937c27f3a700c001ef473a7",
+        "company": {
+          "insight": {
+            "fundingStage": "Others",
+            "fundingAmount": null,
+            "benefits": [
+              "competitiveSalary",
+              "bonusSystem"
+            ],
+            "workingPolicies": [
+              "onSite"
+            ]
+          },
+          "logoUrl": "https://cdn.sejutacita.id/66f22283a9977f0013de63df/JobPortalCompanyLogo/0d4ed0cd-5b12-4b5c-b2ae-120adfcc815e.png",
+          "rank": "B",
+          "name": "Bosnet Distribution Indonesia",
+          "sector": "Technology and Software Solutions",
+          "slug": "bosnet-dis",
+          "id": "658135736d1e840013402238",
+          "trialStartedAt": "2024-09-23T17:00:00.000Z",
+          "verified": true
+        },
+        "skills": [
+          {
+            "createdAt": "2022-07-07T02:27:10.036Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "name": "Presentation Skill",
+            "count": 1384,
+            "_id": "62c6447e38af2c0014ae33d0",
+            "status": "notProcessed",
+            "updatedAt": "2026-10-29T03:07:32.527Z"
+          },
+          {
+            "createdAt": "2022-09-26T15:42:05.637Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "name": "BRD",
+            "count": 110,
+            "_id": "6331c84ddcb6240012d94742",
+            "status": "notProcessed",
+            "updatedAt": "2026-11-02T02:38:47.782Z"
+          },
+          {
+            "createdAt": "2023-05-10T08:19:29.456Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "count": 202,
+            "name": "Requirement Gathering",
+            "_id": "645b5391b264a500123e62b7",
+            "status": "notProcessed",
+            "updatedAt": "2026-11-01T19:09:34.589Z"
+          }
+        ],
+        "deletedAt": null,
+        "author": null,
+        "qCompanyRank": null,
+        "createdAt": "2026-10-06T02:04:58.778Z",
+        "updatedAt": "2026-11-02T10:45:49.669Z",
+        "updatedAtByEmployer": "2026-10-16T07:08:41.251Z",
+        "latestUpdatedAt": "2026-10-06T02:04:58.771Z",
+        "urgentlyNeeded": false,
+        "externalPlatformApplyUrl": null,
+        "boosted": false,
+        "_score": 0,
+        "saved": false,
+        "applied": false,
+        "waitListed": false,
+        "applicantPrioritySlots": 1,
+        "higherSalary": null,
+        "eligibleToApply": true,
+        "thereAreStillFewApplicants": false,
+        "lastActivelyHiringAt": "2026-11-02T09:43:05.923Z"
+      },
+      {
+        "id": "6a95297c4462e10012c4016e",
+        "slug": "area-sales-lead-makassar-cirebon",
+        "role": "Area Sales Lead (Jakarta, Makassar, Cirebon, Serang Cilegon)",
+        "authorId": "650bbc59e988fd001339a52d",
+        "stats": {
+          "viewCount": 14407,
+          "nonCuratedCount": 470,
+          "applicantCount": 547
+        },
+        "employmentTypes": [
+          "fullTime"
+        ],
+        "workplaceType": "remote",
+        "publishedAt": "2026-08-31T07:13:00.375Z",
+        "status": "active",
+        "salaryType": "paid",
+        "salaryRange": null,
+        "candidatePreference": {
+          "lastEducations": [
+            6,
+            7
+          ],
+          "major": null,
+          "university": null,
+          "minimumGpa": null,
+          "skillIds": [
+            "6360fb179b924f0013a2681c",
+            "6226f6692d9a642279775ab0",
+            "67fd4dcc203f07b253feccd8",
+            "67f4c8f09167f1e4c4f9427b",
+            "67fcecfa203f07b253feca1c",
+            "628f98c6a39fae001238de9d",
+            "6809f57e8a7a17e946d9a2aa",
+            "6226f6692d9a642279775aaf"
+          ],
+          "gender": "No Preference",
+          "age": {
+            "restriction": false,
+            "min": null,
+            "max": null
+          }
+        },
+        "country": null,
+        "city": null,
+        "companyId": "647efac342a2b200124415a0",
+        "categoryId": null,
+        "categorySlug": null,
+        "jobRoleCategorySlug": "business-sales-and-commercial",
+        "jobRoleId": "69b2888020b3180011d6f91e",
+        "jobRoleCategoryId": "6934fd0b2622eadf60779984",
+        "jobRoleSubCategoryId": "69393fb1ffb8a421e1efbbb2",
+        "company": {
+          "insight": {
+            "fundingStage": null,
+            "fundingAmount": null,
+            "benefits": [
+              "competitiveSalary",
+              "bonusSystem",
+              "paidSickDays",
+              "professionalDevelopment"
+            ],
+            "workingPolicies": [
+              "onSite"
+            ]
+          },
+          "logoUrl": "https://cdn.sejutacita.id/63e0c23d8c574700140623a5/JobPortalCompanyLogo/0d8d1f68-b858-45bb-84f8-f885b891ef63.png",
+          "rank": "B",
+          "name": "Akulaku Group",
+          "sector": "Financial Services",
+          "slug": "akulaku-group",
+          "id": "647efac342a2b200124415a0",
+          "trialStartedAt": "2023-06-12T09:22:31.389Z",
+          "verified": true
+        },
+        "skills": [
+          {
+            "_id": "6226f6692d9a642279775aaf",
+            "name": "Microsoft Office",
+            "createdAt": "2022-03-07T17:00:00.000Z",
+            "addedByUser": false,
+            "status": "notProcessed",
+            "count": 60940,
+            "updatedAt": "2026-11-02T10:02:45.536Z"
+          },
+          {
+            "_id": "6226f6692d9a642279775ab0",
+            "name": "Negotiation",
+            "createdAt": "2022-03-07T17:00:00.000Z",
+            "addedByUser": false,
+            "status": "notProcessed",
+            "count": 12272,
+            "updatedAt": "2026-11-02T10:31:38.675Z"
+          },
+          {
+            "_id": "628f98c6a39fae001238de9d",
+            "addedByUser": true,
+            "name": "Microsoft Excel",
+            "createdAt": "2022-05-26T15:12:06.185Z",
+            "updatedAt": "2026-11-02T09:23:55.707Z",
+            "__v": 0,
+            "status": "notProcessed",
+            "count": 34241
+          },
+          {
+            "_id": "6360fb179b924f0013a2681c",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 102,
+            "name": "Selling",
+            "createdAt": "2022-11-01T10:55:19.388Z",
+            "updatedAt": "2026-09-29T12:17:57.071Z",
+            "__v": 0
+          },
+          {
+            "_id": "67f4c8f09167f1e4c4f9427b",
+            "name": "Negotiation & Persuasion",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 134,
+            "updatedAt": "2026-10-30T15:06:28.734Z",
+            "createdAt": "2025-04-08T06:57:52.498Z"
+          },
+          {
+            "_id": "67fcecfa203f07b253feca1c",
+            "name": "Negotiation & Sales",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 151,
+            "updatedAt": "2026-10-21T12:41:54.310Z",
+            "createdAt": "2025-04-14T11:09:46.466Z"
+          },
+          {
+            "_id": "67fd4dcc203f07b253feccd8",
+            "name": "Negotiation & Communication",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 240,
+            "updatedAt": "2026-11-02T07:31:33.709Z",
+            "createdAt": "2025-04-14T18:02:52.647Z"
+          },
+          {
+            "_id": "6809f57e8a7a17e946d9a2aa",
+            "name": "Microsoft Excel & Google Sheets",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 199,
+            "updatedAt": "2026-11-02T04:39:47.192Z",
+            "createdAt": "2025-04-24T08:25:34.129Z"
+          }
+        ],
+        "deletedAt": null,
+        "author": null,
+        "qCompanyRank": null,
+        "createdAt": "2026-08-31T07:13:00.400Z",
+        "updatedAt": "2026-11-02T10:53:18.949Z",
+        "updatedAtByEmployer": "2026-09-23T07:23:43.574Z",
+        "latestUpdatedAt": "2026-11-01T17:00:07.745Z",
+        "urgentlyNeeded": false,
+        "externalPlatformApplyUrl": null,
+        "boosted": false,
+        "_score": 0,
+        "saved": false,
+        "applied": false,
+        "waitListed": false,
+        "applicantPrioritySlots": 4,
+        "higherSalary": null,
+        "eligibleToApply": true,
+        "thereAreStillFewApplicants": false,
+        "lastActivelyHiringAt": "2026-11-02T10:45:21.675Z"
+      },
+      {
+        "id": "6a029b4efb36d300120c3397",
+        "slug": "sales-region",
+        "role": "Sales Region",
+        "authorId": "64ccd69ee988fd00132b3ab8",
+        "stats": {
+          "viewCount": 12675,
+          "nonCuratedCount": 45,
+          "applicantCount": 1061
+        },
+        "employmentTypes": [
+          "freelance"
+        ],
+        "workplaceType": "remote",
+        "publishedAt": "2026-05-12T03:15:26.801Z",
+        "status": "active",
+        "salaryType": "paid",
+        "salaryRange": null,
+        "candidatePreference": {
+          "lastEducations": [
+            5,
+            6
+          ],
+          "major": null,
+          "university": null,
+          "minimumGpa": null,
+          "skillIds": [
+            "683049108709246917f90e6b",
+            "6226f6692d9a642279775aac",
+            "622b0e91be5455658672490e",
+            "622b0e91be54556586724907",
+            "6315ba513cc66e00128442d3",
+            "63bb863e573a4b0012a50420",
+            "6226f6692d9a642279775a79",
+            "655709585e00350012b1c916",
+            "681b99108709246917e6c302",
+            "6666c3a564ffc000120cd5e8"
+          ],
+          "gender": "No Preference",
+          "age": {
+            "restriction": false,
+            "min": null,
+            "max": null
+          }
+        },
+        "country": null,
+        "city": null,
+        "companyId": "64ccd74d74a3670012702b08",
+        "categoryId": null,
+        "categorySlug": null,
+        "jobRoleCategorySlug": "business-sales-and-commercial",
+        "jobRoleId": "6a027ffed5e8a800120e4dcf",
+        "jobRoleCategoryId": "6934fd0b2622eadf60779984",
+        "jobRoleSubCategoryId": "69393fb4ffb8a421e1efbbbe",
+        "company": {
+          "insight": {
+            "fundingStage": "others",
+            "fundingAmount": null,
+            "benefits": [
+              "competitiveSalary",
+              "bonusSystem",
+              "transport",
+              "selfDevelopmentAllowance",
+              "professionalDevelopment",
+              "paidSickDays",
+              "companyOutings",
+              "freeLunch",
+              "BPJS Kesehatan"
+            ],
+            "workingPolicies": [
+              "onSite",
+              "flexible",
+              "hybrid",
+              "workFromAnywhere"
+            ]
+          },
+          "logoUrl": "https://cdn.sejutacita.id/64ccd69ee988fd00132b3ab8/JobPortalCompanyLogo/f1cf4201-40c8-415a-8ec9-8bf7bf853a68.jpg",
+          "rank": "B",
+          "name": "LindungiHutan",
+          "sector": "Environmental Services",
+          "slug": "lindungihutan",
+          "id": "64ccd74d74a3670012702b08",
+          "trialStartedAt": "2023-07-22T17:00:00.000Z",
+          "verified": true
+        },
+        "skills": [
+          {
+            "createdAt": "2022-03-07T17:00:00.000Z",
+            "name": "Business Development",
+            "addedByUser": false,
+            "count": 5323,
+            "_id": "6226f6692d9a642279775a79",
+            "status": "notProcessed",
+            "updatedAt": "2026-11-02T09:27:23.376Z"
+          },
+          {
+            "createdAt": "2022-03-07T17:00:00.000Z",
+            "name": "Market Analysis",
+            "addedByUser": false,
+            "count": 1233,
+            "_id": "6226f6692d9a642279775aac",
+            "status": "notProcessed",
+            "updatedAt": "2026-11-02T08:28:38.233Z"
+          },
+          {
+            "createdAt": "2022-03-10T17:00:00.000Z",
+            "name": "Relationship Management",
+            "addedByUser": false,
+            "count": 1138,
+            "_id": "622b0e91be54556586724907",
+            "status": "notProcessed",
+            "updatedAt": "2026-11-01T23:41:00.544Z"
+          },
+          {
+            "createdAt": "2022-03-10T17:00:00.000Z",
+            "name": "Strategic Planning",
+            "addedByUser": false,
+            "count": 3898,
+            "_id": "622b0e91be5455658672490e",
+            "status": "notProcessed",
+            "updatedAt": "2026-11-02T09:23:55.707Z"
+          },
+          {
+            "createdAt": "2022-09-05T08:58:57.771Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "name": "CRM Software",
+            "count": 205,
+            "_id": "6315ba513cc66e00128442d3",
+            "status": "notProcessed",
+            "updatedAt": "2026-10-28T03:31:27.797Z"
+          },
+          {
+            "createdAt": "2023-01-09T03:13:02.436Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "count": 2165,
+            "name": "Negotiation Skills",
+            "_id": "63bb863e573a4b0012a50420",
+            "status": "notProcessed",
+            "updatedAt": "2026-10-27T10:21:43.569Z"
+          },
+          {
+            "createdAt": "2023-11-17T06:34:00.198Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "count": 49,
+            "name": "Revenue Growth",
+            "_id": "655709585e00350012b1c916",
+            "status": "notProcessed",
+            "updatedAt": "2026-10-15T11:12:41.008Z"
+          },
+          {
+            "createdAt": "2024-06-10T09:13:09.380Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "count": 94,
+            "name": "Target-Oriented",
+            "_id": "6666c3a564ffc000120cd5e8",
+            "status": "notProcessed",
+            "updatedAt": "2026-10-09T06:30:37.692Z"
+          },
+          {
+            "createdAt": "2025-05-07T17:32:00.834Z",
+            "editedBy": null,
+            "name": "target-driven sales",
+            "addedByUser": true,
+            "count": 124,
+            "_id": "681b99108709246917e6c302",
+            "status": "notProcessed",
+            "updatedAt": "2026-10-18T09:36:33.877Z"
+          },
+          {
+            "createdAt": "2025-05-23T10:08:16.100Z",
+            "editedBy": null,
+            "name": "Regional Sales Management",
+            "addedByUser": true,
+            "count": 2,
+            "_id": "683049108709246917f90e6b",
+            "status": "notProcessed",
+            "updatedAt": "2026-06-11T09:45:59.491Z"
+          }
+        ],
+        "deletedAt": null,
+        "author": null,
+        "qCompanyRank": null,
+        "createdAt": "2026-05-12T03:15:26.812Z",
+        "updatedAt": "2026-11-02T10:48:52.973Z",
+        "updatedAtByEmployer": "2026-10-27T03:33:48.787Z",
+        "latestUpdatedAt": "2026-10-06T05:00:09.120Z",
+        "urgentlyNeeded": false,
+        "externalPlatformApplyUrl": null,
+        "boosted": false,
+        "_score": 0,
+        "saved": false,
+        "applied": false,
+        "waitListed": false,
+        "applicantPrioritySlots": 8,
+        "higherSalary": null,
+        "eligibleToApply": true,
+        "thereAreStillFewApplicants": false,
+        "lastActivelyHiringAt": "2026-10-27T06:59:45.976Z"
+      },
+      {
+        "id": "69d86ecc6b645f0011fbbe3e",
+        "slug": "buisness-development-admin-jogja",
+        "role": "Buisness Development Admin (Yogyakarta & Solo)",
+        "authorId": "677de09a056d970013a96797",
+        "stats": {
+          "viewCount": 983,
+          "nonCuratedCount": 534,
+          "applicantCount": 625
+        },
+        "employmentTypes": [
+          "contract"
+        ],
+        "workplaceType": "remote",
+        "publishedAt": "2026-04-10T03:30:20.173Z",
+        "status": "active",
+        "salaryType": "paid",
+        "salaryRange": {
+          "start": 2700000,
+          "end": 3000000
+        },
+        "candidatePreference": {
+          "lastEducations": [
+            0,
+            5
+          ],
+          "major": null,
+          "university": null,
+          "minimumGpa": null,
+          "skillIds": [
+            "6822c65cfb95b8ee7c63a86b",
+            "681b2097fb95b8ee7c5d4ef6",
+            "688204cb1d3c52db5b1e0c01",
+            "62d913c8707b920013f5d6ab"
+          ],
+          "gender": "No Preference",
+          "age": {
+            "restriction": false,
+            "min": null,
+            "max": null
+          }
+        },
+        "country": null,
+        "city": null,
+        "companyId": "677de1041e0b2000116b9c23",
+        "categoryId": null,
+        "categorySlug": null,
+        "jobRoleCategorySlug": "business-sales-and-commercial",
+        "jobRoleId": "69a5409404972b00123768cd",
+        "jobRoleCategoryId": "6934fd0b2622eadf60779984",
+        "jobRoleSubCategoryId": "69393fb2ffb8a421e1efbbb8",
+        "company": {
+          "insight": {
+            "fundingStage": null,
+            "fundingAmount": null,
+            "benefits": [
+              "competitiveSalary",
+              "medicalLeave",
+              "paidSickDays",
+              "bonusSystem"
+            ],
+            "workingPolicies": [
+              "onSite"
+            ]
+          },
+          "logoUrl": "https://cdn.sejutacita.id/677de09a056d970013a96797/JobPortalCompanyLogo/b705a502-06e9-4077-984c-5b075e2d6f48.jpeg",
+          "rank": "B",
+          "name": "Hangry",
+          "sector": "Food And Beverage Services",
+          "slug": "hangry",
+          "id": "677de1041e0b2000116b9c23",
+          "trialStartedAt": "2025-01-07T17:00:00.000Z",
+          "verified": true
+        },
+        "skills": [
+          {
+            "createdAt": "2022-07-21T08:52:24.373Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "name": "System Administration",
+            "count": 918,
+            "_id": "62d913c8707b920013f5d6ab",
+            "status": "notProcessed",
+            "updatedAt": "2026-10-26T12:47:13.040Z"
+          },
+          {
+            "createdAt": "2025-05-07T08:57:59.868Z",
+            "editedBy": null,
+            "name": "administrative documentation",
+            "addedByUser": true,
+            "count": 309,
+            "_id": "681b2097fb95b8ee7c5d4ef6",
+            "status": "notProcessed",
+            "updatedAt": "2026-10-27T13:33:37.625Z"
+          },
+          {
+            "createdAt": "2025-05-13T04:11:08.922Z",
+            "editedBy": null,
+            "name": "administrative processes",
+            "addedByUser": true,
+            "count": 118,
+            "_id": "6822c65cfb95b8ee7c63a86b",
+            "status": "notProcessed",
+            "updatedAt": "2026-09-10T22:44:48.776Z"
+          },
+          {
+            "createdAt": "2025-07-24T10:02:51.198Z",
+            "editedBy": null,
+            "name": "administrative accuracy and time management",
+            "addedByUser": true,
+            "count": 159,
+            "_id": "688204cb1d3c52db5b1e0c01",
+            "status": "notProcessed",
+            "updatedAt": "2026-10-27T13:33:37.625Z"
+          }
+        ],
+        "deletedAt": null,
+        "author": null,
+        "qCompanyRank": null,
+        "createdAt": "2026-04-10T03:30:20.178Z",
+        "updatedAt": "2026-11-02T10:48:52.832Z",
+        "updatedAtByEmployer": "2026-10-28T02:56:56.972Z",
+        "latestUpdatedAt": "2026-10-28T11:00:14.614Z",
+        "urgentlyNeeded": false,
+        "externalPlatformApplyUrl": null,
+        "boosted": false,
+        "_score": 0,
+        "saved": false,
+        "applied": false,
+        "waitListed": false,
+        "applicantPrioritySlots": 7,
+        "higherSalary": null,
+        "eligibleToApply": true,
+        "thereAreStillFewApplicants": false,
+        "lastActivelyHiringAt": "2026-11-02T05:54:46.374Z"
+      },
+      {
+        "id": "6808b7abcb78bf00120d05bf",
+        "slug": "ielts-tutor-remote",
+        "role": "IELTS Tutor (Remote)",
+        "authorId": "665f31dbc547c50013274dd7",
+        "stats": {
+          "viewCount": 961,
+          "nonCuratedCount": 19,
+          "applicantCount": 512
+        },
+        "employmentTypes": [
+          "partTime"
+        ],
+        "workplaceType": "remote",
+        "publishedAt": "2025-04-23T09:49:31.800Z",
+        "status": "active",
+        "salaryType": "paid",
+        "salaryRange": null,
+        "candidatePreference": {
+          "minimumGpa": null,
+          "major": null,
+          "skillIds": [],
+          "university": null,
+          "lastEducations": [
+            5
+          ]
+        },
+        "country": null,
+        "city": null,
+        "companyId": "665f35597290aa001254b3ec",
+        "categoryId": "65673827e7adcf001210f96e",
+        "categorySlug": "admin-and-ops",
+        "jobRoleCategorySlug": null,
+        "jobRoleId": null,
+        "jobRoleCategoryId": null,
+        "jobRoleSubCategoryId": null,
+        "company": {
+          "insight": {
+            "benefits": [
+              "medicalLeave",
+              "bonusSystem",
+              "periodLeave",
+              "competitiveSalary",
+              "internationalExposure",
+              "casualDressCode",
+              "maternityLeave",
+              "paidSickDays",
+              "teamBuilding",
+              "employeeDiscounts"
+            ],
+            "workingPolicies": [
+              "workFromAnywhere",
+              "hybrid"
+            ],
+            "fundingStage": "-",
+            "fundingAmount": null
+          },
+          "name": "Kobi Education",
+          "rank": "B",
+          "trialStartedAt": "2024-06-23T17:00:00.000Z",
+          "id": "665f35597290aa001254b3ec",
+          "sector": "Education",
+          "logoUrl": "https://cdn.sejutacita.id/665f31dbc547c50013274dd7/JobPortalCompanyLogo/008abb18-15d5-4719-a788-7020f8dc965d.jpeg",
+          "slug": "kobi-education",
+          "verified": true
+        },
+        "skills": [],
+        "deletedAt": null,
+        "author": null,
+        "qCompanyRank": null,
+        "createdAt": "2025-04-23T09:49:31.804Z",
+        "updatedAt": "2026-11-02T04:05:54.868Z",
+        "updatedAtByEmployer": "2026-11-02T04:05:54.868Z",
+        "latestUpdatedAt": "2026-10-21T17:00:10.222Z",
+        "urgentlyNeeded": false,
+        "externalPlatformApplyUrl": null,
+        "boosted": false,
+        "_score": 0,
+        "saved": false,
+        "applied": false,
+        "waitListed": false,
+        "applicantPrioritySlots": 8,
+        "higherSalary": null,
+        "eligibleToApply": true,
+        "thereAreStillFewApplicants": false,
+        "lastActivelyHiringAt": "2026-11-02T08:22:23.578Z"
+      },
+      {
+        "id": "67862f06afe9210012dfb967",
+        "slug": "gmat-tutor-online",
+        "role": "GMAT/GRE Tutor (Online)",
+        "authorId": "665f31dbc547c50013274dd7",
+        "stats": {
+          "viewCount": 4037,
+          "nonCuratedCount": 10,
+          "applicantCount": 213
+        },
+        "employmentTypes": [
+          "partTime"
+        ],
+        "workplaceType": "remote",
+        "publishedAt": "2025-01-14T09:31:50.547Z",
+        "status": "active",
+        "salaryType": "paid",
+        "salaryRange": null,
+        "candidatePreference": {
+          "lastEducations": [
+            0,
+            5
+          ],
+          "major": null,
+          "university": null,
+          "minimumGpa": null,
+          "skillIds": [
+            "628db5b3a39fae001238723c",
+            "6226f6692d9a642279775a80",
+            "622b0e91be545565867248d6"
+          ],
+          "gender": "No Preference",
+          "age": {
+            "restriction": false,
+            "min": null,
+            "max": null
+          }
+        },
+        "country": null,
+        "city": null,
+        "companyId": "665f35597290aa001254b3ec",
+        "categoryId": null,
+        "categorySlug": null,
+        "jobRoleCategorySlug": "education-and-training",
+        "jobRoleId": "69393ff1ffb8a421e1efbcb5",
+        "jobRoleCategoryId": "6934fecd2622eadf60779993",
+        "jobRoleSubCategoryId": "69393ff1ffb8a421e1efbcb4",
+        "company": {
+          "insight": {
+            "fundingStage": "-",
+            "fundingAmount": null,
+            "benefits": [
+              "medicalLeave",
+              "bonusSystem",
+              "periodLeave",
+              "competitiveSalary",
+              "internationalExposure",
+              "casualDressCode",
+              "maternityLeave",
+              "paidSickDays",
+              "teamBuilding",
+              "employeeDiscounts"
+            ],
+            "workingPolicies": [
+              "workFromAnywhere",
+              "hybrid"
+            ]
+          },
+          "logoUrl": "https://cdn.sejutacita.id/665f31dbc547c50013274dd7/JobPortalCompanyLogo/008abb18-15d5-4719-a788-7020f8dc965d.jpeg",
+          "rank": "B",
+          "name": "Kobi Education",
+          "sector": "Education",
+          "slug": "kobi-education",
+          "id": "665f35597290aa001254b3ec",
+          "trialStartedAt": "2024-06-23T17:00:00.000Z",
+          "verified": true
+        },
+        "skills": [
+          {
+            "_id": "6226f6692d9a642279775a80",
+            "name": "Communication",
+            "createdAt": "2022-03-07T17:00:00.000Z",
+            "addedByUser": false,
+            "status": "notProcessed",
+            "count": 33639,
+            "updatedAt": "2026-11-02T09:23:55.707Z"
+          },
+          {
+            "_id": "622b0e91be545565867248d6",
+            "name": "Collaboration",
+            "createdAt": "2022-03-10T17:00:00.000Z",
+            "addedByUser": false,
+            "status": "notProcessed",
+            "count": 4148,
+            "updatedAt": "2026-11-02T09:23:55.707Z"
+          },
+          {
+            "_id": "628db5b3a39fae001238723c",
+            "addedByUser": true,
+            "name": "Teaching",
+            "createdAt": "2022-05-25T04:50:59.758Z",
+            "updatedAt": "2026-10-30T03:21:15.924Z",
+            "__v": 0,
+            "status": "notProcessed",
+            "count": 1665
+          }
+        ],
+        "deletedAt": null,
+        "author": null,
+        "qCompanyRank": null,
+        "createdAt": "2025-01-14T09:31:50.559Z",
+        "updatedAt": "2026-11-02T09:56:13.171Z",
+        "updatedAtByEmployer": "2026-10-29T02:22:26.587Z",
+        "latestUpdatedAt": "2026-10-04T11:00:07.471Z",
+        "urgentlyNeeded": false,
+        "externalPlatformApplyUrl": null,
+        "boosted": false,
+        "_score": 0,
+        "saved": false,
+        "applied": false,
+        "waitListed": false,
+        "applicantPrioritySlots": 8,
+        "higherSalary": null,
+        "eligibleToApply": true,
+        "thereAreStillFewApplicants": false,
+        "lastActivelyHiringAt": "2026-11-02T08:22:23.848Z"
+      },
+      {
+        "id": "6530ba8f7ebcca0012d8fe59",
+        "slug": "event-manager-sejutacita-international-paid",
+        "role": "Event Manager (Internship)",
+        "authorId": "62343edc130c09001307ca9d",
+        "stats": {
+          "viewCount": 9432,
+          "nonCuratedCount": 43,
+          "applicantCount": 525
+        },
+        "employmentTypes": [
+          "fullTime"
+        ],
+        "workplaceType": "remote",
+        "publishedAt": "2023-10-19T05:11:43.769Z",
+        "status": "active",
+        "salaryType": "paid",
+        "salaryRange": null,
+        "candidatePreference": {
+          "minimumGpa": null,
+          "major": null,
+          "gender": "No Preference",
+          "skillIds": [
+            "62a025cd62a37400158caca8"
+          ],
+          "university": null,
+          "lastEducations": [
+            5,
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "age": {
+            "min": null,
+            "max": null,
+            "restriction": false
+          }
+        },
+        "country": null,
+        "city": null,
+        "companyId": "623480aec757f900121d3b8f",
+        "categoryId": null,
+        "categorySlug": null,
+        "jobRoleCategorySlug": "uncharted",
+        "jobRoleId": "698ff5f6f49651b7aff3c3c1",
+        "jobRoleCategoryId": "6934ff2b2622eadf60779997",
+        "jobRoleSubCategoryId": "694e44297faf7590f8fdb4a8",
+        "company": {
+          "insight": {
+            "benefits": [
+              "competitiveSalary",
+              "bonusSystem",
+              "casualDressCode",
+              "paidSickDays",
+              "medicalLeave",
+              "teamBuilding",
+              "maternityLeave"
+            ],
+            "workingPolicies": [
+              "onSite"
+            ],
+            "fundingStage": "seed",
+            "fundingAmount": null
+          },
+          "name": "Dealls (YC W22)",
+          "rank": "A",
+          "trialStartedAt": "2022-03-18T12:53:02.873Z",
+          "id": "623480aec757f900121d3b8f",
+          "sector": "Tech",
+          "logoUrl": "https://cdn.sejutacita.id/63e0c23d8c574700140623a5/JobPortalCompanyLogo/3246d463-d005-4125-b2a1-7133452a5b30.png",
+          "slug": "dealls-yc-w22",
+          "verified": true
+        },
+        "skills": [
+          {
+            "createdAt": "2022-06-08T04:30:05.802Z",
+            "__v": 0,
+            "addedByUser": true,
+            "name": "Event Management",
+            "count": 4617,
+            "_id": "62a025cd62a37400158caca8",
+            "updatedAt": "2026-10-30T06:58:44.368Z",
+            "status": "notProcessed"
+          }
+        ],
+        "deletedAt": null,
+        "author": null,
+        "qCompanyRank": null,
+        "createdAt": "2023-10-19T05:11:43.787Z",
+        "updatedAt": "2026-11-01T02:10:28.233Z",
+        "updatedAtByEmployer": "2026-10-23T04:31:52.596Z",
+        "latestUpdatedAt": "2026-10-23T11:00:05.663Z",
+        "urgentlyNeeded": false,
+        "externalPlatformApplyUrl": null,
+        "boosted": false,
+        "_score": 0,
+        "saved": false,
+        "applied": false,
+        "waitListed": false,
+        "applicantPrioritySlots": 8,
+        "higherSalary": null,
+        "eligibleToApply": true,
+        "thereAreStillFewApplicants": false,
+        "lastActivelyHiringAt": "2026-11-02T10:52:20.006Z"
+      },
+      {
+        "id": "643cb4eb25883a0012e13ae3",
+        "slug": "business-operation-specialist",
+        "role": "Business Operation Specialist",
+        "authorId": "63c5112a7aeed7001325f45f",
+        "stats": {
+          "viewCount": 10594,
+          "nonCuratedCount": 990,
+          "applicantCount": 2027
+        },
+        "employmentTypes": [
+          "fullTime"
+        ],
+        "workplaceType": "remote",
+        "publishedAt": "2023-04-17T02:54:35.504Z",
+        "status": "active",
+        "salaryType": "paid",
+        "salaryRange": null,
+        "candidatePreference": {
+          "lastEducations": [
+            5,
+            0
+          ],
+          "major": null,
+          "university": null,
+          "minimumGpa": null,
+          "skillIds": [
+            "634797fe28c4ce0013693539"
+          ],
+          "gender": "No Preference",
+          "age": {
+            "restriction": false,
+            "min": null,
+            "max": null
+          }
+        },
+        "country": null,
+        "city": null,
+        "companyId": "623480aec757f900121d3b8f",
+        "categoryId": null,
+        "categorySlug": null,
+        "jobRoleCategorySlug": "business-sales-and-commercial",
+        "jobRoleId": "677f7752fc644300124644f6",
+        "jobRoleCategoryId": "6934fd0b2622eadf60779984",
+        "jobRoleSubCategoryId": "69393fb2ffb8a421e1efbbb8",
+        "company": {
+          "logoUrl": "https://cdn.sejutacita.id/63e0c23d8c574700140623a5/JobPortalCompanyLogo/3246d463-d005-4125-b2a1-7133452a5b30.png",
+          "name": "Dealls (YC W22)",
+          "sector": "Tech",
+          "slug": "dealls-yc-w22",
+          "insight": {
+            "fundingStage": "seed",
+            "fundingAmount": null,
+            "benefits": [
+              "competitiveSalary",
+              "bonusSystem",
+              "casualDressCode",
+              "paidSickDays",
+              "medicalLeave",
+              "teamBuilding",
+              "maternityLeave"
+            ],
+            "workingPolicies": [
+              "onSite"
+            ]
+          },
+          "rank": "A",
+          "id": "623480aec757f900121d3b8f",
+          "trialStartedAt": "2022-03-18T12:53:02.873Z",
+          "verified": true
+        },
+        "skills": [
+          {
+            "_id": "634797fe28c4ce0013693539",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 2612,
+            "name": "Spreadsheet",
+            "createdAt": "2022-10-13T04:45:50.519Z",
+            "updatedAt": "2026-11-02T08:34:37.188Z",
+            "__v": 0
+          }
+        ],
+        "deletedAt": null,
+        "author": null,
+        "qCompanyRank": null,
+        "createdAt": "2023-04-17T02:54:35.511Z",
+        "updatedAt": "2026-11-02T10:48:52.654Z",
+        "updatedAtByEmployer": "2026-09-22T17:49:15.358Z",
+        "latestUpdatedAt": "2026-10-24T11:00:04.844Z",
+        "urgentlyNeeded": false,
+        "externalPlatformApplyUrl": null,
+        "boosted": false,
+        "_score": 0,
+        "saved": false,
+        "applied": false,
+        "waitListed": false,
+        "applicantPrioritySlots": 1,
+        "higherSalary": null,
+        "eligibleToApply": true,
+        "thereAreStillFewApplicants": false,
+        "lastActivelyHiringAt": "2026-11-02T10:59:51.455Z"
+      },
+      {
+        "id": "6246a161c1e6b60012486662",
+        "slug": "business-developmentpartnership-and-strategy",
+        "role": "Business Development/Partnership & Strategy",
+        "authorId": "6246903459bce60014f680a5",
+        "stats": {
+          "viewCount": 35827,
+          "nonCuratedCount": 610,
+          "applicantCount": 3741
+        },
+        "employmentTypes": [
+          "fullTime"
+        ],
+        "workplaceType": "remote",
+        "publishedAt": "2022-04-01T06:53:21.263Z",
+        "status": "active",
+        "salaryType": "paid",
+        "salaryRange": null,
+        "candidatePreference": {
+          "lastEducations": [
+            0
+          ],
+          "major": null,
+          "university": null,
+          "minimumGpa": null,
+          "skillIds": [
+            "6226f6692d9a642279775a80"
+          ],
+          "gender": "No Preference",
+          "age": {
+            "restriction": false,
+            "min": null,
+            "max": null
+          }
+        },
+        "country": null,
+        "city": null,
+        "companyId": "623480aec757f900121d3b8f",
+        "categoryId": null,
+        "categorySlug": null,
+        "jobRoleCategorySlug": "business-sales-and-commercial",
+        "jobRoleId": "6512991f8ac4e600126390df",
+        "jobRoleCategoryId": "6934fd0b2622eadf60779984",
+        "jobRoleSubCategoryId": "69393fb2ffb8a421e1efbbb8",
+        "company": {
+          "logoUrl": "https://cdn.sejutacita.id/63e0c23d8c574700140623a5/JobPortalCompanyLogo/3246d463-d005-4125-b2a1-7133452a5b30.png",
+          "name": "Dealls (YC W22)",
+          "sector": "Tech",
+          "slug": "dealls-yc-w22",
+          "insight": {
+            "fundingStage": "seed",
+            "fundingAmount": null,
+            "benefits": [
+              "competitiveSalary",
+              "bonusSystem",
+              "casualDressCode",
+              "paidSickDays",
+              "medicalLeave",
+              "teamBuilding",
+              "maternityLeave"
+            ],
+            "workingPolicies": [
+              "onSite"
+            ]
+          },
+          "rank": "A",
+          "id": "623480aec757f900121d3b8f",
+          "trialStartedAt": "2022-03-18T12:53:02.873Z",
+          "verified": true
+        },
+        "skills": [
+          {
+            "_id": "6226f6692d9a642279775a80",
+            "name": "Communication",
+            "createdAt": "2022-03-07T17:00:00.000Z",
+            "addedByUser": false,
+            "status": "notProcessed",
+            "count": 33639,
+            "updatedAt": "2026-11-02T09:23:55.707Z"
+          }
+        ],
+        "deletedAt": null,
+        "author": null,
+        "qCompanyRank": null,
+        "createdAt": "2022-04-01T06:53:21.270Z",
+        "updatedAt": "2026-11-02T10:17:06.640Z",
+        "updatedAtByEmployer": "2026-09-25T03:21:55.749Z",
+        "latestUpdatedAt": "2026-10-23T23:00:05.080Z",
+        "urgentlyNeeded": false,
+        "externalPlatformApplyUrl": null,
+        "boosted": false,
+        "_score": 0,
+        "saved": false,
+        "applied": false,
+        "waitListed": false,
+        "applicantPrioritySlots": 1,
+        "higherSalary": null,
+        "eligibleToApply": true,
+        "thereAreStillFewApplicants": false,
+        "lastActivelyHiringAt": "2026-11-02T10:59:51.455Z"
+      }
+    ],
+    "totalDocs": 18,
+    "totalPages": 1,
+    "page": 1
+  },
+  "code": 200
+}

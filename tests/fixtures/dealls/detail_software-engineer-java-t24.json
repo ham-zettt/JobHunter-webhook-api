@@ -1,0 +1,471 @@
+{
+  "code": 200,
+  "data": {
+    "result": {
+      "id": "6ae2f4fc23d8da001210bfaf",
+      "companyId": "66713dc468c7580012ea0175",
+      "authorId": "66e0fc7c3158950013a6fc47",
+      "jobRoleCategoryId": "693466050fafa100127216a7",
+      "jobRoleSubCategoryId": "693468170fafa100127216ae",
+      "jobRoleId": "6244131979e467a6fb495e2c",
+      "role": "Software Engineer (Java, T24)",
+      "slugPrimarySegment": "software-engineer-java-t24",
+      "slugSecondarySegment": 0,
+      "slug": "software-engineer-java-t24",
+      "closed": false,
+      "userSavedJob": null,
+      "category": null,
+      "jobRoleCategory": {
+        "id": "693466050fafa100127216a7",
+        "name": "Engineering (IT/Software)",
+        "emoji": "💻",
+        "emojiUrl": "https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.3/assets/72x72/1f4bb.png",
+        "slug": "it-and-software-engineering",
+        "iconUrl": null,
+        "createdAt": "2025-12-30T06:31:01.681Z",
+        "updatedAt": "2026-01-09T09:36:10.662Z",
+        "showLandingPage": true,
+        "showToEmployer": true,
+        "showToUser": true,
+        "curatedByAdmin": true
+      },
+      "jobRoleSubCategory": {
+        "id": "693468170fafa100127216ae",
+        "jobRoleCategoryId": "693466050fafa100127216a7",
+        "name": "Backend Developer",
+        "value": "Backend Developer",
+        "createdAt": "2025-12-06T17:29:59.030Z",
+        "updatedAt": "2025-12-31T12:29:40.950Z",
+        "showToEmployer": true,
+        "showToUser": true,
+        "curatedByAdmin": true
+      },
+      "jobRole": {
+        "id": "6244131979e467a6fb495e2c",
+        "name": "Java Developer",
+        "slug": null,
+        "nameIndonesian": "Pengembang Java",
+        "addedByUser": false,
+        "about": null,
+        "responsibilities": null,
+        "requirements": null,
+        "perks": null,
+        "editedBy": null,
+        "addedByAdmin": true,
+        "curatedByAdmin": true,
+        "addedByEmployer": false,
+        "approvedCurationByAdmin": true,
+        "status": "notProcessed",
+        "descriptionCompleted": false,
+        "count": 1956,
+        "visible": true,
+        "jobRoleCategoryId": "693466050fafa100127216a7",
+        "jobRoleSubCategoryId": "693468170fafa100127216ae",
+        "categoryId": "693466050fafa100127216a7",
+        "jobRoleCategory": null,
+        "jobCategory": null,
+        "jobSubCategory": null,
+        "createdAt": "2022-03-29T07:00:00.000Z"
+      },
+      "saved": false,
+      "description": null,
+      "responsibilities": "<p><br></p><ul><li>Develop, maintain, and enhance core banking applications using Temenos T24/TAFJ.</li><li>Customize and implement application functionalities based on business requirements and technical specifications.</li><li>Develop, maintain, and enhance banking system functionalities using Java and Temenos development tools.</li><li>Analyze business requirements and translate them into technical solutions aligned with banking processes.</li><li>Develop and maintain integrations between Temenos T24 and external systems using APIs, web services, and other integration mechanisms.</li><li>Work with databases to implement data access, queries, and application functionality.</li><li>Troubleshoot, debug, and resolve application issues to ensure system stability and performance.</li><li>Participate in technical discussions, code reviews, and problem-solving activities.</li><li>Perform unit testing and support System Integration Testing (SIT) and User Acceptance Testing (UAT).</li><li>Ensure code quality, maintainability, documentation, and adherence to development standards.</li><li>Support application deployment, production maintenance, incident resolution, and ongoing system improvements.</li><li>Collaborate with business analysts, QA teams, infrastructure teams, and other stakeholders in an Agile/Scrum environment.</li></ul><p><br></p><p><br></p><p><br></p>",
+      "requirements": "<p><br></p><ul><li>Bachelor's degree in Informatics Engineering, Computer Science, Information Technology, or a related field.</li><li>Minimum 3 years of experience in software development, preferably in banking or financial services.</li><li>Strong experience with Temenos T24 / Transact and TAFJ (Temenos Application Framework for Java).</li><li>Good programming skills in Java and experience developing Java-based enterprise applications.</li><li>Understanding of Temenos T24 architecture, application customization, and development processes.</li><li>Experience with Temenos development tools, frameworks, and banking application workflows.</li><li>Experience developing and maintaining system integrations, APIs, and web services.</li><li>Good understanding of relational databases, SQL, and data management.</li><li>Understanding of software development lifecycle, testing, debugging, deployment, and maintenance processes.</li><li>Familiarity with Git or other version control systems.</li><li>Knowledge of core banking processes, such as accounts, deposits, lending, payments, or funds transfers, is an advantage.</li><li>Strong analytical thinking, problem-solving, and debugging skills.</li><li>Good communication and collaboration skills.</li><li>Able to work independently as well as collaboratively within a team.</li><li>Proactive, responsible, and willing to learn and adapt to new technologies.</li><li>Experience working in an Agile/Scrum environment is a plus.</li><li>Open to middle-level candidates with strong hands-on development experience.</li></ul><p><br></p>",
+      "perks": [],
+      "customPerks": null,
+      "invitedEmails": null,
+      "employmentTypes": [
+        "fullTime"
+      ],
+      "workplaceType": "onSite",
+      "location": {
+        "country": {
+          "id": 102,
+          "name": "Indonesia"
+        },
+        "city": {
+          "id": 158,
+          "name": "Jakarta Selatan"
+        }
+      },
+      "salaryType": "paid",
+      "salaryRange": null,
+      "cvRequired": true,
+      "portofolioRequired": false,
+      "reminderToProcessFirstCandidatesIsSent": false,
+      "published": true,
+      "publishedAt": "2026-10-29T07:25:48.838Z",
+      "preScreeningQuestions": [
+        {
+          "id": "69b38f8221d8ba2a2009aa70",
+          "type": "radio",
+          "title": "Skills",
+          "question": "How proficient are you in [skill]?",
+          "mandatory": true,
+          "description": "Candidates will be asked how preficient they are in the following skills.",
+          "dynamicItems": [
+            "Java Springboot",
+            "Java",
+            "Java Programming",
+            "Java (Basic)",
+            "T24",
+            "Temenos",
+            "SQL Database"
+          ],
+          "radio": {
+            "options": [
+              {
+                "id": "6ae2f4fc23d8da001210bfb1",
+                "value": "No experience"
+              },
+              {
+                "id": "6ae2f4fc23d8da001210bfb2",
+                "value": "Basic"
+              },
+              {
+                "id": "6ae2f4fc23d8da001210bfb3",
+                "value": "Intermediate"
+              },
+              {
+                "id": "6ae2f4fc23d8da001210bfb4",
+                "value": "Pro"
+              }
+            ]
+          },
+          "legacyIds": []
+        },
+        {
+          "id": "64844808827a42e574746f1c",
+          "type": "date",
+          "title": "Earliest Start Date",
+          "question": "What is your earliest possible start date?",
+          "mandatory": true,
+          "description": "Candidates will be asked about their earliest start date.",
+          "dynamicItems": [],
+          "legacyIds": []
+        },
+        {
+          "id": "648447b8827a42e574746f1b",
+          "type": "numeric",
+          "title": "Notice Period",
+          "question": "How many days is your notice period with your current employer?",
+          "mandatory": true,
+          "description": "Candidates will be asked about their notice period with their current employer.",
+          "dynamicItems": [],
+          "legacyIds": []
+        },
+        {
+          "id": "6ae2f4fc23d8da001210bfb7",
+          "type": "shortText",
+          "title": "Berapa tahun pengalaman Anda sebagai Java Developer?\n\n\n\n",
+          "question": "Berapa tahun pengalaman Anda sebagai Java Developer?\n\n\n\n",
+          "mandatory": true,
+          "description": null,
+          "dynamicItems": [],
+          "legacyIds": []
+        },
+        {
+          "id": "64844768827a42e574746f1a",
+          "type": "radio",
+          "title": "Are you employed?",
+          "question": "Are you employed?",
+          "mandatory": true,
+          "description": "Candidates will be asked about their employment status.",
+          "dynamicItems": [],
+          "radio": {
+            "options": [
+              {
+                "id": "6ae2f4fc23d8da001210bfb9",
+                "value": "Employed"
+              },
+              {
+                "id": "6ae2f4fc23d8da001210bfba",
+                "value": "Unemployed"
+              }
+            ]
+          },
+          "legacyIds": []
+        },
+        {
+          "id": "648448a8827a42e574746f1e",
+          "type": "radio",
+          "title": "Industry Experience",
+          "question": "How long have you been working in IT Consultant?",
+          "mandatory": true,
+          "description": "Candidates will be asked about their industry experience.",
+          "dynamicItems": [],
+          "radio": {
+            "options": [
+              {
+                "id": "6ae2f4fc23d8da001210bfbc",
+                "value": "No experience"
+              },
+              {
+                "id": "6ae2f4fc23d8da001210bfbd",
+                "value": "< 1 year"
+              },
+              {
+                "id": "6ae2f4fc23d8da001210bfbe",
+                "value": "1-3 years"
+              },
+              {
+                "id": "6ae2f4fc23d8da001210bfbf",
+                "value": "3-5 years"
+              },
+              {
+                "id": "6ae2f4fc23d8da001210bfc0",
+                "value": "5+ years"
+              }
+            ]
+          },
+          "legacyIds": []
+        },
+        {
+          "id": "6ae2f4fc23d8da001210bfc1",
+          "type": "shortText",
+          "title": "Berapa tahun pengalaman Anda dalam menggunakan T24?",
+          "question": "Berapa tahun pengalaman Anda dalam menggunakan T24?",
+          "mandatory": true,
+          "description": null,
+          "dynamicItems": [],
+          "legacyIds": []
+        }
+      ],
+      "candidatePreference": {
+        "major": null,
+        "lastEducations": [
+          6
+        ],
+        "university": null,
+        "minimumGpa": null,
+        "skillIds": [
+          "6448d0d8f96cbe0012f46424",
+          "64f699a28879c60012d1bbe4",
+          "636c8b0c8fb785001310bfae",
+          "67f8f76c203f07b253fd919f",
+          "63abfff6f52175001377407f",
+          "63abfffa9859f50012d0205b",
+          "63fea46893bd760013149250"
+        ],
+        "skills": [
+          {
+            "id": "6448d0d8f96cbe0012f46424",
+            "name": "Java Springboot",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 161,
+            "createdAt": "2023-04-26T07:20:56.949Z"
+          },
+          {
+            "id": "64f699a28879c60012d1bbe4",
+            "name": "Java",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 5588,
+            "createdAt": "2023-09-05T02:59:46.948Z"
+          },
+          {
+            "id": "636c8b0c8fb785001310bfae",
+            "name": "Java Programming",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 156,
+            "createdAt": "2022-11-10T05:24:28.293Z"
+          },
+          {
+            "id": "67f8f76c203f07b253fd919f",
+            "name": "Java (Basic)",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 72,
+            "createdAt": "2025-04-11T11:05:16.353Z"
+          },
+          {
+            "id": "63abfff6f52175001377407f",
+            "name": "T24",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 12,
+            "createdAt": "2022-12-28T08:36:06.159Z"
+          },
+          {
+            "id": "63abfffa9859f50012d0205b",
+            "name": "Temenos",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 5,
+            "createdAt": "2022-12-28T08:36:10.044Z"
+          },
+          {
+            "id": "63fea46893bd760013149250",
+            "name": "SQL Database",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 1220,
+            "createdAt": "2023-03-01T01:03:36.863Z"
+          }
+        ],
+        "gender": "No Preference",
+        "age": {
+          "restriction": false,
+          "min": null,
+          "max": null
+        }
+      },
+      "status": "active",
+      "stats": {
+        "viewCount": 178,
+        "nonCuratedCount": 17
+      },
+      "applicantLimitCount": 19,
+      "eligibleToApply": null,
+      "jobApplication": null,
+      "company": {
+        "id": "66713dc468c7580012ea0175",
+        "name": "PT Lawencon Internasional",
+        "slug": "pt-lawencon-internasional",
+        "headline": null,
+        "insight": {
+          "fundingStage": null,
+          "fundingAmount": null,
+          "benefits": [
+            "competitiveSalary"
+          ],
+          "workingPolicies": [
+            "onSite"
+          ]
+        },
+        "sector": "IT Consultant",
+        "logoUrl": "https://cdn.sejutacita.id/66713c6d6eca6a0013544299/JobPortalCompanyLogo/3a4782e8-facb-44fe-b929-9792c19eeec7.png",
+        "headerUrl": null,
+        "description": "<p>We are a rapid-growth and highly innovative IT company based in South Jakarta. We are looking for talented and motivated candidates to be part of our team.Our employees are youthfully enthusiatic and highly passionate about advancement in Information Technology. Thus, we invite you to futher develop your professional expertise and join us in our path to become the chosen software provider in business enterprise application. Contact us immediately.</p>",
+        "website": null,
+        "emailDomain": null,
+        "size": null,
+        "subscription": null,
+        "createdAt": "2024-06-18T07:56:52.671Z",
+        "updatedAt": "2026-11-02T10:10:30.088Z",
+        "location": {
+          "city": {
+            "id": 158,
+            "name": "Jakarta Selatan"
+          },
+          "country": {
+            "id": 102,
+            "name": "Indonesia"
+          }
+        },
+        "cultures": [],
+        "populatedCultures": [],
+        "whatSpecial": null,
+        "verificationStatus": "verified",
+        "jobCount": null,
+        "applicantCount": null,
+        "deletedAt": null,
+        "reasonToDelete": null,
+        "bestCompany": false,
+        "jobIntegration": false,
+        "howToKnowDeall": [
+          "HRteam"
+        ],
+        "socialMedia": {
+          "instagram": null,
+          "twitter": null
+        },
+        "sendApplicationRejectedEmailEnabled": false,
+        "achievement": null,
+        "profileViewCount": 5309,
+        "featuredMembers": [],
+        "featuredMembersFirstUpdatedAt": null,
+        "featuredMembersCompleted": false,
+        "completeFeaturedMembersReminderSentCount": 3,
+        "type": "nonStartup",
+        "selectedCompanyPhotoIds": [],
+        "selectedCompanyPhotos": [],
+        "highlights": [],
+        "adminSuggestedHighlights": [],
+        "useSuggestedHighlights": false,
+        "downloadedCVCount": 0,
+        "downloadCVQuota": -1,
+        "trialHistory": null,
+        "owner": null,
+        "superAdmin": null,
+        "superAdminEmail": null,
+        "linkedinId": "2606325",
+        "oldSlugBeforeNewRevamp": null,
+        "slugPrimarySegment": "pt-lawencon-internasional",
+        "slugSecondarySegment": 0,
+        "subDomain": "lawencon",
+        "headerLogoUrl": "https://cdn.sejutacita.id/66713c6d6eca6a0013544299/JobPortalCompanyLogo/3a4782e8-facb-44fe-b929-9792c19eeec7.png",
+        "faviconUrl": "https://cdn.sejutacita.id/66713c6d6eca6a0013544299/JobPortalCompanyLogo/3a4782e8-facb-44fe-b929-9792c19eeec7.png",
+        "indeedOptedOut": false,
+        "indeedSourceName": "PT Lawencon Internasional",
+        "indeedApplyEnabled": true,
+        "highlightSuggestionChecked": true,
+        "verified": true
+      },
+      "author": null,
+      "editor": null,
+      "higherChance": false,
+      "previewedCandidates": [],
+      "candidateCount": null,
+      "recruitmentSteps": [],
+      "sendRejectionEmailNeeded": true,
+      "higherSalary": null,
+      "pausedEmailIsSent": false,
+      "closedEmailIsSent": false,
+      "blastCount": 0,
+      "careerFair": false,
+      "careerFairEventIds": [],
+      "createdAt": "2026-10-29T07:25:48.868Z",
+      "updatedAt": "2026-11-02T10:32:11.385Z",
+      "latestUpdatedAt": "2026-10-29T07:25:48.854Z",
+      "updatedAtByEmployer": "2026-10-30T03:25:17.303Z",
+      "jobActivationType": "subscription",
+      "hiringTeam": null,
+      "showSalaryToApplicants": false,
+      "urgentlyNeeded": false,
+      "externalPlatformApplyUrl": null,
+      "criteriaForAI": null,
+      "boostJobRequest": null,
+      "boosted": false,
+      "indeedSync": {
+        "status": "posted",
+        "sourcedPostingId": "ab7a8341-d5b2-4d96-9172-0b7bc351bffa",
+        "jobKey": "b9e0403a2d27eeb0",
+        "employerJobId": "aXJpOi8vYXBpcy5pbmRlZWQuY29tL0VtcGxveWVySm9iL2FiN2E4MzQxLWQ1YjItNGQ5Ni05MTcyLTBiN2JjMzUxYmZmYQ==",
+        "lastSyncedAt": "2026-10-29T07:25:51.765Z",
+        "lastErrorMessage": null
+      },
+      "allowReapply": false,
+      "allowReapplyAfterDays": 30,
+      "externalId": "PTL80911034",
+      "externalIdUpdatedAt": "2026-10-29T07:25:48.837Z",
+      "externalIdHistories": [
+        {
+          "externalId": "PTL80911034",
+          "createdAt": "2026-10-29T07:25:48.837Z"
+        }
+      ],
+      "linkedinExcludedUntil": null,
+      "retail": false,
+      "jobActivationExpiredDurationDays": 0,
+      "allowToReApply": false,
+      "lastAppliedAt": null,
+      "eligibleToReApply": false,
+      "lastActivelyHiringAt": "2026-11-02T11:07:26.628Z",
+      "applicantCount": 7,
+      "applicantQuota": 8,
+      "applicantPrioritySlots": 8,
+      "thereAreStillFewApplicants": false
+    }
+  },
+  "messageId": "OK"
+}

@@ -81,6 +81,9 @@ uv run python scripts/codemap.py # regenerasi docs/CODEMAP.md
 4. Perbarui `plan/PROGRESS.md` (status, bukti, masalah terbuka).
 5. Catat penyimpangan/keputusan baru di `plan/NOTES.md` dan `docs/DECISIONS.md`.
 
+- pyproject sudah memakai addopts "-q": jalankan `uv run pytest <path>` TANPA -q. Ringkasan hasil: `uv run pytest <path> 2>&1 | tail -3`.
+- Jangan menulis jumlah test di PROGRESS.md dan jangan mencarinya dengan --collect-only.
+
 ## Hemat token (WAJIB)
 
 - Setiap giliran mengirim ulang seluruh konteks: kurangi JUMLAH giliran, bukan hanya ukuran.

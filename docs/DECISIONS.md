@@ -79,3 +79,15 @@ berdasarkan usia (FR-06) tidak diterapkan di scraper maupun orchestrator untuk
 platform ini. Usia tetap menjadi pre-filter lokal dari `posted_raw`; cakupan
 dibatasi `max_pages_per_term` dan guard `offset < count`. Detail diambil via HTTP
 (httpx), bukan browser, karena `__NEXT_DATA__` sudah memuat seluruh deskripsi.
+
+## D-015 — Discovery Dealls: API langsung `api.sejutacita.id`, tanpa browser
+Daftar memakai `GET https://api.sejutacita.id/v1/explore-job/job` dengan
+`search`, `page/limit`, `sortParam=publishedAt&sortBy=desc` (urut terbaru
+terverifikasi), filter `workplaceTypes`/`employmentTypes`/`cityIds`. Detail
+memakai `GET /v1/job-portal/job/slug/<slug>` (`data.result`), fallback SSR
+`https://dealls.com/loker/<slug>~<company-slug>` dengan JSON-LD `datePosted`
+(presisi tanggal saja). Tanggal posting = `publishedAt`; `lastActivelyHiringAt`
+(label "Rekruter aktif") tidak boleh dipakai. Playwright headless ditantang
+Cloudflare sedangkan HTTP polos tidak → scraper Dealls HTTP-first (httpx), tanpa
+browser. Kanonik: locale `idn`, URL tanpa `/en`, wajib sufiks `~<company>`.
+Detail: `docs/platform_notes/dealls.md`.

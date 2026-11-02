@@ -1,0 +1,398 @@
+{
+  "code": 200,
+  "data": {
+    "result": {
+      "id": "6ad0a38d879b500012fa234e",
+      "companyId": "628dd049a39fae0012387bff",
+      "authorId": "628dcf22be95ec00134cd50e",
+      "jobRoleCategoryId": "693466050fafa100127216a7",
+      "jobRoleSubCategoryId": "6936842a4f8fcd5d0df6eabd",
+      "jobRoleId": "6937c9de3a700c001ef473cf",
+      "role": "Software Development Engineer in Test",
+      "slugPrimarySegment": "software-development-engineer-in-test",
+      "slugSecondarySegment": 10,
+      "slug": "software-development-engineer-in-test-10",
+      "closed": false,
+      "userSavedJob": null,
+      "category": null,
+      "jobRoleCategory": {
+        "id": "693466050fafa100127216a7",
+        "name": "Engineering (IT/Software)",
+        "emoji": "💻",
+        "emojiUrl": "https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.3/assets/72x72/1f4bb.png",
+        "slug": "it-and-software-engineering",
+        "iconUrl": null,
+        "createdAt": "2025-12-30T06:31:01.681Z",
+        "updatedAt": "2026-01-09T09:36:10.662Z",
+        "showLandingPage": true,
+        "showToEmployer": true,
+        "showToUser": true,
+        "curatedByAdmin": true
+      },
+      "jobRoleSubCategory": {
+        "id": "6936842a4f8fcd5d0df6eabd",
+        "jobRoleCategoryId": "693466050fafa100127216a7",
+        "name": "Software Quality Assurance",
+        "value": "Software Quality Assurance",
+        "createdAt": "2025-12-08T07:54:18.947Z",
+        "updatedAt": "2025-12-31T12:29:40.950Z",
+        "showToEmployer": true,
+        "showToUser": true,
+        "curatedByAdmin": true
+      },
+      "jobRole": {
+        "id": "6937c9de3a700c001ef473cf",
+        "name": "Software Test Automation Engineer",
+        "slug": null,
+        "nameIndonesian": "Insinyur Otomasi Uji Perangkat Lunak",
+        "addedByUser": false,
+        "about": null,
+        "responsibilities": null,
+        "requirements": null,
+        "perks": null,
+        "editedBy": null,
+        "addedByAdmin": true,
+        "curatedByAdmin": true,
+        "addedByEmployer": false,
+        "approvedCurationByAdmin": true,
+        "status": "notProcessed",
+        "descriptionCompleted": false,
+        "count": 621,
+        "visible": true,
+        "jobRoleCategoryId": "693466050fafa100127216a7",
+        "jobRoleSubCategoryId": "6936842a4f8fcd5d0df6eabd",
+        "categoryId": "693466050fafa100127216a7",
+        "jobRoleCategory": null,
+        "jobCategory": null,
+        "jobSubCategory": null
+      },
+      "saved": false,
+      "description": null,
+      "responsibilities": "<p><br></p><ul><li>Review requirements, specifications and technical design documents to provide timely and meaningful feedback.</li><li>Create detailed, comprehensive and well-structured test plans and test cases;</li><li>Estimate, prioritize, plan and coordinate testing activities.</li><li>Experienced with a variety of different testing techniques such as Automated Testing.</li><li>Design, develop and execute automation scripts using open source tools.</li><li>Identify, record, document thoroughly and track bugs.</li><li>Perform thorough regression testing when bugs are resolved.</li><li>Develop and apply testing processes for new and existing products to meet client needs.</li><li>Liaise with internal teams (e.g. developers and product managers) to identify system requirements.</li><li>Monitor debugging process results.</li><li>Investigate the causes of non-conforming software and train users to implement solutions.</li><li>Track quality assurance metrics, like defect densities and open defect counts.</li><li>Stay up-to-date with new testing tools and test strategies.</li></ul>",
+      "requirements": "<p><br></p><ul><li>Must have experience working in Postman, Python, robot framework, Appium, Selenium.</li><li>Proven work experience in software quality assurance automation;</li><li>Strong knowledge of software QA methodologies, tools and processes;</li><li>Experience in writing clear, concise and comprehensive test plans and test cases;</li><li>Hands-on experience with both white box and black box testing;</li><li>Hands-on experience with automated testing tools;</li><li>Solid knowledge of SQL and scripting;</li><li>Experience working in an Agile/Scrum development process;</li><li>Ready to work in fast paced environment</li><li>Love to Explore new things</li><li>BS/MS degree in Computer Science, Engineering or a related subject</li></ul>",
+      "perks": [],
+      "customPerks": null,
+      "invitedEmails": null,
+      "employmentTypes": [
+        "contract"
+      ],
+      "workplaceType": "onSite",
+      "location": {
+        "country": {
+          "id": 102,
+          "name": "Indonesia"
+        },
+        "city": {
+          "id": 157,
+          "name": "Jakarta Pusat"
+        }
+      },
+      "salaryType": "paid",
+      "salaryRange": null,
+      "cvRequired": true,
+      "portofolioRequired": false,
+      "reminderToProcessFirstCandidatesIsSent": true,
+      "published": true,
+      "publishedAt": "2026-10-15T09:57:33.396Z",
+      "preScreeningQuestions": [
+        {
+          "id": "64844687827a42e574746f17",
+          "type": "date",
+          "title": "Date of Birth",
+          "question": "What is your date of birth?",
+          "mandatory": true,
+          "description": "Candidates will be asked about their date of birth.",
+          "dynamicItems": [],
+          "legacyIds": []
+        },
+        {
+          "id": "69b38f8221d8ba2a2009aa70",
+          "type": "radio",
+          "title": "Skills",
+          "question": "How proficient are you in [skill]?",
+          "mandatory": true,
+          "description": "Candidates will be asked how preficient they are in the following skills.",
+          "dynamicItems": [
+            "Postman (API Testing)",
+            "Python",
+            "Robot Framework"
+          ],
+          "radio": {
+            "options": [
+              {
+                "id": "6ad0a38d879b500012fa2351",
+                "value": "No experience"
+              },
+              {
+                "id": "6ad0a38d879b500012fa2352",
+                "value": "Basic"
+              },
+              {
+                "id": "6ad0a38d879b500012fa2353",
+                "value": "Intermediate"
+              },
+              {
+                "id": "6ad0a38d879b500012fa2354",
+                "value": "Pro"
+              }
+            ]
+          },
+          "legacyIds": []
+        },
+        {
+          "id": "648447b8827a42e574746f1b",
+          "type": "numeric",
+          "title": "Notice Period",
+          "question": "How many days is your notice period with your current employer?",
+          "mandatory": true,
+          "description": "Candidates will be asked about their notice period with their current employer.",
+          "dynamicItems": [],
+          "legacyIds": []
+        }
+      ],
+      "candidatePreference": {
+        "major": null,
+        "lastEducations": [
+          5,
+          6,
+          7
+        ],
+        "university": null,
+        "minimumGpa": null,
+        "skillIds": [
+          "680cb8e5b2249a51ef7e9323",
+          "64095a6ffa95ba00134474f7",
+          "62d633e6978bf00012c8e2d7"
+        ],
+        "skills": [
+          {
+            "id": "680cb8e5b2249a51ef7e9323",
+            "name": "Postman (API Testing)",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 140,
+            "createdAt": "2025-04-26T10:43:49.135Z"
+          },
+          {
+            "id": "64095a6ffa95ba00134474f7",
+            "name": "Python",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 11675,
+            "createdAt": "2023-03-09T04:02:55.914Z"
+          },
+          {
+            "id": "62d633e6978bf00012c8e2d7",
+            "name": "Robot Framework",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 290,
+            "createdAt": "2022-07-19T04:32:38.537Z"
+          }
+        ],
+        "gender": "No Preference",
+        "age": {
+          "restriction": false,
+          "min": null,
+          "max": null
+        }
+      },
+      "status": "active",
+      "stats": {
+        "viewCount": 215,
+        "nonCuratedCount": 65
+      },
+      "applicantLimitCount": 27,
+      "eligibleToApply": null,
+      "jobApplication": null,
+      "company": {
+        "id": "628dd049a39fae0012387bff",
+        "name": "PT. Inovasi Anak Indonesia - PARKEE",
+        "slug": "pt-inovasi-anak-indonesia-parkee",
+        "headline": null,
+        "insight": {
+          "fundingStage": null,
+          "fundingAmount": null,
+          "benefits": [
+            "medicalLeave",
+            "competitiveSalary",
+            "bonusSystem",
+            "casualDressCode",
+            "companyOutings"
+          ],
+          "workingPolicies": [
+            "hybrid",
+            "flexible"
+          ]
+        },
+        "sector": "technology services",
+        "logoUrl": "https://cdn.sejutacita.id/628dcf22be95ec00134cd50e/JobPortalCompanyLogo/c26bf05d-5af6-4d68-8e92-880eea138b44.png",
+        "headerUrl": null,
+        "description": "<p><strong>PARKEE</strong> is an integrated IoT platform solution connecting users, parking providers, and building owners.</p><p>Utilizing technological advancements and innovations, PARKEE develops maximum land potential for landowners and managers. Providing more benefits, through the distribution of cost-effective management, providing a holistic and comfortable experience, as well as strengthening the management function through the provision of vehicle traffic data for analysis, with maximum transparency.</p>",
+        "website": null,
+        "emailDomain": null,
+        "size": {
+          "start": 100,
+          "end": null
+        },
+        "subscription": null,
+        "createdAt": "2022-05-25T06:44:25.529Z",
+        "updatedAt": "2026-11-02T05:56:01.856Z",
+        "location": {
+          "city": {
+            "id": 157,
+            "name": "Jakarta Pusat"
+          },
+          "country": {
+            "id": 102,
+            "name": "Indonesia"
+          }
+        },
+        "cultures": [
+          "nurturing",
+          "progressive",
+          "collaborative"
+        ],
+        "populatedCultures": [
+          {
+            "id": "nurturing",
+            "name": "Nurturing",
+            "subtitle": "Our working environment prioritizes encouragement for employee's growth and development",
+            "createdAt": "2022-04-27T14:55:08.596Z"
+          },
+          {
+            "id": "progressive",
+            "name": "Progressive",
+            "subtitle": "Continuous ambition for progress and finding the best means to make it happen",
+            "createdAt": "2022-04-27T14:55:08.596Z"
+          },
+          {
+            "id": "collaborative",
+            "name": "Collaborative",
+            "subtitle": "Here, we work together to make the dream work",
+            "createdAt": "2022-04-27T14:55:08.596Z"
+          }
+        ],
+        "whatSpecial": null,
+        "verificationStatus": "verified",
+        "jobCount": null,
+        "applicantCount": null,
+        "deletedAt": null,
+        "reasonToDelete": null,
+        "bestCompany": false,
+        "jobIntegration": true,
+        "howToKnowDeall": [
+          "HRFriend"
+        ],
+        "socialMedia": {
+          "instagram": null,
+          "twitter": null
+        },
+        "sendApplicationRejectedEmailEnabled": false,
+        "achievement": null,
+        "profileViewCount": 12836,
+        "featuredMembers": [
+          {
+            "linkedInUrl": "https://www.linkedin.com/in/charles-richard-oentomo/",
+            "role": "CEO",
+            "headline": null,
+            "name": "Charles Richard Oentomo",
+            "photoUrl": "https://cdn.sejutacita.id/63983cf268e6b200152ce01f/Others/a5f39b3a-5dea-46d1-b410-2e09b49cb976.jpg"
+          },
+          {
+            "linkedInUrl": "https://www.linkedin.com/in/nurulsafithri/",
+            "role": "Sr. HR Generalist at PARKEE",
+            "headline": null,
+            "name": "Nurul Aini Safithri",
+            "photoUrl": "https://cdn.sejutacita.id/63983cf268e6b200152ce01f/Others/f438e4d8-e5b2-4618-a558-ef50f0674406.jpg"
+          }
+        ],
+        "featuredMembersFirstUpdatedAt": null,
+        "featuredMembersCompleted": false,
+        "completeFeaturedMembersReminderSentCount": 3,
+        "type": null,
+        "selectedCompanyPhotoIds": [],
+        "selectedCompanyPhotos": [],
+        "highlights": [],
+        "adminSuggestedHighlights": [],
+        "useSuggestedHighlights": false,
+        "downloadedCVCount": 0,
+        "downloadCVQuota": -1,
+        "trialHistory": null,
+        "owner": null,
+        "superAdmin": null,
+        "superAdminEmail": null,
+        "linkedinId": "13736928",
+        "oldSlugBeforeNewRevamp": "parkee",
+        "slugPrimarySegment": "pt-inovasi-anak-indonesia-parkee",
+        "slugSecondarySegment": 0,
+        "subDomain": "parkee",
+        "headerLogoUrl": "https://cdn.sejutacita.id/628dcf22be95ec00134cd50e/JobPortalCompanyLogo/c26bf05d-5af6-4d68-8e92-880eea138b44.png",
+        "faviconUrl": "https://cdn.sejutacita.id/628dcf22be95ec00134cd50e/JobPortalCompanyLogo/c26bf05d-5af6-4d68-8e92-880eea138b44.png",
+        "indeedOptedOut": false,
+        "indeedSourceName": "PT. Inovasi Anak Indonesia - PARKEE",
+        "indeedApplyEnabled": true,
+        "highlightSuggestionChecked": true,
+        "verified": true
+      },
+      "author": null,
+      "editor": null,
+      "higherChance": false,
+      "previewedCandidates": [],
+      "candidateCount": null,
+      "recruitmentSteps": [],
+      "sendRejectionEmailNeeded": true,
+      "higherSalary": null,
+      "pausedEmailIsSent": false,
+      "closedEmailIsSent": false,
+      "blastCount": 0,
+      "careerFair": false,
+      "careerFairEventIds": [],
+      "createdAt": "2026-10-15T09:57:33.420Z",
+      "updatedAt": "2026-11-02T10:08:02.114Z",
+      "latestUpdatedAt": "2026-10-15T09:57:33.411Z",
+      "updatedAtByEmployer": "2026-10-26T06:19:32.189Z",
+      "jobActivationType": "subscription",
+      "hiringTeam": null,
+      "showSalaryToApplicants": false,
+      "urgentlyNeeded": false,
+      "externalPlatformApplyUrl": null,
+      "criteriaForAI": null,
+      "boostJobRequest": null,
+      "boosted": false,
+      "indeedSync": {
+        "status": "posted",
+        "sourcedPostingId": "c9ed2a02-ff97-46b3-8ca7-58cbf5d360f0",
+        "jobKey": "a3fdc340595f2a73",
+        "employerJobId": "aXJpOi8vYXBpcy5pbmRlZWQuY29tL0VtcGxveWVySm9iL2M5ZWQyYTAyLWZmOTctNDZiMy04Y2E3LTU4Y2JmNWQzNjBmMA==",
+        "lastSyncedAt": "2026-10-15T09:57:34.198Z",
+        "lastErrorMessage": null
+      },
+      "allowReapply": false,
+      "allowReapplyAfterDays": 30,
+      "externalId": "PTI15853714",
+      "externalIdUpdatedAt": "2026-10-15T09:57:33.396Z",
+      "externalIdHistories": [
+        {
+          "externalId": "PTI15853714",
+          "createdAt": "2026-10-15T09:57:33.396Z"
+        }
+      ],
+      "linkedinExcludedUntil": null,
+      "retail": false,
+      "jobActivationExpiredDurationDays": 0,
+      "allowToReApply": false,
+      "lastAppliedAt": null,
+      "eligibleToReApply": false,
+      "lastActivelyHiringAt": "2026-11-02T03:04:33.478Z",
+      "applicantCount": 7,
+      "applicantQuota": 8,
+      "applicantPrioritySlots": 8,
+      "thereAreStillFewApplicants": false
+    }
+  },
+  "messageId": "OK"
+}

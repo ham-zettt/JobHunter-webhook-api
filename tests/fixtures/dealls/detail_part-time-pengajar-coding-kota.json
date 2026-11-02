@@ -1,0 +1,447 @@
+{
+  "code": 200,
+  "data": {
+    "result": {
+      "id": "6ae310041e86df0013df4a9c",
+      "companyId": "62f0e90434f5f10012213683",
+      "authorId": "6ac35b79ddb6640013970b20",
+      "jobRoleCategoryId": "6ab4d7a2c35bdebf03d65a97",
+      "jobRoleSubCategoryId": "6ab4d7c5c35bdebf03d6768c",
+      "jobRoleId": "6ab4d7c5c35bdebf03d676b1",
+      "role": "[Part time] Pengajar Coding - Kota Batam",
+      "slugPrimarySegment": "part-time-pengajar-coding-kota",
+      "slugSecondarySegment": 0,
+      "slug": "part-time-pengajar-coding-kota",
+      "closed": false,
+      "userSavedJob": null,
+      "category": null,
+      "jobRoleCategory": {
+        "id": "6ab4d7a2c35bdebf03d65a97",
+        "name": "Business Operations",
+        "emoji": "⚙️",
+        "emojiUrl": "https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/2699.png",
+        "slug": "business-operations",
+        "createdAt": "2026-09-24T07:56:18.081Z",
+        "updatedAt": "2026-09-24T07:56:18.081Z",
+        "showLandingPage": true,
+        "showToEmployer": true,
+        "showToUser": true,
+        "curatedByAdmin": true
+      },
+      "jobRoleSubCategory": {
+        "id": "6ab4d7c5c35bdebf03d6768c",
+        "jobRoleCategoryId": "6ab4d7a2c35bdebf03d65a97",
+        "name": "Business Operations",
+        "value": "Business Operations",
+        "createdAt": "2026-09-24T07:56:18.081Z",
+        "updatedAt": "2026-09-24T07:56:18.081Z",
+        "showToEmployer": true,
+        "showToUser": true,
+        "curatedByAdmin": true
+      },
+      "jobRole": {
+        "id": "6ab4d7c5c35bdebf03d676b1",
+        "name": "Business Operations",
+        "slug": null,
+        "nameIndonesian": null,
+        "addedByUser": false,
+        "about": null,
+        "responsibilities": null,
+        "requirements": null,
+        "perks": null,
+        "editedBy": null,
+        "addedByAdmin": true,
+        "curatedByAdmin": true,
+        "addedByEmployer": false,
+        "approvedCurationByAdmin": true,
+        "status": "notProcessed",
+        "descriptionCompleted": false,
+        "count": 513,
+        "visible": true,
+        "jobRoleCategoryId": "6ab4d7a2c35bdebf03d65a97",
+        "jobRoleSubCategoryId": "6ab4d7c5c35bdebf03d6768c",
+        "categoryId": "6ab4d7a2c35bdebf03d65a97",
+        "jobRoleCategory": null,
+        "jobCategory": null,
+        "jobSubCategory": null,
+        "createdAt": "2026-09-24T07:56:18.081Z"
+      },
+      "saved": false,
+      "description": null,
+      "responsibilities": "<p><br></p><p>1. Mengajar program Coding &amp; Innovation (seperi scratch, roblox, AI dll)</p><p><br></p><p>2. Bersedia mengajar anak umur 10 - 17 tahun</p><p><br></p><p>3. Mengajar offline di sekolah area cabang Ruangguru Learning Center Kota Batam</p><p><br></p>",
+      "requirements": "<p><br></p><p><br></p><p>1. Pendidikan minimal S1 dengan program studi Teknik Informatika, Sistem informasi, atau yang berkorelasi, mahasiswa (min. semester 5) diperbolehkan daftar</p><p>2. Memiliki minat dan ketertarikan untuk mengajar koding dan kecerdasan artifisial</p><p>3. Memiliki laptop minimal windows 10 ke atas dan mendukung pembelajaran menggunakan scartch atau roblox</p><p>4. Memiliki available waktu mengajar antara senin-jumat (sesi pagi dan sesi siang)</p><p>5. Bersedia mengajar offline di Ruangguru Learning Center Kota Batam </p><p><br></p>",
+      "perks": [],
+      "customPerks": null,
+      "invitedEmails": null,
+      "employmentTypes": [
+        "partTime"
+      ],
+      "workplaceType": "remote",
+      "location": null,
+      "salaryType": "paid",
+      "salaryRange": null,
+      "cvRequired": true,
+      "portofolioRequired": false,
+      "reminderToProcessFirstCandidatesIsSent": false,
+      "published": true,
+      "publishedAt": "2026-10-29T09:21:08.392Z",
+      "preScreeningQuestions": [
+        {
+          "id": "64844768827a42e574746f1a",
+          "type": "radio",
+          "title": "Are you employed?",
+          "question": "Are you employed?",
+          "mandatory": true,
+          "description": "Candidates will be asked about their employment status.",
+          "dynamicItems": [],
+          "radio": {
+            "options": [
+              {
+                "id": "6ae310041e86df0013df4a9e",
+                "value": "Employed"
+              },
+              {
+                "id": "6ae310041e86df0013df4a9f",
+                "value": "Unemployed"
+              }
+            ]
+          },
+          "legacyIds": []
+        },
+        {
+          "id": "64844948827a42e574746f20",
+          "type": "checkbox",
+          "title": "Language Proficiency",
+          "question": "How proficient are you in [Language]?",
+          "mandatory": true,
+          "description": "Candidates will be asked about how proficient they are in the language you specify.",
+          "dynamicItems": [
+            "Inggris",
+            "Indonesia"
+          ],
+          "checkbox": {
+            "options": [
+              {
+                "id": "6ae310041e86df0013df4aa1",
+                "value": "No proficiency"
+              },
+              {
+                "id": "6ae310041e86df0013df4aa2",
+                "value": "Intermediate"
+              },
+              {
+                "id": "6ae310041e86df0013df4aa3",
+                "value": "Professional"
+              },
+              {
+                "id": "6ae310041e86df0013df4aa4",
+                "value": "Advanced / Fluent"
+              }
+            ]
+          },
+          "legacyIds": []
+        },
+        {
+          "id": "69b38f8221d8ba2a2009aa70",
+          "type": "radio",
+          "title": "Skills",
+          "question": "How proficient are you in [skill]?",
+          "mandatory": true,
+          "description": "Candidates will be asked how preficient they are in the following skills.",
+          "dynamicItems": [
+            "Coding Skill",
+            "Scartch",
+            "Programming",
+            "MIT APP Inventory",
+            "Teaching"
+          ],
+          "radio": {
+            "options": [
+              {
+                "id": "6ae310041e86df0013df4aa6",
+                "value": "No experience"
+              },
+              {
+                "id": "6ae310041e86df0013df4aa7",
+                "value": "Basic"
+              },
+              {
+                "id": "6ae310041e86df0013df4aa8",
+                "value": "Intermediate"
+              },
+              {
+                "id": "6ae310041e86df0013df4aa9",
+                "value": "Pro"
+              }
+            ]
+          },
+          "legacyIds": []
+        },
+        {
+          "id": "6ae310041e86df0013df4aaa",
+          "type": "shortText",
+          "title": "Do you currently live in Batam?",
+          "question": "Do you currently live in Batam?",
+          "mandatory": true,
+          "description": null,
+          "dynamicItems": [],
+          "legacyIds": []
+        }
+      ],
+      "candidatePreference": {
+        "major": null,
+        "lastEducations": [
+          3,
+          4,
+          0,
+          5,
+          6,
+          7,
+          1,
+          2
+        ],
+        "university": null,
+        "minimumGpa": null,
+        "skillIds": [
+          "62b02d12677fed001255a2e9",
+          "6acf3b65c5811c001235eb71",
+          "62c562b9e8f1ff0012999d79",
+          "6ae30eee1cc5a00011b054db",
+          "628db5b3a39fae001238723c"
+        ],
+        "skills": [
+          {
+            "id": "62b02d12677fed001255a2e9",
+            "name": "Coding Skill",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 85,
+            "createdAt": "2022-06-20T08:17:22.959Z"
+          },
+          {
+            "id": "6acf3b65c5811c001235eb71",
+            "name": "Scartch",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 0,
+            "createdAt": "2026-10-14T08:20:53.606Z"
+          },
+          {
+            "id": "62c562b9e8f1ff0012999d79",
+            "name": "Programming",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 2042,
+            "createdAt": "2022-07-06T10:23:53.135Z"
+          },
+          {
+            "id": "6ae30eee1cc5a00011b054db",
+            "name": "MIT APP Inventory",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 0,
+            "createdAt": "2026-10-29T09:16:30.006Z"
+          },
+          {
+            "id": "628db5b3a39fae001238723c",
+            "name": "Teaching",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 1665,
+            "createdAt": "2022-05-25T04:50:59.758Z"
+          }
+        ],
+        "gender": "No Preference",
+        "age": {
+          "restriction": false,
+          "min": null,
+          "max": null
+        }
+      },
+      "status": "active",
+      "stats": {
+        "viewCount": 270,
+        "nonCuratedCount": 7
+      },
+      "applicantLimitCount": 9,
+      "eligibleToApply": null,
+      "jobApplication": null,
+      "company": {
+        "id": "62f0e90434f5f10012213683",
+        "name": "Ruangguru",
+        "slug": "ruangguru",
+        "headline": null,
+        "insight": {
+          "fundingStage": null,
+          "fundingAmount": null,
+          "benefits": [
+            "competitiveSalary",
+            "professionalDevelopment",
+            "casualDressCode",
+            "dentalInsurance",
+            "medicalLeave",
+            "employeeDiscounts"
+          ],
+          "workingPolicies": [
+            "workFromAnywhere",
+            "onSite"
+          ]
+        },
+        "sector": "Technology Education",
+        "logoUrl": "https://cdn.sejutacita.id/62f0e62e4a4d4c0014b98743/Others/6f60533a-e9f3-4b81-9ad0-7f0995a3c09a.png",
+        "headerUrl": null,
+        "description": "<p>Ruangguru merupakan perusahaan teknologi terbesar dan terlengkap di Indonesia yang berfokus pada layanan berbasis pendidikan dan telah memiliki lebih dari 13 juta pengguna serta telah mengelola lebih dari 500.000 guru yang menawarkan jasa di lebih dari 100 bidang pelajaran. Perusahaan ini didirikan sejak tahun 2014 oleh Belva Devara dan Iman Usman, yang keduanya berhasil masuk dalam jajaran pengusaha sukses dibawah 30 tahun melalui Forbes 30 under 30 untuk teknologi konsumen di Asia.</p><p><br></p><p>Ruangguru berkomitmen untuk menjadi mitra bagi pemerintah daerah demi memberikan pendidikan berkualitas melalui Sistem Manajemen Belajar (LMS). Tahun lalu, Ruangguru berhasil bekerja sama dengan 32 (dari 34) pemerintah provinsi dan lebih dari 326 pemerintah kota dan kabupaten di Indonesia. Selain itu, Ruangguru juga menawarkan video belajar berlangganan, marketplace les privat, layanan bimbingan belajar on-demand, tryout ujian online, dan lain-lain.</p>",
+        "website": "https://ruangguru.com",
+        "emailDomain": null,
+        "size": {
+          "start": 50,
+          "end": 100
+        },
+        "subscription": null,
+        "createdAt": "2022-08-08T10:44:20.779Z",
+        "updatedAt": "2026-11-02T11:22:47.270Z",
+        "location": {
+          "city": {
+            "id": 158,
+            "name": "Jakarta Selatan"
+          },
+          "country": {
+            "id": 102,
+            "name": "Indonesia"
+          }
+        },
+        "cultures": [
+          "energetic",
+          "adaptable",
+          "progressive"
+        ],
+        "populatedCultures": [
+          {
+            "id": "energetic",
+            "name": "Energetic",
+            "subtitle": "Our working dynamic involves active, dynamic, and lively group of people",
+            "createdAt": "2022-04-27T14:55:08.596Z"
+          },
+          {
+            "id": "adaptable",
+            "name": "Adaptable",
+            "subtitle": "Our team is flexible and resilient in the face of adversities",
+            "createdAt": "2022-04-27T14:55:08.596Z"
+          },
+          {
+            "id": "progressive",
+            "name": "Progressive",
+            "subtitle": "Continuous ambition for progress and finding the best means to make it happen",
+            "createdAt": "2022-04-27T14:55:08.596Z"
+          }
+        ],
+        "whatSpecial": null,
+        "verificationStatus": "verified",
+        "jobCount": null,
+        "applicantCount": null,
+        "deletedAt": null,
+        "reasonToDelete": null,
+        "bestCompany": false,
+        "jobIntegration": true,
+        "howToKnowDeall": [
+          "Twitter"
+        ],
+        "socialMedia": {
+          "instagram": "https://www.instagram.com/ruangguru/?hl=en",
+          "twitter": null
+        },
+        "sendApplicationRejectedEmailEnabled": false,
+        "achievement": "Indonesia's largest tech-based company focusing on education-based services with 15M users & 300K+ teachers available in various areas across the country",
+        "profileViewCount": 30483,
+        "featuredMembers": [],
+        "featuredMembersFirstUpdatedAt": null,
+        "featuredMembersCompleted": false,
+        "completeFeaturedMembersReminderSentCount": 3,
+        "type": null,
+        "selectedCompanyPhotoIds": [],
+        "selectedCompanyPhotos": [],
+        "highlights": [],
+        "adminSuggestedHighlights": [],
+        "useSuggestedHighlights": false,
+        "downloadedCVCount": 0,
+        "downloadCVQuota": -1,
+        "trialHistory": null,
+        "owner": null,
+        "superAdmin": null,
+        "superAdminEmail": null,
+        "linkedinId": "10519115",
+        "oldSlugBeforeNewRevamp": "ruangguru",
+        "slugPrimarySegment": "ruangguru",
+        "slugSecondarySegment": 0,
+        "subDomain": "ruangguru",
+        "headerLogoUrl": "https://cdn.sejutacita.id/62f0e62e4a4d4c0014b98743/Others/6f60533a-e9f3-4b81-9ad0-7f0995a3c09a.png",
+        "faviconUrl": "https://cdn.sejutacita.id/62f0e62e4a4d4c0014b98743/Others/6f60533a-e9f3-4b81-9ad0-7f0995a3c09a.png",
+        "indeedOptedOut": false,
+        "indeedSourceName": "PT Ruang Raya Indonesia",
+        "indeedApplyEnabled": true,
+        "highlightSuggestionChecked": true,
+        "verified": true
+      },
+      "author": null,
+      "editor": null,
+      "higherChance": false,
+      "previewedCandidates": [],
+      "candidateCount": null,
+      "recruitmentSteps": [],
+      "sendRejectionEmailNeeded": true,
+      "higherSalary": null,
+      "pausedEmailIsSent": false,
+      "closedEmailIsSent": false,
+      "blastCount": 0,
+      "careerFair": false,
+      "careerFairEventIds": [],
+      "createdAt": "2026-10-29T09:21:08.427Z",
+      "updatedAt": "2026-11-02T11:05:03.695Z",
+      "latestUpdatedAt": "2026-10-29T09:21:08.412Z",
+      "updatedAtByEmployer": "2026-10-29T09:21:08.381Z",
+      "jobActivationType": "subscription",
+      "hiringTeam": null,
+      "showSalaryToApplicants": false,
+      "urgentlyNeeded": false,
+      "externalPlatformApplyUrl": null,
+      "criteriaForAI": null,
+      "boostJobRequest": null,
+      "boosted": false,
+      "indeedSync": {
+        "status": "posted",
+        "sourcedPostingId": "0ca196ed-0be9-40b8-8879-1b178257f5ef",
+        "jobKey": null,
+        "employerJobId": "aXJpOi8vYXBpcy5pbmRlZWQuY29tL0VtcGxveWVySm9iLzBjYTE5NmVkLTBiZTktNDBiOC04ODc5LTFiMTc4MjU3ZjVlZg==",
+        "lastSyncedAt": "2026-10-29T09:21:10.151Z",
+        "lastErrorMessage": null
+      },
+      "allowReapply": true,
+      "allowReapplyAfterDays": 30,
+      "externalId": "RUA42678602",
+      "externalIdUpdatedAt": "2026-10-29T09:21:08.381Z",
+      "externalIdHistories": [
+        {
+          "externalId": "RUA42678602",
+          "createdAt": "2026-10-29T09:21:08.381Z"
+        }
+      ],
+      "linkedinExcludedUntil": null,
+      "retail": false,
+      "jobActivationExpiredDurationDays": 0,
+      "allowToReApply": true,
+      "lastAppliedAt": null,
+      "eligibleToReApply": false,
+      "lastActivelyHiringAt": "2026-11-02T11:07:15.955Z",
+      "applicantCount": 7,
+      "applicantQuota": 8,
+      "applicantPrioritySlots": 8,
+      "thereAreStillFewApplicants": false
+    }
+  },
+  "messageId": "OK"
+}

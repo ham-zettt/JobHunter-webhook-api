@@ -1,0 +1,522 @@
+{
+  "code": 200,
+  "data": {
+    "result": {
+      "id": "6ac5c7161eb302001292d284",
+      "companyId": "68f225b9429da7001242c92d",
+      "authorId": "6a55a4a75079de00139d7da2",
+      "jobRoleCategoryId": "693466050fafa100127216a7",
+      "jobRoleSubCategoryId": "6936832b4f8fcd5d0df6eab9",
+      "jobRoleId": "69afa4aa239256001264b04e",
+      "role": "Software Engineer Fullstack (Order Management)",
+      "slugPrimarySegment": "software-engineer-fullstack-order-management",
+      "slugSecondarySegment": 0,
+      "slug": "software-engineer-fullstack-order-management",
+      "closed": false,
+      "userSavedJob": null,
+      "category": null,
+      "jobRoleCategory": {
+        "id": "693466050fafa100127216a7",
+        "name": "Engineering (IT/Software)",
+        "emoji": "💻",
+        "emojiUrl": "https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.3/assets/72x72/1f4bb.png",
+        "slug": "it-and-software-engineering",
+        "iconUrl": null,
+        "createdAt": "2025-12-30T06:31:01.681Z",
+        "updatedAt": "2026-01-09T09:36:10.662Z",
+        "showLandingPage": true,
+        "showToEmployer": true,
+        "showToUser": true,
+        "curatedByAdmin": true
+      },
+      "jobRoleSubCategory": {
+        "id": "6936832b4f8fcd5d0df6eab9",
+        "jobRoleCategoryId": "693466050fafa100127216a7",
+        "name": "Full-Stack Developer",
+        "value": "Full-Stack Developer",
+        "createdAt": "2025-12-08T07:50:03.664Z",
+        "updatedAt": "2025-12-31T12:29:40.950Z",
+        "showToEmployer": true,
+        "showToUser": true,
+        "curatedByAdmin": true
+      },
+      "jobRole": {
+        "id": "69afa4aa239256001264b04e",
+        "name": "Full Stack Developer",
+        "slug": null,
+        "nameIndonesian": "Tumpukan Penuh",
+        "addedByUser": false,
+        "about": null,
+        "responsibilities": null,
+        "requirements": null,
+        "perks": null,
+        "editedBy": null,
+        "addedByAdmin": true,
+        "curatedByAdmin": true,
+        "addedByEmployer": true,
+        "approvedCurationByAdmin": true,
+        "status": "notProcessed",
+        "descriptionCompleted": false,
+        "count": 5430,
+        "visible": true,
+        "jobRoleCategoryId": "693466050fafa100127216a7",
+        "jobRoleSubCategoryId": "6936832b4f8fcd5d0df6eab9",
+        "categoryId": "693466050fafa100127216a7",
+        "jobRoleCategory": null,
+        "jobCategory": null,
+        "jobSubCategory": null,
+        "createdAt": "2026-03-10T04:57:14.518Z"
+      },
+      "saved": false,
+      "description": null,
+      "responsibilities": "<p><strong>About the role:</strong></p><p>The role of the Software Engineer is to build high-quality, innovative, and fully performing</p><p>software that complies with coding standards and technical design. We are looking for engineers who lead with <strong>honesty</strong> in their technical ownership, <strong>empathy</strong> for the end-user experience, and the <strong>agility</strong> to navigate both client-side and backend systems.</p><p><br></p><p><strong>What you’ll do (Responsibilities)</strong></p><ul><li><strong>Develop software applications</strong> using programming languages and tools used in software development with the agility to build scalable and reliable solutions.</li><li>Analyze technical problems and propose effective solutions with <strong>honesty</strong> and transparency, seeking guidance when needed.</li><li>Work effectively in a team environment, collaborate with team members, and follow instructions from senior team members or team leads through strong <strong>empathy</strong> and open communication.</li><li>Learn and adapt to new technologies, programming languages, and software development methodologies with high <strong>agility</strong> in a fast-evolving tech stack.</li><li>Maintain quality and attention to detail in software development tasks, backed by an <strong>honest</strong> commitment to clean code.</li><li>Create and document technical specifications, software designs, and coding changes with <strong>honesty</strong> and clarity for seamless team collaboration.</li><li>Adhere to coding standards, software development best practices, and maintain confidentiality of sensitive information with complete <strong>honesty</strong> and integrity.</li></ul>",
+      "requirements": "<p><strong>What capabilities you’ll need (Requirements):</strong></p><ul><li>Have experience in software development, with a proven track record of successfully delivering complex software projects through high <strong>agility</strong> and technical excellence.</li><li>Extensive experience and proficiency in <strong>Go or PHP &amp; Angular</strong>, demonstrating the <strong>agility</strong> to work seamlessly across front-end and back-end ecosystems.</li><li>Understanding of software development principles, architecture, design patterns, and best practices applied with <strong>empathy</strong> for long-term code maintainability.</li><li>Familiarity with software development tools and frameworks, version control systems, and bug tracking systems.</li><li>Ability to analyze technical problems, propose effective solutions, and make informed decisions with <strong>honesty</strong> and objectivity.</li><li>Good communication skills with strong <strong>empathy</strong> to effectively convey ideas, listen, and discuss technical concepts with team members.</li><li>Proactive approach to self-learning and self-improvement in the field of software development, driven by continuous <strong>agility</strong>.</li><li>Ability to plan, organize, and manage software development projects—including defining project scope, timeline, and resources—with <strong>agility</strong> to adapt to shifting priorities.</li><li>Commitment to staying up-to-date with the latest advancements in software development technologies, methodologies, and best practices through an <strong>agile</strong> mindset.</li><li>Ability to handle sensitive or confidential information with discretion and strict <strong>honesty</strong>.</li></ul><p><br></p><p><strong>Bonus points if you have the following skills</strong></p><ul><li>Knowledge of multiple programming languages and libraries (Angular, Go, MySQL, Dart, or PHP), showcasing technical <strong>agility</strong> across diverse environments.</li></ul>",
+      "perks": [],
+      "customPerks": null,
+      "invitedEmails": null,
+      "employmentTypes": [
+        "fullTime"
+      ],
+      "workplaceType": "hybrid",
+      "location": {
+        "country": {
+          "id": 102,
+          "name": "Indonesia"
+        },
+        "city": {
+          "id": 269,
+          "name": "Tangerang Regency"
+        }
+      },
+      "salaryType": "paid",
+      "salaryRange": null,
+      "cvRequired": true,
+      "portofolioRequired": false,
+      "reminderToProcessFirstCandidatesIsSent": true,
+      "published": true,
+      "publishedAt": "2026-10-07T04:29:20.976Z",
+      "preScreeningQuestions": [
+        {
+          "id": "6ac5c7161eb302001292d285",
+          "type": "radio",
+          "title": "How much your experience with Go, Angular, MySQL, Dart, or PHP Knowledge? ",
+          "question": "How much your experience with Go, Angular, MySQL, Dart, or PHP Knowledge? ",
+          "mandatory": true,
+          "description": null,
+          "dynamicItems": [],
+          "radio": {
+            "options": [
+              {
+                "id": "6ac5caa01eb3020012935a8f",
+                "value": "1-3 years"
+              },
+              {
+                "id": "6ac5caa01eb3020012935a90",
+                "value": "> 3 years"
+              }
+            ]
+          },
+          "legacyIds": []
+        },
+        {
+          "id": "6ac5c7161eb302001292d288",
+          "type": "radio",
+          "title": "Are you available working in Gading Serpong, Tangerang with Hybrid work arrangement?",
+          "question": "Are you available working in Gading Serpong, Tangerang with Hybrid work arrangement?",
+          "mandatory": true,
+          "description": null,
+          "dynamicItems": [],
+          "radio": {
+            "options": [
+              {
+                "id": "6ac5caa01eb3020012935a91",
+                "value": "Yes "
+              },
+              {
+                "id": "6ac5caa01eb3020012935a92",
+                "value": "No"
+              }
+            ]
+          },
+          "legacyIds": []
+        },
+        {
+          "id": "6ac5c7161eb302001292d28b",
+          "type": "shortText",
+          "title": "What is your current gross basic salary?",
+          "question": "What is your current gross basic salary?",
+          "mandatory": true,
+          "description": null,
+          "dynamicItems": [],
+          "legacyIds": []
+        },
+        {
+          "id": "6ac5c7161eb302001292d28c",
+          "type": "shortText",
+          "title": "What is your expected gross basic salary?",
+          "question": "What is your expected gross basic salary?",
+          "mandatory": true,
+          "description": null,
+          "dynamicItems": [],
+          "legacyIds": []
+        },
+        {
+          "id": "6ac5c7161eb302001292d28d",
+          "type": "radio",
+          "title": "How long is your notice period?",
+          "question": "How long is your notice period?",
+          "mandatory": true,
+          "description": null,
+          "dynamicItems": [],
+          "radio": {
+            "options": [
+              {
+                "id": "6ac5caa01eb3020012935a93",
+                "value": "< 1 Month"
+              },
+              {
+                "id": "6ac5caa01eb3020012935a94",
+                "value": "1 Month"
+              },
+              {
+                "id": "6ac5caa01eb3020012935a95",
+                "value": "> 1 Month"
+              },
+              {
+                "id": "6ac5caa01eb3020012935a96",
+                "value": "Can join ASAP"
+              }
+            ]
+          },
+          "legacyIds": []
+        },
+        {
+          "id": "6ac5c7161eb302001292d292",
+          "type": "radio",
+          "title": "How did you hear about this job opportunity?",
+          "question": "How did you hear about this job opportunity?",
+          "mandatory": true,
+          "description": null,
+          "dynamicItems": [],
+          "radio": {
+            "options": [
+              {
+                "id": "6ac5caa01eb3020012935a97",
+                "value": "Job Portal (Dealls, Linkedin)"
+              },
+              {
+                "id": "6ac5caa01eb3020012935a98",
+                "value": "InsideESB Social Media (Instagram, TikTok)"
+              },
+              {
+                "id": "6ac5caa01eb3020012935a99",
+                "value": "Live TikTok"
+              },
+              {
+                "id": "6ac5caa01eb3020012935a9a",
+                "value": "ESB Employee Referral"
+              },
+              {
+                "id": "6ac5caa01eb3020012935a9b",
+                "value": "Friend/Family Referral"
+              },
+              {
+                "id": "6ac5caa01eb3020012935a9c",
+                "value": "Campus Event"
+              },
+              {
+                "id": "6ac5caa01eb3020012935a9d",
+                "value": "Job Fair"
+              },
+              {
+                "id": "6ac5caa01eb3020012935a9e",
+                "value": "Others"
+              }
+            ]
+          },
+          "legacyIds": []
+        },
+        {
+          "id": "6ac5c7161eb302001292d29b",
+          "type": "radio",
+          "title": "Would you like to receive emails from PT Esensi Solusi Buana (ESB) about our Talent Newsletter and other relevant updates?",
+          "question": "Would you like to receive emails from PT Esensi Solusi Buana (ESB) about our Talent Newsletter and other relevant updates?",
+          "mandatory": true,
+          "description": null,
+          "dynamicItems": [],
+          "radio": {
+            "options": [
+              {
+                "id": "6ac5caa01eb3020012935a9f",
+                "value": "Yes, I agree"
+              },
+              {
+                "id": "6ac5caa01eb3020012935aa0",
+                "value": "No, I do not agree"
+              }
+            ]
+          },
+          "legacyIds": []
+        }
+      ],
+      "candidatePreference": {
+        "major": null,
+        "lastEducations": [
+          6
+        ],
+        "university": null,
+        "minimumGpa": null,
+        "skillIds": [
+          "6350b16cf71f900012806bcb",
+          "6800ad20fc02380a0cd10bb3",
+          "6298b0a01bf5160012385980",
+          "62c7426538af2c0014ae729d",
+          "6277b03e9fbcad001261e66c"
+        ],
+        "skills": [
+          {
+            "id": "6350b16cf71f900012806bcb",
+            "name": "Fullstack Developer",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 545,
+            "createdAt": "2022-10-20T02:24:44.329Z"
+          },
+          {
+            "id": "6800ad20fc02380a0cd10bb3",
+            "name": "Go (Golang)",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 522,
+            "createdAt": "2025-04-17T07:26:24.399Z"
+          },
+          {
+            "id": "6298b0a01bf5160012385980",
+            "name": "Angular",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 807,
+            "createdAt": "2022-06-02T12:44:16.341Z"
+          },
+          {
+            "id": "62c7426538af2c0014ae729d",
+            "name": "Dart",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 1239,
+            "createdAt": "2022-07-07T20:30:29.912Z"
+          },
+          {
+            "id": "6277b03e9fbcad001261e66c",
+            "name": "MySQL",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 11467,
+            "createdAt": "2022-05-08T11:57:50.316Z"
+          }
+        ],
+        "gender": "No Preference",
+        "age": {
+          "restriction": false,
+          "min": null,
+          "max": null
+        }
+      },
+      "status": "active",
+      "stats": {
+        "viewCount": 747,
+        "nonCuratedCount": 249
+      },
+      "applicantLimitCount": 16,
+      "eligibleToApply": null,
+      "jobApplication": null,
+      "company": {
+        "id": "68f225b9429da7001242c92d",
+        "name": "PT Esensi Solusi Buana (ESB)",
+        "slug": "esb",
+        "headline": null,
+        "insight": {
+          "fundingStage": null,
+          "fundingAmount": null,
+          "benefits": [
+            "competitiveSalary",
+            "bonusSystem"
+          ],
+          "workingPolicies": [
+            "onSite",
+            "hybrid",
+            "workFromAnywhere"
+          ]
+        },
+        "sector": "IT Services and Consulting",
+        "logoUrl": "https://cdn.sejutacita.id/68f223cfecb6c1001418b829/JobPortalCompanyLogo/42906188-baf2-4593-bac6-ec90d542139b.png",
+        "headerUrl": null,
+        "description": "<p>Established in 2018, <strong>ESB</strong> is Indonesia’s leading <strong>restaurant technology company</strong>, empowering the food and beverage industry with innovative, integrated, and easy-to-use digital solutions.</p><p>Our comprehensive ecosystem enables businesses to seamlessly manage every aspect of their F&amp;B operations—from front-of-house to back-of-house—so they can focus on what truly matters: <strong>delivering great experiences and growing their business</strong>.</p><p>Whether you operate a <strong>small food stall, a bustling café, a cloud kitchen, or a nationwide restaurant chain</strong>, ESB provides a unified platform that simplifies operations, enhances efficiency, and drives performance.</p><p>Today, ESB proudly partners with some of Indonesia’s most prominent and fast-growing brands, including <strong>Starbucks, The People's Cafe, Bakerzin, Kimukatsu</strong>, and countless <strong>viral restaurants, cafés, and coffee shops</strong> across the nation.</p><p>At ESB, we live by our core values of <strong>Honesty, Empathy, and Agility</strong>—building technology with integrity, understanding our customers’ challenges, and adapting swiftly to an ever-changing industry landscape.</p><p>Join a <strong>growing, fast-paced, and dynamic technology company</strong> that’s shaping the future of Indonesia’s F&amp;B industry.</p><p>It’s time to <strong>grow, learn, and make an impact with us.</strong></p><p><strong>#GrowingWithESB</strong></p>",
+        "website": null,
+        "emailDomain": null,
+        "size": null,
+        "subscription": null,
+        "createdAt": "2025-10-17T11:17:13.705Z",
+        "updatedAt": "2026-11-02T10:46:55.092Z",
+        "location": {
+          "city": {
+            "id": 269,
+            "name": "Tangerang Regency"
+          },
+          "country": {
+            "id": 102,
+            "name": "Indonesia"
+          }
+        },
+        "cultures": [
+          "passionate",
+          "collaborative",
+          "fast-paced"
+        ],
+        "populatedCultures": [
+          {
+            "id": "passionate",
+            "name": "Passionate",
+            "subtitle": "Strong belief and efforts are the base to achieve long term success",
+            "createdAt": "2022-04-27T14:55:08.596Z"
+          },
+          {
+            "id": "collaborative",
+            "name": "Collaborative",
+            "subtitle": "Here, we work together to make the dream work",
+            "createdAt": "2022-04-27T14:55:08.596Z"
+          },
+          {
+            "id": "fast-paced",
+            "name": "Fast-paced",
+            "subtitle": "Swift in handling new challenges and producing new ideas to improve",
+            "createdAt": "2022-04-27T14:55:08.596Z"
+          }
+        ],
+        "whatSpecial": "<p><br></p><p>At <strong>PT Esensi Solusi Buana (ESB)</strong>, you’re not just joining a company — you’re becoming part of Indonesia’s leading <strong>F&amp;B technology movement</strong>. Here, every idea counts and every role matters in shaping how restaurants, cafés, and cloud kitchens operate nationwide.</p><p><br></p><p>We value <strong>Honesty, Empathy, and Agility</strong>, creating a culture where innovation thrives, people grow, and collaboration drives real impact.</p><p><br></p><p>Join a workplace that’s <strong>dynamic, purpose-driven, and full of opportunities to grow</strong> — both personally and professionally.</p><p><br></p><p><strong>#GrowingWithESB</strong></p>",
+        "verificationStatus": "verified",
+        "jobCount": null,
+        "applicantCount": null,
+        "deletedAt": null,
+        "reasonToDelete": null,
+        "bestCompany": false,
+        "jobIntegration": false,
+        "howToKnowDeall": [
+          "HR"
+        ],
+        "socialMedia": {
+          "instagram": "http://www.instagram.com/insideesb/",
+          "twitter": null
+        },
+        "sendApplicationRejectedEmailEnabled": false,
+        "achievement": null,
+        "profileViewCount": 20779,
+        "featuredMembers": [
+          {
+            "linkedInUrl": "https://www.linkedin.com/in/prayogotriono/",
+            "role": "People Acquisition & Talent Experience Associate",
+            "headline": "Talent Acquisition specialist",
+            "photoUrl": "https://cdn.sejutacita.id/68f223cfecb6c1001418b829/Others/515332f9-4e4c-4db7-9013-83bdc949306c.jpeg",
+            "name": "Prayogo (Tyo) Triono"
+          },
+          {
+            "linkedInUrl": "https://www.linkedin.com/in/victorbudianto/",
+            "role": "People Business Partner ",
+            "headline": "People Partner",
+            "photoUrl": "https://cdn.sejutacita.id/68f223cfecb6c1001418b829/Others/689be8f0-b606-4020-9e6c-d344017bfc24.jpeg",
+            "name": "Victor (Toy) Valentino Budianto"
+          }
+        ],
+        "featuredMembersFirstUpdatedAt": "2025-10-24T03:19:37.207Z",
+        "featuredMembersCompleted": true,
+        "completeFeaturedMembersReminderSentCount": 0,
+        "type": null,
+        "selectedCompanyPhotoIds": [
+          "68faf5dbb0303800128cd3a1"
+        ],
+        "selectedCompanyPhotos": [],
+        "highlights": [],
+        "adminSuggestedHighlights": [],
+        "useSuggestedHighlights": false,
+        "downloadedCVCount": 0,
+        "downloadCVQuota": -1,
+        "trialHistory": null,
+        "owner": null,
+        "superAdmin": null,
+        "superAdminEmail": null,
+        "linkedinId": "26619248",
+        "oldSlugBeforeNewRevamp": null,
+        "slugPrimarySegment": "esb",
+        "slugSecondarySegment": 0,
+        "subDomain": "esb",
+        "headerLogoUrl": "https://cdn.sejutacita.id/68f223cfecb6c1001418b829/JobPortalCompanyLogo/42906188-baf2-4593-bac6-ec90d542139b.png",
+        "faviconUrl": "https://cdn.sejutacita.id/68f223cfecb6c1001418b829/JobPortalCompanyLogo/42906188-baf2-4593-bac6-ec90d542139b.png",
+        "indeedOptedOut": false,
+        "indeedSourceName": "PT Esensi Solusi Buana (ESB)",
+        "indeedApplyEnabled": true,
+        "highlightSuggestionChecked": true,
+        "verified": false
+      },
+      "author": null,
+      "editor": null,
+      "higherChance": false,
+      "previewedCandidates": [],
+      "candidateCount": null,
+      "recruitmentSteps": [],
+      "sendRejectionEmailNeeded": true,
+      "higherSalary": null,
+      "pausedEmailIsSent": false,
+      "closedEmailIsSent": false,
+      "blastCount": 0,
+      "careerFair": false,
+      "careerFairEventIds": [],
+      "createdAt": "2026-10-07T04:14:14.191Z",
+      "updatedAt": "2026-11-02T11:29:09.652Z",
+      "latestUpdatedAt": "2026-10-07T04:14:14.171Z",
+      "updatedAtByEmployer": "2026-10-26T07:43:15.714Z",
+      "jobActivationType": "subscription",
+      "hiringTeam": null,
+      "showSalaryToApplicants": false,
+      "urgentlyNeeded": false,
+      "externalPlatformApplyUrl": null,
+      "criteriaForAI": null,
+      "boostJobRequest": null,
+      "boosted": false,
+      "indeedSync": {
+        "status": "updated",
+        "sourcedPostingId": "4466764b-965a-4970-b0f1-08ba00efca84",
+        "jobKey": null,
+        "employerJobId": "aXJpOi8vYXBpcy5pbmRlZWQuY29tL0VtcGxveWVySm9iLzQ0NjY3NjRiLTk2NWEtNDk3MC1iMGYxLTA4YmEwMGVmY2E4NA==",
+        "lastSyncedAt": "2026-10-09T12:40:01.406Z",
+        "lastErrorMessage": null
+      },
+      "allowReapply": true,
+      "allowReapplyAfterDays": 30,
+      "externalId": "PTE52026131",
+      "externalIdUpdatedAt": "2026-10-07T04:14:14.141Z",
+      "externalIdHistories": [
+        {
+          "externalId": "PTE52026131",
+          "createdAt": "2026-10-07T04:14:14.141Z"
+        }
+      ],
+      "linkedinExcludedUntil": null,
+      "retail": false,
+      "jobActivationExpiredDurationDays": 0,
+      "allowToReApply": true,
+      "lastAppliedAt": null,
+      "eligibleToReApply": false,
+      "lastActivelyHiringAt": "2026-11-02T10:32:41.226Z",
+      "applicantCount": 7,
+      "applicantQuota": 8,
+      "applicantPrioritySlots": 4,
+      "thereAreStillFewApplicants": false
+    }
+  },
+  "messageId": "OK"
+}

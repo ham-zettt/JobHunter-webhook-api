@@ -1,0 +1,419 @@
+{
+  "code": 200,
+  "data": {
+    "result": {
+      "id": "6735a8a8de90b400128366ad",
+      "companyId": "629da0001bf516001239e732",
+      "authorId": "6285a5bd3256d9001338c004",
+      "jobRoleCategoryId": "693466050fafa100127216a7",
+      "jobRoleSubCategoryId": "693468170fafa100127216ae",
+      "jobRoleId": "6a69babacbee340012e97ac7",
+      "role": "Software Engineer (Golang)",
+      "slugPrimarySegment": "software-engineer-golang",
+      "slugSecondarySegment": 1,
+      "slug": "software-engineer-golang-1",
+      "closed": false,
+      "userSavedJob": null,
+      "category": null,
+      "jobRoleCategory": {
+        "id": "693466050fafa100127216a7",
+        "name": "Engineering (IT/Software)",
+        "emoji": "💻",
+        "emojiUrl": "https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.3/assets/72x72/1f4bb.png",
+        "slug": "it-and-software-engineering",
+        "iconUrl": null,
+        "createdAt": "2025-12-30T06:31:01.681Z",
+        "updatedAt": "2026-01-09T09:36:10.662Z",
+        "showLandingPage": true,
+        "showToEmployer": true,
+        "showToUser": true,
+        "curatedByAdmin": true
+      },
+      "jobRoleSubCategory": {
+        "id": "693468170fafa100127216ae",
+        "jobRoleCategoryId": "693466050fafa100127216a7",
+        "name": "Backend Developer",
+        "value": "Backend Developer",
+        "createdAt": "2025-12-06T17:29:59.030Z",
+        "updatedAt": "2025-12-31T12:29:40.950Z",
+        "showToEmployer": true,
+        "showToUser": true,
+        "curatedByAdmin": true
+      },
+      "jobRole": {
+        "id": "6a69babacbee340012e97ac7",
+        "name": "Backend Engineer",
+        "slug": null,
+        "nameIndonesian": "Insinyur Backend",
+        "addedByUser": false,
+        "about": null,
+        "responsibilities": null,
+        "requirements": null,
+        "perks": null,
+        "editedBy": null,
+        "addedByAdmin": true,
+        "curatedByAdmin": true,
+        "addedByEmployer": true,
+        "approvedCurationByAdmin": true,
+        "status": "notProcessed",
+        "descriptionCompleted": false,
+        "count": 2473,
+        "visible": true,
+        "jobRoleCategoryId": "693466050fafa100127216a7",
+        "jobRoleSubCategoryId": "693468170fafa100127216ae",
+        "categoryId": "693466050fafa100127216a7",
+        "jobRoleCategory": null,
+        "jobCategory": null,
+        "jobSubCategory": null,
+        "createdAt": "2026-07-29T08:32:58.586Z"
+      },
+      "saved": false,
+      "description": null,
+      "responsibilities": "<p>Here in Mitramas Infosys Global, you will be exposed to work on software across a diverse platform of technologies as well as a variety of industries within our portfolios. We are looking for talents with high tenacity in solving problems, exceptional passion for technologies, and a great willingness to learn and adapt to ever-changing environments to join our team.</p><p><strong>You are expected to be able to:</strong></p><p><br></p><ul><li>Build and maintain backend services with strong proficiency in Golang, ensuring clean, scalable, and efficient code.</li><li>Design, optimize, and manage PostgreSQL databases.</li><li>Monitor application performance and infrastructure using Grafana.</li><li>Use GitHub for version control and collaborative development.</li><li>Work with Redis, Elasticsearch, a nd Metabase for caching, search, and data visualization.</li><li>Collaborate with cross-functional teams to deliver high-performance, reliable systems.</li></ul>",
+      "requirements": "<ul><li>Minimum Bachelor's degree in Computer Science or a related field.</li><li>At least 3 years of experience as a Software Engineer or in a similar role.</li><li>Proven proficiency in Golang development is a must.</li><li>Willing to work on 6 months project-based with hybrid work arrangement</li></ul>",
+      "perks": [],
+      "customPerks": null,
+      "invitedEmails": null,
+      "employmentTypes": [
+        "contract"
+      ],
+      "workplaceType": "hybrid",
+      "location": {
+        "country": {
+          "id": 102,
+          "name": "Indonesia"
+        },
+        "city": {
+          "id": 158,
+          "name": "Jakarta Selatan"
+        }
+      },
+      "salaryType": "paid",
+      "salaryRange": null,
+      "cvRequired": true,
+      "portofolioRequired": false,
+      "reminderToProcessFirstCandidatesIsSent": true,
+      "published": true,
+      "publishedAt": "2024-11-14T07:37:12.544Z",
+      "preScreeningQuestions": [
+        {
+          "id": "6ace2ea271d2da0012aa271e",
+          "type": "radio",
+          "title": "How many years of experience do you have with the Go (Golang) programming language?",
+          "question": "How many years of experience do you have with the Go (Golang) programming language?",
+          "mandatory": true,
+          "description": null,
+          "dynamicItems": [],
+          "radio": {
+            "options": [
+              {
+                "id": "6ace2ea271d2da0012aa271f",
+                "value": "No experience"
+              },
+              {
+                "id": "6ace2ea271d2da0012aa2720",
+                "value": "<1y"
+              },
+              {
+                "id": "6ace2ea271d2da0012aa2721",
+                "value": "1y"
+              },
+              {
+                "id": "6ace2ea271d2da0012aa2722",
+                "value": "2y"
+              },
+              {
+                "id": "6ace2ea271d2da0012aa2723",
+                "value": "3y"
+              },
+              {
+                "id": "6ace2ea271d2da0012aa2724",
+                "value": ">3y"
+              }
+            ]
+          },
+          "legacyIds": []
+        },
+        {
+          "id": "6735ac6da73391001273114a",
+          "type": "numeric",
+          "title": "What is your current salary?",
+          "question": "What is your current salary?",
+          "mandatory": true,
+          "description": null,
+          "dynamicItems": [],
+          "legacyIds": []
+        },
+        {
+          "id": "6735ac6da73391001273114b",
+          "type": "numeric",
+          "title": "What is your expected salary?",
+          "question": "What is your expected salary?",
+          "mandatory": true,
+          "description": null,
+          "dynamicItems": [],
+          "legacyIds": []
+        },
+        {
+          "id": "68a57b8f34acee0012956170",
+          "type": "shortText",
+          "title": "Are you willing to work under 6 months contract-based arrangement?",
+          "question": "Are you willing to work under 6 months contract-based arrangement?",
+          "mandatory": true,
+          "description": null,
+          "dynamicItems": [],
+          "legacyIds": []
+        }
+      ],
+      "candidatePreference": {
+        "major": null,
+        "lastEducations": [
+          6,
+          7
+        ],
+        "university": null,
+        "minimumGpa": null,
+        "skillIds": [
+          "640af27fccf48a0012e4949e",
+          "627e37024c47b500126c6dd8",
+          "628db37ea39fae001238704d",
+          "62997dc862a37400158a2847",
+          "6226f6692d9a642279775ac7"
+        ],
+        "skills": [
+          {
+            "id": "640af27fccf48a0012e4949e",
+            "name": "Golang",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 3683,
+            "createdAt": "2023-03-10T09:03:59.527Z"
+          },
+          {
+            "id": "627e37024c47b500126c6dd8",
+            "name": "PostgreSQL",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 7038,
+            "createdAt": "2022-05-13T10:46:26.881Z"
+          },
+          {
+            "id": "628db37ea39fae001238704d",
+            "name": "Git",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 5944,
+            "createdAt": "2022-05-25T04:41:34.326Z"
+          },
+          {
+            "id": "62997dc862a37400158a2847",
+            "name": "SDLC",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 837,
+            "createdAt": "2022-06-03T03:19:36.158Z"
+          },
+          {
+            "id": "6226f6692d9a642279775ac7",
+            "name": "Software Development",
+            "addedByUser": false,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 1321,
+            "createdAt": "2022-03-07T17:00:00.000Z"
+          }
+        ],
+        "gender": "No Preference",
+        "age": {
+          "restriction": false,
+          "min": null,
+          "max": null
+        }
+      },
+      "status": "active",
+      "stats": {
+        "viewCount": 4527,
+        "nonCuratedCount": 385
+      },
+      "applicantLimitCount": 21,
+      "eligibleToApply": null,
+      "jobApplication": null,
+      "company": {
+        "id": "629da0001bf516001239e732",
+        "name": "Mitramas Infosys Global",
+        "slug": "mitramas-infosys-global",
+        "headline": null,
+        "insight": {
+          "fundingStage": null,
+          "fundingAmount": null,
+          "benefits": [
+            "medicalLeave",
+            "other"
+          ],
+          "workingPolicies": [
+            "onSite",
+            "hybrid"
+          ]
+        },
+        "sector": "Information Technology / IT",
+        "logoUrl": "https://cdn.sejutacita.id/6285a5bd3256d9001338c004/Others/a5394f93-190e-4de5-8528-a092541e2d20.png",
+        "headerUrl": null,
+        "description": "<p>Founded in 2003, Mitramas Infosys Global (MIG) is a technology solutions and IT services provider based in Jakarta. Specializes in the financial services industry, MIG operates up to 20 service points across major islands in Indonesia, offering a wide variety of essential hardware and software solutions from Core Banking Systems, PC, ATM to business process applications and analytics serving both Government body, State-Owned Enterprise, as well as Private Owned companies.</p><p><br></p><p>Driven by the spirit of delivering top-notch and high-efficiency services to clients, MIG has since evolved to provide IT on-site assistance, enabling companies achieving its digital aspiration goals via top selected talents in software developments, and data analytics spaces to complement its existing hardware and software solutions.</p><p><br></p><p>This place offers vast opportunities for young talents to grow and to get exposures across extensive applications of technology in the real-world industries. To top it off, we also provide on-the-job learning opportunities prior to job allocation, allowing our talents to gain a competitive advantage as part of our commitments to serve our clients excellent services.</p>",
+        "website": "https://mig.id/",
+        "emailDomain": null,
+        "size": {
+          "start": 50,
+          "end": 100
+        },
+        "subscription": null,
+        "createdAt": "2022-06-06T06:34:40.875Z",
+        "updatedAt": "2026-11-02T07:55:53.308Z",
+        "location": {
+          "city": {
+            "id": 158,
+            "name": "Jakarta Selatan"
+          },
+          "country": {
+            "id": 102,
+            "name": "Indonesia"
+          }
+        },
+        "cultures": [
+          "collaborative",
+          "innovative"
+        ],
+        "populatedCultures": [
+          {
+            "id": "collaborative",
+            "name": "Collaborative",
+            "subtitle": "Here, we work together to make the dream work",
+            "createdAt": "2022-04-27T14:55:08.596Z"
+          },
+          {
+            "id": "innovative",
+            "name": "Innovative",
+            "subtitle": "We strive to constantly pursue innovation of our products and services",
+            "createdAt": "2022-04-27T14:55:08.596Z"
+          }
+        ],
+        "whatSpecial": null,
+        "verificationStatus": "verified",
+        "jobCount": null,
+        "applicantCount": null,
+        "deletedAt": null,
+        "reasonToDelete": null,
+        "bestCompany": false,
+        "jobIntegration": true,
+        "howToKnowDeall": [
+          "Referal"
+        ],
+        "socialMedia": {
+          "instagram": null,
+          "twitter": null
+        },
+        "sendApplicationRejectedEmailEnabled": false,
+        "achievement": null,
+        "profileViewCount": 5831,
+        "featuredMembers": [
+          {
+            "linkedInUrl": "https://www.linkedin.com/in/hera-nurlita-putri-60187814b/",
+            "role": "HRGA",
+            "headline": null,
+            "name": "Hera Nurlita",
+            "photoUrl": "https://cdn.sejutacita.id/6285a5bd3256d9001338c004/Others/b3845996-58fc-4dd4-a485-3f80535eee31.png"
+          }
+        ],
+        "featuredMembersFirstUpdatedAt": "2024-10-02T08:06:23.313Z",
+        "featuredMembersCompleted": false,
+        "completeFeaturedMembersReminderSentCount": 3,
+        "type": null,
+        "selectedCompanyPhotoIds": [],
+        "selectedCompanyPhotos": [],
+        "highlights": [],
+        "adminSuggestedHighlights": [],
+        "useSuggestedHighlights": false,
+        "downloadedCVCount": 0,
+        "downloadCVQuota": -1,
+        "trialHistory": null,
+        "owner": null,
+        "superAdmin": null,
+        "superAdminEmail": null,
+        "linkedinId": "31509427",
+        "oldSlugBeforeNewRevamp": "mitramas-infosys-global",
+        "slugPrimarySegment": "mitramas-infosys-global",
+        "slugSecondarySegment": 0,
+        "subDomain": "mitrasolusi",
+        "headerLogoUrl": "https://cdn.sejutacita.id/6285a5bd3256d9001338c004/Others/a5394f93-190e-4de5-8528-a092541e2d20.png",
+        "faviconUrl": "https://cdn.sejutacita.id/6285a5bd3256d9001338c004/Others/a5394f93-190e-4de5-8528-a092541e2d20.png",
+        "indeedOptedOut": false,
+        "indeedSourceName": "PT Mitramas Infosys Global",
+        "indeedApplyEnabled": true,
+        "highlightSuggestionChecked": true,
+        "verified": true
+      },
+      "author": null,
+      "editor": null,
+      "higherChance": false,
+      "previewedCandidates": [],
+      "candidateCount": null,
+      "recruitmentSteps": [],
+      "sendRejectionEmailNeeded": true,
+      "higherSalary": null,
+      "pausedEmailIsSent": false,
+      "closedEmailIsSent": false,
+      "blastCount": 0,
+      "careerFair": false,
+      "careerFairEventIds": [],
+      "createdAt": "2024-11-14T07:37:12.550Z",
+      "updatedAt": "2026-11-02T10:38:02.505Z",
+      "latestUpdatedAt": "2026-10-07T17:00:08.140Z",
+      "updatedAtByEmployer": "2026-10-20T09:40:01.146Z",
+      "jobActivationType": "subscription",
+      "hiringTeam": null,
+      "showSalaryToApplicants": false,
+      "urgentlyNeeded": false,
+      "externalPlatformApplyUrl": null,
+      "criteriaForAI": null,
+      "boostJobRequest": null,
+      "boosted": false,
+      "indeedSync": {
+        "status": "updated",
+        "sourcedPostingId": "ed3d746a-d25d-4be4-ba37-e72fcd722aa4",
+        "jobKey": "2da28fdeb41048c5",
+        "employerJobId": "aXJpOi8vYXBpcy5pbmRlZWQuY29tL0VtcGxveWVySm9iL2VkM2Q3NDZhLWQyNWQtNGJlNC1iYTM3LWU3MmZjZDcyMmFhNA==",
+        "lastSyncedAt": "2026-10-13T13:14:20.923Z",
+        "lastErrorMessage": null
+      },
+      "allowReapply": false,
+      "allowReapplyAfterDays": 30,
+      "externalId": "MIT31150095",
+      "externalIdUpdatedAt": "2026-10-07T17:00:08.140Z",
+      "externalIdHistories": [
+        {
+          "externalId": "MIT87655483",
+          "createdAt": "2026-10-07T11:00:09.421Z"
+        },
+        {
+          "externalId": "MIT31150095",
+          "createdAt": "2026-10-07T17:00:08.140Z"
+        }
+      ],
+      "linkedinExcludedUntil": null,
+      "retail": false,
+      "jobActivationExpiredDurationDays": 0,
+      "allowToReApply": false,
+      "lastAppliedAt": null,
+      "eligibleToReApply": false,
+      "lastActivelyHiringAt": "2026-11-02T08:27:16.899Z",
+      "applicantCount": 7,
+      "applicantQuota": 8,
+      "applicantPrioritySlots": 1,
+      "thereAreStillFewApplicants": false
+    }
+  },
+  "messageId": "OK"
+}

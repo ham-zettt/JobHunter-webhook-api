@@ -1,0 +1,315 @@
+{
+  "code": 200,
+  "data": {
+    "result": {
+      "id": "6ae2f7aa23d8da0012111afc",
+      "companyId": "6699cbe523611900123e2a3f",
+      "authorId": "6699cb40c4368e0013623062",
+      "jobRoleCategoryId": "6934f8a22622eadf60779980",
+      "jobRoleSubCategoryId": "6937c1943a700c001ef473a3",
+      "jobRoleId": "6ab4e1721c8d2e0011c942b8",
+      "role": "Software Engineer (Junior/Middle)",
+      "slugPrimarySegment": "software-engineer-juniormiddle",
+      "slugSecondarySegment": 0,
+      "slug": "software-engineer-juniormiddle",
+      "closed": false,
+      "userSavedJob": null,
+      "category": null,
+      "jobRoleCategory": {
+        "id": "6934f8a22622eadf60779980",
+        "name": "Product – Software",
+        "emoji": "📲",
+        "emojiUrl": "https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.3/assets/72x72/1f4f2.png",
+        "slug": "product-software",
+        "iconUrl": null,
+        "createdAt": "2025-12-30T06:31:01.681Z",
+        "updatedAt": "2026-01-09T09:36:10.662Z",
+        "showLandingPage": true,
+        "showToEmployer": true,
+        "showToUser": true,
+        "curatedByAdmin": true
+      },
+      "jobRoleSubCategory": {
+        "id": "6937c1943a700c001ef473a3",
+        "jobRoleCategoryId": "6934f8a22622eadf60779980",
+        "name": "Core Product Management",
+        "value": "Core Product Management",
+        "createdAt": "2025-12-09T06:28:36.370Z",
+        "updatedAt": "2025-12-31T12:29:40.951Z",
+        "showToEmployer": true,
+        "showToUser": true,
+        "curatedByAdmin": true
+      },
+      "jobRole": {
+        "id": "6ab4e1721c8d2e0011c942b8",
+        "name": "Software Engineer (Fullstack)",
+        "slug": null,
+        "nameIndonesian": "Insinyur Perangkat Lunak (Fullstack)",
+        "addedByUser": false,
+        "about": null,
+        "responsibilities": null,
+        "requirements": null,
+        "perks": null,
+        "editedBy": null,
+        "addedByAdmin": false,
+        "curatedByAdmin": true,
+        "addedByEmployer": true,
+        "approvedCurationByAdmin": true,
+        "status": "notProcessed",
+        "descriptionCompleted": false,
+        "count": 286,
+        "visible": false,
+        "jobRoleCategoryId": "6934f8a22622eadf60779980",
+        "jobRoleSubCategoryId": "6937c1943a700c001ef473a3",
+        "categoryId": "6934f8a22622eadf60779980",
+        "jobRoleCategory": null,
+        "jobCategory": null,
+        "jobSubCategory": null,
+        "createdAt": "2026-09-24T08:38:10.782Z"
+      },
+      "saved": false,
+      "description": null,
+      "responsibilities": "<ul><li>Design and develop new features for web and mobile applications.</li><li>Maintain and update application source code to ensure stability and performance.</li><li>Create responsive and visually appealing user interfaces using Tailwind, JavaScript and/or Typescript.</li><li>Develop back-end services using programming languages NestJS.</li><li>Manage and optimize application databases to ensure efficiency and reliability.</li><li>Collaborate with product and design teams to understand user needs and design effective solutions.</li></ul><p><br></p>",
+      "requirements": "<ul><li>Bachelor degree in information technology.</li><li>Fresh Graduates are welcome to apply, or 1-5+ years experience.</li><li>Deep understanding of back-end technologies such as Node.js and popular frameworks like NestJS.</li><li>Deep understanding of front-end technologies such as Tailwind, Javascript, Typescript, and popular frameworks like React.</li><li>Extensive experience with database systems such as MySQL, Redis, MongoDB, or PostgreSQL.</li><li>Strong leadership and mentoring skills, with the ability to inspire and guide a development team.</li><li>Knowledge of ERP systems such as Manufacturing, Supply Chain Management or Product Lifecycle Management is a plus.</li><li>Willing to work on-site and full-time in Bintaro, South Tangerang</li></ul><p><br></p>",
+      "perks": [],
+      "customPerks": null,
+      "invitedEmails": null,
+      "employmentTypes": [
+        "fullTime"
+      ],
+      "workplaceType": "onSite",
+      "location": {
+        "country": {
+          "id": 102,
+          "name": "Indonesia"
+        },
+        "city": {
+          "id": 273,
+          "name": "Tangerang Selatan"
+        }
+      },
+      "salaryType": "paid",
+      "salaryRange": {
+        "start": 10000000,
+        "end": 15000000
+      },
+      "cvRequired": true,
+      "portofolioRequired": false,
+      "reminderToProcessFirstCandidatesIsSent": true,
+      "published": true,
+      "publishedAt": "2026-10-29T07:37:14.497Z",
+      "preScreeningQuestions": [
+        {
+          "id": "648446cf827a42e574746f18",
+          "type": "numeric",
+          "title": "What's your latest GPA/IPK?",
+          "question": "What is your latest GPA/IPK?",
+          "mandatory": true,
+          "description": "What is your latest GPA/IPK?",
+          "dynamicItems": [],
+          "legacyIds": []
+        },
+        {
+          "id": "6ae2f7aa23d8da0012111afe",
+          "type": "shortText",
+          "title": "Willing to working full WFO in Bintaro?",
+          "question": "Willing to working full WFO in Bintaro?",
+          "mandatory": true,
+          "description": null,
+          "dynamicItems": [],
+          "legacyIds": []
+        }
+      ],
+      "candidatePreference": {
+        "major": null,
+        "lastEducations": [
+          0,
+          5,
+          6,
+          7
+        ],
+        "university": null,
+        "minimumGpa": null,
+        "skillIds": [
+          "6372547695712d0012285e6a"
+        ],
+        "skills": [
+          {
+            "id": "6372547695712d0012285e6a",
+            "name": "Nest Js",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 106,
+            "createdAt": "2022-11-14T14:45:10.717Z"
+          }
+        ],
+        "gender": "No Preference",
+        "age": {
+          "restriction": false,
+          "min": null,
+          "max": null
+        }
+      },
+      "status": "active",
+      "stats": {
+        "viewCount": 93,
+        "nonCuratedCount": -79
+      },
+      "applicantLimitCount": 19,
+      "eligibleToApply": null,
+      "jobApplication": null,
+      "company": {
+        "id": "6699cbe523611900123e2a3f",
+        "name": "Dexa Group",
+        "slug": "dexa-group",
+        "headline": null,
+        "insight": {
+          "fundingStage": null,
+          "fundingAmount": null,
+          "benefits": [
+            "competitiveSalary",
+            "bonusSystem",
+            "medicalLeave",
+            "freeLunch",
+            "internationalExposure",
+            "dentalInsurance",
+            "periodLeave",
+            "paidSickDays",
+            "maternityLeave",
+            "professionalDevelopment"
+          ],
+          "workingPolicies": [
+            "onSite"
+          ]
+        },
+        "sector": "Pharmaceutical",
+        "logoUrl": "https://cdn.sejutacita.id/6699cb40c4368e0013623062/JobPortalCompanyLogo/e1b497bb-1c44-48f3-95b2-628667a3cc97.PNG",
+        "headerUrl": null,
+        "description": "<p>Dexa Group has evolved from a small company established in 1969 to one of Indonesia’s largest ethical pharmaceutical companies at the beginning of the 21st century and has become a prominent, well-respected player in the domestic pharmaceutical market.</p><p>Providing better health care by applying expertise was the foundation on which its founders built this Company. Honesty, trust, dedication and commitment to providing patients with the highest quality of ethical pharmaceutical products and OTC are preserved as the guiding principles, based upon which the highly professional management team and the motivated, competent staff of Dexa Group have developed the Company in the spirit of mutual respect, teamwork and innovation over more than four decades.</p><p>Serving as a good corporate citizen is one of our responsibilities and being a strategic asset of Indonesia is one of our foremost desires. For along time Dexa Group has worked together with governing institutions and the Indonesian Pharmaceutical Association – championing compliance and improving the industry standards.</p><p>Ir. Ferry A. Soetikno, M.Sc., M.B.A.</p><p>(President&nbsp;Director)</p>",
+        "website": "https://www.dexagroup.com/id/",
+        "emailDomain": null,
+        "size": {
+          "start": 100,
+          "end": null
+        },
+        "subscription": null,
+        "createdAt": "2024-07-19T02:13:57.116Z",
+        "updatedAt": "2026-11-02T11:21:17.457Z",
+        "location": {
+          "city": {
+            "id": 273,
+            "name": "Tangerang Selatan"
+          },
+          "country": {
+            "id": 102,
+            "name": "Indonesia"
+          }
+        },
+        "cultures": [],
+        "populatedCultures": [],
+        "whatSpecial": null,
+        "verificationStatus": "verified",
+        "jobCount": null,
+        "applicantCount": null,
+        "deletedAt": null,
+        "reasonToDelete": null,
+        "bestCompany": false,
+        "jobIntegration": true,
+        "howToKnowDeall": [
+          "LinkedIn"
+        ],
+        "socialMedia": {
+          "instagram": null,
+          "twitter": null
+        },
+        "sendApplicationRejectedEmailEnabled": false,
+        "achievement": null,
+        "profileViewCount": 49716,
+        "featuredMembers": [],
+        "featuredMembersFirstUpdatedAt": null,
+        "featuredMembersCompleted": false,
+        "completeFeaturedMembersReminderSentCount": 3,
+        "type": "nonStartup",
+        "selectedCompanyPhotoIds": [],
+        "selectedCompanyPhotos": [],
+        "highlights": [],
+        "adminSuggestedHighlights": [],
+        "useSuggestedHighlights": false,
+        "downloadedCVCount": 0,
+        "downloadCVQuota": -1,
+        "trialHistory": null,
+        "owner": null,
+        "superAdmin": null,
+        "superAdminEmail": null,
+        "linkedinId": "2164396",
+        "oldSlugBeforeNewRevamp": null,
+        "slugPrimarySegment": "dexa-group",
+        "slugSecondarySegment": 0,
+        "subDomain": "dexa-medica",
+        "headerLogoUrl": "https://cdn.sejutacita.id/6699cb40c4368e0013623062/JobPortalCompanyLogo/e1b497bb-1c44-48f3-95b2-628667a3cc97.PNG",
+        "faviconUrl": "https://cdn.sejutacita.id/6699cb40c4368e0013623062/JobPortalCompanyLogo/e1b497bb-1c44-48f3-95b2-628667a3cc97.PNG",
+        "indeedOptedOut": false,
+        "indeedSourceName": "PT Dexa Medica",
+        "indeedApplyEnabled": true,
+        "highlightSuggestionChecked": true,
+        "verified": true
+      },
+      "author": null,
+      "editor": null,
+      "higherChance": false,
+      "previewedCandidates": [],
+      "candidateCount": null,
+      "recruitmentSteps": [],
+      "sendRejectionEmailNeeded": true,
+      "higherSalary": null,
+      "pausedEmailIsSent": false,
+      "closedEmailIsSent": false,
+      "blastCount": 0,
+      "careerFair": false,
+      "careerFairEventIds": [],
+      "createdAt": "2026-10-29T07:37:14.518Z",
+      "updatedAt": "2026-11-02T11:38:25.426Z",
+      "latestUpdatedAt": "2026-10-29T07:37:14.507Z",
+      "updatedAtByEmployer": "2026-11-02T09:40:13.353Z",
+      "jobActivationType": "subscription",
+      "hiringTeam": null,
+      "showSalaryToApplicants": true,
+      "urgentlyNeeded": false,
+      "externalPlatformApplyUrl": null,
+      "criteriaForAI": null,
+      "boostJobRequest": null,
+      "boosted": false,
+      "indeedSync": {
+        "status": "posted",
+        "sourcedPostingId": "cbb3a072-c49d-4b7f-9817-bb017c9d034c",
+        "jobKey": "ace969051a79b1ca",
+        "employerJobId": "aXJpOi8vYXBpcy5pbmRlZWQuY29tL0VtcGxveWVySm9iL2NiYjNhMDcyLWM0OWQtNGI3Zi05ODE3LWJiMDE3YzlkMDM0Yw==",
+        "lastSyncedAt": "2026-10-29T07:37:15.833Z",
+        "lastErrorMessage": null
+      },
+      "allowReapply": false,
+      "allowReapplyAfterDays": 30,
+      "externalId": "DEX78502954",
+      "externalIdUpdatedAt": "2026-10-29T07:37:14.497Z",
+      "externalIdHistories": [
+        {
+          "externalId": "DEX78502954",
+          "createdAt": "2026-10-29T07:37:14.497Z"
+        }
+      ],
+      "linkedinExcludedUntil": null,
+      "retail": false,
+      "jobActivationExpiredDurationDays": 0,
+      "allowToReApply": false,
+      "lastAppliedAt": null,
+      "eligibleToReApply": false,
+      "lastActivelyHiringAt": "2026-11-02T09:54:40.512Z",
+      "applicantCount": 7,
+      "applicantQuota": 8,
+      "applicantPrioritySlots": 8,
+      "thereAreStillFewApplicants": false
+    }
+  },
+  "messageId": "OK"
+}

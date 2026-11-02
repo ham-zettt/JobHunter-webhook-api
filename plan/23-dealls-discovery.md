@@ -2,7 +2,7 @@
 
 - **Fase:** F3 **Prasyarat:** 05–09 **Estimasi:** M
 - **Referensi:** SCRAPER_SPEC §3, §5.0, §5.7, §7.5
-- **Status:** `[ ]`
+- **Status:** `[x]` (2026-11-02; bukti: `docs/platform_notes/dealls.md`, `tests/fixtures/dealls/`)
 
 ## Tujuan
 Menentukan struktur nyata Dealls, khususnya cara memuat daftar lewat tombol
@@ -40,11 +40,11 @@ aktivitas rekruter).
 Belum ada test parser; parser dibuat pada task 24.
 
 ## Kriteria selesai (checklist)
-- [ ] Catatan discovery lengkap sesuai templat §3.
-- [ ] Mekanisme "Lihat Lebih Banyak" terdokumentasi (jumlah klik/batas).
-- [ ] Sumber tanggal posting jelas; label aktivitas rekruter tidak dipakai.
-- [ ] URL kanonik tanpa `/en`.
-- [ ] ≥3 fixture daftar, ≥5 fixture detail.
+- [x] Catatan discovery lengkap sesuai templat §3.
+- [x] Mekanisme "Lihat Lebih Banyak" terdokumentasi (jumlah klik/batas).
+- [x] Sumber tanggal posting jelas; label aktivitas rekruter tidak dipakai.
+- [x] URL kanonik tanpa `/en`.
+- [x] ≥3 fixture daftar, ≥5 fixture detail.
 
 ## Cara verifikasi
 ```bash

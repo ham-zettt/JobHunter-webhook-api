@@ -65,3 +65,6 @@
 - Jangan menganggap teks "Rekruter aktif N hari lalu" sebagai tanggal posting.
 - Kalibrr: `offset` melewati `count` mengabaikan `text` dan mengembalikan feed umum; batasi loop dengan `count` halaman pertama.
 - Kalibrr: deskripsi detail = `description` + `qualifications`; keduanya wajib digabung.
+- P-11 tuntas (task 23): Dealls punya tanggal posting sah `publishedAt` (listing + detail API); `lastActivelyHiringAt` = label "Rekruter aktif N j lalu", DILARANG dipakai sebagai `posted_at` (beda 4 hari pada sampel).
+- Dealls: browser headless ditantang Cloudflare (403); HTTP polos 200 — scraper harus HTTP-first tanpa browser (D-015).
+- Dealls: URL detail wajib memuat sufiks `~<company-slug>`; tanpa itu → 302 ke `sh.dealls.com` → 403.

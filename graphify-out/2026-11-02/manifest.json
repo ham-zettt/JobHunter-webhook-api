@@ -318,10 +318,10 @@
     "semantic_hash": ""
   },
   "app/scrapers/platforms/kalibrr.py": {
-    "mtime": 1793554441.1529198,
-    "seen": 1793556998.2751484,
-    "ast_hash": "e6ff7d6e08d9cd6dd7a97a6c6c6cd0e5",
-    "semantic_hash": "e6ff7d6e08d9cd6dd7a97a6c6c6cd0e5"
+    "mtime": 1793606085.2391393,
+    "seen": 1793606192.4789205,
+    "ast_hash": "837254290ecd262af0179b1a05c6d656",
+    "semantic_hash": ""
   },
   "app/scrapers/platforms/kitalulus.py": {
     "mtime": 1793554441.1531272,
@@ -552,9 +552,9 @@
     "semantic_hash": "e48d5c0fc813387dc52f92ed43bf37fb"
   },
   "AGENTS.md": {
-    "mtime": 1793587158.568696,
-    "seen": 1793587281.9988446,
-    "ast_hash": "9a225a79c34cfb4aa926fa166b1a6142",
+    "mtime": 1793605585.9609454,
+    "seen": 1793606192.479071,
+    "ast_hash": "64e379f0fd098cf91f2898ba7f7d79f9",
     "semantic_hash": ""
   },
   "ARCHITECTURE.md": {
@@ -588,9 +588,9 @@
     "semantic_hash": "356f02eb6ddeebd4851aa08e73e8de1b"
   },
   "docs/DECISIONS.md": {
-    "mtime": 1793559566.021786,
-    "seen": 1793559576.522111,
-    "ast_hash": "cd93cfa3e504ca4ed9ae730dc892bf25",
+    "mtime": 1793606183.5930989,
+    "seen": 1793606192.4790914,
+    "ast_hash": "ebe29f526fa269e54a6336d337a830ae",
     "semantic_hash": ""
   },
   "app/scrapers/browser.py": {
@@ -756,9 +756,9 @@
     "semantic_hash": ""
   },
   "docs/CODEMAP.md": {
-    "mtime": 1793597999.9161932,
-    "seen": 1793598003.4655795,
-    "ast_hash": "7d45d2bcddfe0be735f20ad45a491d2b",
+    "mtime": 1793606188.5953207,
+    "seen": 1793606192.4790888,
+    "ast_hash": "eb4812207e0b9c72dba1550cd32dc9d1",
     "semantic_hash": ""
   },
   "plan/04-docker.md": {
@@ -780,15 +780,15 @@
     "semantic_hash": ""
   },
   "plan/21-kalibrr-discovery.md": {
-    "mtime": 1793587043.2623935,
-    "seen": 1793587281.9988754,
-    "ast_hash": "0da69377d8e34edffba3275bfd046e1f",
+    "mtime": 1793604055.143376,
+    "seen": 1793606192.4791093,
+    "ast_hash": "8ad63f7a6632932e08e46ab89ec3dfd1",
     "semantic_hash": ""
   },
   "plan/22-kalibrr-scraper.md": {
-    "mtime": 1793587049.7129505,
-    "seen": 1793587281.9988773,
-    "ast_hash": "4d9e2bd78a9b9e0b7f836d5a7bb9a056",
+    "mtime": 1793606176.926972,
+    "seen": 1793606192.4791114,
+    "ast_hash": "8abba6fcad863b0fcaeb4322421b5ec4",
     "semantic_hash": ""
   },
   "plan/23-dealls-discovery.md": {
@@ -876,21 +876,87 @@
     "semantic_hash": ""
   },
   "plan/NOTES.md": {
-    "mtime": 1793587002.9449348,
-    "seen": 1793587281.9989073,
-    "ast_hash": "91a8dc5b9554c7bddd0a4585a3187955",
+    "mtime": 1793606178.2579973,
+    "seen": 1793606192.4791467,
+    "ast_hash": "b6533c142cf51c39722305b1f2db9e7a",
     "semantic_hash": ""
   },
   "plan/PROGRESS.md": {
-    "mtime": 1793597588.6860414,
-    "seen": 1793598003.4656456,
-    "ast_hash": "03377efdcbc816b74d06e97cbe84ba7d",
+    "mtime": 1793606175.2029388,
+    "seen": 1793606192.4791489,
+    "ast_hash": "5d1c7ccf233cf076c6abb975836a9357",
     "semantic_hash": ""
   },
   "plan/README.md": {
     "mtime": 1793597623.0175283,
     "seen": 1793598003.4656477,
     "ast_hash": "c49ac4e28f41322872ef5055b63ab177",
+    "semantic_hash": ""
+  },
+  "tests/fixtures/kalibrr/search_p1.json": {
+    "mtime": 1793603979.4819033,
+    "seen": 1793606192.4790027,
+    "ast_hash": "7cc3f40e870b18233f48ce78c20150dd",
+    "semantic_hash": ""
+  },
+  "tests/fixtures/kalibrr/search_p2.json": {
+    "mtime": 1793603981.0166051,
+    "seen": 1793606192.4790058,
+    "ast_hash": "9151c981ae5e045cb43f6896c6a965c6",
+    "semantic_hash": ""
+  },
+  "tests/fixtures/kalibrr/search_p3.json": {
+    "mtime": 1793603981.8371658,
+    "seen": 1793606192.4790082,
+    "ast_hash": "56e02f504ccd1e34915834d2486053ea",
+    "semantic_hash": ""
+  },
+  "tests/scrapers/test_kalibrr.py": {
+    "mtime": 1793606120.9158723,
+    "seen": 1793606192.4790285,
+    "ast_hash": "86d78b32f5cc9c62b8eb9d2f62068eb3",
+    "semantic_hash": ""
+  },
+  "docs/platform_notes/kalibrr.md": {
+    "mtime": 1793604045.9751036,
+    "seen": 1793606192.479099,
+    "ast_hash": "fe66de159e4924716f30a918d2db65e5",
+    "semantic_hash": ""
+  },
+  "tests/fixtures/kalibrr/detail_263888.html": {
+    "mtime": 1793603986.777464,
+    "seen": 1793606192.479186,
+    "ast_hash": "2dc9dfa9935463ba173d980091e60005",
+    "semantic_hash": ""
+  },
+  "tests/fixtures/kalibrr/detail_272018.html": {
+    "mtime": 1793603986.783487,
+    "seen": 1793606192.4791882,
+    "ast_hash": "80dc5b0c86db8e15de5722fa696783b5",
+    "semantic_hash": ""
+  },
+  "tests/fixtures/kalibrr/detail_272823.html": {
+    "mtime": 1793603986.7801545,
+    "seen": 1793606192.4791903,
+    "ast_hash": "441ccc886a6c6b980b93e5928079baf1",
+    "semantic_hash": ""
+  },
+  "tests/fixtures/kalibrr/detail_275079.html": {
+    "mtime": 1793603986.7818565,
+    "seen": 1793606192.479192,
+    "ast_hash": "a4676a3cb045a2b580a7626266a27c25",
+    "semantic_hash": ""
+  },
+  "tests/fixtures/kalibrr/detail_275125.html": {
+    "mtime": 1793603986.775464,
+    "seen": 1793606192.479194,
+    "ast_hash": "9d93456e9081338d1d6ef3bc7240d149",
+    "semantic_hash": ""
+  },
+  "tests/fixtures/kalibrr/search_software_engineer.html": {
+    "mtime": 1793603986.7673252,
+    "seen": 1793606192.4791956,
+    "ast_hash": "77d6ae182f6539058e56ba2b66ca4ed3",
     "semantic_hash": ""
   },
   ".opencode/package-lock.json": {

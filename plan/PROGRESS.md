@@ -2,7 +2,7 @@
 
 ## Status
 
-Fase aktif: F3 · Task terakhir selesai: 21 · Berikutnya: 22 (tinggal smoke live)
+Fase aktif: F3 · Task terakhir selesai: 23 · Berikutnya: 24 (Scraper Dealls) · 22 tinggal smoke live
 Commit terakhir: 6f3d7a4
 
 ## Daftar task
@@ -28,8 +28,8 @@ Commit terakhir: 6f3d7a4
 - [x] 19 Discovery Glints — bukti: `docs/platform_notes/glints.md`
 - [x] 20 Scraper Glints + fixture/test — bukti: `app/scrapers/platforms/glints.py`, `tests/scrapers/test_glints.py`
 - [x] 21 Discovery Kalibrr — bukti: `docs/platform_notes/kalibrr.md`, `tests/fixtures/kalibrr/` (3 daftar + 5 detail)
-- [~] 22 Scraper Kalibrr + fixture/test — bukti: `app/scrapers/platforms/kalibrr.py`, `tests/scrapers/test_kalibrr.py` (16 test); kurang: smoke `live` belum dijalankan (dilarang pada sesi ini)
-- [ ] 23 Discovery Dealls
+- [~] 22 Scraper Kalibrr + fixture/test — bukti: `app/scrapers/platforms/kalibrr.py`, `tests/scrapers/test_kalibrr.py` (20 test; guard `offset < count`, deteksi tantangan daftar, snapshot parse); kurang: smoke `live` belum dijalankan (dilarang pada sesi ini)
+- [x] 23 Discovery Dealls — bukti: `docs/platform_notes/dealls.md`, `tests/fixtures/dealls/` (4 daftar + 6 detail API + 1 SSR); tanggal posting = `publishedAt`, label "Rekruter aktif" (`lastActivelyHiringAt`) tidak dipakai (D-015); headless ditantang Cloudflare, HTTP-first terbukti; pytest hijau + ruff bersih
 - [ ] 24 Scraper Dealls + fixture/test
 - [ ] 25 Discovery KitaLulus
 - [ ] 26 Scraper KitaLulus + fixture/test

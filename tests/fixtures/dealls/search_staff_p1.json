@@ -1,0 +1,2575 @@
+{
+  "data": {
+    "docs": [
+      {
+        "id": "6ae85714a4b0c800131241d9",
+        "slug": "staff-pajak-1",
+        "role": "Staff Pajak",
+        "authorId": "657668562470a30014752854",
+        "stats": {
+          "viewCount": 7,
+          "nonCuratedCount": 1,
+          "applicantCount": 1
+        },
+        "employmentTypes": [
+          "fullTime"
+        ],
+        "workplaceType": "onSite",
+        "publishedAt": "2026-11-02T09:25:40.039Z",
+        "status": "active",
+        "salaryType": "paid",
+        "salaryRange": {
+          "start": 5000000,
+          "end": 6000000
+        },
+        "candidatePreference": {
+          "lastEducations": [
+            5
+          ],
+          "major": null,
+          "university": null,
+          "minimumGpa": null,
+          "skillIds": [
+            "681cb25c8709246917e7ef72",
+            "63be4c09223c13001307c396",
+            "6770b905afe92100127df87b",
+            "6350cb295c97ad00122b2fba",
+            "64836e9ceaafc600123bc421",
+            "635b6bee0a47190012a190c1",
+            "6303180d38ecc80015459043"
+          ],
+          "gender": "No Preference",
+          "age": {
+            "restriction": false,
+            "min": null,
+            "max": null
+          }
+        },
+        "country": {
+          "id": 102,
+          "name": "Indonesia"
+        },
+        "city": {
+          "id": 158,
+          "name": "Jakarta Selatan"
+        },
+        "companyId": "657678b5a1016600121e6018",
+        "categoryId": null,
+        "categorySlug": null,
+        "jobRoleCategorySlug": "finance-and-accounting",
+        "jobRoleId": "69a15cf168644a0012c14dec",
+        "jobRoleCategoryId": "6934fdf62622eadf6077998a",
+        "jobRoleSubCategoryId": "69393f8dffb8a421e1efbb25",
+        "company": {
+          "insight": {
+            "fundingStage": "Others",
+            "fundingAmount": null,
+            "benefits": [
+              "competitiveSalary",
+              "medicalLeave",
+              "bonusSystem"
+            ],
+            "workingPolicies": [
+              "onSite"
+            ]
+          },
+          "logoUrl": "https://cdn.sejutacita.id/657668562470a30014752854/JobPortalCompanyLogo/d97bce09-cb5c-4014-9b2c-1a35704c2364.png",
+          "rank": "C",
+          "name": "Tazbiya Brands",
+          "sector": "Retail Apparel And Fashion",
+          "slug": "tazbiya-brands",
+          "id": "657678b5a1016600121e6018",
+          "trialStartedAt": "2024-12-30T17:00:00.000Z",
+          "verified": true
+        },
+        "skills": [
+          {
+            "createdAt": "2022-08-22T05:45:49.292Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "name": "E-SPT",
+            "count": 413,
+            "_id": "6303180d38ecc80015459043",
+            "status": "notProcessed",
+            "updatedAt": "2026-10-26T13:54:32.829Z"
+          },
+          {
+            "createdAt": "2022-10-20T04:14:33.069Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "count": 479,
+            "name": "DJP Online",
+            "_id": "6350cb295c97ad00122b2fba",
+            "status": "notProcessed",
+            "updatedAt": "2026-10-19T23:49:15.808Z"
+          },
+          {
+            "createdAt": "2022-10-28T05:43:10.481Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "count": 3264,
+            "name": "ACCURATE SOFTWARE",
+            "_id": "635b6bee0a47190012a190c1",
+            "status": "notProcessed",
+            "updatedAt": "2026-11-02T09:41:06.132Z"
+          },
+          {
+            "createdAt": "2023-01-11T05:41:29.219Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "count": 50,
+            "name": "PPN",
+            "_id": "63be4c09223c13001307c396",
+            "status": "notProcessed",
+            "updatedAt": "2026-10-19T22:49:11.794Z"
+          },
+          {
+            "createdAt": "2023-06-09T18:25:33.001Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "count": 1104,
+            "name": "Tax Brevet A & B",
+            "_id": "64836e9ceaafc600123bc421",
+            "status": "notProcessed",
+            "updatedAt": "2026-11-01T14:41:39.340Z"
+          },
+          {
+            "createdAt": "2024-12-29T02:50:45.828Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "count": 1151,
+            "name": "Coretax",
+            "_id": "6770b905afe92100127df87b",
+            "status": "notProcessed",
+            "updatedAt": "2026-10-26T13:54:32.829Z"
+          },
+          {
+            "createdAt": "2025-05-08T13:32:12.601Z",
+            "editedBy": null,
+            "name": "Excel & Google Sheets",
+            "addedByUser": true,
+            "count": 842,
+            "_id": "681cb25c8709246917e7ef72",
+            "status": "notProcessed",
+            "updatedAt": "2026-11-02T08:34:37.188Z"
+          }
+        ],
+        "deletedAt": null,
+        "author": null,
+        "qCompanyRank": null,
+        "createdAt": "2026-11-02T09:25:40.056Z",
+        "updatedAt": "2026-11-02T10:54:09.413Z",
+        "updatedAtByEmployer": "2026-11-02T09:25:40.039Z",
+        "latestUpdatedAt": "2026-11-02T09:25:40.050Z",
+        "urgentlyNeeded": false,
+        "externalPlatformApplyUrl": null,
+        "boosted": false,
+        "_score": 0,
+        "saved": false,
+        "applied": false,
+        "waitListed": false,
+        "applicantPrioritySlots": 8,
+        "higherSalary": null,
+        "eligibleToApply": true,
+        "thereAreStillFewApplicants": true,
+        "lastActivelyHiringAt": "2026-11-02T09:26:25.865Z"
+      },
+      {
+        "id": "6ae80eb685fd9e00120a63a7",
+        "slug": "hse-safety-staff-pekalongan-factory",
+        "role": "HSE (Safety) Staff - Pekalongan (Factory)",
+        "authorId": "6a8bdf6b58f4640013b2f962",
+        "stats": {
+          "viewCount": 11,
+          "nonCuratedCount": 12,
+          "applicantCount": 12
+        },
+        "employmentTypes": [
+          "fullTime"
+        ],
+        "workplaceType": "onSite",
+        "publishedAt": "2026-11-02T04:16:54.232Z",
+        "status": "active",
+        "salaryType": "paid",
+        "salaryRange": {
+          "start": 3000000,
+          "end": 3300000
+        },
+        "candidatePreference": {
+          "lastEducations": [
+            0,
+            5
+          ],
+          "major": null,
+          "university": null,
+          "minimumGpa": null,
+          "skillIds": [
+            "668de95da778570012cb7d38",
+            "6384221acb9d2400123ce814",
+            "640996964cd79500131e0a86"
+          ],
+          "gender": "No Preference",
+          "age": {
+            "restriction": false,
+            "min": null,
+            "max": null
+          }
+        },
+        "country": {
+          "id": 102,
+          "name": "Indonesia"
+        },
+        "city": {
+          "id": 218,
+          "name": "Pekalongan"
+        },
+        "companyId": "654201f1cd846b00120578ff",
+        "categoryId": null,
+        "categorySlug": null,
+        "jobRoleCategorySlug": "engineering-non-it",
+        "jobRoleId": "6a5048f58d55a900118eee1c",
+        "jobRoleCategoryId": "6934fd7b2622eadf60779986",
+        "jobRoleSubCategoryId": "6937bc093a700c001ef47393",
+        "company": {
+          "insight": {
+            "fundingStage": "others",
+            "fundingAmount": null,
+            "benefits": [
+              "competitiveSalary",
+              "bonusSystem",
+              "periodLeave",
+              "freeLunch",
+              "transport",
+              "freeMeals",
+              "internationalExposure",
+              "casualDressCode",
+              "maternityLeave",
+              "medicalLeave",
+              "paidSickDays",
+              "professionalDevelopment",
+              "Medical Checkup",
+              "24-hours Health Clinic"
+            ],
+            "workingPolicies": [
+              "onSite"
+            ]
+          },
+          "logoUrl": "https://cdn.sejutacita.id/66445903c547c500131fd241/JobPortalCompanyLogo/d26cdfd5-1379-49ac-99a3-861569380ab3.png",
+          "rank": "A",
+          "name": "Pou Chen Group Indonesia",
+          "sector": "Spectator Sports",
+          "slug": "pou-chen-group-indonesia",
+          "id": "654201f1cd846b00120578ff",
+          "trialStartedAt": "2024-05-14T08:03:18.482Z",
+          "verified": true
+        },
+        "skills": [
+          {
+            "_id": "6384221acb9d2400123ce814",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 142,
+            "name": "Occupational Health And Safety",
+            "createdAt": "2022-11-28T02:51:06.835Z",
+            "updatedAt": "2026-11-01T12:07:26.314Z",
+            "__v": 0
+          },
+          {
+            "_id": "640996964cd79500131e0a86",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 161,
+            "name": "HIRADC",
+            "createdAt": "2023-03-09T08:19:34.794Z",
+            "updatedAt": "2026-10-18T09:42:44.324Z",
+            "__v": 0
+          },
+          {
+            "_id": "668de95da778570012cb7d38",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 426,
+            "name": "Health Safety Environment (HSE)",
+            "createdAt": "2024-07-10T01:52:29.179Z",
+            "updatedAt": "2026-11-02T08:24:05.950Z",
+            "__v": 0
+          }
+        ],
+        "deletedAt": null,
+        "author": null,
+        "qCompanyRank": null,
+        "createdAt": "2026-11-02T04:16:54.257Z",
+        "updatedAt": "2026-11-02T10:11:33.099Z",
+        "updatedAtByEmployer": "2026-11-02T04:16:54.226Z",
+        "latestUpdatedAt": "2026-11-02T04:16:54.246Z",
+        "urgentlyNeeded": false,
+        "externalPlatformApplyUrl": null,
+        "boosted": false,
+        "_score": 0,
+        "saved": false,
+        "applied": false,
+        "waitListed": false,
+        "applicantPrioritySlots": 8,
+        "higherSalary": null,
+        "eligibleToApply": true,
+        "thereAreStillFewApplicants": true,
+        "lastActivelyHiringAt": "2026-11-02T09:36:25.674Z"
+      },
+      {
+        "id": "6ae417fe1e86df0013edd81d",
+        "slug": "product-security-staff",
+        "role": "Product Security Staff",
+        "authorId": "683d67a39b75900013292f3e",
+        "stats": {
+          "viewCount": 37,
+          "nonCuratedCount": 83,
+          "applicantCount": 83
+        },
+        "employmentTypes": [
+          "fullTime"
+        ],
+        "workplaceType": "onSite",
+        "publishedAt": "2026-10-30T04:07:26.213Z",
+        "status": "active",
+        "salaryType": "paid",
+        "salaryRange": null,
+        "candidatePreference": {
+          "lastEducations": [
+            0
+          ],
+          "major": null,
+          "university": null,
+          "minimumGpa": null,
+          "skillIds": [
+            "67feba17fc02380a0cd0674f",
+            "67f9740a203f07b253fd93c1",
+            "6811b892ed1e09ab689a50bb",
+            "67e7063e8ea92db83686e1f3"
+          ],
+          "gender": "No Preference",
+          "age": {
+            "restriction": false,
+            "min": null,
+            "max": null
+          }
+        },
+        "country": {
+          "id": 102,
+          "name": "Indonesia"
+        },
+        "city": {
+          "id": 271,
+          "name": "Serang"
+        },
+        "companyId": "654201f1cd846b00120578ff",
+        "categoryId": null,
+        "categorySlug": null,
+        "jobRoleCategorySlug": "legal-and-compliance",
+        "jobRoleId": "69393fbdffb8a421e1efbbe0",
+        "jobRoleCategoryId": "6934fe242622eadf6077998c",
+        "jobRoleSubCategoryId": "69393fbcffb8a421e1efbbdf",
+        "company": {
+          "insight": {
+            "fundingStage": "others",
+            "fundingAmount": null,
+            "benefits": [
+              "competitiveSalary",
+              "bonusSystem",
+              "periodLeave",
+              "freeLunch",
+              "transport",
+              "freeMeals",
+              "internationalExposure",
+              "casualDressCode",
+              "maternityLeave",
+              "medicalLeave",
+              "paidSickDays",
+              "professionalDevelopment",
+              "Medical Checkup",
+              "24-hours Health Clinic"
+            ],
+            "workingPolicies": [
+              "onSite"
+            ]
+          },
+          "logoUrl": "https://cdn.sejutacita.id/66445903c547c500131fd241/JobPortalCompanyLogo/d26cdfd5-1379-49ac-99a3-861569380ab3.png",
+          "rank": "A",
+          "name": "Pou Chen Group Indonesia",
+          "sector": "Spectator Sports",
+          "slug": "pou-chen-group-indonesia",
+          "id": "654201f1cd846b00120578ff",
+          "trialStartedAt": "2024-05-14T08:03:18.482Z",
+          "verified": true
+        },
+        "skills": [
+          {
+            "createdAt": "2025-03-28T20:27:42.024Z",
+            "editedBy": null,
+            "name": "COMMUNICATION & ACTIVE LISTENING",
+            "addedByUser": true,
+            "count": 232,
+            "_id": "67e7063e8ea92db83686e1f3",
+            "status": "notProcessed",
+            "updatedAt": "2026-10-31T06:19:23.281Z"
+          },
+          {
+            "createdAt": "2025-04-11T19:56:58.219Z",
+            "editedBy": null,
+            "name": "English Speaking and Writing",
+            "addedByUser": true,
+            "count": 126,
+            "_id": "67f9740a203f07b253fd93c1",
+            "status": "notProcessed",
+            "updatedAt": "2026-09-30T19:25:10.714Z"
+          },
+          {
+            "createdAt": "2025-04-15T19:57:11.214Z",
+            "editedBy": null,
+            "name": "English (Conversational)",
+            "addedByUser": true,
+            "count": 99,
+            "_id": "67feba17fc02380a0cd0674f",
+            "status": "notProcessed",
+            "updatedAt": "2026-10-31T12:38:58.839Z"
+          },
+          {
+            "createdAt": "2025-04-30T05:43:46.448Z",
+            "editedBy": null,
+            "name": "MICROSOFT OFFICE (WORD, EXCEL, POWERPOINT, SPREADSHEET)",
+            "addedByUser": true,
+            "count": 3229,
+            "_id": "6811b892ed1e09ab689a50bb",
+            "status": "notProcessed",
+            "updatedAt": "2026-11-02T10:52:44.796Z"
+          }
+        ],
+        "deletedAt": null,
+        "author": null,
+        "qCompanyRank": null,
+        "createdAt": "2026-10-30T04:07:26.243Z",
+        "updatedAt": "2026-11-02T10:41:34.099Z",
+        "updatedAtByEmployer": "2026-10-30T04:07:26.207Z",
+        "latestUpdatedAt": "2026-10-30T04:07:26.229Z",
+        "urgentlyNeeded": false,
+        "externalPlatformApplyUrl": null,
+        "boosted": false,
+        "_score": 0,
+        "saved": false,
+        "applied": false,
+        "waitListed": false,
+        "applicantPrioritySlots": 8,
+        "higherSalary": null,
+        "eligibleToApply": true,
+        "thereAreStillFewApplicants": false,
+        "lastActivelyHiringAt": "2026-11-02T09:36:25.674Z"
+      },
+      {
+        "id": "6ae4017823d8da00121f595a",
+        "slug": "supplement-production-staff",
+        "role": "Supplement Production Staff",
+        "authorId": "69df40ab4b093b0013b7a162",
+        "stats": {
+          "viewCount": 51,
+          "nonCuratedCount": 0,
+          "applicantCount": 11
+        },
+        "employmentTypes": [
+          "fullTime"
+        ],
+        "workplaceType": "onSite",
+        "publishedAt": "2026-10-30T02:31:20.290Z",
+        "status": "active",
+        "salaryType": "paid",
+        "salaryRange": null,
+        "candidatePreference": {
+          "minimumGpa": null,
+          "major": null,
+          "gender": "No Preference",
+          "skillIds": [
+            "681b553efb95b8ee7c5d8d7a",
+            "63f02d24256426001294fa14",
+            "630657ef620f40001287fda2"
+          ],
+          "university": null,
+          "lastEducations": [
+            5
+          ],
+          "age": {
+            "min": 20,
+            "max": 35,
+            "restriction": true
+          }
+        },
+        "country": {
+          "name": "Indonesia",
+          "id": 102
+        },
+        "city": {
+          "name": "Surabaya",
+          "id": 265
+        },
+        "companyId": "69df40abae61570012f717da",
+        "categoryId": null,
+        "categorySlug": null,
+        "jobRoleCategorySlug": "manufacturing-and-production",
+        "jobRoleId": "69393fc8ffb8a421e1efbc0e",
+        "jobRoleCategoryId": "6934fe692622eadf6077998f",
+        "jobRoleSubCategoryId": "69393fc8ffb8a421e1efbc0d",
+        "company": {
+          "insight": {
+            "benefits": [
+              "Flexible working environment"
+            ],
+            "workingPolicies": [
+              "flexible"
+            ],
+            "fundingStage": null,
+            "fundingAmount": null
+          },
+          "name": "Vectorlabs Indonesia",
+          "rank": null,
+          "id": "69df40abae61570012f717da",
+          "sector": "education",
+          "logoUrl": "https://cdn.sejutacita.id/69df40ab4b093b0013b7a162/JobPortalCompanyLogo/9d61992b-6cc7-4f2d-a97d-eec9959def38.jpg",
+          "slug": "vectorlabscoid",
+          "trialStartedAt": null,
+          "verified": false
+        },
+        "skills": [
+          {
+            "createdAt": "2022-08-24T16:55:11.919Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "name": "Production Planning",
+            "count": 639,
+            "_id": "630657ef620f40001287fda2",
+            "status": "notProcessed",
+            "updatedAt": "2026-10-21T11:01:59.797Z"
+          },
+          {
+            "createdAt": "2023-02-18T01:43:00.002Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "count": 253,
+            "name": "Good Manufacturing Practice (GMP)",
+            "_id": "63f02d24256426001294fa14",
+            "status": "notProcessed",
+            "updatedAt": "2026-10-29T15:52:16.463Z"
+          },
+          {
+            "createdAt": "2025-05-07T12:42:38.863Z",
+            "editedBy": null,
+            "name": "Food Safety (GMP, HACCP, ISO, 5R)",
+            "addedByUser": true,
+            "count": 561,
+            "_id": "681b553efb95b8ee7c5d8d7a",
+            "status": "notProcessed",
+            "updatedAt": "2026-11-02T07:07:14.927Z"
+          }
+        ],
+        "deletedAt": null,
+        "author": null,
+        "qCompanyRank": null,
+        "createdAt": "2026-10-30T02:31:20.382Z",
+        "updatedAt": "2026-11-02T09:32:00.067Z",
+        "updatedAtByEmployer": "2026-11-02T04:40:26.176Z",
+        "latestUpdatedAt": "2026-10-30T02:31:20.364Z",
+        "urgentlyNeeded": false,
+        "externalPlatformApplyUrl": null,
+        "boosted": false,
+        "_score": 0,
+        "saved": false,
+        "applied": false,
+        "waitListed": false,
+        "applicantPrioritySlots": 8,
+        "higherSalary": null,
+        "eligibleToApply": true,
+        "thereAreStillFewApplicants": true,
+        "lastActivelyHiringAt": "2026-11-02T11:09:30.369Z"
+      },
+      {
+        "id": "6ae18e72ab88580012191365",
+        "slug": "accounting-staff-99",
+        "role": "Accounting Staff",
+        "authorId": "67cfaa9ad39d490013b5359d",
+        "stats": {
+          "viewCount": 327,
+          "nonCuratedCount": 176,
+          "applicantCount": 194
+        },
+        "employmentTypes": [
+          "contract"
+        ],
+        "workplaceType": "hybrid",
+        "publishedAt": "2026-10-28T05:56:02.215Z",
+        "status": "active",
+        "salaryType": "paid",
+        "salaryRange": null,
+        "candidatePreference": {
+          "lastEducations": [
+            5,
+            6
+          ],
+          "major": null,
+          "university": null,
+          "minimumGpa": null,
+          "skillIds": [
+            "683546a28709246917fb82e8"
+          ],
+          "gender": "No Preference",
+          "age": {
+            "restriction": false,
+            "min": null,
+            "max": null
+          }
+        },
+        "country": {
+          "id": 102,
+          "name": "Indonesia"
+        },
+        "city": {
+          "id": 157,
+          "name": "Jakarta Pusat"
+        },
+        "companyId": "6348dd3264af9a00130c0ff3",
+        "categoryId": null,
+        "categorySlug": null,
+        "jobRoleCategorySlug": "finance-and-accounting",
+        "jobRoleId": "69af9739ba2ecd00125e5362",
+        "jobRoleCategoryId": "6934fdf62622eadf6077998a",
+        "jobRoleSubCategoryId": "69357de5b0fdb6fa559d82d2",
+        "company": {
+          "insight": {
+            "fundingStage": "Confidential",
+            "fundingAmount": null,
+            "benefits": [
+              "competitiveSalary",
+              "medicalLeave",
+              "dentalInsurance",
+              "bonusSystem",
+              "transport",
+              "casualDressCode",
+              "teamBuilding",
+              "selfDevelopmentAllowance",
+              "companyOutings",
+              "maternityLeave",
+              "paidSickDays",
+              "professionalDevelopment",
+              "wellnessProgram",
+              "employeeDiscounts"
+            ],
+            "workingPolicies": [
+              "hybrid"
+            ]
+          },
+          "logoUrl": "https://cdn.sejutacita.id/6348dbd9d1d5850014490738/JobPortalCompanyLogo/1f9491df-38e3-4481-a7de-34341eea0763.png",
+          "rank": "A",
+          "name": "Vidio",
+          "sector": "Media & Entertainment",
+          "slug": "vidiodotcom",
+          "id": "6348dd3264af9a00130c0ff3",
+          "trialStartedAt": "2023-08-30T17:00:00.000Z",
+          "verified": true
+        },
+        "skills": [
+          {
+            "_id": "683546a28709246917fb82e8",
+            "name": "Excel (VLOOKUP, HLOOKUP, PIVOT, IF, SUM, AVERAGE, etc)",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 660,
+            "updatedAt": "2026-11-02T04:39:47.192Z",
+            "createdAt": "2025-05-27T04:59:14.856Z"
+          }
+        ],
+        "deletedAt": null,
+        "author": null,
+        "qCompanyRank": null,
+        "createdAt": "2026-10-28T05:56:02.225Z",
+        "updatedAt": "2026-11-02T10:15:58.550Z",
+        "updatedAtByEmployer": "2026-11-02T04:52:37.548Z",
+        "latestUpdatedAt": "2026-10-28T05:56:02.220Z",
+        "urgentlyNeeded": false,
+        "externalPlatformApplyUrl": null,
+        "boosted": false,
+        "_score": 0,
+        "saved": false,
+        "applied": false,
+        "waitListed": false,
+        "applicantPrioritySlots": 5,
+        "higherSalary": null,
+        "eligibleToApply": true,
+        "thereAreStillFewApplicants": false,
+        "lastActivelyHiringAt": "2026-11-02T10:59:58.968Z"
+      },
+      {
+        "id": "6ae0165613482b00121ac88c",
+        "slug": "student-and-faculty-mobility-staff",
+        "role": "Student & Faculty Mobility Staff",
+        "authorId": "6710d910d3a15a001298e5cf",
+        "stats": {
+          "viewCount": 35,
+          "nonCuratedCount": 202,
+          "applicantCount": 205
+        },
+        "employmentTypes": [
+          "fullTime"
+        ],
+        "workplaceType": "onSite",
+        "publishedAt": "2026-10-27T03:11:18.307Z",
+        "status": "active",
+        "salaryType": "paid",
+        "salaryRange": null,
+        "candidatePreference": {
+          "lastEducations": [
+            5,
+            0
+          ],
+          "major": null,
+          "university": null,
+          "minimumGpa": null,
+          "skillIds": [
+            "63666b57ac4d3a001286b73e",
+            "6397fa95e6d9b30013b89850",
+            "622b0e91be545565867248d6",
+            "641e34f2c3b4060012b4ca47",
+            "6226f6692d9a642279775a6f",
+            "68077c445e99acf683076c7e"
+          ],
+          "gender": "No Preference",
+          "age": {
+            "restriction": false,
+            "min": null,
+            "max": null
+          }
+        },
+        "country": {
+          "id": 102,
+          "name": "Indonesia"
+        },
+        "city": {
+          "id": 49180,
+          "name": "Jakarta"
+        },
+        "companyId": "66bc147e2b215400120ef657",
+        "categoryId": null,
+        "categorySlug": null,
+        "jobRoleCategorySlug": "education-and-training",
+        "jobRoleId": "6ae0141146dc0f0012a01f81",
+        "jobRoleCategoryId": "6934fecd2622eadf60779993",
+        "jobRoleSubCategoryId": "69393fefffb8a421e1efbcac",
+        "company": {
+          "insight": {
+            "fundingStage": null,
+            "fundingAmount": null,
+            "benefits": [
+              "competitiveSalary",
+              "bonusSystem",
+              "medicalLeave"
+            ],
+            "workingPolicies": [
+              "onSite"
+            ]
+          },
+          "logoUrl": "https://cdn.sejutacita.id/66bc13c48fca2d0013f5b647/JobPortalCompanyLogo/da28d3e7-261e-43f8-b8cd-6bcf7427f0ff.jpeg",
+          "rank": "A",
+          "name": "BINUS Group",
+          "sector": "Education Administration Programs",
+          "slug": "binus-group",
+          "id": "66bc147e2b215400120ef657",
+          "trialStartedAt": "2024-08-14T17:00:00.000Z",
+          "verified": true
+        },
+        "skills": [
+          {
+            "_id": "6226f6692d9a642279775a6f",
+            "name": "Administration",
+            "createdAt": "2022-03-07T17:00:00.000Z",
+            "addedByUser": false,
+            "status": "notProcessed",
+            "count": 13281,
+            "updatedAt": "2026-11-01T01:14:06.433Z"
+          },
+          {
+            "_id": "622b0e91be545565867248d6",
+            "name": "Collaboration",
+            "createdAt": "2022-03-10T17:00:00.000Z",
+            "addedByUser": false,
+            "status": "notProcessed",
+            "count": 4148,
+            "updatedAt": "2026-11-02T09:23:55.707Z"
+          },
+          {
+            "_id": "63666b57ac4d3a001286b73e",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 374,
+            "name": "Operational Management",
+            "createdAt": "2022-11-05T13:55:35.081Z",
+            "updatedAt": "2026-11-01T18:59:21.150Z",
+            "__v": 0
+          },
+          {
+            "_id": "6397fa95e6d9b30013b89850",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 138,
+            "name": "Operational Support",
+            "createdAt": "2022-12-13T04:07:49.399Z",
+            "updatedAt": "2026-11-02T04:16:25.178Z",
+            "__v": 0
+          },
+          {
+            "_id": "641e34f2c3b4060012b4ca47",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 31017,
+            "name": "Teamwork",
+            "createdAt": "2023-03-24T23:40:34.926Z",
+            "updatedAt": "2026-11-02T08:29:57.622Z",
+            "__v": 0
+          },
+          {
+            "_id": "68077c445e99acf683076c7e",
+            "name": "Administration & Data Management",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 251,
+            "updatedAt": "2026-10-27T00:55:33.141Z",
+            "createdAt": "2025-04-22T11:23:48.384Z"
+          }
+        ],
+        "deletedAt": null,
+        "author": null,
+        "qCompanyRank": null,
+        "createdAt": "2026-10-27T03:11:18.326Z",
+        "updatedAt": "2026-11-02T10:51:08.197Z",
+        "updatedAtByEmployer": "2026-10-27T03:11:18.302Z",
+        "latestUpdatedAt": "2026-10-27T03:11:18.317Z",
+        "urgentlyNeeded": false,
+        "externalPlatformApplyUrl": null,
+        "boosted": false,
+        "_score": 0,
+        "saved": false,
+        "applied": false,
+        "waitListed": false,
+        "applicantPrioritySlots": 8,
+        "higherSalary": null,
+        "eligibleToApply": true,
+        "thereAreStillFewApplicants": false,
+        "lastActivelyHiringAt": "2026-11-02T10:39:12.784Z"
+      },
+      {
+        "id": "6adffd7a761e3d001249d2b7",
+        "slug": "accounting-staff-98",
+        "role": "Accounting Staff",
+        "authorId": "69cc997508ae2b0013e8b056",
+        "stats": {
+          "viewCount": 385,
+          "nonCuratedCount": 71,
+          "applicantCount": 216
+        },
+        "employmentTypes": [
+          "fullTime"
+        ],
+        "workplaceType": "onSite",
+        "publishedAt": "2026-10-27T01:25:14.151Z",
+        "status": "active",
+        "salaryType": "paid",
+        "salaryRange": null,
+        "candidatePreference": {
+          "lastEducations": [
+            0,
+            5
+          ],
+          "major": null,
+          "university": null,
+          "minimumGpa": null,
+          "skillIds": [
+            "62752cfb7ca701001342fc9b"
+          ],
+          "gender": "No Preference",
+          "age": {
+            "restriction": false,
+            "min": null,
+            "max": null
+          }
+        },
+        "country": {
+          "id": 102,
+          "name": "Indonesia"
+        },
+        "city": {
+          "id": 49180,
+          "name": "Jakarta"
+        },
+        "companyId": "67e2884af2569d0013abc239",
+        "categoryId": null,
+        "categorySlug": null,
+        "jobRoleCategorySlug": "finance-and-accounting",
+        "jobRoleId": "69af9739ba2ecd00125e5362",
+        "jobRoleCategoryId": "6934fdf62622eadf6077998a",
+        "jobRoleSubCategoryId": "69357de5b0fdb6fa559d82d2",
+        "company": {
+          "insight": {
+            "fundingStage": "-",
+            "fundingAmount": null,
+            "benefits": [
+              "competitiveSalary",
+              "bonusSystem",
+              "transport",
+              "professionalDevelopment"
+            ],
+            "workingPolicies": [
+              "onSite"
+            ]
+          },
+          "logoUrl": "https://cdn.sejutacita.id/67e287c3056d970013cf14ed/JobPortalCompanyLogo/b48b1219-5b38-4a86-aa47-18f5e7851cdb.jpeg",
+          "rank": "A",
+          "name": "PT Ultra Sakti",
+          "sector": "Manufacturing (Pharmaceutical)",
+          "slug": "pt-ultra-sakti-1",
+          "id": "67e2884af2569d0013abc239",
+          "trialStartedAt": "2025-06-18T17:00:00.000Z",
+          "verified": true
+        },
+        "skills": [
+          {
+            "createdAt": "2022-05-06T14:13:15.022Z",
+            "__v": 0,
+            "addedByUser": true,
+            "name": "Accounting",
+            "count": 9438,
+            "_id": "62752cfb7ca701001342fc9b",
+            "updatedAt": "2026-11-02T08:07:56.630Z",
+            "status": "notProcessed"
+          }
+        ],
+        "deletedAt": null,
+        "author": null,
+        "qCompanyRank": null,
+        "createdAt": "2026-10-27T01:25:14.189Z",
+        "updatedAt": "2026-11-02T10:15:58.550Z",
+        "updatedAtByEmployer": "2026-10-30T08:12:05.360Z",
+        "latestUpdatedAt": "2026-10-27T01:25:14.171Z",
+        "urgentlyNeeded": false,
+        "externalPlatformApplyUrl": null,
+        "boosted": false,
+        "_score": 0,
+        "saved": false,
+        "applied": false,
+        "waitListed": false,
+        "applicantPrioritySlots": 8,
+        "higherSalary": null,
+        "eligibleToApply": true,
+        "thereAreStillFewApplicants": false,
+        "lastActivelyHiringAt": "2026-11-02T06:45:09.085Z"
+      },
+      {
+        "id": "6ad976cba88b9e0012310b99",
+        "slug": "financial-services-staff",
+        "role": "Financial Services Staff",
+        "authorId": "6710c37269f77f0014ea7eca",
+        "stats": {
+          "viewCount": 156,
+          "nonCuratedCount": 282,
+          "applicantCount": 303
+        },
+        "employmentTypes": [
+          "fullTime"
+        ],
+        "workplaceType": "onSite",
+        "publishedAt": "2026-10-22T02:36:59.572Z",
+        "status": "active",
+        "salaryType": "paid",
+        "salaryRange": null,
+        "candidatePreference": {
+          "lastEducations": [
+            0,
+            5
+          ],
+          "major": null,
+          "university": null,
+          "minimumGpa": null,
+          "skillIds": [
+            "681cb25c8709246917e7ef72"
+          ],
+          "gender": "No Preference",
+          "age": {
+            "restriction": false,
+            "min": null,
+            "max": null
+          }
+        },
+        "country": {
+          "id": 102,
+          "name": "Indonesia"
+        },
+        "city": {
+          "id": 156,
+          "name": "Jakarta Barat"
+        },
+        "companyId": "66bc147e2b215400120ef657",
+        "categoryId": null,
+        "categorySlug": null,
+        "jobRoleCategorySlug": "finance-and-accounting",
+        "jobRoleId": "6a0e8ab0029bac001278b03e",
+        "jobRoleCategoryId": "6934fdf62622eadf6077998a",
+        "jobRoleSubCategoryId": "69393f8dffb8a421e1efbb25",
+        "company": {
+          "insight": {
+            "fundingStage": null,
+            "fundingAmount": null,
+            "benefits": [
+              "competitiveSalary",
+              "bonusSystem",
+              "medicalLeave"
+            ],
+            "workingPolicies": [
+              "onSite"
+            ]
+          },
+          "logoUrl": "https://cdn.sejutacita.id/66bc13c48fca2d0013f5b647/JobPortalCompanyLogo/da28d3e7-261e-43f8-b8cd-6bcf7427f0ff.jpeg",
+          "rank": "A",
+          "name": "BINUS Group",
+          "sector": "Education Administration Programs",
+          "slug": "binus-group",
+          "id": "66bc147e2b215400120ef657",
+          "trialStartedAt": "2024-08-14T17:00:00.000Z",
+          "verified": true
+        },
+        "skills": [
+          {
+            "_id": "681cb25c8709246917e7ef72",
+            "name": "Excel & Google Sheets",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 842,
+            "updatedAt": "2026-11-02T08:34:37.188Z",
+            "createdAt": "2025-05-08T13:32:12.601Z"
+          }
+        ],
+        "deletedAt": null,
+        "author": null,
+        "qCompanyRank": null,
+        "createdAt": "2026-10-22T02:36:59.584Z",
+        "updatedAt": "2026-11-02T10:38:54.810Z",
+        "updatedAtByEmployer": "2026-11-02T10:38:54.809Z",
+        "latestUpdatedAt": "2026-10-22T02:36:59.578Z",
+        "urgentlyNeeded": false,
+        "externalPlatformApplyUrl": null,
+        "boosted": false,
+        "_score": 0,
+        "saved": false,
+        "applied": false,
+        "waitListed": false,
+        "applicantPrioritySlots": 5,
+        "higherSalary": null,
+        "eligibleToApply": true,
+        "thereAreStillFewApplicants": false,
+        "lastActivelyHiringAt": "2026-11-02T10:39:12.784Z"
+      },
+      {
+        "id": "6ad83205313e7d0012c2db41",
+        "slug": "clinic-staff",
+        "role": "Clinic Staff Sukabumi",
+        "authorId": "665ec0f307cff600135289ec",
+        "stats": {
+          "viewCount": 59,
+          "nonCuratedCount": 75,
+          "applicantCount": 76
+        },
+        "employmentTypes": [
+          "fullTime"
+        ],
+        "workplaceType": "onSite",
+        "publishedAt": "2026-10-22T02:36:15.927Z",
+        "status": "active",
+        "salaryType": "paid",
+        "salaryRange": null,
+        "candidatePreference": {
+          "lastEducations": [
+            6,
+            7
+          ],
+          "major": null,
+          "university": null,
+          "minimumGpa": null,
+          "skillIds": [
+            "64b01e8c64b94d001263a074",
+            "6ad8314ad3f35b0012de92f7",
+            "67ef94df8ea92db836893044",
+            "652beb9fd561250012257461",
+            "6507da75b3ea04001234bb68"
+          ],
+          "gender": "No Preference",
+          "age": {
+            "restriction": true,
+            "min": 21,
+            "max": 35
+          }
+        },
+        "country": {
+          "id": 102,
+          "name": "Indonesia"
+        },
+        "city": {
+          "id": 176,
+          "name": "Sukabumi Regency"
+        },
+        "companyId": "654201f1cd846b00120578ff",
+        "categoryId": null,
+        "categorySlug": null,
+        "jobRoleCategorySlug": "healthcare-and-life-sciences",
+        "jobRoleId": "69393fe8ffb8a421e1efbc8e",
+        "jobRoleCategoryId": "6934fee52622eadf60779994",
+        "jobRoleSubCategoryId": "69393fe7ffb8a421e1efbc8c",
+        "company": {
+          "insight": {
+            "fundingStage": "others",
+            "fundingAmount": null,
+            "benefits": [
+              "competitiveSalary",
+              "bonusSystem",
+              "periodLeave",
+              "freeLunch",
+              "transport",
+              "freeMeals",
+              "internationalExposure",
+              "casualDressCode",
+              "maternityLeave",
+              "medicalLeave",
+              "paidSickDays",
+              "professionalDevelopment",
+              "Medical Checkup",
+              "24-hours Health Clinic"
+            ],
+            "workingPolicies": [
+              "onSite"
+            ]
+          },
+          "logoUrl": "https://cdn.sejutacita.id/66445903c547c500131fd241/JobPortalCompanyLogo/d26cdfd5-1379-49ac-99a3-861569380ab3.png",
+          "rank": "A",
+          "name": "Pou Chen Group Indonesia",
+          "sector": "Spectator Sports",
+          "slug": "pou-chen-group-indonesia",
+          "id": "654201f1cd846b00120578ff",
+          "trialStartedAt": "2024-05-14T08:03:18.482Z",
+          "verified": true
+        },
+        "skills": [
+          {
+            "createdAt": "2023-07-13T15:55:56.923Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "count": 100,
+            "name": "Healthcare",
+            "_id": "64b01e8c64b94d001263a074",
+            "status": "notProcessed",
+            "updatedAt": "2026-11-01T18:37:24.470Z"
+          },
+          {
+            "createdAt": "2023-09-18T05:04:53.167Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "count": 799,
+            "name": "Planning",
+            "_id": "6507da75b3ea04001234bb68",
+            "status": "notProcessed",
+            "updatedAt": "2026-11-02T05:16:05.945Z"
+          },
+          {
+            "createdAt": "2023-10-15T13:39:43.508Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "count": 138,
+            "name": "Planning & Organizing",
+            "_id": "652beb9fd561250012257461",
+            "status": "notProcessed",
+            "updatedAt": "2026-11-02T07:00:19.643Z"
+          },
+          {
+            "createdAt": "2025-04-04T08:14:23.435Z",
+            "editedBy": null,
+            "name": "written communication skills",
+            "addedByUser": true,
+            "count": 15452,
+            "_id": "67ef94df8ea92db836893044",
+            "status": "notProcessed",
+            "updatedAt": "2026-11-01T09:44:35.452Z"
+          },
+          {
+            "createdAt": "2026-10-21T03:28:10.178Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "count": 0,
+            "name": "Clinic Managemenet",
+            "_id": "6ad8314ad3f35b0012de92f7",
+            "status": "notProcessed",
+            "updatedAt": "2026-10-21T03:28:10.178Z"
+          }
+        ],
+        "deletedAt": null,
+        "author": null,
+        "qCompanyRank": null,
+        "createdAt": "2026-10-21T03:31:17.460Z",
+        "updatedAt": "2026-11-02T08:50:14.262Z",
+        "updatedAtByEmployer": "2026-10-24T05:02:15.150Z",
+        "latestUpdatedAt": "2026-10-21T03:31:17.455Z",
+        "urgentlyNeeded": false,
+        "externalPlatformApplyUrl": null,
+        "boosted": false,
+        "_score": 0,
+        "saved": false,
+        "applied": false,
+        "waitListed": false,
+        "applicantPrioritySlots": 8,
+        "higherSalary": null,
+        "eligibleToApply": true,
+        "thereAreStillFewApplicants": false,
+        "lastActivelyHiringAt": "2026-11-02T09:36:25.674Z"
+      },
+      {
+        "id": "6ad8368ba88b9e00120e41cd",
+        "slug": "mis-staff",
+        "role": "MIS Staff",
+        "authorId": "65001436f62e160013a86949",
+        "stats": {
+          "viewCount": 219,
+          "nonCuratedCount": 421,
+          "applicantCount": 435
+        },
+        "employmentTypes": [
+          "fullTime"
+        ],
+        "workplaceType": "onSite",
+        "publishedAt": "2026-10-21T03:50:35.834Z",
+        "status": "active",
+        "salaryType": "paid",
+        "salaryRange": null,
+        "candidatePreference": {
+          "lastEducations": [
+            0,
+            5
+          ],
+          "major": null,
+          "university": null,
+          "minimumGpa": null,
+          "skillIds": [
+            "67ef94df8ea92db836893044",
+            "67f1871c9167f1e4c4f8ac75",
+            "681cb9448709246917e7f457",
+            "681b25b6fb95b8ee7c5d561a"
+          ],
+          "gender": "No Preference",
+          "age": {
+            "restriction": false,
+            "min": null,
+            "max": null
+          }
+        },
+        "country": {
+          "id": 102,
+          "name": "Indonesia"
+        },
+        "city": {
+          "id": 158,
+          "name": "Jakarta Selatan"
+        },
+        "companyId": "650016e46bb7e40013ac59f2",
+        "categoryId": null,
+        "categorySlug": null,
+        "jobRoleCategorySlug": "it-and-software-engineering",
+        "jobRoleId": "6aa0b88f7889e50012612c80",
+        "jobRoleCategoryId": "693466050fafa100127216a7",
+        "jobRoleSubCategoryId": "69393f77ffb8a421e1efbae9",
+        "company": {
+          "insight": {
+            "fundingStage": "Non Startup",
+            "fundingAmount": null,
+            "benefits": [
+              "competitiveSalary",
+              "bonusSystem",
+              "freeMeals",
+              "casualDressCode",
+              "employeeDiscounts"
+            ],
+            "workingPolicies": [
+              "onSite"
+            ]
+          },
+          "logoUrl": "https://cdn.sejutacita.id/65001436f62e160013a86949/JobPortalCompanyLogo/48a98954-5e8d-436f-b68b-d6c778c8e6a9.jpeg",
+          "rank": "B",
+          "name": "PT Akasha Wira International, Tbk",
+          "sector": "Manufacturing (FMCG)",
+          "slug": "pt-akasha-wira-international-tbk",
+          "id": "650016e46bb7e40013ac59f2",
+          "trialStartedAt": "2023-09-12T08:00:16.116Z",
+          "verified": true
+        },
+        "skills": [
+          {
+            "createdAt": "2025-04-04T08:14:23.435Z",
+            "editedBy": null,
+            "name": "written communication skills",
+            "addedByUser": true,
+            "count": 15452,
+            "_id": "67ef94df8ea92db836893044",
+            "status": "notProcessed",
+            "updatedAt": "2026-11-01T09:44:35.452Z"
+          },
+          {
+            "createdAt": "2025-04-05T19:40:12.736Z",
+            "editedBy": null,
+            "name": "working in teams",
+            "addedByUser": true,
+            "count": 21133,
+            "_id": "67f1871c9167f1e4c4f8ac75",
+            "status": "notProcessed",
+            "updatedAt": "2026-10-31T03:25:12.192Z"
+          },
+          {
+            "createdAt": "2025-05-07T09:19:50.065Z",
+            "editedBy": null,
+            "name": "willing to learn new things",
+            "addedByUser": true,
+            "count": 10941,
+            "_id": "681b25b6fb95b8ee7c5d561a",
+            "status": "notProcessed",
+            "updatedAt": "2026-11-01T09:42:05.900Z"
+          },
+          {
+            "createdAt": "2025-05-08T14:01:40.959Z",
+            "editedBy": null,
+            "name": "working attitude",
+            "addedByUser": true,
+            "count": 21353,
+            "_id": "681cb9448709246917e7f457",
+            "status": "notProcessed",
+            "updatedAt": "2026-11-01T09:42:05.900Z"
+          }
+        ],
+        "deletedAt": null,
+        "author": null,
+        "qCompanyRank": null,
+        "createdAt": "2026-10-21T03:50:35.848Z",
+        "updatedAt": "2026-11-02T10:50:41.209Z",
+        "updatedAtByEmployer": "2026-10-26T07:13:36.115Z",
+        "latestUpdatedAt": "2026-10-21T03:50:35.840Z",
+        "urgentlyNeeded": false,
+        "externalPlatformApplyUrl": null,
+        "boosted": false,
+        "_score": 0,
+        "saved": false,
+        "applied": false,
+        "waitListed": false,
+        "applicantPrioritySlots": 5,
+        "higherSalary": null,
+        "eligibleToApply": true,
+        "thereAreStillFewApplicants": false,
+        "lastActivelyHiringAt": "2026-11-02T10:53:53.218Z"
+      },
+      {
+        "id": "6ad6cb10eafd930012ba4e80",
+        "slug": "event-staff",
+        "role": "Event Staff",
+        "authorId": "679b464dd39d490013a36f19",
+        "stats": {
+          "viewCount": 93,
+          "nonCuratedCount": 1083,
+          "applicantCount": 1101
+        },
+        "employmentTypes": [
+          "fullTime"
+        ],
+        "workplaceType": "onSite",
+        "publishedAt": "2026-10-20T01:59:44.057Z",
+        "status": "active",
+        "salaryType": "paid",
+        "salaryRange": {
+          "start": 6000000,
+          "end": 7000000
+        },
+        "candidatePreference": {
+          "lastEducations": [
+            5
+          ],
+          "major": null,
+          "university": null,
+          "minimumGpa": null,
+          "skillIds": [
+            "681e4f72fb95b8ee7c5f7541",
+            "62e8fb6be993d2001296c21f",
+            "68078ce39546e000129bdd85"
+          ],
+          "gender": "Male",
+          "age": {
+            "restriction": true,
+            "min": 21,
+            "max": 29
+          }
+        },
+        "country": {
+          "id": 102,
+          "name": "Indonesia"
+        },
+        "city": {
+          "id": 156,
+          "name": "Jakarta Barat"
+        },
+        "companyId": "665d4d2d7cf963001356a9e7",
+        "categoryId": null,
+        "categorySlug": null,
+        "jobRoleCategorySlug": "art-media-and-communications",
+        "jobRoleId": "6ad6ca19313e7d0012991183",
+        "jobRoleCategoryId": "6934f8f22622eadf60779981",
+        "jobRoleSubCategoryId": "69393f9bffb8a421e1efbb5d",
+        "company": {
+          "insight": {
+            "fundingStage": null,
+            "fundingAmount": null,
+            "benefits": [
+              "competitiveSalary",
+              "medicalLeave",
+              "bonusSystem",
+              "paidSickDays"
+            ],
+            "workingPolicies": [
+              "onSite"
+            ]
+          },
+          "logoUrl": "https://cdn.sejutacita.id/665d4bebc547c50013268c4a/JobPortalCompanyLogo/7b8bff03-95cf-4b66-99ba-773c6672531c.png",
+          "rank": "C",
+          "name": "PT FCL Internasional Indonesia",
+          "sector": "Beauty and Cosmetics",
+          "slug": "pt-fcl-internasional-indonesia",
+          "id": "665d4d2d7cf963001356a9e7",
+          "trialStartedAt": "2025-01-30T17:00:00.000Z",
+          "verified": true
+        },
+        "skills": [
+          {
+            "createdAt": "2022-08-02T10:24:43.944Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "name": "Event Coordination",
+            "count": 762,
+            "_id": "62e8fb6be993d2001296c21f",
+            "status": "notProcessed",
+            "updatedAt": "2026-10-28T03:13:49.862Z"
+          },
+          {
+            "createdAt": "2025-04-22T12:34:43.199Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "count": 101,
+            "name": "Event And Project Management",
+            "_id": "68078ce39546e000129bdd85",
+            "status": "notProcessed",
+            "updatedAt": "2026-10-28T03:13:25.508Z"
+          },
+          {
+            "createdAt": "2025-05-09T18:54:42.031Z",
+            "editedBy": null,
+            "name": "Event Activation",
+            "addedByUser": true,
+            "count": 145,
+            "_id": "681e4f72fb95b8ee7c5f7541",
+            "status": "notProcessed",
+            "updatedAt": "2026-10-29T10:12:59.344Z"
+          }
+        ],
+        "deletedAt": null,
+        "author": null,
+        "qCompanyRank": null,
+        "createdAt": "2026-10-20T01:59:44.076Z",
+        "updatedAt": "2026-11-02T10:53:54.474Z",
+        "updatedAtByEmployer": "2026-10-20T01:59:44.057Z",
+        "latestUpdatedAt": "2026-10-20T01:59:44.069Z",
+        "urgentlyNeeded": false,
+        "externalPlatformApplyUrl": null,
+        "boosted": false,
+        "_score": 0,
+        "saved": false,
+        "applied": false,
+        "waitListed": false,
+        "applicantPrioritySlots": 4,
+        "higherSalary": null,
+        "eligibleToApply": true,
+        "thereAreStillFewApplicants": false,
+        "lastActivelyHiringAt": "2026-11-02T10:17:44.484Z"
+      },
+      {
+        "id": "6ad203a3a5363b00129eb0d6",
+        "slug": "finance-and-tax-staff",
+        "role": "Finance and Tax Staff",
+        "authorId": "69d4d42608ae2b0013eaef74",
+        "stats": {
+          "viewCount": 1354,
+          "nonCuratedCount": 50,
+          "applicantCount": 247
+        },
+        "employmentTypes": [
+          "fullTime"
+        ],
+        "workplaceType": "onSite",
+        "publishedAt": "2026-10-16T10:59:47.014Z",
+        "status": "active",
+        "salaryType": "paid",
+        "salaryRange": {
+          "start": 5000000,
+          "end": 6000000
+        },
+        "candidatePreference": {
+          "minimumGpa": null,
+          "major": null,
+          "gender": "No Preference",
+          "skillIds": [
+            "64f53936553752001298eeb3",
+            "640965faf892090013d12c0e",
+            "6226f6692d9a642279775acb",
+            "67ff69256493974fe1f65774"
+          ],
+          "university": null,
+          "lastEducations": [
+            5
+          ],
+          "age": {
+            "min": 22,
+            "max": 30,
+            "restriction": true
+          }
+        },
+        "country": {
+          "name": "Indonesia",
+          "id": 102
+        },
+        "city": {
+          "name": "Jakarta Barat",
+          "id": 156
+        },
+        "companyId": "645df1116fd31d0012454c98",
+        "categoryId": null,
+        "categorySlug": null,
+        "jobRoleCategorySlug": "finance-and-accounting",
+        "jobRoleId": "69a15cf168644a0012c14dec",
+        "jobRoleCategoryId": "6934fdf62622eadf6077998a",
+        "jobRoleSubCategoryId": "69393f8dffb8a421e1efbb25",
+        "company": {
+          "insight": {
+            "benefits": [
+              "medicalLeave",
+              "competitiveSalary",
+              "bonusSystem",
+              "casualDressCode",
+              "selfDevelopmentAllowance"
+            ],
+            "workingPolicies": [
+              "onSite"
+            ],
+            "fundingStage": "Owners",
+            "fundingAmount": null
+          },
+          "name": "JakartaNotebook.com",
+          "rank": "B",
+          "trialStartedAt": "2023-05-12T07:56:14.297Z",
+          "id": "645df1116fd31d0012454c98",
+          "sector": "Retail",
+          "logoUrl": "https://cdn.sejutacita.id/645dee082275c500133ac730/JobPortalCompanyLogo/21b17c05-2239-4eb9-8404-3345cfdb5f15.png",
+          "slug": "jakartanotebookcom",
+          "verified": true
+        },
+        "skills": [
+          {
+            "createdAt": "2022-03-07T17:00:00.000Z",
+            "name": "Tax Accounting",
+            "addedByUser": false,
+            "count": 2093,
+            "_id": "6226f6692d9a642279775acb",
+            "status": "notProcessed",
+            "updatedAt": "2026-11-01T22:45:10.885Z"
+          },
+          {
+            "createdAt": "2023-03-09T04:52:10.805Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "count": 1036,
+            "name": "FINANCE ACCOUNTING",
+            "_id": "640965faf892090013d12c0e",
+            "status": "notProcessed",
+            "updatedAt": "2026-11-02T03:38:13.397Z"
+          },
+          {
+            "createdAt": "2023-09-04T01:56:06.373Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "count": 594,
+            "name": "Accounting & Tax",
+            "_id": "64f53936553752001298eeb3",
+            "status": "notProcessed",
+            "updatedAt": "2026-11-02T06:09:15.705Z"
+          },
+          {
+            "createdAt": "2025-04-16T08:24:05.736Z",
+            "editedBy": null,
+            "name": "Spreadsheet/Excel",
+            "addedByUser": true,
+            "count": 121,
+            "_id": "67ff69256493974fe1f65774",
+            "status": "notProcessed",
+            "updatedAt": "2026-10-31T10:19:31.921Z"
+          }
+        ],
+        "deletedAt": null,
+        "author": null,
+        "qCompanyRank": null,
+        "createdAt": "2026-10-16T10:59:47.024Z",
+        "updatedAt": "2026-11-02T10:52:27.620Z",
+        "updatedAtByEmployer": "2026-10-28T10:18:29.404Z",
+        "latestUpdatedAt": "2026-10-16T10:59:47.019Z",
+        "urgentlyNeeded": false,
+        "externalPlatformApplyUrl": null,
+        "boosted": false,
+        "_score": 0,
+        "saved": false,
+        "applied": false,
+        "waitListed": false,
+        "applicantPrioritySlots": 8,
+        "higherSalary": null,
+        "eligibleToApply": true,
+        "thereAreStillFewApplicants": false,
+        "lastActivelyHiringAt": "2026-11-02T11:07:13.108Z"
+      },
+      {
+        "id": "6ad1e28da0c686001260e504",
+        "slug": "automation-engineer-staff",
+        "role": "Automation Engineer Staff",
+        "authorId": "62c7edd288c4df0015c9c854",
+        "stats": {
+          "viewCount": 110,
+          "nonCuratedCount": 317,
+          "applicantCount": 319
+        },
+        "employmentTypes": [
+          "fullTime"
+        ],
+        "workplaceType": "onSite",
+        "publishedAt": "2026-10-16T08:38:37.490Z",
+        "status": "active",
+        "salaryType": "paid",
+        "salaryRange": null,
+        "candidatePreference": {
+          "lastEducations": [
+            5,
+            6,
+            7
+          ],
+          "major": null,
+          "university": null,
+          "minimumGpa": null,
+          "skillIds": [
+            "62b69c1be8f1ff001295d24d",
+            "63bd487341391e0012348623",
+            "672ef15a42271d001236619f",
+            "6226f6692d9a642279775ad0",
+            "634413dd28c4ce0013661ccb",
+            "62942b4b1bf5160012372405"
+          ],
+          "gender": "Male",
+          "age": {
+            "restriction": true,
+            "min": 22,
+            "max": 30
+          }
+        },
+        "country": {
+          "id": 102,
+          "name": "Indonesia"
+        },
+        "city": {
+          "id": 251,
+          "name": "Sidoarjo Regency"
+        },
+        "companyId": "62c7eeaa38af2c0014ae9598",
+        "categoryId": null,
+        "categorySlug": null,
+        "jobRoleCategorySlug": "it-and-software-engineering",
+        "jobRoleId": "69d6249e6b645f0011c26e27",
+        "jobRoleCategoryId": "693466050fafa100127216a7",
+        "jobRoleSubCategoryId": "69393f78ffb8a421e1efbaef",
+        "company": {
+          "insight": {
+            "fundingStage": null,
+            "fundingAmount": null,
+            "benefits": [
+              "bonusSystem",
+              "maternityLeave",
+              "paidSickDays",
+              "BPJS"
+            ],
+            "workingPolicies": [
+              "onSite"
+            ]
+          },
+          "logoUrl": "https://cdn.sejutacita.id/60594de91882d200135bd833/Others/9faf1c92-6647-4330-9815-68ea7a0f69f1.jpg",
+          "name": "PT Avia Avian Tbk. (Avian Brands)",
+          "sector": "Building Materials",
+          "slug": "pt-avia-avian-tbk-avian-brands",
+          "rank": "A",
+          "id": "62c7eeaa38af2c0014ae9598",
+          "trialStartedAt": "2024-11-18T17:00:00.000Z",
+          "verified": true
+        },
+        "skills": [
+          {
+            "createdAt": "2022-03-07T17:00:00.000Z",
+            "name": "Troubleshooting",
+            "addedByUser": false,
+            "count": 1404,
+            "_id": "6226f6692d9a642279775ad0",
+            "status": "notProcessed",
+            "updatedAt": "2026-11-01T18:37:24.470Z"
+          },
+          {
+            "createdAt": "2022-05-30T02:26:19.061Z",
+            "__v": 0,
+            "addedByUser": true,
+            "name": "Automation",
+            "count": 467,
+            "_id": "62942b4b1bf5160012372405",
+            "updatedAt": "2026-10-31T16:21:43.622Z",
+            "status": "notProcessed"
+          },
+          {
+            "createdAt": "2022-06-25T05:24:43.950Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "name": "PLC",
+            "count": 527,
+            "_id": "62b69c1be8f1ff001295d24d",
+            "status": "notProcessed",
+            "updatedAt": "2026-10-27T08:34:43.399Z"
+          },
+          {
+            "createdAt": "2022-10-10T12:45:17.568Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "count": 412,
+            "name": "IoT",
+            "_id": "634413dd28c4ce0013661ccb",
+            "status": "notProcessed",
+            "updatedAt": "2026-10-28T09:03:28.196Z"
+          },
+          {
+            "createdAt": "2023-01-10T11:13:55.466Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "count": 106,
+            "name": "Embedded System",
+            "_id": "63bd487341391e0012348623",
+            "status": "notProcessed",
+            "updatedAt": "2026-11-01T08:31:30.533Z"
+          },
+          {
+            "createdAt": "2024-11-09T05:21:30.567Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "count": 9,
+            "name": "Mikrokontroler",
+            "_id": "672ef15a42271d001236619f",
+            "status": "notProcessed",
+            "updatedAt": "2026-05-20T08:50:46.798Z"
+          }
+        ],
+        "deletedAt": null,
+        "author": null,
+        "qCompanyRank": null,
+        "createdAt": "2026-10-16T08:38:37.502Z",
+        "updatedAt": "2026-11-02T09:07:24.783Z",
+        "updatedAtByEmployer": "2026-10-16T08:38:37.490Z",
+        "latestUpdatedAt": "2026-10-16T08:38:37.495Z",
+        "urgentlyNeeded": false,
+        "externalPlatformApplyUrl": null,
+        "boosted": false,
+        "_score": 0,
+        "saved": false,
+        "applied": false,
+        "waitListed": false,
+        "applicantPrioritySlots": 8,
+        "higherSalary": null,
+        "eligibleToApply": true,
+        "thereAreStillFewApplicants": false,
+        "lastActivelyHiringAt": "2026-11-02T06:11:22.592Z"
+      },
+      {
+        "id": "6ad0888c879b500012f54922",
+        "slug": "consultation-services-staff-1",
+        "role": "Consultation Services Staff",
+        "authorId": "6710c37269f77f0014ea7eca",
+        "stats": {
+          "viewCount": 43,
+          "nonCuratedCount": 123,
+          "applicantCount": 139
+        },
+        "employmentTypes": [
+          "fullTime"
+        ],
+        "workplaceType": "onSite",
+        "publishedAt": "2026-10-15T08:02:20.044Z",
+        "status": "active",
+        "salaryType": "paid",
+        "salaryRange": null,
+        "candidatePreference": {
+          "minimumGpa": null,
+          "major": null,
+          "gender": "No Preference",
+          "skillIds": [
+            "628d0baca39fae0012385860"
+          ],
+          "university": null,
+          "lastEducations": [
+            0,
+            5
+          ],
+          "age": {
+            "min": null,
+            "max": null,
+            "restriction": false
+          }
+        },
+        "country": {
+          "name": "Indonesia",
+          "id": 102
+        },
+        "city": {
+          "name": "Jakarta Barat",
+          "id": 156
+        },
+        "companyId": "66bc147e2b215400120ef657",
+        "categoryId": null,
+        "categorySlug": null,
+        "jobRoleCategorySlug": "education-and-training",
+        "jobRoleId": "63018212723f400012985bfb",
+        "jobRoleCategoryId": "6934fecd2622eadf60779993",
+        "jobRoleSubCategoryId": "69393ff0ffb8a421e1efbcb1",
+        "company": {
+          "insight": {
+            "benefits": [
+              "competitiveSalary",
+              "bonusSystem",
+              "medicalLeave"
+            ],
+            "workingPolicies": [
+              "onSite"
+            ],
+            "fundingStage": null,
+            "fundingAmount": null
+          },
+          "name": "BINUS Group",
+          "rank": "A",
+          "trialStartedAt": "2024-08-14T17:00:00.000Z",
+          "id": "66bc147e2b215400120ef657",
+          "sector": "Education Administration Programs",
+          "logoUrl": "https://cdn.sejutacita.id/66bc13c48fca2d0013f5b647/JobPortalCompanyLogo/da28d3e7-261e-43f8-b8cd-6bcf7427f0ff.jpeg",
+          "slug": "binus-group",
+          "verified": true
+        },
+        "skills": [
+          {
+            "createdAt": "2022-05-24T16:45:32.355Z",
+            "__v": 0,
+            "addedByUser": true,
+            "name": "Counseling",
+            "count": 494,
+            "_id": "628d0baca39fae0012385860",
+            "updatedAt": "2026-11-02T08:54:48.767Z",
+            "status": "notProcessed"
+          }
+        ],
+        "deletedAt": null,
+        "author": null,
+        "qCompanyRank": null,
+        "createdAt": "2026-10-15T08:02:20.055Z",
+        "updatedAt": "2026-11-02T08:50:16.657Z",
+        "updatedAtByEmployer": "2026-10-22T03:41:57.486Z",
+        "latestUpdatedAt": "2026-10-15T08:02:20.048Z",
+        "urgentlyNeeded": false,
+        "externalPlatformApplyUrl": null,
+        "boosted": false,
+        "_score": 0,
+        "saved": false,
+        "applied": false,
+        "waitListed": false,
+        "applicantPrioritySlots": 8,
+        "higherSalary": null,
+        "eligibleToApply": true,
+        "thereAreStillFewApplicants": false,
+        "lastActivelyHiringAt": "2026-11-02T10:38:39.847Z"
+      },
+      {
+        "id": "6ad04da3b683a20012717c71",
+        "slug": "b2c-operation-staff",
+        "role": "B2C Operation Staff",
+        "authorId": "6a9e1c84eaeeb900139e429d",
+        "stats": {
+          "viewCount": 1271,
+          "nonCuratedCount": 551,
+          "applicantCount": 568
+        },
+        "employmentTypes": [
+          "contract"
+        ],
+        "workplaceType": "onSite",
+        "publishedAt": "2026-10-15T03:50:59.711Z",
+        "status": "active",
+        "salaryType": "paid",
+        "salaryRange": null,
+        "candidatePreference": {
+          "lastEducations": [
+            5
+          ],
+          "major": null,
+          "university": null,
+          "minimumGpa": null,
+          "skillIds": [
+            "681b1b51fb95b8ee7c5d47c7",
+            "6811b892ed1e09ab689a50bb",
+            "63e9bc62a9d31e0013d51942"
+          ],
+          "gender": "No Preference",
+          "age": {
+            "restriction": false,
+            "min": null,
+            "max": null
+          }
+        },
+        "country": {
+          "id": 102,
+          "name": "Indonesia"
+        },
+        "city": {
+          "id": 158,
+          "name": "Jakarta Selatan"
+        },
+        "companyId": "649137508bcac3001297cb12",
+        "categoryId": null,
+        "categorySlug": null,
+        "jobRoleCategorySlug": "admin-and-office-operations",
+        "jobRoleId": "67931380a4551a00128501c9",
+        "jobRoleCategoryId": "6934fe3d2622eadf6077998d",
+        "jobRoleSubCategoryId": "69393fbeffb8a421e1efbbe7",
+        "company": {
+          "insight": {
+            "fundingStage": "-",
+            "fundingAmount": null,
+            "benefits": [
+              "competitiveSalary",
+              "medicalLeave",
+              "bonusSystem",
+              "transport",
+              "teamBuilding",
+              "casualDressCode",
+              "companyOutings",
+              "maternityLeave",
+              "paidSickDays",
+              "professionalDevelopment",
+              "dentalInsurance",
+              "Free Products"
+            ],
+            "workingPolicies": [
+              "onSite"
+            ]
+          },
+          "logoUrl": "https://cdn.sejutacita.id/6491352a1d22aa00137fa736/JobPortalCompanyLogo/c6f4bce8-2047-4d55-b3be-0572dc320bae.png",
+          "rank": "C",
+          "name": "FACETOLOGY",
+          "sector": "Cosmetics",
+          "slug": "facetology",
+          "id": "649137508bcac3001297cb12",
+          "trialStartedAt": "2023-06-20T05:21:39.747Z",
+          "verified": true
+        },
+        "skills": [
+          {
+            "createdAt": "2023-02-13T04:28:18.253Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "count": 184,
+            "name": "Communication And Interpersonal Skills",
+            "_id": "63e9bc62a9d31e0013d51942",
+            "status": "notProcessed",
+            "updatedAt": "2026-10-27T13:24:42.725Z"
+          },
+          {
+            "createdAt": "2025-04-30T05:43:46.448Z",
+            "editedBy": null,
+            "name": "MICROSOFT OFFICE (WORD, EXCEL, POWERPOINT, SPREADSHEET)",
+            "addedByUser": true,
+            "count": 3229,
+            "_id": "6811b892ed1e09ab689a50bb",
+            "status": "notProcessed",
+            "updatedAt": "2026-11-02T10:52:44.796Z"
+          },
+          {
+            "createdAt": "2025-05-07T08:35:29.152Z",
+            "editedBy": null,
+            "name": "Administrasi & Data Entry",
+            "addedByUser": true,
+            "count": 1640,
+            "_id": "681b1b51fb95b8ee7c5d47c7",
+            "status": "notProcessed",
+            "updatedAt": "2026-11-02T09:36:01.820Z"
+          }
+        ],
+        "deletedAt": null,
+        "author": null,
+        "qCompanyRank": null,
+        "createdAt": "2026-10-15T03:50:59.727Z",
+        "updatedAt": "2026-11-02T10:51:51.821Z",
+        "updatedAtByEmployer": "2026-10-15T03:50:59.710Z",
+        "latestUpdatedAt": "2026-10-15T03:50:59.722Z",
+        "urgentlyNeeded": false,
+        "externalPlatformApplyUrl": null,
+        "boosted": false,
+        "_score": 0,
+        "saved": false,
+        "applied": false,
+        "waitListed": false,
+        "applicantPrioritySlots": 4,
+        "higherSalary": null,
+        "eligibleToApply": true,
+        "thereAreStillFewApplicants": false,
+        "lastActivelyHiringAt": "2026-11-02T10:28:26.052Z"
+      },
+      {
+        "id": "6ad035ac879b500012e77815",
+        "slug": "finance-staff-56",
+        "role": "Finance Staff",
+        "authorId": "6699cb40c4368e0013623062",
+        "stats": {
+          "viewCount": 225,
+          "nonCuratedCount": 981,
+          "applicantCount": 998
+        },
+        "employmentTypes": [
+          "fullTime"
+        ],
+        "workplaceType": "onSite",
+        "publishedAt": "2026-10-15T03:38:01.238Z",
+        "status": "active",
+        "salaryType": "paid",
+        "salaryRange": null,
+        "candidatePreference": {
+          "lastEducations": [
+            0,
+            5
+          ],
+          "major": null,
+          "university": null,
+          "minimumGpa": null,
+          "skillIds": [
+            "644ebc105a75be0012a6b996",
+            "6380b0295fc5d2001398398d",
+            "681b1b51fb95b8ee7c5d47c7",
+            "68021dc4fc02380a0cd17efc",
+            "6879ca691d3c52db5b18840d",
+            "684f965cd421d5ecef8520e4",
+            "6698901733d5040012fb41c1"
+          ],
+          "gender": "No Preference",
+          "age": {
+            "restriction": true,
+            "min": 22,
+            "max": 26
+          }
+        },
+        "country": {
+          "id": 102,
+          "name": "Indonesia"
+        },
+        "city": {
+          "id": 273,
+          "name": "Tangerang Selatan"
+        },
+        "companyId": "6699cbe523611900123e2a3f",
+        "categoryId": null,
+        "categorySlug": null,
+        "jobRoleCategorySlug": "finance-and-accounting",
+        "jobRoleId": "6a952acc4462e10012c42ee5",
+        "jobRoleCategoryId": "6934fdf62622eadf6077998a",
+        "jobRoleSubCategoryId": "69393f8cffb8a421e1efbb20",
+        "company": {
+          "insight": {
+            "fundingStage": "revenue",
+            "fundingAmount": null,
+            "benefits": [
+              "competitiveSalary",
+              "bonusSystem",
+              "medicalLeave",
+              "freeLunch",
+              "internationalExposure",
+              "dentalInsurance",
+              "periodLeave",
+              "paidSickDays",
+              "maternityLeave",
+              "professionalDevelopment"
+            ],
+            "workingPolicies": [
+              "onSite"
+            ]
+          },
+          "logoUrl": "https://cdn.sejutacita.id/6699cb40c4368e0013623062/JobPortalCompanyLogo/e1b497bb-1c44-48f3-95b2-628667a3cc97.PNG",
+          "rank": "A",
+          "name": "Dexa Group",
+          "sector": "Pharmaceutical",
+          "slug": "dexa-group",
+          "id": "6699cbe523611900123e2a3f",
+          "trialStartedAt": "2024-07-18T17:00:00.000Z",
+          "verified": true
+        },
+        "skills": [
+          {
+            "_id": "6380b0295fc5d2001398398d",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 11970,
+            "name": "Administrasi",
+            "createdAt": "2022-11-25T12:08:09.804Z",
+            "updatedAt": "2026-11-02T09:11:27.731Z",
+            "__v": 0
+          },
+          {
+            "_id": "644ebc105a75be0012a6b996",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 503,
+            "name": "Admin Support",
+            "createdAt": "2023-04-30T19:05:52.507Z",
+            "updatedAt": "2026-11-02T08:20:33.940Z",
+            "__v": 0
+          },
+          {
+            "_id": "6698901733d5040012fb41c1",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 254,
+            "name": "Administrasi Keuangan",
+            "createdAt": "2024-07-18T03:46:31.467Z",
+            "updatedAt": "2026-10-31T08:46:48.350Z",
+            "__v": 0
+          },
+          {
+            "_id": "68021dc4fc02380a0cd17efc",
+            "name": "Administrasi & Dokumentasi",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 1167,
+            "updatedAt": "2026-11-02T06:12:20.809Z",
+            "createdAt": "2025-04-18T09:39:16.554Z"
+          },
+          {
+            "_id": "681b1b51fb95b8ee7c5d47c7",
+            "name": "Administrasi & Data Entry",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 1640,
+            "updatedAt": "2026-11-02T09:36:01.820Z",
+            "createdAt": "2025-05-07T08:35:29.152Z"
+          },
+          {
+            "_id": "684f965cd421d5ecef8520e4",
+            "name": "Administrasi & Pengarsipan Dokumen",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 814,
+            "updatedAt": "2026-11-02T09:06:05.013Z",
+            "createdAt": "2025-06-16T03:58:20.199Z"
+          },
+          {
+            "_id": "6879ca691d3c52db5b18840d",
+            "name": "Administrasi & Pelaporan",
+            "addedByUser": true,
+            "editedBy": null,
+            "status": "notProcessed",
+            "count": 396,
+            "updatedAt": "2026-10-31T05:33:27.490Z",
+            "createdAt": "2025-07-18T04:15:37.493Z"
+          }
+        ],
+        "deletedAt": null,
+        "author": null,
+        "qCompanyRank": null,
+        "createdAt": "2026-10-15T02:08:44.857Z",
+        "updatedAt": "2026-11-02T10:33:14.110Z",
+        "updatedAtByEmployer": "2026-10-20T07:14:26.260Z",
+        "latestUpdatedAt": "2026-10-15T02:08:44.847Z",
+        "urgentlyNeeded": false,
+        "externalPlatformApplyUrl": null,
+        "boosted": false,
+        "_score": 0,
+        "saved": false,
+        "applied": false,
+        "waitListed": false,
+        "applicantPrioritySlots": 5,
+        "higherSalary": null,
+        "eligibleToApply": true,
+        "thereAreStillFewApplicants": false,
+        "lastActivelyHiringAt": "2026-11-02T09:54:40.512Z"
+      },
+      {
+        "id": "6ad0407aab222e001224d519",
+        "slug": "regulatory-staff-bpom-and-food",
+        "role": "Regulatory Staff – BPOM & Food Compliance (Surabaya)",
+        "authorId": "69df40ab4b093b0013b7a162",
+        "stats": {
+          "viewCount": 88,
+          "nonCuratedCount": 16,
+          "applicantCount": 50
+        },
+        "employmentTypes": [
+          "fullTime"
+        ],
+        "workplaceType": "onSite",
+        "publishedAt": "2026-10-15T02:54:50.145Z",
+        "status": "active",
+        "salaryType": "paid",
+        "salaryRange": null,
+        "candidatePreference": {
+          "minimumGpa": null,
+          "major": null,
+          "gender": "No Preference",
+          "skillIds": [
+            "62a5b627ece94c0012208ddf",
+            "62e932b3e993d2001296f8c5",
+            "63468855bbacc600147bdcb0",
+            "630705d9d5bb3700125c9ab6",
+            "6296ddbf62a37400158928fd"
+          ],
+          "university": null,
+          "lastEducations": [
+            6,
+            5
+          ],
+          "age": {
+            "min": null,
+            "max": null,
+            "restriction": false
+          }
+        },
+        "country": {
+          "name": "Indonesia",
+          "id": 102
+        },
+        "city": {
+          "name": "Surabaya",
+          "id": 265
+        },
+        "companyId": "69df40abae61570012f717da",
+        "categoryId": null,
+        "categorySlug": null,
+        "jobRoleCategorySlug": "healthcare-and-life-sciences",
+        "jobRoleId": "69393feaffb8a421e1efbc97",
+        "jobRoleCategoryId": "6934fee52622eadf60779994",
+        "jobRoleSubCategoryId": "69393fe9ffb8a421e1efbc94",
+        "company": {
+          "insight": {
+            "benefits": [
+              "Flexible working environment"
+            ],
+            "workingPolicies": [
+              "flexible"
+            ],
+            "fundingStage": null,
+            "fundingAmount": null
+          },
+          "name": "Vectorlabs Indonesia",
+          "rank": null,
+          "id": "69df40abae61570012f717da",
+          "sector": "education",
+          "logoUrl": "https://cdn.sejutacita.id/69df40ab4b093b0013b7a162/JobPortalCompanyLogo/9d61992b-6cc7-4f2d-a97d-eec9959def38.jpg",
+          "slug": "vectorlabscoid",
+          "trialStartedAt": null,
+          "verified": false
+        },
+        "skills": [
+          {
+            "createdAt": "2022-06-01T03:32:15.513Z",
+            "__v": 0,
+            "addedByUser": true,
+            "name": "Regulatory Research",
+            "count": 77,
+            "_id": "6296ddbf62a37400158928fd",
+            "updatedAt": "2026-10-16T11:12:56.365Z",
+            "status": "notProcessed"
+          },
+          {
+            "createdAt": "2022-06-12T09:47:19.486Z",
+            "__v": 0,
+            "addedByUser": true,
+            "name": "Product Requirement Document",
+            "count": 340,
+            "_id": "62a5b627ece94c0012208ddf",
+            "updatedAt": "2026-10-29T03:07:32.527Z",
+            "status": "notProcessed"
+          },
+          {
+            "createdAt": "2022-08-02T14:20:35.335Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "name": "Food Safety",
+            "count": 672,
+            "_id": "62e932b3e993d2001296f8c5",
+            "status": "notProcessed",
+            "updatedAt": "2026-10-29T02:41:23.925Z"
+          },
+          {
+            "createdAt": "2022-08-25T05:17:13.076Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "name": "Regulatory Compliance",
+            "count": 749,
+            "_id": "630705d9d5bb3700125c9ab6",
+            "status": "notProcessed",
+            "updatedAt": "2026-10-30T09:35:48.379Z"
+          },
+          {
+            "createdAt": "2022-10-12T09:26:45.782Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "count": 102,
+            "name": "Regulatory Affairs",
+            "_id": "63468855bbacc600147bdcb0",
+            "status": "notProcessed",
+            "updatedAt": "2026-10-29T16:12:58.323Z"
+          }
+        ],
+        "deletedAt": null,
+        "author": null,
+        "qCompanyRank": null,
+        "createdAt": "2026-10-15T02:54:50.171Z",
+        "updatedAt": "2026-11-02T03:33:06.217Z",
+        "updatedAtByEmployer": "2026-10-30T08:44:57.867Z",
+        "latestUpdatedAt": "2026-10-15T02:54:50.163Z",
+        "urgentlyNeeded": false,
+        "externalPlatformApplyUrl": null,
+        "boosted": false,
+        "_score": 0,
+        "saved": false,
+        "applied": false,
+        "waitListed": false,
+        "applicantPrioritySlots": 8,
+        "higherSalary": null,
+        "eligibleToApply": true,
+        "thereAreStillFewApplicants": false,
+        "lastActivelyHiringAt": "2026-11-02T11:09:30.369Z"
+      },
+      {
+        "id": "6aced6f288b20e00124eb753",
+        "slug": "hse-staff",
+        "role": "HSE STAFF",
+        "authorId": "69f960e411c7750014cbae10",
+        "stats": {
+          "viewCount": 278,
+          "nonCuratedCount": 634,
+          "applicantCount": 635
+        },
+        "employmentTypes": [
+          "fullTime"
+        ],
+        "workplaceType": "onSite",
+        "publishedAt": "2026-10-14T01:12:18.269Z",
+        "status": "active",
+        "salaryType": "paid",
+        "salaryRange": null,
+        "candidatePreference": {
+          "lastEducations": [
+            5,
+            0,
+            6
+          ],
+          "major": null,
+          "university": null,
+          "minimumGpa": null,
+          "skillIds": [
+            "668de95da778570012cb7d38",
+            "62ff138071a00d00136b14a0",
+            "681cb25c8709246917e7ef72",
+            "6856a5f5d421d5ecef86345f",
+            "63045fd96a23c10012bde5fe"
+          ],
+          "gender": "No Preference",
+          "age": {
+            "restriction": false,
+            "min": null,
+            "max": null
+          }
+        },
+        "country": {
+          "id": 102,
+          "name": "Indonesia"
+        },
+        "city": {
+          "id": 271,
+          "name": "Serang"
+        },
+        "companyId": "654201f1cd846b00120578ff",
+        "categoryId": null,
+        "categorySlug": null,
+        "jobRoleCategorySlug": "engineering-non-it",
+        "jobRoleId": "6a5048f58d55a900118eee1c",
+        "jobRoleCategoryId": "6934fd7b2622eadf60779986",
+        "jobRoleSubCategoryId": "6937bc093a700c001ef47393",
+        "company": {
+          "insight": {
+            "fundingStage": "others",
+            "fundingAmount": null,
+            "benefits": [
+              "competitiveSalary",
+              "bonusSystem",
+              "periodLeave",
+              "freeLunch",
+              "transport",
+              "freeMeals",
+              "internationalExposure",
+              "casualDressCode",
+              "maternityLeave",
+              "medicalLeave",
+              "paidSickDays",
+              "professionalDevelopment",
+              "Medical Checkup",
+              "24-hours Health Clinic"
+            ],
+            "workingPolicies": [
+              "onSite"
+            ]
+          },
+          "logoUrl": "https://cdn.sejutacita.id/66445903c547c500131fd241/JobPortalCompanyLogo/d26cdfd5-1379-49ac-99a3-861569380ab3.png",
+          "rank": "A",
+          "name": "Pou Chen Group Indonesia",
+          "sector": "Spectator Sports",
+          "slug": "pou-chen-group-indonesia",
+          "id": "654201f1cd846b00120578ff",
+          "trialStartedAt": "2024-05-14T08:03:18.482Z",
+          "verified": true
+        },
+        "skills": [
+          {
+            "createdAt": "2022-08-19T04:37:20.724Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "name": "Ahli K3 Umum",
+            "count": 329,
+            "_id": "62ff138071a00d00136b14a0",
+            "status": "notProcessed",
+            "updatedAt": "2026-11-02T02:48:30.968Z"
+          },
+          {
+            "createdAt": "2022-08-23T05:04:25.083Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "name": "HVAC",
+            "count": 123,
+            "_id": "63045fd96a23c10012bde5fe",
+            "status": "notProcessed",
+            "updatedAt": "2026-10-27T12:41:23.866Z"
+          },
+          {
+            "createdAt": "2024-07-10T01:52:29.179Z",
+            "editedBy": null,
+            "__v": 0,
+            "addedByUser": true,
+            "count": 426,
+            "name": "Health Safety Environment (HSE)",
+            "_id": "668de95da778570012cb7d38",
+            "status": "notProcessed",
+            "updatedAt": "2026-11-02T08:24:05.950Z"
+          },
+          {
+            "createdAt": "2025-05-08T13:32:12.601Z",
+            "editedBy": null,
+            "name": "Excel & Google Sheets",
+            "addedByUser": true,
+            "count": 842,
+            "_id": "681cb25c8709246917e7ef72",
+            "status": "notProcessed",
+            "updatedAt": "2026-11-02T08:34:37.188Z"
+          },
+          {
+            "createdAt": "2025-06-21T12:30:45.404Z",
+            "editedBy": null,
+            "name": "Word, Excel, Power point, Excel",
+            "addedByUser": true,
+            "count": 375,
+            "_id": "6856a5f5d421d5ecef86345f",
+            "status": "notProcessed",
+            "updatedAt": "2026-11-02T05:47:03.621Z"
+          }
+        ],
+        "deletedAt": null,
+        "author": null,
+        "qCompanyRank": null,
+        "createdAt": "2026-10-14T01:12:18.294Z",
+        "updatedAt": "2026-11-02T09:52:00.079Z",
+        "updatedAtByEmployer": "2026-10-14T01:12:18.269Z",
+        "latestUpdatedAt": "2026-10-14T01:12:18.277Z",
+        "urgentlyNeeded": false,
+        "externalPlatformApplyUrl": null,
+        "boosted": false,
+        "_score": 0,
+        "saved": false,
+        "applied": false,
+        "waitListed": false,
+        "applicantPrioritySlots": 8,
+        "higherSalary": null,
+        "eligibleToApply": true,
+        "thereAreStillFewApplicants": false,
+        "lastActivelyHiringAt": "2026-11-02T09:36:25.674Z"
+      }
+    ],
+    "totalDocs": 66,
+    "totalPages": 4,
+    "page": 1
+  },
+  "code": 200
+}

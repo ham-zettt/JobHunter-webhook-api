@@ -3,12 +3,13 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+import httpx
 import pytest
 
 from app.scrapers.base import RawListing, ScrapeContext
 from app.scrapers.browser import detect_challenge
 from app.scrapers.common.salary import parse_salary
-from app.scrapers.exceptions import ParseError, SiteChangedError
+from app.scrapers.exceptions import BlockedError, ParseError, SiteChangedError
 from app.scrapers.platforms.kalibrr import (
     KalibrrScraper,
     parse_detail_payload,
@@ -208,6 +209,70 @@ def test_fixtures_are_not_challenge_pages():
         assert not detect_challenge(
             html(name)[:1000], "https://www.kalibrr.com/c/acme/jobs/1/job"
         )
+
+
+def test_detail_accepts_job_dict():
+    raw = parse_detail_payload(job(), listing("1"))
+    assert raw.external_id == "1"
+    assert raw.title == "Engineer"
+
+
+async def test_search_challenge_raises_blocked(monkeypatch):
+    scraper = KalibrrScraper(ScrapeContext(run_id="test", max_age_days=30, max_jobs=10))
+    response = httpx.Response(
+        200,
+        text="<html><title>Just a moment...</title></html>",
+        request=httpx.Request("GET", "https://www.kalibrr.com/kjs/job_board/search"),
+    )
+
+    async def fake_get(*args, **kwargs):
+        return response
+
+    monkeypatch.setattr(scraper, "_get", fake_get)
+    monkeypatch.setattr("app.scrapers.platforms.kalibrr._save_snapshot", lambda *a, **k: None)
+    with pytest.raises(BlockedError):
+        await scraper._search(None, "engineer", 0)
+
+
+async def test_search_malformed_json_raises_site_changed(monkeypatch):
+    scraper = KalibrrScraper(ScrapeContext(run_id="test", max_age_days=30, max_jobs=10))
+    response = httpx.Response(
+        200,
+        text="{not json",
+        request=httpx.Request("GET", "https://www.kalibrr.com/kjs/job_board/search"),
+    )
+
+    async def fake_get(*args, **kwargs):
+        return response
+
+    monkeypatch.setattr(scraper, "_get", fake_get)
+    monkeypatch.setattr("app.scrapers.platforms.kalibrr._save_snapshot", lambda *a, **k: None)
+    with pytest.raises(SiteChangedError):
+        await scraper._search(None, "engineer", 0)
+
+
+async def test_iter_listings_guard_offset_against_count(monkeypatch):
+    payload_page = payload("search_p1.json")
+    payload_page["count"] = 15
+    calls: list[int] = []
+
+    async def fake_search(client, term, offset):
+        calls.append(offset)
+        return payload_page
+
+    scraper = KalibrrScraper(
+        ScrapeContext(
+            run_id="test",
+            max_age_days=30,
+            max_jobs=100,
+            max_pages_per_term=5,
+        )
+    )
+    scraper.delay_ms = [0, 0]
+    monkeypatch.setattr(scraper, "_search", fake_search)
+    items = [item async for item in scraper.iter_listings("engineer")]
+    assert len(items) == 15
+    assert calls == [0]
 
 
 @pytest.mark.live

@@ -156,7 +156,10 @@ def parse_detail_payload(
         data = payload
         canonical = None
     try:
-        job = data["props"]["pageProps"]["job"]
+        if isinstance(data, dict) and "props" not in data:
+            job = data
+        else:
+            job = data["props"]["pageProps"]["job"]
     except (KeyError, TypeError) as exc:
         raise SiteChangedError("Kalibrr: props.pageProps.job tidak ditemukan") from exc
     if not isinstance(job, dict) or not job.get("name"):
@@ -209,7 +212,7 @@ def parse_detail_payload(
 
 
 def _is_challenge(html: str, url: str) -> bool:
-    return detect_challenge("", url) or detect_challenge(html[:1000], url)
+    return detect_challenge(html, url)
 
 
 def _save_snapshot(html: str, run_id: str, reason: str) -> None:
@@ -297,6 +300,11 @@ class KalibrrScraper(BaseScraper):
         try:
             payload = response.json()
         except ValueError as exc:
+            _save_snapshot(response.text, self.ctx.run_id, "search_parse_error")
+            if _is_challenge(response.text, str(response.url)):
+                raise BlockedError(
+                    "Kalibrr menampilkan tantangan anti-bot", url=str(response.url)
+                ) from exc
             raise SiteChangedError("Kalibrr search bukan JSON", url=str(response.url)) from exc
         if not isinstance(payload, dict):
             raise SiteChangedError("Kalibrr search bukan objek JSON", url=str(response.url))
@@ -315,16 +323,20 @@ class KalibrrScraper(BaseScraper):
                 payload = await self._search(client, search_term, offset)
                 if total is None and isinstance(payload.get("count"), int):
                     total = payload["count"]
+                rows = payload.get("jobs")
+                page_size = len(rows) if isinstance(rows, list) else 0
                 listings = parse_listing_payload(payload, page=page, platform=self.platform)
                 if not listings:
                     return
                 for listing in listings:
+                    if self.ctx.stop_requested:
+                        return
                     yield listing
                     yielded += 1
                     if yielded >= self.ctx.max_jobs:
                         return
-                offset += len(listings)
-                if len(listings) < PAGE_SIZE:
+                offset += page_size
+                if page_size < PAGE_SIZE:
                     return
                 await asyncio.sleep(jitter(self.delay_ms))
 
