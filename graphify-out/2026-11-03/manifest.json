@@ -474,10 +474,10 @@
     "semantic_hash": "339c92337a6d11089fb586720980d285"
   },
   "tests/api/test_scrape_jobs.py": {
-    "mtime": 1793637599.173199,
-    "seen": 1793639184.3332045,
-    "ast_hash": "4078ea29e8814c0e61547bb211b5a14b",
-    "semantic_hash": "4078ea29e8814c0e61547bb211b5a14b"
+    "mtime": 1793671555.6702385,
+    "seen": 1793671587.2998502,
+    "ast_hash": "6dcb486446b4db15171925c47369a77a",
+    "semantic_hash": ""
   },
   "tests/conftest.py": {
     "mtime": 1793637599.1733077,
@@ -486,10 +486,10 @@
     "semantic_hash": "c34555d1d2e94322ee5fde120ad4f434"
   },
   "tests/fixtures/fake_scrapers.py": {
-    "mtime": 1793637599.1766548,
-    "seen": 1793639184.3332317,
-    "ast_hash": "1bc93c3754ddfe141d533e34918a71d7",
-    "semantic_hash": "1bc93c3754ddfe141d533e34918a71d7"
+    "mtime": 1793671524.6432173,
+    "seen": 1793671587.299881,
+    "ast_hash": "b6c78f87e55133210bd3c70f3e31fcf0",
+    "semantic_hash": ""
   },
   "tests/scrapers/__init__.py": {
     "mtime": 1793637599.2055604,
@@ -876,15 +876,15 @@
     "semantic_hash": ""
   },
   "plan/NOTES.md": {
-    "mtime": 1793639192.3848553,
-    "seen": 1793639828.402103,
-    "ast_hash": "10a35a943b931f237ae73547ffa5c10f",
+    "mtime": 1793639888.2005668,
+    "seen": 1793671587.3000438,
+    "ast_hash": "ef076ac53dc429d60e8054a0203dc554",
     "semantic_hash": ""
   },
   "plan/PROGRESS.md": {
-    "mtime": 1793639189.5158677,
-    "seen": 1793639828.4021049,
-    "ast_hash": "33bd60134804c15c727e47654b36e83a",
+    "mtime": 1793670889.591079,
+    "seen": 1793671587.3000464,
+    "ast_hash": "575176c7921bb535af2307e294b09535",
     "semantic_hash": ""
   },
   "plan/README.md": {

@@ -120,9 +120,18 @@ def jitter(delay_ms: tuple[int, int] | list[int]) -> float:
 
 
 async def save_debug_snapshot(
-    page: Page, run_id: str, platform: str, reason: str = "error"
+    page: Page | None,
+    run_id: str,
+    platform: str,
+    reason: str = "error",
+    *,
+    html: str | None = None,
 ) -> Path | None:
-    """Screenshot + HTML ke data/debug/<run_id>/, dengan rotasi jumlah file."""
+    """Screenshot + HTML ke data/debug/<run_id>/, dengan rotasi jumlah file.
+
+    `page` boleh ``None`` untuk scraper HTTP murni (mis. Glints): cukup berikan
+    `html`. Bila keduanya kosong, kegagalan ditelan agar run tidak jatuh.
+    """
     try:
         root = Path("data/debug")
         outdir = root / run_id
@@ -130,8 +139,10 @@ async def save_debug_snapshot(
         safe_reason = re.sub(r"[^a-z0-9_-]+", "_", reason.lower())[:40]
         stamp = time.strftime("%Y%m%d_%H%M%S")
         prefix = f"{platform}_{stamp}_{safe_reason}"
-        await page.screenshot(path=str(outdir / f"{prefix}.png"), full_page=False)
-        (outdir / f"{prefix}.html").write_text(await page.content(), encoding="utf-8")
+        if page is not None:
+            await page.screenshot(path=str(outdir / f"{prefix}.png"), full_page=False)
+        content = html if html is not None else await page.content()  # type: ignore[union-attr]
+        (outdir / f"{prefix}.html").write_text(content, encoding="utf-8")
         _prune_debug_files(root)
         return outdir / f"{prefix}.html"
     except Exception:  # pragma: no cover - snapshot tidak boleh menjatuhkan run

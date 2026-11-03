@@ -131,6 +131,7 @@ class Orchestrator:
         old_streak = 0
         consecutive_errors = 0
         pages_seen = 0
+        term_counts: dict[str, int] = dict.fromkeys(terms, 0)
 
         try:
             await scraper.check_session()
@@ -162,6 +163,7 @@ class Orchestrator:
                         if source.detail_fetched >= max_jobs:
                             break
                         source.found_count += 1
+                        term_counts[term] = term_counts.get(term, 0) + 1
                         pages_seen = max(pages_seen, int(listing.extra.get("page", 0)))
 
                         post = parse_posted(listing.posted_raw)
@@ -247,6 +249,8 @@ class Orchestrator:
             status = self._canary(status, source, descriptions, detail_count, missing_required)
             if ctx.fetch_details and source.found_count > 0 and detail_count == 0:
                 status = "degraded"
+            if await self._baseline_degraded(session, platform, term_counts):
+                status = "degraded"
         await run_repo.finish_source(session, source, status)
 
     async def _fetch(self, scraper: Any, listing: Any, ctx: ScrapeContext) -> RawJob:
@@ -320,6 +324,17 @@ class Orchestrator:
         if source.error_count and source.error_count >= DEGRADED_AFTER_CONSECUTIVE_ERRORS:
             return "degraded"
         return status
+
+    @staticmethod
+    async def _baseline_degraded(
+        session: AsyncSession, platform: str, term_counts: dict[str, int]
+    ) -> bool:
+        """True bila ada term historis produktif yang kini 0 hasil (canary §5.3)."""
+        zero = [term for term, count in term_counts.items() if count == 0]
+        if not zero:
+            return False
+        productive = await run_repo.productive_terms(session, platform, list(term_counts))
+        return any(term in productive for term in zero)
 
     async def _aggregate(self, session: AsyncSession, run: Any) -> None:
         sources = await run_repo.sources_for(session, run.id)

@@ -161,6 +161,32 @@ async def details_fetched_since(
     return int(total or 0)
 
 
+async def productive_terms(session: AsyncSession, platform: str, terms: list[str]) -> set[str]:
+    """Term yang pernah menghasilkan listing pada sub-run sukses (canary §5.3)."""
+    if not terms:
+        return set()
+    wanted = set(terms)
+    rows = (
+        await session.scalars(
+            select(ScrapeRunSource.search_terms).where(
+                ScrapeRunSource.platform == platform,
+                ScrapeRunSource.status == "completed",
+                ScrapeRunSource.found_count > 0,
+                ScrapeRunSource.search_terms.is_not(None),
+            )
+        )
+    ).all()
+    out: set[str] = set()
+    for raw in rows:
+        try:
+            past = json.loads(raw)
+        except (ValueError, TypeError):
+            continue
+        if isinstance(past, list):
+            out.update(t for t in past if t in wanted)
+    return out
+
+
 async def last_source_by_platform(session: AsyncSession) -> dict[str, ScrapeRunSource]:
     rows = list(
         (

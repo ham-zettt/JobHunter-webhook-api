@@ -6,10 +6,12 @@
   retry terpusat, baseline canary, snapshot Glints, dan test belum
 
 ## Tujuan
+
 Menutup sisa ketahanan: retry jaringan terpusat, canary berbasis baseline,
 snapshot debug konsisten, dan test deteksi blokir.
 
 ## File yang perlu dibaca
+
 - `app/runner/orchestrator.py` (`_canary`, `DEGRADED_AFTER_CONSECUTIVE_ERRORS`)
 - `app/scrapers/browser.py` (`detect_challenge`, `save_debug_snapshot`)
 - `app/scrapers/exceptions.py`
@@ -18,12 +20,14 @@ snapshot debug konsisten, dan test deteksi blokir.
 - ARCHITECTURE §5.1–§5.3 · SCRAPER_SPEC §4.2–§4.3
 
 ## File yang akan dibuat/diubah
+
 - Helper retry di `app/scrapers/browser.py` atau `app/scrapers/common/`
 - `app/runner/orchestrator.py` (canary baseline)
 - `app/scrapers/platforms/glints.py` (snapshot pada parse gagal)
 - `tests/scrapers/test_block_detection.py` atau test terkait
 
 ## Langkah-langkah
+
 1. Tambah helper retry memakai `tenacity`: 3 percobaan, backoff 2→4→8 dtk +
    jitter, hanya untuk `TransientNetworkError`/5xx/timeout.
 2. Pastikan 403/CAPTCHA/challenge **tidak** di-retry → `BlockedError`.
@@ -37,6 +41,7 @@ snapshot debug konsisten, dan test deteksi blokir.
 8. Tambah test unit untuk `detect_challenge`, retry, dan canary.
 
 ## Test yang harus ditulis
+
 - `detect_challenge` untuk teks/URL/iframe tantangan (§4.3).
 - Retry 3× pada error transient; tidak retry pada 403.
 - Canary: 0 hasil pada term historis produktif → `degraded`.
@@ -44,6 +49,7 @@ snapshot debug konsisten, dan test deteksi blokir.
 - Snapshot tidak menjatuhkan run saat gagal menulis.
 
 ## Kriteria selesai (checklist)
+
 - [ ] Retry terpusat, bukan duplikat di tiap scraper.
 - [ ] 403/CAPTCHA tidak pernah di-retry.
 - [ ] Canary memakai baseline historis.
@@ -51,19 +57,23 @@ snapshot debug konsisten, dan test deteksi blokir.
 - [ ] Test offline hijau; `ruff` bersih.
 
 ## Cara verifikasi
+
 ```bash
 uv run pytest -q
 uv run ruff check app tests
 ```
+
 Harapan: semua lulus; tidak ada retry pada `BlockedError`.
 
 ## Yang TIDAK boleh dilakukan
+
 - Menembus CAPTCHA/stealth/fingerprint spoofing.
 - Retry pada 403/checkpoint.
 - Menyimpan snapshot tanpa batas.
 - Mengubah aturan filter bisnis.
 
 ## Catatan / risiko
+
 - Baseline canary memerlukan query riwayat; jangan menambah tabel baru tanpa
   memperbarui DATABASE.
 - Retry berlebihan memperbesar risiko blokir; patuhi batas §4.

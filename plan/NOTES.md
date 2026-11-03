@@ -162,3 +162,14 @@ script, token, nama akun, kartu orang/rekruter, email, dan telepon.
   digeser ke 10 hari lalu via `SessionLocal`; `GET /jobs` tanpa param membuktikan default tak memfilter.
 - Henti-dini (FR-06): run berstatus `partial` (bukan `completed`) karena `found_count>0` tetapi
   `detail_count==0` -> source `degraded` (`orchestrator.py:248`). Test memakai totals, bukan status.
+
+## Task 31 — Hardening (2026-11-03)
+
+- Retry terpusat `app/scrapers/common/retry.py` (tenacity 3x, backoff 2→4→8 dtk +
+  jitter) dipakai glints/jobstreet/kalibrr/dealls. Pintarnya TIDAK diubah: memakai
+  `context.request` Playwright + kasus 410 khusus, jadi tidak cocok helper httpx.
+- `save_debug_snapshot` kini menerima `page=None` + `html=` untuk scraper HTTP
+  murni (Glints); rotasi tetap lewat `DEBUG_SNAPSHOT_MAX_FILES`.
+- Baseline canary memakai `run_repo.productive_terms` (query riwayat
+  `scrape_run_sources`), tanpa tabel baru.
+- `Retry-After` hanya diparse sebagai detik; HTTP-date jatuh ke fallback 60 dtk.

@@ -11,13 +11,13 @@ import httpx
 from selectolax.lexbor import LexborHTMLParser
 
 from app.scrapers.base import BaseScraper, RawJob, RawListing
-from app.scrapers.browser import detect_challenge, jitter
+from app.scrapers.browser import jitter, save_debug_snapshot
+from app.scrapers.common.retry import fetch_with_retry
 from app.scrapers.common.text import looks_truncated
 from app.scrapers.exceptions import (
     BlockedError,
     ParseError,
     SiteChangedError,
-    TransientNetworkError,
 )
 
 BASE = "https://glints.com"
@@ -243,35 +243,9 @@ class GlintsScraper(BaseScraper):
         }
 
     async def _get(self, client: httpx.AsyncClient, url: str, **kwargs: Any) -> httpx.Response:
-        last_error: Exception | None = None
-        for attempt in range(3):
-            try:
-                response = await client.get(url, headers=self._headers, **kwargs)
-            except httpx.HTTPError as exc:
-                last_error = exc
-                await asyncio.sleep(2 * (2**attempt))
-                continue
-            if response.status_code in (403, 999):
-                raise BlockedError(
-                    "Glints menolak akses (403/999) — hentikan platform", url=str(response.url)
-                )
-            if response.status_code == 429:
-                await asyncio.sleep(60 if attempt >= 1 else 30)
-                last_error = BlockedError("Glints rate limit (429)", url=str(response.url))
-                continue
-            if response.status_code >= 500:
-                await asyncio.sleep(2 * (2**attempt))
-                continue
-            if response.status_code != 200:
-                raise SiteChangedError(f"Glints HTTP {response.status_code}", url=str(response.url))
-            if "cf-mitigated" in response.headers or detect_challenge(
-                response.text[:60_000], str(response.url)
-            ):
-                raise BlockedError("Glints menampilkan tantangan anti-bot", url=str(response.url))
-            return response
-        if isinstance(last_error, BlockedError):
-            raise last_error
-        raise TransientNetworkError(f"Glints request gagal: {last_error}")
+        return await fetch_with_retry(
+            client, url, headers=self._headers, check_challenge=True, **kwargs
+        )
 
     async def iter_listings(self, search_term: str) -> AsyncIterator[RawListing]:
         async with httpx.AsyncClient(timeout=45, follow_redirects=True) as client:
@@ -297,6 +271,12 @@ class GlintsScraper(BaseScraper):
                 raise
             except Exception as exc:
                 raise ParseError(f"Glints detail gagal: {exc}", url=listing.url) from exc
-            raw = parse_detail_html(response.text, listing, platform=self.platform)
+            try:
+                raw = parse_detail_html(response.text, listing, platform=self.platform)
+            except (SiteChangedError, ParseError):
+                await save_debug_snapshot(
+                    None, self.ctx.run_id, self.platform, "parse_error", html=response.text
+                )
+                raise
             raw.url = str(response.url).split("?")[0]
             return raw

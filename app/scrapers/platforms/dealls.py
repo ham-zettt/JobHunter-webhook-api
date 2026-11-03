@@ -13,6 +13,7 @@ from selectolax.lexbor import LexborHTMLParser
 
 from app.scrapers.base import BaseScraper, RawJob, RawListing
 from app.scrapers.browser import detect_challenge, jitter
+from app.scrapers.common.retry import fetch_with_retry
 from app.scrapers.common.text import html_to_text, looks_truncated
 from app.scrapers.exceptions import (
     BlockedError,
@@ -343,38 +344,9 @@ class DeallsScraper(BaseScraper):
         check_challenge: bool = False,
         **kwargs: Any,
     ) -> httpx.Response:
-        last_error: Exception | None = None
-        for attempt in range(3):
-            try:
-                response = await client.get(url, headers=self._headers, **kwargs)
-            except httpx.HTTPError as exc:
-                last_error = exc
-                await asyncio.sleep(2 * (2**attempt))
-                continue
-            if response.status_code in (403, 999):
-                raise BlockedError("Dealls menolak akses (403/999)", url=str(response.url))
-            if response.status_code == 429:
-                await asyncio.sleep(60 if attempt >= 1 else 30)
-                last_error = BlockedError("Dealls rate limit (429)", url=str(response.url))
-                continue
-            if response.status_code >= 500:
-                last_error = TransientNetworkError(
-                    f"Dealls HTTP {response.status_code}", url=str(response.url)
-                )
-                await asyncio.sleep(2 * (2**attempt))
-                continue
-            if response.status_code != 200:
-                raise SiteChangedError(
-                    f"Dealls HTTP {response.status_code}", url=str(response.url)
-                )
-            if "cf-mitigated" in response.headers:
-                raise BlockedError("Dealls menampilkan tantangan anti-bot", url=str(response.url))
-            if check_challenge and detect_challenge(response.text, str(response.url)):
-                raise BlockedError("Dealls menampilkan tantangan anti-bot", url=str(response.url))
-            return response
-        if isinstance(last_error, BlockedError):
-            raise last_error
-        raise TransientNetworkError(f"Dealls request gagal: {last_error}")
+        return await fetch_with_retry(
+            client, url, headers=self._headers, check_challenge=check_challenge, **kwargs
+        )
 
     async def _search(
         self, client: httpx.AsyncClient, term: str, page: int

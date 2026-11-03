@@ -206,6 +206,7 @@ Hanya simbol publik; lihat file sumber untuk detail.
 - `async def recover(session: AsyncSession) -> list[str]`
 - `async def cancel_run(session: AsyncSession, run: ScrapeRun) -> None`
 - `async def details_fetched_since(session: AsyncSession, platform: str, since_iso: str) -> int`
+- `async def productive_terms(session: AsyncSession, platform: str, terms: list[str]) -> set[str]` — Term yang pernah menghasilkan listing pada sub-run sukses (canary §5.3).
 - `async def last_source_by_platform(session: AsyncSession) -> dict[str, ScrapeRunSource]`
 - `def source_dict(source: ScrapeRunSource) -> dict[str, Any]`
 - `def run_dict(run: ScrapeRun, sources: list[ScrapeRunSource]) -> dict[str, Any]`
@@ -336,11 +337,16 @@ Hanya simbol publik; lihat file sumber untuk detail.
   - `async def reset_context(self, platform: str) -> None`
   - `async def stop(self) -> None`
 - `def jitter(delay_ms: tuple[int, int] | list[int]) -> float`
-- `async def save_debug_snapshot(page: Page, run_id: str, platform: str, reason: str='error') -> Path | None` — Screenshot + HTML ke data/debug/<run_id>/, dengan rotasi jumlah file.
+- `async def save_debug_snapshot(page: Page | None, run_id: str, platform: str, reason: str='error', *, html: str | None=None) -> Path | None` — Screenshot + HTML ke data/debug/<run_id>/, dengan rotasi jumlah file.
 
 ## `app/scrapers/common/__init__.py`
 (no docstring) __init__.py
 
+
+## `app/scrapers/common/retry.py`
+(no docstring) retry.py
+
+- `async def fetch_with_retry(client: httpx.AsyncClient, url: str, *, method: str='GET', headers: dict[str, str] | None=None, check_challenge: bool=False, **kwargs: Any) -> httpx.Response` — GET dengan retry terpusat (SCRAPER_SPEC §4.2).
 
 ## `app/scrapers/common/salary.py`
 (no docstring) salary.py

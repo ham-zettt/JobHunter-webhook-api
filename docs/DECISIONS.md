@@ -119,3 +119,15 @@ Kartu dikenali lewat `componentkey^="job-card-component-ref-"` (ID = sufiks) dan
 dedupe ID; detail lewat `data-testid="expandable-text-box"`/`expandable-text-button`.
 Tidak ada `<time>`/`datetime`: tanggal hanya relatif. `sortBy`/`start` belum terbukti
 dan harus diverifikasi di task 28.
+
+## Task 31 — Retry terpusat, baseline canary, snapshot HTTP (2026-11-03)
+
+- Retry jaringan terpusat di `app/scrapers/common/retry.py` (`fetch_with_retry`);
+  duplikasi loop retry dihapus dari glints/jobstreet/kalibrr/dealls. 403/999/
+  CAPTCHA/challenge langsung `BlockedError` tanpa retry; 429 maks 2 retry lalu
+  `BlockedError`.
+- Canary baseline: `run_repo.productive_terms(platform, terms)` mencari term yang
+  pernah menghasilkan (`status='completed'`, `found_count>0`, `search_terms`
+  cocok). 0 hasil pada term produktif → sub-run `degraded`. Tidak menambah tabel.
+- Snapshot HTTP: `save_debug_snapshot(page=None, ..., html=...)` agar Glints
+  (tanpa Playwright) tetap menyimpan HTML saat parse gagal.

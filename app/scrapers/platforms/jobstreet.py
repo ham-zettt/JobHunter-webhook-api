@@ -11,12 +11,12 @@ from selectolax.lexbor import LexborHTMLParser
 
 from app.scrapers.base import BaseScraper, RawJob, RawListing
 from app.scrapers.browser import detect_challenge, jitter, save_debug_snapshot
+from app.scrapers.common.retry import fetch_with_retry
 from app.scrapers.common.text import html_to_text, looks_truncated
 from app.scrapers.exceptions import (
     BlockedError,
     ParseError,
     SiteChangedError,
-    TransientNetworkError,
 )
 
 BASE = "https://id.jobstreet.com"
@@ -249,38 +249,13 @@ class JobStreetScraper(BaseScraper):
             "daterange": self.ctx.max_age_days,
             "sortmode": "ListedDate",
         }
-        last_error: Exception | None = None
-        for attempt in range(3):
-            try:
-                response = await client.get(SEARCH_API, params=params, headers=self._headers)
-            except httpx.HTTPError as exc:
-                last_error = exc
-                await asyncio.sleep(2 * (2**attempt))
-                continue
-            if response.status_code in (403, 999):
-                raise BlockedError(
-                    "JobStreet menolak akses (403/999) — hentikan platform", url=str(response.url)
-                )
-            if response.status_code == 429:
-                await asyncio.sleep(60 if attempt >= 1 else 30)
-                last_error = BlockedError("JobStreet rate limit (429)", url=str(response.url))
-                continue
-            if response.status_code >= 500:
-                await asyncio.sleep(2 * (2**attempt))
-                continue
-            if response.status_code != 200:
-                raise SiteChangedError(
-                    f"JobStreet search HTTP {response.status_code}", url=str(response.url)
-                )
-            try:
-                return response.json()
-            except ValueError as exc:
-                raise SiteChangedError(
-                    "JobStreet search bukan JSON", url=str(response.url)
-                ) from exc
-        if isinstance(last_error, BlockedError):
-            raise last_error
-        raise TransientNetworkError(f"JobStreet search gagal: {last_error}")
+        response = await fetch_with_retry(
+            client, SEARCH_API, headers=self._headers, params=params
+        )
+        try:
+            return response.json()
+        except ValueError as exc:
+            raise SiteChangedError("JobStreet search bukan JSON", url=str(response.url)) from exc
 
     async def iter_listings(self, search_term: str) -> AsyncIterator[RawListing]:
         yielded = 0
