@@ -1,120 +1,122 @@
 search_terms:
-  - software engineer
-  - backend developer
-  - frontend developer
-  - fullstack developer
-  - web developer
-  - programmer
-  - ai engineer
-  - machine learning engineer
-  - ai automation
-  - automation engineer
-  - n8n
-  - python developer
-  - llm engineer
-  - software developer
+    - software engineer
+    - software developer
+    - backend developer
+    - frontend developer
+    - fullstack developer
+    - web developer
+    - programmer
+    - it
+    - artificial intelligence
+    - ai engineer
+    - ai automation
+    - python developer
 
 include:
-  - {term: software engineer, strength: strong, role_category: software_engineer}
-  - {term: software developer, strength: strong, role_category: software_engineer}
-  - {term: programmer, strength: strong, role_category: software_engineer}
-  - {term: pemrogram, strength: strong, role_category: software_engineer}
-  - {term: web developer, strength: strong, role_category: software_engineer}
-  - {term: backend, strength: strong, role_category: backend}
-  - {term: back-end, strength: strong, role_category: backend}
-  - {term: back end, strength: strong, role_category: backend}
-  - {term: frontend, strength: strong, role_category: frontend}
-  - {term: front-end, strength: strong, role_category: frontend}
-  - {term: front end, strength: strong, role_category: frontend}
-  - {term: fullstack, strength: strong, role_category: fullstack}
-  - {term: full-stack, strength: strong, role_category: fullstack}
-  - {term: full stack, strength: strong, role_category: fullstack}
-  - {term: ai engineer, strength: strong, role_category: ai_engineer}
-  - {term: ai developer, strength: strong, role_category: ai_engineer}
-  - {term: artificial intelligence, strength: strong, role_category: ai_engineer}
-  - {term: machine learning, strength: strong, role_category: ai_engineer}
-  - {term: ml engineer, strength: strong, role_category: ai_engineer}
-  - {term: llm, strength: strong, role_category: ai_engineer}
-  - {term: generative ai, strength: strong, role_category: ai_engineer}
-  - {term: genai, strength: strong, role_category: ai_engineer}
-  - {term: nlp, strength: strong, role_category: ai_engineer}
-  - {term: prompt engineer, strength: strong, role_category: ai_engineer}
-  - {term: ai agent, strength: strong, role_category: ai_engineer}
-  - {term: ai automation, strength: strong, role_category: ai_automation}
-  - {term: automation engineer, strength: strong, role_category: ai_automation}
-  - {term: n8n, strength: strong, role_category: ai_automation}
-  - {term: workflow automation, strength: strong, role_category: ai_automation}
-  - {term: it, strength: weak}
-  - {term: web, strength: weak}
-  - {term: developer, strength: weak}
-  - {term: informatika, strength: weak}
-  - {term: teknik informatika, strength: weak}
-  - {term: ilmu komputer, strength: weak}
-  - {term: software, strength: weak}
+    - {
+          term: software engineer,
+          strength: strong,
+          role_category: software_engineer,
+      }
+    - {
+          term: software developer,
+          strength: strong,
+          role_category: software_engineer,
+      }
+    - { term: programmer, strength: strong, role_category: software_engineer }
+    - {
+          term: web developer,
+          strength: strong,
+          role_category: software_engineer,
+      }
+    - { term: backend, strength: strong, role_category: backend }
+    - { term: back-end, strength: strong, role_category: backend }
+    - { term: back end, strength: strong, role_category: backend }
+    - { term: frontend, strength: strong, role_category: frontend }
+    - { term: front-end, strength: strong, role_category: frontend }
+    - { term: front end, strength: strong, role_category: frontend }
+    - { term: fullstack, strength: strong, role_category: fullstack }
+    - { term: full-stack, strength: strong, role_category: fullstack }
+    - { term: full stack, strength: strong, role_category: fullstack }
+    - {
+          term: artificial intelligence,
+          strength: strong,
+          role_category: ai_engineer,
+      }
+    - { term: machine learning, strength: strong, role_category: ai_engineer }
+    - { term: ai, strength: strong, role_category: ai_engineer }
+    - { term: erp, strength: strong, role_category: ai_engineer }
+    - { term: prompt engineer, strength: strong, role_category: ai_engineer }
+    - { term: automation, strength: strong, role_category: ai_automation }
+    - { term: n8n, strength: strong, role_category: ai_automation }
+    - { term: agent, strength: strong, role_category: ai_automation }
+    - { term: it, strength: weak }
+    - { term: web, strength: weak }
+    - { term: developer, strength: weak }
+    - { term: informatika, strength: weak }
+    - { term: teknik informatika, strength: weak }
+    - { term: software, strength: weak }
 
 exclude:
-  - it support
-  - helpdesk
-  - help desk
-  - technical support
-  - customer service
-  - customer support
-  - sales
-  - marketing
-  - digital marketing
-  - seo
-  - admin
-  - administrasi
-  - data entry
-  - graphic designer
-  - web designer
-  - ui/ux designer
-  - ui ux designer
-  - business developer
-  - business development
-  - business analyst
-  - project manager
-  - product manager
-  - auditor
-  - accountant
-  - akuntan
-  - teknisi
-  - technician
-  - network engineer
-  - jaringan
-  - recruiter
-  - content writer
-  - content creator
-  - social media
-  - driver
-  - kasir
+    - it support
+    - helpdesk
+    - help desk
+    - technical support
+    - customer service
+    - customer support
+    - sales
+    - marketing
+    - digital marketing
+    - seo
+    - graphic designer
+    - web designer
+    - ui/ux designer
+    - ui ux designer
+    - business developer
+    - business development
+    - business analyst
+    - project manager
+    - product manager
+    - auditor
+    - accountant
+    - akuntan
+    - teknisi
+    - technician
+    - network engineer
+    - jaringan
+    - recruiter
+    - content writer
+    - content creator
+    - social media
+    - driver
+    - kasir
 
 # Arahkan ke kategori peran untuk term yang dikelola user
 role_category_terms:
-  - {term: backend, category: backend}
-  - {term: back-end, category: backend}
-  - {term: back end, category: backend}
-  - {term: frontend, category: frontend}
-  - {term: front-end, category: frontend}
-  - {term: front end, category: frontend}
-  - {term: fullstack, category: fullstack}
-  - {term: full-stack, category: fullstack}
-  - {term: full stack, category: fullstack}
-  - {term: ai engineer, category: ai_engineer}
-  - {term: ai developer, category: ai_engineer}
-  - {term: artificial intelligence, category: ai_engineer}
-  - {term: machine learning, category: ai_engineer}
-  - {term: ml engineer, category: ai_engineer}
-  - {term: llm, category: ai_engineer}
-  - {term: generative ai, category: ai_engineer}
-  - {term: genai, category: ai_engineer}
-  - {term: nlp, category: ai_engineer}
-  - {term: prompt engineer, category: ai_engineer}
-  - {term: ai agent, category: ai_engineer}
-  - {term: ai automation, category: ai_automation}
-  - {term: automation engineer, category: ai_automation}
-  - {term: n8n, category: ai_automation}
-  - {term: workflow automation, category: ai_automation}
-  - {term: software engineer, category: software_engineer}
-  - {term: software developer, category: software_engineer}
-  - {term: programmer, category: software_engineer}
+    - { term: backend, category: backend }
+    - { term: back-end, category: backend }
+    - { term: back end, category: backend }
+    - { term: frontend, category: frontend }
+    - { term: front-end, category: frontend }
+    - { term: front end, category: frontend }
+    - { term: fullstack, category: fullstack }
+    - { term: full-stack, category: fullstack }
+    - { term: full stack, category: fullstack }
+    - { term: ai engineer, category: ai_engineer }
+    - { term: ai developer, category: ai_engineer }
+    - { term: artificial intelligence, category: ai_engineer }
+    - { term: machine learning, category: ai_engineer }
+    - { term: ml engineer, category: ai_engineer }
+    - { term: llm, category: ai_engineer }
+    - { term: generative ai, category: ai_engineer }
+    - { term: genai, category: ai_engineer }
+    - { term: nlp, category: ai_engineer }
+    - { term: prompt engineer, category: ai_engineer }
+    - { term: ai agent, category: ai_engineer }
+    - { term: ai automation, category: ai_automation }
+    - { term: automation engineer, category: ai_automation }
+    - { term: n8n, category: ai_automation }
+    - { term: workflow automation, category: ai_automation }
+    - { term: software engineer, category: software_engineer }
+    - { term: software developer, category: software_engineer }
+    - { term: programmer, category: software_engineer }

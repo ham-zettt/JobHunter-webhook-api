@@ -14,8 +14,6 @@ COPY . .
 RUN chmod +x docker/entrypoint.sh && mkdir -p /app/data /app/data/debug /app/data/secrets \
     && chown -R pwuser:pwuser /app
 
-USER pwuser
-
 EXPOSE 8000
 
 CMD ["bash", "docker/entrypoint.sh"]

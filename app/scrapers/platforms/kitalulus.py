@@ -7,6 +7,7 @@ from collections.abc import AsyncIterator
 from typing import Any
 from urllib.parse import urlencode
 
+from playwright.async_api import Error as PlaywrightError
 from selectolax.lexbor import LexborHTMLParser
 
 from app.scrapers.base import BaseScraper, RawJob, RawListing
@@ -16,6 +17,7 @@ from app.scrapers.exceptions import (
     BlockedError,
     ParseError,
     SiteChangedError,
+    TransientNetworkError,
 )
 
 BASE = "https://www.kitalulus.com"
@@ -365,7 +367,12 @@ class KitaLulusScraper(BaseScraper):
         url = f"{BASE}/lowongan?{urlencode({'sortBy': 'updatedAt', 'keyword': search_term})}"
         try:
             await asyncio.sleep(jitter(self.delay_ms) / 2)
-            response = await page.goto(url, wait_until="domcontentloaded")
+            try:
+                response = await page.goto(url, wait_until="domcontentloaded")
+            except PlaywrightError as exc:
+                raise TransientNetworkError(
+                    f"KitaLulus: navigasi gagal: {exc}", url=url
+                ) from exc
             html = await page.content()
             if response is not None and response.status in (403, 429):
                 await save_debug_snapshot(page, self.ctx.run_id, self.platform, "blocked")
@@ -418,7 +425,12 @@ class KitaLulusScraper(BaseScraper):
         page = await self.ctx.browser.new_page(self.platform)
         try:
             await asyncio.sleep(jitter(self.delay_ms))
-            response = await page.goto(listing.url, wait_until="domcontentloaded")
+            try:
+                response = await page.goto(listing.url, wait_until="domcontentloaded")
+            except PlaywrightError as exc:
+                raise TransientNetworkError(
+                    f"KitaLulus: navigasi gagal: {exc}", url=listing.url
+                ) from exc
             if response is not None and response.status in (403, 429):
                 await save_debug_snapshot(page, self.ctx.run_id, self.platform, "blocked")
                 raise BlockedError(f"KitaLulus detail HTTP {response.status}", url=listing.url)
@@ -428,7 +440,7 @@ class KitaLulusScraper(BaseScraper):
                 raise BlockedError("KitaLulus menampilkan tantangan anti-bot", url=listing.url)
             await _expand_description(page)
             return parse_detail_payload(await page.content(), platform=self.platform)
-        except (BlockedError, SiteChangedError, ParseError):
+        except (BlockedError, SiteChangedError, ParseError, TransientNetworkError):
             raise
         except Exception as exc:
             await save_debug_snapshot(page, self.ctx.run_id, self.platform, "parse_error")

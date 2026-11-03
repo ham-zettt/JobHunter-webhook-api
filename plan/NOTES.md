@@ -185,3 +185,21 @@ script, token, nama akun, kartu orang/rekruter, email, dan telepon.
 - Status di 5 `docs/platform_notes/*.md` (dealls, kalibrr, kitalulus, linkedin,
   pintarnya) masih menandai "belum ada parser"; dikoreksi ke **implemented** sesuai
   PROGRESS 22/24/26/28/30.
+
+## Task 36 — Uji end-to-end + review rilis (2026-11-03)
+- Artefak: `docs/RELEASE_CHECKLIST.md` (tanggal + commit `70bf9d4`, status 9 butir §13 + bukti run_id).
+- Bug ditemukan & diperbaiki: container jalan sebagai `pwuser` (uid 1001) sedangkan volume `./data` milik uid host 1000 → `readonly database` saat tulis. `docker/entrypoint.sh` kini start sebagai root, `chown /app/data` ke pemilik volume, lalu `setpriv` turun ke uid/gid tsb; `USER pwuser` di `Dockerfile` dihapus. `README.md`/`Dockerfile` tak berubah perilaku lain.
+- Live nyata: `scrape/all` status `partial` (kalibrr/dealls/linkedin `completed`, jobstreet/glints/pintarnya `blocked`, kitalulus `failed` timeout). Idempotensi dealls `new=0`. Callback `POST` ringkasan run diterima (perlu host di `CALLBACK_ALLOWED_HOSTS`; alamat privat tanpa allowlist ditolak `422`).
+- Temuan terbuka → task 37: kalibrr run-2 menggantung; canary `degraded` saat `new=0`; kitalulus timeout.
+- Live pytest TIDAK dijalankan (larangan `AGENTS.md`); prosedur manual dicatat di checklist.
+
+## Task 37 — Perbaikan temuan rilis (2026-11-03)
+- `retry.py`: `RATE_LIMIT_MAX_WAIT_SEC=60` — `Retry-After` besar di-clamp; akar "hang" Kalibrr run-2.
+- `orchestrator.py`: baseline canary hanya pada term `attempted`; cek deskripsi/field minimum butuh `detail_count >= CANARY_MIN_DETAILS` (3) → hilangkan false-positive `degraded` pada run idempoten.
+- `kitalulus.py`: `page.goto` timeout → `TransientNetworkError` (isolasi `degraded`, bukan `failed`).
+- Test baru: `test_retry_after_is_clamped`, `test_canary_tiny_sample_not_degraded`. Suite hijau + ruff bersih.
+
+## Fix — duplikat `job_run_links` membuat run crash (2026-11-03)
+- Gejala: `sqlite3.IntegrityError: UNIQUE constraint failed: job_run_links.run_id, job_run_links.job_id` saat scrape glints (listing sama muncul di >1 search term). Commit gagal → sesi "pending rollback"; handler safety-net menyentuh `run.id` yang expired → `PendingRollbackError` lolos ke worker (`run_worker_failed`), run tertinggal `running`.
+- Perbaikan: `job_repo.add_link` jadi idempoten (SQLite `INSERT ... ON CONFLICT DO NOTHING`; aksi pertama dipertahankan, konsisten `only_new`). `orchestrator._run_platform` memanggil `session.rollback()` di safety-net agar error DB apa pun tetap difinalkan, bukan menjatuhkan worker.
+- Test: `test_duplicate_listing_same_run_links_once` (listing sama 2x → run `completed`, 1 baris link/job). Suite 233 lulus, ruff bersih.

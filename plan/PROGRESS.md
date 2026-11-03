@@ -2,8 +2,8 @@
 
 ## Status
 
-Fase aktif: F3 · Task terakhir selesai: 23 · Berikutnya: 24 (Scraper Dealls) · 22 tinggal smoke live
-Commit terakhir: 6f3d7a4
+Fase aktif: F6 · Task terakhir selesai: 37 · Berikutnya: — (lihat plan/README.md) · 34 opsional
+Commit terakhir: 70bf9d4
 
 ## Daftar task
 
@@ -42,7 +42,8 @@ Commit terakhir: 6f3d7a4
 - [x] 33 Backup, retensi, prune — bukti: scripts/prune.py, scripts/backup_db.sh, tests/unit/test_prune.py (5 passed; suite 230 passed, ruff bersih)
 - [ ] 34 Tuning dedup + reclassify (OPSIONAL)
 - [x] 35 README + contoh workflow n8n — bukti: `README.md` (status F0–F6, tabel endpoint + kode error, alur n8n + risiko LinkedIn, perintah run/test/lint/backup/codemap), `docs/n8n_workflow.json` (valid via `python -m json.tool`), koreksi status 5 `docs/platform_notes/*.md`; tanpa perubahan `app/`/`tests/`
-- [ ] 36 Uji end-to-end + review kriteria rilis PRD §13
+- [x] 36 Uji end-to-end + review kriteria rilis PRD §13 — bukti: `docs/RELEASE_CHECKLIST.md` (9 butir §13, run `r_20261103_101142_6b12` `partial`, idempotensi dealls `new=0`, 9 field 19/19, callback diterima); bug docker readonly **diperbaiki** (`Dockerfile`, `docker/entrypoint.sh`); 230 passed + ruff bersih
+- [x] 37 Perbaikan temuan rilis (kalibrr hang run-2, canary `degraded` false-positive, kitalulus retry) — bukti: `app/scrapers/common/retry.py` (clamp `Retry-After`), `app/runner/orchestrator.py` (canary `attempted` + `CANARY_MIN_DETAILS`), `app/scrapers/platforms/kitalulus.py` (timeout→`TransientNetworkError`); test `test_retry_after_is_clamped`, `test_canary_tiny_sample_not_degraded`; suite hijau + ruff bersih
 
 ## Catatan penting (hanya yang tidak terlihat dari kode)
 
@@ -60,4 +61,9 @@ Commit terakhir: 6f3d7a4
 - `deskripsi_terpotong` adalah field API tambahan di luar PRD §6.
 - `SCHEDULE_CRON` diterima config tetapi tidak dijalankan (n8n penjadwal); APScheduler terpasang.
 - `scripts/backup_db.sh` dan `scripts/linkedin_login.py` belum dijalankan nyata.
-- Build image Playwright (860 MB) belum tuntas diverifikasi.
+- Build image Playwright (860 MB) terverifikasi pada task 36 (`docker compose up --build` + `/health`).
+- [task 36 → 37, selesai] Run kedua `scrape/all` menggantung pada sub-run **Kalibrr**: akibat `asyncio.sleep(Retry-After)` tak terbatas; kini di-clamp 60 dtk (`RATE_LIMIT_MAX_WAIT_SEC`).
+- [task 36 → 37, selesai] Canary menandai `degraded` saat `new=0`: term yang tak dicoba (cap `max_jobs`) & sampel detail kecil tidak lagi memicu; butuh `detail_count >= 3`.
+- [task 36 → 37, selesai] **KitaLulus** timeout `page.goto` kini `TransientNetworkError` → `degraded` terisolasi, bukan `INTERNAL_ERROR`.
+- [task 36] **JobStreet/Glints/Pintarnya** `blocked` oleh anti-bot dari IP uji (tidak ditembus; bukan bug kode).
+- [task 36] Sampel field nyata 19 lowongan (batas run 5/platform); untuk 50/platform perlu run penuh `MAX_JOBS_PER_PLATFORM=300`.

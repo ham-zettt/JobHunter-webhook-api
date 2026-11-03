@@ -8,9 +8,11 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 
 import httpx
 import pytest
+from sqlalchemy import func, select
 
 from app.core.config import get_settings
 from app.core.timeutil import wib_today
+from app.db.models import JobRunLink
 from app.db.repositories import job_repo, run_repo
 from app.db.session import SessionLocal
 from app.scrapers.registry import SCRAPERS
@@ -87,6 +89,20 @@ async def test_scrape_is_idempotent(client, auth_headers):
 
     async with SessionLocal() as session:
         rows, total = await job_repo.list_jobs(session, job_repo.JobFilters())
+    assert total == 2
+
+
+async def test_duplicate_listing_same_run_links_once(client, auth_headers):
+    await seed_keywords()
+    fake_scrapers.seed_sample()
+    fake_scrapers.DATA.append(dict(fake_scrapers.DATA[0]))
+    run_id, run = await scrape(client, auth_headers)
+    assert run["status"] == "completed", run
+
+    async with SessionLocal() as session:
+        total = await session.scalar(
+            select(func.count()).select_from(JobRunLink).where(JobRunLink.run_id == run_id)
+        )
     assert total == 2
 
 

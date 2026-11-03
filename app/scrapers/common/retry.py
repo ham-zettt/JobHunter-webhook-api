@@ -18,6 +18,7 @@ from app.scrapers.exceptions import BlockedError, SiteChangedError, TransientNet
 RETRY_ATTEMPTS = 3
 MAX_RATE_LIMIT_RETRIES = 2
 RATE_LIMIT_FALLBACK_SEC = 60.0
+RATE_LIMIT_MAX_WAIT_SEC = 60.0
 WAIT = wait_exponential(multiplier=2, min=2, max=8) + wait_random(0, 1)
 
 
@@ -33,7 +34,8 @@ def _retry_after_seconds(response: httpx.Response) -> float | None:
         return None
     try:
         # ponytail: hanya detik; Retry-After HTTP-date diabaikan (fallback 60 dtk).
-        return max(0.0, float(raw))
+        # Cap RATE_LIMIT_MAX_WAIT_SEC: header besar (mis. 86400) tak boleh menahan run.
+        return min(max(0.0, float(raw)), RATE_LIMIT_MAX_WAIT_SEC)
     except ValueError:
         return None
 

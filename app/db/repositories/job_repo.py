@@ -7,6 +7,7 @@ from datetime import timedelta
 from typing import Any
 
 from sqlalchemy import func, literal_column, or_, select, text
+from sqlalchemy.dialects.sqlite import insert as sqlite_insert
 from sqlalchemy.exc import OperationalError
 from sqlalchemy.ext.asyncio import AsyncSession
 
@@ -406,9 +407,14 @@ async def touch_existing(
 async def add_link(
     session: AsyncSession, run_id: str, job_id: int, action: str, now: str | None = None
 ) -> None:
-    session.add(
-        JobRunLink(run_id=run_id, job_id=job_id, action=action, created_at=now or utc_iso())
+    # Satu link per (run_id, job_id) (PK). Listing yang sama dapat muncul lagi
+    # dalam run yang sama (mis. lintas search term); pertahankan aksi pertama.
+    stmt = (
+        sqlite_insert(JobRunLink)
+        .values(run_id=run_id, job_id=job_id, action=action, created_at=now or utc_iso())
+        .on_conflict_do_nothing()
     )
+    await session.execute(stmt)
 
 
 async def set_status(session: AsyncSession, job_id: int, status: str) -> Job | None:

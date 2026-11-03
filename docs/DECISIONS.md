@@ -131,3 +131,8 @@ dan harus diverifikasi di task 28.
   cocok). 0 hasil pada term produktif → sub-run `degraded`. Tidak menambah tabel.
 - Snapshot HTTP: `save_debug_snapshot(page=None, ..., html=...)` agar Glints
   (tanpa Playwright) tetap menyimpan HTML saat parse gagal.
+
+## D-017 — Docker: drop privilege ke pemilik volume (2026-11-03, task 36)
+- Masalah: image Playwright memakai `pwuser` uid 1001; `./data` host umumnya uid 1000 → SQLite readonly.
+- Keputusan: entrypoint start sebagai root, `chown -R` `/app/data` ke uid/gid pemilik volume yang terdeteksi (`stat`), lalu `exec setpriv --reuid/--regid/--clear-groups` menjalankan alembic + uvicorn. Tidak mengubah ownership host (uid pemilik tetap sama).
+- Alternatif ditolak: `user:` hardcoded di compose (tidak portabel bila uid host ≠ 1000).

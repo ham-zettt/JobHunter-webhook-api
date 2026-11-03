@@ -47,7 +47,8 @@ Handoff historis: `plan/HANDOFF.md` (jangan dianggap status terkini).
 | 33 | Backup, retensi, `scripts/prune.py` | F6 | [~] |
 | 34 | Tuning dedup + reclassify (OPSIONAL) | F6 | [ ] |
 | 35 | README + contoh workflow n8n | F6 | [~] |
-| 36 | Uji end-to-end + review kriteria rilis PRD §13 | F6 | [ ] |
+| 36 | Uji end-to-end + review kriteria rilis PRD §13 | F6 | [x] |
+| 37 | Perbaikan temuan rilis (retry bisa hang, canary, timeout KitaLulus) | F6 | [x] |
 
 ## Dependensi
 

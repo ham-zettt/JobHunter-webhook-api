@@ -27,6 +27,12 @@ def test_canary_healthy_stays_completed():
     assert Orchestrator._canary("completed", _source(), [500, 600], 10, 1) == "completed"
 
 
+def test_canary_tiny_sample_not_degraded():
+    # Satu detail pendek/kurang field bukan bukti kerusakan situs (hindari false positive
+    # saat run idempoten hanya mengambil sedikit detail).
+    assert Orchestrator._canary("completed", _source(), [50], 1, 1) == "completed"
+
+
 def test_canary_error_streak_is_degraded():
     assert Orchestrator._canary("completed", _source(errors=5), [500, 600], 10, 0) == "degraded"
 

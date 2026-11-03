@@ -34,6 +34,7 @@ from app.scrapers.registry import SCRAPERS, platform_config
 log = get_logger("orchestrator")
 
 DEGRADED_AFTER_CONSECUTIVE_ERRORS = 5
+CANARY_MIN_DETAILS = 3
 
 
 class Orchestrator:
@@ -132,6 +133,7 @@ class Orchestrator:
         consecutive_errors = 0
         pages_seen = 0
         term_counts: dict[str, int] = dict.fromkeys(terms, 0)
+        attempted: set[str] = set()
 
         try:
             await scraper.check_session()
@@ -153,6 +155,7 @@ class Orchestrator:
                     break
                 if time.monotonic() > deadline:
                     break
+                attempted.add(term)
                 try:
                     async for listing in scraper.iter_listings(term):
                         if cancel_event and cancel_event.is_set():
@@ -240,6 +243,7 @@ class Orchestrator:
                     status = "degraded"
                     break
         except Exception as exc:  # pragma: no cover - safety net
+            await session.rollback()
             log.exception("platform_run_failed", run_id=run.id, platform=platform)
             run_repo.add_error(source, "INTERNAL_ERROR", str(exc))
             status = "failed"
@@ -249,7 +253,8 @@ class Orchestrator:
             status = self._canary(status, source, descriptions, detail_count, missing_required)
             if ctx.fetch_details and source.found_count > 0 and detail_count == 0:
                 status = "degraded"
-            if await self._baseline_degraded(session, platform, term_counts):
+            attempted_counts = {term: term_counts.get(term, 0) for term in attempted}
+            if await self._baseline_degraded(session, platform, attempted_counts):
                 status = "degraded"
         await run_repo.finish_source(session, source, status)
 
@@ -317,10 +322,11 @@ class Orchestrator:
     ) -> str:
         if source.found_count == 0:
             return "degraded"
-        if detail_count and missing_required / detail_count > 0.30:
-            return "degraded"
-        if descriptions and statistics.median(descriptions) < 150:
-            return "degraded"
+        if detail_count >= CANARY_MIN_DETAILS:
+            if missing_required / detail_count > 0.30:
+                return "degraded"
+            if descriptions and statistics.median(descriptions) < 150:
+                return "degraded"
         if source.error_count and source.error_count >= DEGRADED_AFTER_CONSECUTIVE_ERRORS:
             return "degraded"
         return status

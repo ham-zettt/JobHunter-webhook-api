@@ -81,6 +81,11 @@ async def test_403_not_retried(monkeypatch):
     assert calls["n"] == 1
 
 
+def test_retry_after_is_clamped():
+    response = httpx.Response(429, headers={"Retry-After": "86400"})
+    assert retry._retry_after_seconds(response) == retry.RATE_LIMIT_MAX_WAIT_SEC
+
+
 async def test_429_retry_after_then_blocked(monkeypatch):
     monkeypatch.setattr(retry, "WAIT", wait_none())
     calls = {"n": 0}
