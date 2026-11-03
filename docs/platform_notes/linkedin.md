@@ -1,6 +1,6 @@
 # LinkedIn — catatan discovery & implementasi
 
-Tanggal: 2026-11-02/03 · Status: **discovery selesai; parser belum (task 28)** · Acuan: SCRAPER_SPEC §4, §5.7, §7.1
+Tanggal: 2026-11-02/03 · Status: **implemented (task 28)** · Acuan: SCRAPER_SPEC §4, §5.7, §7.1
 
 Discovery dijalankan **headed** memakai sesi login manual (`storage_state`), bukan headless
 dan bukan login otomatis. Tidak ada checkpoint/CAPTCHA yang ditemui.

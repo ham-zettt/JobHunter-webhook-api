@@ -1,7 +1,6 @@
 # Pintarnya — catatan discovery (2026-11-02)
 
-Status: **discovery (F5)** · Dokumen acuan: SCRAPER_SPEC §3, §7.7, §8.1
-Belum ada parser/scraper (task 30).
+Status: **implemented (F5, task 30)** · Scraper: `app/scrapers/platforms/pintarnya.py` · Dokumen acuan: SCRAPER_SPEC §3, §7.7, §8.1
 
 ## Keputusan
 

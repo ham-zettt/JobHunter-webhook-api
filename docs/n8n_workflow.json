@@ -1,0 +1,202 @@
+{
+  "name": "Job Scraper — lowongan baru",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "jobscraper-0001-4000-8000-000000000001",
+      "name": "Schedule Trigger",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [0, 0]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ ($env.JOB_SCRAPER_URL || 'http://job-scraper:8000') + '/api/v1/scrape/all' }}",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "X-API-Key",
+              "value": "={{ $env.JOB_SCRAPER_API_KEY }}"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "{\"max_age_days\": 7}",
+        "options": {}
+      },
+      "id": "jobscraper-0002-4000-8000-000000000002",
+      "name": "POST /scrape/all",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [220, 0]
+    },
+    {
+      "parameters": {
+        "amount": 60,
+        "unit": "seconds"
+      },
+      "id": "jobscraper-0003-4000-8000-000000000003",
+      "name": "Wait 60s",
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [440, 0],
+      "webhookId": "jobscraper-wait"
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "={{ ($env.JOB_SCRAPER_URL || 'http://job-scraper:8000') + '/api/v1/scrape/runs/' + $('POST /scrape/all').item.json.run_id }}",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "X-API-Key",
+              "value": "={{ $env.JOB_SCRAPER_API_KEY }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "jobscraper-0004-4000-8000-000000000004",
+      "name": "GET status run",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [660, 0]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "loose",
+            "version": 2
+          },
+          "combinator": "or",
+          "conditions": [
+            {
+              "id": "c1",
+              "leftValue": "={{ $json.status }}",
+              "rightValue": "completed",
+              "operator": {
+                "type": "string",
+                "operation": "equals"
+              }
+            },
+            {
+              "id": "c2",
+              "leftValue": "={{ $json.status }}",
+              "rightValue": "partial",
+              "operator": {
+                "type": "string",
+                "operation": "equals"
+              }
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "jobscraper-0005-4000-8000-000000000005",
+      "name": "IF selesai",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [880, 0]
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "={{ ($env.JOB_SCRAPER_URL || 'http://job-scraper:8000') + '/api/v1/jobs?run_id=' + $('POST /scrape/all').item.json.run_id + '&only_new=true&include_description=true&limit=200' }}",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "X-API-Key",
+              "value": "={{ $env.JOB_SCRAPER_API_KEY }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "jobscraper-0006-4000-8000-000000000006",
+      "name": "GET jobs baru",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1100, -100]
+    },
+    {
+      "parameters": {
+        "fieldToSplitOut": "items",
+        "options": {}
+      },
+      "id": "jobscraper-0007-4000-8000-000000000007",
+      "name": "Pisah items",
+      "type": "n8n-nodes-base.splitOut",
+      "typeVersion": 1,
+      "position": [1320, -100]
+    },
+    {
+      "parameters": {
+        "batchSize": 1,
+        "options": {}
+      },
+      "id": "jobscraper-0008-4000-8000-000000000008",
+      "name": "Split In Batches",
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [1540, -100]
+    },
+    {
+      "parameters": {},
+      "id": "jobscraper-0009-4000-8000-000000000009",
+      "name": "Telegram / Email / Notion / Sheets",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [1760, -100]
+    }
+  ],
+  "connections": {
+    "Schedule Trigger": {
+      "main": [[{ "node": "POST /scrape/all", "type": "main", "index": 0 }]]
+    },
+    "POST /scrape/all": {
+      "main": [[{ "node": "Wait 60s", "type": "main", "index": 0 }]]
+    },
+    "Wait 60s": {
+      "main": [[{ "node": "GET status run", "type": "main", "index": 0 }]]
+    },
+    "GET status run": {
+      "main": [[{ "node": "IF selesai", "type": "main", "index": 0 }]]
+    },
+    "IF selesai": {
+      "main": [
+        [{ "node": "GET jobs baru", "type": "main", "index": 0 }],
+        [{ "node": "Wait 60s", "type": "main", "index": 0 }]
+      ]
+    },
+    "GET jobs baru": {
+      "main": [[{ "node": "Pisah items", "type": "main", "index": 0 }]]
+    },
+    "Pisah items": {
+      "main": [[{ "node": "Split In Batches", "type": "main", "index": 0 }]]
+    },
+    "Split In Batches": {
+      "main": [
+        [],
+        [{ "node": "Telegram / Email / Notion / Sheets", "type": "main", "index": 0 }]
+      ]
+    },
+    "Telegram / Email / Notion / Sheets": {
+      "main": [[{ "node": "Split In Batches", "type": "main", "index": 0 }]]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {},
+  "meta": {
+    "instanceId": "job-scraper-example"
+  }
+}

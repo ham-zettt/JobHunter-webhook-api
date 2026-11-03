@@ -1,7 +1,6 @@
 # KitaLulus — catatan discovery (2026-11-02)
 
-Status: **discovery (F4)** · Dokumen acuan: SCRAPER_SPEC §3, §5.0, §5.7, §7.6
-Belum ada parser/scraper (task 26).
+Status: **implemented (F4, task 26)** · Scraper: `app/scrapers/platforms/kitalulus.py` · Dokumen acuan: SCRAPER_SPEC §3, §5.0, §5.7, §7.6
 
 ## Metode terpilih
 

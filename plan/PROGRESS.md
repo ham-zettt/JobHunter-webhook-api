@@ -41,7 +41,7 @@ Commit terakhir: 6f3d7a4
 - [x] 32 Webhook callback end-to-end — `tests/api/test_scrape_jobs.py` (`test_callback_sent_after_run`, `test_callback_retries_on_5xx`, `test_callback_failure_does_not_change_run_status`); 225 passed
 - [x] 33 Backup, retensi, prune — bukti: scripts/prune.py, scripts/backup_db.sh, tests/unit/test_prune.py (5 passed; suite 230 passed, ruff bersih)
 - [ ] 34 Tuning dedup + reclassify (OPSIONAL)
-- [~] 35 README + contoh workflow n8n — kurang: workflow JSON impor, catatan risiko LinkedIn, README final
+- [x] 35 README + contoh workflow n8n — bukti: `README.md` (status F0–F6, tabel endpoint + kode error, alur n8n + risiko LinkedIn, perintah run/test/lint/backup/codemap), `docs/n8n_workflow.json` (valid via `python -m json.tool`), koreksi status 5 `docs/platform_notes/*.md`; tanpa perubahan `app/`/`tests/`
 - [ ] 36 Uji end-to-end + review kriteria rilis PRD §13
 
 ## Catatan penting (hanya yang tidak terlihat dari kode)

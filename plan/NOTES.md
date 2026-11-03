@@ -179,3 +179,9 @@ script, token, nama akun, kartu orang/rekruter, email, dan telepon.
 - Task 33: `backup_db.sh` tidak diubah; retensi 7 file diuji dengan pra-membuat 7
   backup dummy. Timestamp resolusi detik berarti dua run dalam detik sama menimpa
   file yang sama (tidak dianggap bug pada task ini).
+- Task 35: `docs/n8n_workflow.json` menambah node **Split Out (`items`)** sebelum
+  `Split In Batches` — respons `GET /jobs` berbentuk objek `{items:[...]}`, jadi
+  batch 1-item langsung akan salah tanpa pemecahan array. Alur PRD §10 tetap.
+- Status di 5 `docs/platform_notes/*.md` (dealls, kalibrr, kitalulus, linkedin,
+  pintarnya) masih menandai "belum ada parser"; dikoreksi ke **implemented** sesuai
+  PROGRESS 22/24/26/28/30.

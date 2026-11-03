@@ -1,6 +1,6 @@
 # Kalibrr — catatan discovery (2026-11-02)
 
-Status: **discovery final** · Scraper: task 22 (belum ada) · Dokumen acuan: SCRAPER_SPEC §3, §5.0, §5.7, §7.4, §8.1
+Status: **implemented (task 22)** · Scraper: `app/scrapers/platforms/kalibrr.py` · Dokumen acuan: SCRAPER_SPEC §3, §5.0, §5.7, §7.4, §8.1
 
 ## Metode terpilih
 

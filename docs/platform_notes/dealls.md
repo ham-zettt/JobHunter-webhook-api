@@ -1,6 +1,6 @@
 # Dealls — catatan discovery (2026-11-02)
 
-Dokumen acuan: SCRAPER_SPEC §3, §7.5 · Status: **discovery selesai (task 23)** · Parser menyusul di task 24.
+Dokumen acuan: SCRAPER_SPEC §3, §7.5 · Status: **implemented (task 24)** · Parser: `app/scrapers/platforms/dealls.py`.
 
 ## Metode terpilih
 

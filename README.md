@@ -4,11 +4,11 @@ Layanan backend Python + FastAPI untuk mengumpulkan lowongan Software Engineerin
 dari 7 platform, menormalkan, menyaring, mendeduplikasi, lalu menyajikannya lewat REST API
 untuk dikonsumsi n8n. Tanpa frontend.
 
-Status implementasi: **F0–F2 selesai** (fondasi, pipeline, run manager, API),
-**F3 JobStreet & Glints selesai** (discovery + parser + fixture). Lima platform lain
-masih `DiscoveryPendingScraper` sampai discovery masing-masing dilakukan sesuai
-`SCRAPER_SPEC.md §3`. Catatan: `docs/platform_notes/jobstreet.md`,
-`docs/platform_notes/glints.md`.
+Status implementasi: **F0–F6 selesai** — fondasi, pipeline, run manager, API, ketujuh
+scraper platform (P1 JobStreet/Glints/Kalibrr/Dealls, P2 KitaLulus/LinkedIn, P3
+Pintarnya) dengan parser + fixture, hardening (retry/canary/snapshot), webhook callback,
+serta backup/prune. Smoke `live` dijalankan manual (`uv run pytest -m live`, dikecualikan
+dari default). Catatan discovery & implementasi tiap platform: `docs/platform_notes/`.
 
 ## Menjalankan (lokal)
 
@@ -47,6 +47,7 @@ curl -H "X-API-Key: $API_KEY" http://localhost:8000/api/v1/jobs
 |--------|------|------------|
 | POST | `/api/v1/scrape/all` | Mulai scrape semua platform (`202` + `run_id`) |
 | POST | `/api/v1/scrape/{platform}` | Mulai scrape satu platform |
+| GET | `/api/v1/scrape/runs` | Daftar run (filter `status`, paginasi) |
 | GET | `/api/v1/scrape/runs/{run_id}` | Status + statistik per platform |
 | POST | `/api/v1/scrape/runs/{run_id}/cancel` | Batalkan run |
 | GET | `/api/v1/jobs` | Daftar lowongan (filter, pencarian, sort, paginasi) |
@@ -55,6 +56,7 @@ curl -H "X-API-Key: $API_KEY" http://localhost:8000/api/v1/jobs
 | GET | `/api/v1/jobs/export?format=csv\|jsonl\|json` | Ekspor |
 | GET | `/api/v1/platforms` | Status platform + run terakhir |
 | GET/POST/PATCH/DELETE | `/api/v1/keywords` | CRUD aturan kata kunci |
+| POST | `/api/v1/keywords/reseed` | Muat ulang aturan dari `config/*.yaml` |
 | GET | `/health` | DB + browser |
 
 Contoh:
@@ -68,6 +70,17 @@ curl -X POST http://localhost:8000/api/v1/scrape/all \
 Parameter body scrape (semua opsional): `keywords`, `max_age_days` (1..90),
 `max_jobs_per_platform`, `fetch_details` (default `true`), `callback_url`.
 
+Kode error seragam (`{"error": {"code", "message", "details?"}}`, ARCHITECTURE §7.6):
+
+| HTTP | `code` |
+|------|--------|
+| 401 | `UNAUTHORIZED` |
+| 404 | `NOT_FOUND`, `PLATFORM_NOT_FOUND`, `RUN_NOT_FOUND` |
+| 409 | `PLATFORM_DISABLED`, `RUN_NOT_CANCELLABLE` |
+| 422 | `VALIDATION_ERROR` |
+| 500 | `INTERNAL_ERROR` |
+| 503 | `SERVICE_UNAVAILABLE` |
+
 Filter `/jobs`: `q`, `platform`, `sistem_kerja`, `tipe_kerja`, `provinsi`, `kota`,
 `kategori_peran`, `max_age_days`, `has_gaji`, `min_gaji`, `first_seen_after`, `run_id`,
 `only_new`, `include_duplicates`, `include_description`, `status`, `sort`, `page`, `limit`
@@ -75,32 +88,44 @@ Filter `/jobs`: `q`, `platform`, `sistem_kerja`, `tipe_kerja`, `provinsi`, `kota
 
 ## Alur n8n
 
+Workflow siap impor: `docs/n8n_workflow.json` (n8n → **Import from File**). Set dua
+variabel lingkungan di n8n: `JOB_SCRAPER_URL` (mis. `http://job-scraper:8000`) dan
+`JOB_SCRAPER_API_KEY`. Pemetaan node:
+
 ```text
 Schedule Trigger
-  → POST /api/v1/scrape/all {"max_age_days": 7}      (simpan run_id)
+  → HTTP POST  {{JOB_SCRAPER_URL}}/api/v1/scrape/all   body {"max_age_days": 7} → simpan run_id
   → Wait 60s
-  → GET /api/v1/scrape/runs/{run_id}
-  → IF status ∈ {completed, partial} ? lanjut : kembali ke Wait
-  → GET /api/v1/jobs?run_id={run_id}&only_new=true&include_description=true
-  → Split In Batches → Telegram / Email / Notion / Sheets
+  → HTTP GET   /api/v1/scrape/runs/{run_id}            header X-API-Key
+  → IF status ∈ {completed, partial}  true → lanjut · false → kembali ke Wait
+  → HTTP GET   /api/v1/jobs?run_id={run_id}&only_new=true&include_description=true&limit=200
+  → Split Out `items` → Split In Batches → Telegram / Email / Notion / Sheets
 ```
 
 Alternatif tanpa polling: kirim `callback_url` (POST ringkasan run, retry 3× dengan jeda
 2/5/10 detik). Untuk n8n di jaringan Docker, tambahkan host-nya ke
 `CALLBACK_ALLOWED_HOSTS` (mis. `n8n`), lalu panggil `http://job-scraper:8000`.
 
-## Login LinkedIn (saat scraper F4 aktif)
+## Login & risiko LinkedIn
 
 ```bash
 uv run python scripts/linkedin_login.py
-# login manual (termasuk 2FA), lalu tekan Enter
+# browser headed terbuka; login manual (termasuk 2FA), lalu tekan Enter
 # state tersimpan di data/secrets/linkedin_state.json (permission 600)
 ```
 
-Gunakan akun khusus/cadangan, bukan akun utama. Jangan commit file state, dan jangan
-menjalankan banyak instance bersamaan. Skrip memverifikasi sesi mencapai `/jobs/`
-sebelum menimpa state lama. Jika sesi kedaluwarsa, `GET /api/v1/platforms` menampilkan
-`auth_state` `missing`/`expired` dan sub-run LinkedIn berstatus `auth_required`.
+Jalankan skrip di mesin lokal (bukan container headless, ARCHITECTURE §9.3), lalu salin
+hasilnya ke volume `./data/secrets` container. Skrip memverifikasi sesi mencapai
+`/jobs/` sebelum menimpa state lama.
+
+**Risiko — patuhi semua (PRD §11, D2):**
+- Gunakan akun LinkedIn **khusus/cadangan**, bukan akun utama.
+- Hormati batas volume: `LINKEDIN_MAX_JOBS_PER_RUN=60`, `LINKEDIN_MAX_JOBS_PER_DAY=150`;
+  jangan menjalankan banyak instance/run bersamaan.
+- **Jangan commit** file state (`data/` sudah di `.gitignore`) atau kredensial lain.
+- Sesi kedaluwarsa/checkpoint → **jangan menembusnya**. `GET /api/v1/platforms`
+  menampilkan `auth_state` `missing`/`expired` dan sub-run LinkedIn berstatus
+  `auth_required`; login ulang manual kemudian.
 
 ## Konfigurasi
 
@@ -116,7 +141,8 @@ rate limit per platform di `config/platforms.yaml`.
 uv run pytest                      # offline, tanpa jaringan
 uv run pytest --cov=app            # coverage
 uv run ruff check app tests
-uv run pytest -m live              # manual, menyentuh situs nyata (JobStreet & Glints)
+uv run python scripts/codemap.py   # regenerasi docs/CODEMAP.md
+uv run pytest -m live              # manual, menyentuh situs nyata (semua platform)
 ```
 
 Parser scraper diuji dengan fixture HTML/JSON di `tests/fixtures/<platform>/` (NFR-08).
