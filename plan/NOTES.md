@@ -150,3 +150,15 @@ script, token, nama akun, kartu orang/rekruter, email, dan telepon.
   "Pekerjaan terverifikasi" tidak dianggap tantangan; `parse_salary` mendukung `Rp6M/month`.
 - Kurang: smoke `live` (dilarang pada sesi ini); parameter `sortBy`/`start` tetap
   belum diverifikasi discovery, hanya diuji lewat unit test URL.
+
+## Task 16 — Uji filter max_age_days (2026-11-03)
+
+- `GET /jobs?max_age_days` (FR-22) hanya memvalidasi batas bawah `ge=1` (`app/api/routers/jobs.py:23`).
+  Batas atas `1..MAX_AGE_DAYS_LIMIT` (90) hanya diterapkan pada body `POST /scrape`
+  (`app/services/scrape_service.py:36-40`). Test mengunci `max_age_days=0 -> 422`; batas atas
+  GET tidak diuji karena belum ada. Bila PRD mensyaratkan 422 di GET juga, tambahkan
+  `le=settings.max_age_days_limit` pada Query (1 baris, ubah `app/`).
+- Data uji `test_jobs_max_age_filter`: `seed_sample()` + scrape, lalu `effective_date` satu job
+  digeser ke 10 hari lalu via `SessionLocal`; `GET /jobs` tanpa param membuktikan default tak memfilter.
+- Henti-dini (FR-06): run berstatus `partial` (bukan `completed`) karena `found_count>0` tetapi
+  `detail_count==0` -> source `degraded` (`orchestrator.py:248`). Test memakai totals, bukan status.

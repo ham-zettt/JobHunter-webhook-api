@@ -1,8 +1,10 @@
 from __future__ import annotations
 
 from collections.abc import AsyncIterator
+from datetime import timedelta
 from typing import Any
 
+from app.core.timeutil import wib_today
 from app.scrapers.base import BaseScraper, RawJob, RawListing
 
 DATA: list[dict[str, Any]] = []
@@ -45,6 +47,34 @@ class FakeJobstreetScraper(BaseScraper):
 
 class FakeGlintsScraper(FakeJobstreetScraper):
     platform = "glints"
+
+
+def seed_old_then_new(max_age_days: int = 30, old: int = 5) -> None:
+    today = wib_today()
+    old_date = (today - timedelta(days=max_age_days + 10)).isoformat()
+    for index in range(old):
+        DATA.append(
+            {
+                "url": f"https://id.jobstreet.com/job/old{index}",
+                "external_id": f"old{index}",
+                "title": "Backend Engineer",
+                "company": "PT Tua",
+                "location_raw": "Jakarta Selatan, DKI Jakarta",
+                "posted_raw": old_date,
+                "description": "Lowongan lama. " * 20,
+            }
+        )
+    DATA.append(
+        {
+            "url": "https://id.jobstreet.com/job/new",
+            "external_id": "new",
+            "title": "Backend Engineer",
+            "company": "PT Baru",
+            "location_raw": "Jakarta Selatan, DKI Jakarta",
+            "posted_raw": today.isoformat(),
+            "description": "Lowongan baru. " * 20,
+        }
+    )
 
 
 def reset() -> None:

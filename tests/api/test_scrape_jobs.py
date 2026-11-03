@@ -1,9 +1,11 @@
 from __future__ import annotations
 
 import asyncio
+from datetime import timedelta
 
 import pytest
 
+from app.core.timeutil import wib_today
 from app.db.repositories import job_repo
 from app.db.session import SessionLocal
 from app.scrapers.registry import SCRAPERS
@@ -178,3 +180,36 @@ async def test_run_not_found(client, auth_headers):
     response = await client.get("/api/v1/scrape/runs/r_does_not_exist", headers=auth_headers)
     assert response.status_code == 404
     assert response.json()["error"]["code"] == "RUN_NOT_FOUND"
+
+
+async def test_jobs_max_age_filter(client, auth_headers):
+    await seed_keywords()
+    fake_scrapers.seed_sample()
+    await scrape(client, auth_headers)
+
+    async with SessionLocal() as session:
+        rows, _ = await job_repo.list_jobs(session, job_repo.JobFilters())
+        old = next(row for row in rows if row.title == "AI Engineer")
+        old.effective_date = (wib_today() - timedelta(days=10)).isoformat()
+        await session.commit()
+
+    recent = await client.get("/api/v1/jobs?max_age_days=3", headers=auth_headers)
+    body = recent.json()
+    assert body["total"] == 1
+    assert body["has_more"] is False
+    assert body["items"][0]["posisi"] == "Backend Engineer"
+
+    unfiltered = await client.get("/api/v1/jobs", headers=auth_headers)
+    assert unfiltered.json()["total"] == 2
+
+    out_of_range = await client.get("/api/v1/jobs?max_age_days=0", headers=auth_headers)
+    assert out_of_range.status_code == 422
+
+
+async def test_scrape_stops_after_five_old_listings(client, auth_headers):
+    await seed_keywords()
+    fake_scrapers.seed_old_then_new()
+    _, run = await scrape(client, auth_headers)
+    assert run["totals"]["filtered"]["age"] == 5
+    assert run["totals"]["found"] == 5
+    assert run["totals"]["new"] == 0

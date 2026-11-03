@@ -22,7 +22,7 @@ Commit terakhir: 6f3d7a4
 - [x] 13 Seed keyword & location_aliases — bukti: `app/seed/loader.py`, `tests/unit/test_seed.py`, `tests/api/test_platforms_keywords.py`
 - [x] 14 Uji idempotensi NFR-05 — bukti: `tests/api/test_scrape_jobs.py::test_scrape_is_idempotent`
 - [x] 15 Uji remote Indonesia BR-03 — bukti: `tests/unit/test_pipeline.py::test_remote_indonesia_accepted`, `::test_remote_abroad_rejected`, `tests/unit/test_location.py`
-- [~] 16 Uji filter `max_age_days` — kurang: test API `GET /jobs?max_age_days=` dan uji henti-dini 5 listing tua
+- [x] 16 Uji filter `max_age_days` — bukti: `tests/api/test_scrape_jobs.py::test_jobs_max_age_filter`, `::test_scrape_stops_after_five_old_listings`, helper `seed_old_then_new` di `tests/fixtures/fake_scrapers.py`; pytest 204 hijau + ruff bersih; catatan: `GET /jobs` hanya batas bawah `ge=1` (batas atas 90 hanya di endpoint scrape), lihat NOTES.md
 - [x] 17 Discovery JobStreet — bukti: `docs/platform_notes/jobstreet.md`
 - [x] 18 Scraper JobStreet + fixture/test — bukti: `app/scrapers/platforms/jobstreet.py`, `tests/scrapers/test_jobstreet.py`
 - [x] 19 Discovery Glints — bukti: `docs/platform_notes/glints.md`

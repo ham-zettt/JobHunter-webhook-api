@@ -1,7 +1,7 @@
 # Graph Report - job-hunt  (2026-11-03)
 
 ## Corpus Check
-- 167 files · ~774,029 words
+- 167 files · ~774,036 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 7 file(s) not represented in the graph (top: (none) 3, .example 1, .ini 1)
 
@@ -506,7 +506,7 @@ Nodes (4): BR-04 Aturan Usia Lowongan, Penyaringan Lowongan (rule-based), BR-01 
   SCRAPER_SPEC.md · relation: references
 
 ## Knowledge Gaps
-- **59 isolated node(s):** `job-scraper`, `Deployment Docker (satu container, satu worker uvicorn)`, `FastAPI`, `Playwright`, `SQLite (WAL mode)` (+54 more)
+- **59 isolated node(s):** `job-scraper`, `BR-04 Aturan Usia Lowongan`, `BR-02/BR-03 Aturan Lokasi & Remote`, `Autentikasi API Key (X-API-Key)`, `Deployment Docker (satu container, satu worker uvicorn)` (+54 more)
   These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 613 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **29 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -514,15 +514,15 @@ Nodes (4): BR-04 Aturan Usia Lowongan, Penyaringan Lowongan (rule-based), BR-01 
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `SCRAPER_SPEC — Mekanisme Scraping per Platform` connect `SCRAPER_SPEC — Mekanisme Scraping per Platform` to `glints.py`, `platforms`, `timeutil.py`, `normalizer.py`, `DATABASE — Job Scraper API`, `RawListing`, `asyncio`, `BaseScraper`, `Pipeline Scraping Multi-Platform`?**
-  _High betweenness centrality (0.141) - this node is a cross-community bridge._
+  _High betweenness centrality (0.134) - this node is a cross-community bridge._
 - **Are the 28 inferred relationships involving `SiteChangedError` (e.g. with `Orchestrator` and `DeallsScraper`) actually correct?**
   _`SiteChangedError` has 28 INFERRED edges - model-reasoned connections that need verification._
-- **What connects `job-scraper`, `Deployment Docker (satu container, satu worker uvicorn)`, `FastAPI` to the rest of the system?**
+- **What connects `job-scraper`, `BR-04 Aturan Usia Lowongan`, `BR-02/BR-03 Aturan Lokasi & Remote` to the rest of the system?**
   _59 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `job_repo.py` be split into smaller, more focused modules?**
   _Cohesion score 0.05980861244019139 - nodes in this community are weakly interconnected._
 - **Why does `RawJob` connect `SiteChangedError` to `glints.py`, `RawJob`, `json`, `SiteChangedError`, `re`, `kitalulus.py`, `normalizer.py`, `linkedin.py`, `test_kalibrr.py`, `Kalibrr — catatan discovery (2026-11-02)`, `test_pintarnya.py`, `Task 26 — Scraper KitaLulus + fixture/test`, `Task 30 — Scraper/stub Pintarnya + test`, `Implementasi scraper Kalibrr sesuai plan task 22`, `test_pipeline.py`, `Task 25 — Discovery KitaLulus`, `Task 24 — Scraper Dealls + fixture/test`?**
-  _High betweenness centrality (0.100) - this node is a cross-community bridge._
+  _High betweenness centrality (0.099) - this node is a cross-community bridge._
 
 ### Low-confidence Hints
 _AMBIGUOUS edges — the extractor was unsure. Verify before acting on these._
