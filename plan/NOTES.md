@@ -173,3 +173,9 @@ script, token, nama akun, kartu orang/rekruter, email, dan telepon.
 - Baseline canary memakai `run_repo.productive_terms` (query riwayat
   `scrape_run_sources`), tanpa tabel baru.
 - `Retry-After` hanya diparse sebagai detik; HTTP-date jatuh ke fallback 60 dtk.
+- Task 33: `prune.py` menghapus `job_run_links` berdasarkan `scrape_runs.created_at`
+  (join), bukan `job_run_links.created_at`; setara secara praktis karena link dibuat
+  saat run. VACUUM dijalankan setelah `with con:` commit (di luar transaksi).
+- Task 33: `backup_db.sh` tidak diubah; retensi 7 file diuji dengan pra-membuat 7
+  backup dummy. Timestamp resolusi detik berarti dua run dalam detik sama menimpa
+  file yang sama (tidak dianggap bug pada task ini).

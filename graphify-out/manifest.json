@@ -756,9 +756,9 @@
     "semantic_hash": ""
   },
   "docs/CODEMAP.md": {
-    "mtime": 1793673578.2746606,
-    "seen": 1793673583.4929624,
-    "ast_hash": "b346b4eef5c6b3020221a8f5339f0a8e",
+    "mtime": 1793674246.1132202,
+    "seen": 1793674250.917451,
+    "ast_hash": "ccd59e070e2478b7fca555b74a121847",
     "semantic_hash": ""
   },
   "plan/04-docker.md": {
@@ -882,9 +882,9 @@
     "semantic_hash": ""
   },
   "plan/PROGRESS.md": {
-    "mtime": 1793673591.4662757,
-    "seen": 1793674021.4833128,
-    "ast_hash": "4bfcfc1879d762762318c70e84beafb9",
+    "mtime": 1793674034.8034086,
+    "seen": 1793674250.9175196,
+    "ast_hash": "603e9c78367146eebe4b2c2d177acdba",
     "semantic_hash": ""
   },
   "plan/README.md": {
@@ -1263,6 +1263,18 @@
     "mtime": 1793673501.246162,
     "seen": 1793673583.492928,
     "ast_hash": "302edfe7e059e00a449c4d882298d6c3",
+    "semantic_hash": ""
+  },
+  "scripts/prune.py": {
+    "mtime": 1793674220.044991,
+    "seen": 1793674250.9172988,
+    "ast_hash": "92e77bd81e79836f33035a59abd117eb",
+    "semantic_hash": ""
+  },
+  "tests/unit/test_prune.py": {
+    "mtime": 1793674226.8935351,
+    "seen": 1793674250.9174254,
+    "ast_hash": "226d1cf5fb5ad9c5c04cc43e3bce219c",
     "semantic_hash": ""
   },
   ".opencode/package-lock.json": {

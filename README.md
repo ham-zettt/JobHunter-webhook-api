@@ -125,6 +125,8 @@ Parser scraper diuji dengan fixture HTML/JSON di `tests/fixtures/<platform>/` (N
 
 ```bash
 ./scripts/backup_db.sh             # simpan 7 salinan terakhir di data/backups
+uv run python scripts/prune.py --db data/jobs.db --dry-run   # pratinjau retensi
+uv run python scripts/prune.py --db data/jobs.db             # hapus link >90 hari & job expired >180 hari
 ```
 
 ## Catatan operasional

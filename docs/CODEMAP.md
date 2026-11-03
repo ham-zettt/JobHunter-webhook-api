@@ -532,3 +532,9 @@ Alat bantu discovery SCRAPER_SPEC §3.
 Login LinkedIn manual (headed) lalu simpan storage_state.
 
 - `async def main() -> None`
+
+## `scripts/prune.py`
+Retensi DB sesuai DATABASE.md §10.2.
+
+- `def prune(db_path: str, *, include_archived: bool=False, dry_run: bool=False) -> dict[str, int]`
+- `def main(argv: list[str] | None=None) -> int`
