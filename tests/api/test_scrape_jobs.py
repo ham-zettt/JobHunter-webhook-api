@@ -1,12 +1,17 @@
 from __future__ import annotations
 
 import asyncio
+import json
+import threading
 from datetime import timedelta
+from http.server import BaseHTTPRequestHandler, HTTPServer
 
+import httpx
 import pytest
 
+from app.core.config import get_settings
 from app.core.timeutil import wib_today
-from app.db.repositories import job_repo
+from app.db.repositories import job_repo, run_repo
 from app.db.session import SessionLocal
 from app.scrapers.registry import SCRAPERS
 from app.seed.loader import seed_all
@@ -213,3 +218,122 @@ async def test_scrape_stops_after_five_old_listings(client, auth_headers):
     assert run["totals"]["filtered"]["age"] == 5
     assert run["totals"]["found"] == 5
     assert run["totals"]["new"] == 0
+
+
+class _CallbackHandler(BaseHTTPRequestHandler):
+    def do_POST(self) -> None:
+        length = int(self.headers.get("Content-Length", 0))
+        raw = self.rfile.read(length)
+        server = self.server
+        server.requests.append(json.loads(raw or b"{}"))
+        status = server.responses.pop(0) if server.responses else 200
+        self.send_response(status)
+        self.send_header("Content-Type", "application/json")
+        self.end_headers()
+        self.wfile.write(b"{}")
+
+    def log_message(self, *args: object) -> None:
+        pass
+
+
+class _CallbackServer(HTTPServer):
+    def __init__(self, responses: list[int]) -> None:
+        super().__init__(("127.0.0.1", 0), _CallbackHandler)
+        self.responses = list(responses)
+        self.requests: list[dict] = []
+
+    @property
+    def url(self) -> str:
+        host, port = self.server_address
+        return f"http://{host}:{port}/hook"
+
+
+@pytest.fixture
+def callback_server():
+    started: list[tuple[_CallbackServer, threading.Thread]] = []
+
+    def make(responses: list[int] | None = None) -> _CallbackServer:
+        server = _CallbackServer(responses or [])
+        thread = threading.Thread(target=server.serve_forever, daemon=True)
+        thread.start()
+        started.append((server, thread))
+        return server
+
+    yield make
+    for server, thread in started:
+        server.shutdown()
+        server.server_close()
+        thread.join(timeout=2)
+
+
+@pytest.fixture
+def callback_env(monkeypatch):
+    monkeypatch.setenv("CALLBACK_ALLOWED_HOSTS", "127.0.0.1")
+    monkeypatch.setattr("app.runner.run_manager.CALLBACK_RETRY_DELAYS", (0, 0, 0))
+    get_settings.cache_clear()
+    yield
+    get_settings.cache_clear()
+
+
+async def wait_callback_status(run_id: str, timeout: float = 5.0) -> str:
+    status = "pending"
+    for _ in range(int(timeout / 0.05)):
+        async with SessionLocal() as session:
+            run = await run_repo.get_run(session, run_id)
+            status = run.callback_status if run else None
+            if status in ("sent", "failed"):
+                return status
+        await asyncio.sleep(0.05)
+    raise AssertionError(f"callback {run_id} tidak selesai: {status}")
+
+
+async def test_callback_sent_after_run(
+    client, auth_headers, callback_server, callback_env, monkeypatch
+):
+    await seed_keywords()
+    fake_scrapers.seed_sample()
+    server = callback_server()
+
+    seen: dict = {}
+    real_client = httpx.AsyncClient
+
+    def spy(*args, **kwargs):
+        seen["timeout"] = kwargs.get("timeout")
+        return real_client(*args, **kwargs)
+
+    monkeypatch.setattr(httpx, "AsyncClient", spy)
+    run_id, run = await scrape(client, auth_headers, callback_url=server.url)
+    assert run["status"] == "completed"
+    assert await wait_callback_status(run_id) == "sent"
+
+    assert len(server.requests) == 1
+    body = server.requests[0]
+    assert body["run_id"] == run_id
+    assert body["status"] == "completed"
+    assert body["totals"]["found"] == 3
+    assert body["platforms"][0]["platform"] == "jobstreet"
+    assert seen["timeout"] == get_settings().callback_timeout_sec
+
+
+async def test_callback_retries_on_5xx(client, auth_headers, callback_server, callback_env):
+    await seed_keywords()
+    fake_scrapers.seed_sample()
+    server = callback_server([500, 500, 200])
+    run_id, _ = await scrape(client, auth_headers, callback_url=server.url)
+    assert await wait_callback_status(run_id) == "sent"
+    assert len(server.requests) == 3
+
+
+async def test_callback_failure_does_not_change_run_status(
+    client, auth_headers, callback_server, callback_env
+):
+    await seed_keywords()
+    fake_scrapers.seed_sample()
+    server = callback_server([500, 500, 500])
+    run_id, run = await scrape(client, auth_headers, callback_url=server.url)
+    assert run["status"] == "completed"
+    assert await wait_callback_status(run_id) == "failed"
+    assert len(server.requests) == 3
+
+    after = await client.get(f"/api/v1/scrape/runs/{run_id}", headers=auth_headers)
+    assert after.json()["status"] == "completed"

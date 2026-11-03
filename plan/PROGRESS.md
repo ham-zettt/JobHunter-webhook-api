@@ -38,7 +38,7 @@ Commit terakhir: 6f3d7a4
 - [x] 29 Discovery Pintarnya — bukti: `docs/platform_notes/pintarnya.md`, `tests/fixtures/pintarnya/` (3 daftar + 5 detail); keputusan publik → implementasi normal (bukan stub `skipped`), kategori IT 117 lowongan; pytest 166 hijau + ruff bersih
 - [x] 30 Scraper/stub Pintarnya + test — bukti: `app/scrapers/platforms/pintarnya.py`, `tests/scrapers/test_pintarnya.py` (21 test, 3 fixture daftar + 5 detail); parser JSON-LD/API, dedupe slug, fallback SSR 410, deteksi tantangan tanpa false-positive `recaptcha`; live smoke belum dijalankan (dilarang)
 - [x] 31 Hardening retry/canary/snapshot/blokir — bukti: app/scrapers/common/retry.py, app/scrapers/browser.py, app/runner/orchestrator.py, app/db/repositories/run_repo.py, tests/scrapers/test_block_detection.py, tests/unit/test_canary.py (222 passed, ruff bersih)
-- [~] 32 Webhook callback end-to-end — kurang: uji kirim nyata + retry/`callback_status`, hanya validasi URL yang diuji
+- [x] 32 Webhook callback end-to-end — `tests/api/test_scrape_jobs.py` (`test_callback_sent_after_run`, `test_callback_retries_on_5xx`, `test_callback_failure_does_not_change_run_status`); 225 passed
 - [~] 33 Backup, retensi, prune — kurang: `scripts/backup_db.sh` belum dieksekusi, `scripts/prune.py` belum ada
 - [ ] 34 Tuning dedup + reclassify (OPSIONAL)
 - [~] 35 README + contoh workflow n8n — kurang: workflow JSON impor, catatan risiko LinkedIn, README final
